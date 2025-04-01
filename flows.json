@@ -296,6 +296,16 @@
         }
     },
     {
+        "id": "52706744dcc1f393",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "",
+        "name": ""
+    },
+    {
         "id": "c975ec3a8bc6ae38",
         "type": "comment",
         "z": "e515f4b8125260c1",
@@ -957,6 +967,45 @@
         "topicType": "msg",
         "x": 620,
         "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5951e87f40c11ca1",
+        "type": "modbus-response",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 210,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ba62ba6926affd71",
+        "type": "ui_table",
+        "z": "e515f4b8125260c1",
+        "group": "644827ad09d4c876",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 150,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "60cc0bd1836b58ba",
+        "type": "mongodb in",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "collection": "",
+        "operation": "find",
+        "x": 120,
+        "y": 320,
         "wires": [
             []
         ]
