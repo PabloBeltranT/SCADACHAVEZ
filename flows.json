@@ -8,6 +8,22 @@
         "env": []
     },
     {
+        "id": "a0ab15f7650bb81b",
+        "type": "tab",
+        "label": "SECUENCIAS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "40722463514f64b4",
+        "type": "tab",
+        "label": "RECETAS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "0785e116879ba187",
         "type": "ui_tab",
         "name": "OPERADOR",
@@ -22,7 +38,7 @@
         "name": "HEADER",
         "tab": "0785e116879ba187",
         "order": 1,
-        "disp": true,
+        "disp": false,
         "width": "20",
         "collapse": false,
         "className": ""
@@ -113,11 +129,171 @@
         "type": "ui_group",
         "name": "SECUENCIAS",
         "tab": "0785e116879ba187",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "10",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "349fc6d08d8bbb6c",
+        "type": "ui_group",
+        "name": "PESOS",
+        "tab": "0785e116879ba187",
+        "order": 4,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "470cad7ce1c62aa0",
+        "type": "ui_group",
+        "name": "CONTROL",
+        "tab": "0785e116879ba187",
+        "order": 2,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e5a15aaed59d892d",
+        "type": "ui_spacer",
+        "z": "e515f4b8125260c1",
+        "name": "spacer",
+        "group": "470cad7ce1c62aa0",
+        "order": 1,
+        "width": "20",
+        "height": "1"
+    },
+    {
+        "id": "1d3e07284366272d",
+        "type": "ui_spacer",
+        "z": "e515f4b8125260c1",
+        "name": "spacer",
+        "group": "470cad7ce1c62aa0",
+        "order": 9,
+        "width": "20",
+        "height": "1"
+    },
+    {
+        "id": "62b7c9c1741edea6",
+        "type": "ui_spacer",
+        "z": "e515f4b8125260c1",
+        "name": "spacer",
+        "group": "470cad7ce1c62aa0",
+        "order": 4,
+        "width": "20",
+        "height": "1"
+    },
+    {
+        "id": "a8c9c43052535184",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "5c5a4a81c222c9a5",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "29df0b86dfebcc58",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#0080c0",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "CONCRETERA CHAVEZ DASHBOARD",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
     },
     {
         "id": "c975ec3a8bc6ae38",
@@ -125,18 +301,18 @@
         "z": "e515f4b8125260c1",
         "name": "OPERADOR HEADER",
         "info": "",
-        "x": 180,
-        "y": 80,
+        "x": 640,
+        "y": 60,
         "wires": []
     },
     {
         "id": "40e7305c74d92ec7",
         "type": "comment",
         "z": "e515f4b8125260c1",
-        "name": "OPERADOR BODY",
+        "name": "OPERADOR SECUENCIAS",
         "info": "",
-        "x": 170,
-        "y": 280,
+        "x": 660,
+        "y": 160,
         "wires": []
     },
     {
@@ -156,8 +332,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 130,
-        "y": 120,
+        "x": 590,
+        "y": 100,
         "wires": []
     },
     {
@@ -177,8 +353,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 210,
-        "y": 340,
+        "x": 650,
+        "y": 200,
         "wires": []
     },
     {
@@ -192,14 +368,14 @@
         "name": "",
         "label": "",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "row-center",
         "className": "",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 150,
-        "y": 380,
+        "x": 590,
+        "y": 240,
         "wires": []
     },
     {
@@ -213,14 +389,14 @@
         "name": "",
         "label": "SECUENCIA AGREGADOS",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "row-center",
         "className": "",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 220,
-        "y": 420,
+        "x": 660,
+        "y": 280,
         "wires": []
     },
     {
@@ -234,14 +410,14 @@
         "name": "",
         "label": "",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "row-center",
         "className": "",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 150,
-        "y": 460,
+        "x": 590,
+        "y": 320,
         "wires": []
     },
     {
@@ -255,14 +431,14 @@
         "name": "",
         "label": "SECUENCIA DEMEZCLADO",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "row-center",
         "className": "",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 220,
-        "y": 500,
+        "x": 660,
+        "y": 360,
         "wires": []
     },
     {
@@ -276,14 +452,14 @@
         "name": "",
         "label": "",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "row-center",
         "className": "",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 150,
-        "y": 540,
+        "x": 590,
+        "y": 400,
         "wires": []
     },
     {
@@ -306,8 +482,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 280,
-        "y": 380,
+        "x": 720,
+        "y": 240,
         "wires": [
             []
         ]
@@ -332,8 +508,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 280,
-        "y": 460,
+        "x": 720,
+        "y": 320,
         "wires": [
             []
         ]
@@ -358,8 +534,481 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 280,
+        "x": 720,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18f6e42eea74737d",
+        "type": "ui_button",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "group": "4e5b91b3ad36dc06",
+        "order": 9,
+        "width": "10",
+        "height": "1",
+        "passthru": false,
+        "label": "RESETEAR TODAS LAS SECUENCIAS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 700,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5870dd31e42b0246",
+        "type": "comment",
+        "z": "e515f4b8125260c1",
+        "name": "OPERADOR PESOS",
+        "info": "",
+        "x": 640,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0865a17a422de625",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "349fc6d08d8bbb6c",
+        "order": 1,
+        "width": "10",
+        "height": "2",
+        "name": "",
+        "label": "CEMENTO: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 610,
         "y": 540,
+        "wires": []
+    },
+    {
+        "id": "fdf4610b29180670",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "349fc6d08d8bbb6c",
+        "order": 2,
+        "width": "10",
+        "height": "2",
+        "name": "",
+        "label": "AGREGADO 1:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 620,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "86e75a880613b4b2",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "349fc6d08d8bbb6c",
+        "order": 3,
+        "width": "10",
+        "height": "2",
+        "name": "",
+        "label": "AGREGADO 2:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 620,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "ef7609f204e0ac36",
+        "type": "ui_button",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "group": "349fc6d08d8bbb6c",
+        "order": 4,
+        "width": "10",
+        "height": "1",
+        "passthru": false,
+        "label": "RESET ALARMAS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 630,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f662c841c9e6ad00",
+        "type": "comment",
+        "z": "e515f4b8125260c1",
+        "name": "OPERADOR CONTROL",
+        "info": "",
+        "x": 650,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "3418de8281815fd5",
+        "type": "ui_switch",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "label": "MANUAL",
+        "tooltip": "",
+        "group": "470cad7ce1c62aa0",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 600,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5df45b0c9719275a",
+        "type": "ui_button",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "group": "470cad7ce1c62aa0",
+        "order": 3,
+        "width": "8",
+        "height": "1",
+        "passthru": false,
+        "label": "INICIAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 600,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a9294d2693eebd3",
+        "type": "ui_button",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "group": "470cad7ce1c62aa0",
+        "order": 4,
+        "width": "8",
+        "height": "1",
+        "passthru": false,
+        "label": "PARAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 600,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f2f7f6740c0ba3e",
+        "type": "ui_numeric",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "label": "MEZCLA TOTAL",
+        "tooltip": "METROS CUBICOS",
+        "group": "470cad7ce1c62aa0",
+        "order": 5,
+        "width": "5",
+        "height": "1",
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "step": "1",
+        "className": "",
+        "x": 630,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2d5bdd16fbe4745",
+        "type": "ui_dropdown",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "label": "RECETA",
+        "tooltip": "NUMERO DE RECETA",
+        "place": "SELECCIONAR",
+        "group": "470cad7ce1c62aa0",
+        "order": 6,
+        "width": "5",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "1",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "2",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "3",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "4",
+                "value": "4",
+                "type": "str"
+            },
+            {
+                "label": "5",
+                "value": "5",
+                "type": "str"
+            },
+            {
+                "label": "6",
+                "value": "6",
+                "type": "str"
+            },
+            {
+                "label": "7",
+                "value": "7",
+                "type": "str"
+            },
+            {
+                "label": "8",
+                "value": "8",
+                "type": "str"
+            },
+            {
+                "label": "9",
+                "value": "9",
+                "type": "str"
+            },
+            {
+                "label": "10",
+                "value": "10",
+                "type": "str"
+            },
+            {
+                "label": "11",
+                "value": "11",
+                "type": "str"
+            },
+            {
+                "label": "12",
+                "value": "12",
+                "type": "str"
+            },
+            {
+                "label": "13",
+                "value": "13",
+                "type": "str"
+            },
+            {
+                "label": "14",
+                "value": "14",
+                "type": "str"
+            },
+            {
+                "label": "15",
+                "value": "15",
+                "type": "str"
+            },
+            {
+                "label": "16",
+                "value": "16",
+                "type": "str"
+            },
+            {
+                "label": "17",
+                "value": "17",
+                "type": "str"
+            },
+            {
+                "label": "18",
+                "value": "18",
+                "type": "str"
+            },
+            {
+                "label": "19",
+                "value": "19",
+                "type": "str"
+            },
+            {
+                "label": "20",
+                "value": "20",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 600,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "544ac69323305f3b",
+        "type": "ui_button",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "group": "470cad7ce1c62aa0",
+        "order": 7,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "ENTER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 600,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14717ecf17fbdc49",
+        "type": "ui_text_input",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "label": "200 DIRECTO",
+        "tooltip": "",
+        "group": "470cad7ce1c62aa0",
+        "order": 8,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 620,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51329130bf752a41",
+        "type": "ui_button",
+        "z": "a0ab15f7650bb81b",
+        "name": "",
+        "group": "a66ffffdad1d8816",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 330,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1543c6766867b61e",
+        "type": "ui_button",
+        "z": "40722463514f64b4",
+        "name": "",
+        "group": "a8c9c43052535184",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 100,
         "wires": [
             []
         ]
