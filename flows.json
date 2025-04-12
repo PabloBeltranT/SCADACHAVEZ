@@ -64,6 +64,14 @@
         "env": []
     },
     {
+        "id": "f0cdb21c22014a4f",
+        "type": "tab",
+        "label": "MAQUINA LISTA",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "8ac809d973c98efe",
         "type": "tab",
         "label": "ESTILOS",
@@ -1261,7 +1269,7 @@
         "z": "e515f4b8125260c1",
         "name": "",
         "label": "RECETA",
-        "tooltip": "",
+        "tooltip": "NUMERO DE RECETA",
         "group": "470cad7ce1c62aa0",
         "order": 7,
         "width": "3",
@@ -1786,27 +1794,6 @@
         "wires": []
     },
     {
-        "id": "b59b2b076148cec0",
-        "type": "ui_text",
-        "z": "e515f4b8125260c1",
-        "group": "64e5c4bd4efa2b84",
-        "order": 0,
-        "width": "24",
-        "height": "1",
-        "name": "",
-        "label": "MAQUINA LISTA",
-        "format": "",
-        "layout": "row-center",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 1570,
-        "y": 50,
-        "wires": []
-    },
-    {
         "id": "17f1f36f25bdc7e6",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
@@ -1826,56 +1813,6 @@
         "x": 950,
         "y": 140,
         "wires": []
-    },
-    {
-        "id": "c73ddef0779e0867",
-        "type": "inject",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "props": [
-            {
-                "p": "className",
-                "v": "test1",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1350,
-        "y": 210,
-        "wires": [
-            [
-                "b59b2b076148cec0"
-            ]
-        ]
-    },
-    {
-        "id": "67a7650d793e1c29",
-        "type": "inject",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "props": [
-            {
-                "p": "className",
-                "v": "test2",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1350,
-        "y": 250,
-        "wires": [
-            [
-                "b59b2b076148cec0"
-            ]
-        ]
     },
     {
         "id": "467d47620ab0dc99",
@@ -5160,27 +5097,6 @@
         ]
     },
     {
-        "id": "87c41833cd977d24",
-        "type": "ui_text",
-        "z": "e26a0d022ba5021a",
-        "group": "4735a61844f280c3",
-        "order": 0,
-        "width": "24",
-        "height": "1",
-        "name": "",
-        "label": "MAQUINA LISTA",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 2620,
-        "y": 80,
-        "wires": []
-    },
-    {
         "id": "e16a0c24d68bd1ae",
         "type": "ui_text",
         "z": "e84e53e8ddf338f7",
@@ -5644,27 +5560,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "a56f027319d3d899",
-        "type": "ui_text",
-        "z": "e84e53e8ddf338f7",
-        "group": "866705c9118ef2d6",
-        "order": 0,
-        "width": "24",
-        "height": "1",
-        "name": "",
-        "label": "MAQUINA LISTA",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 310,
-        "y": 510,
-        "wires": []
     },
     {
         "id": "6fbc7df4a638fead",
@@ -6431,27 +6326,6 @@
         "wires": []
     },
     {
-        "id": "2ad7435e2dbac3b4",
-        "type": "ui_text",
-        "z": "7a4c6b194d38c7c7",
-        "group": "ec054a5a586ad3ef",
-        "order": 0,
-        "width": "24",
-        "height": "1",
-        "name": "",
-        "label": "MAQUINA LISTA",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 660,
-        "y": 80,
-        "wires": []
-    },
-    {
         "id": "69bd86f34a30d5cc",
         "type": "ui_text",
         "z": "ae2f98a0fe00b008",
@@ -6665,27 +6539,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "4d0e1f8eac9fe303",
-        "type": "ui_text",
-        "z": "ae2f98a0fe00b008",
-        "group": "535bb69c519e21f0",
-        "order": 0,
-        "width": "24",
-        "height": "1",
-        "name": "",
-        "label": "MAQUINA LISTA",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 340,
-        "y": 350,
-        "wires": []
     },
     {
         "id": "a3ccdb79c9842d76",
@@ -6903,9 +6756,214 @@
         ]
     },
     {
+        "id": "b59b2b076148cec0",
+        "type": "ui_text",
+        "z": "f0cdb21c22014a4f",
+        "group": "64e5c4bd4efa2b84",
+        "order": 0,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "MAQUINA LISTA",
+        "format": "",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "c73ddef0779e0867",
+        "type": "inject",
+        "z": "f0cdb21c22014a4f",
+        "name": "",
+        "props": [
+            {
+                "p": "className",
+                "v": "maquina-lista",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 140,
+        "y": 310,
+        "wires": [
+            [
+                "b59b2b076148cec0",
+                "87c41833cd977d24",
+                "a56f027319d3d899",
+                "4d0e1f8eac9fe303",
+                "5570d534b13e9abb",
+                "2ad7435e2dbac3b4"
+            ]
+        ]
+    },
+    {
+        "id": "67a7650d793e1c29",
+        "type": "inject",
+        "z": "f0cdb21c22014a4f",
+        "name": "",
+        "props": [
+            {
+                "p": "className",
+                "v": "maquina-no-lista",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 140,
+        "y": 350,
+        "wires": [
+            [
+                "b59b2b076148cec0",
+                "87c41833cd977d24",
+                "a56f027319d3d899",
+                "2ad7435e2dbac3b4",
+                "4d0e1f8eac9fe303",
+                "5570d534b13e9abb"
+            ]
+        ]
+    },
+    {
+        "id": "2078e72045904634",
+        "type": "comment",
+        "z": "f0cdb21c22014a4f",
+        "name": "MAQUINA LISTA OPERADOR",
+        "info": "",
+        "x": 400,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "87c41833cd977d24",
+        "type": "ui_text",
+        "z": "f0cdb21c22014a4f",
+        "group": "4735a61844f280c3",
+        "order": 0,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "MAQUINA LISTA",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8ea5b05f68dc0107",
+        "type": "comment",
+        "z": "f0cdb21c22014a4f",
+        "name": "MAQUINA LISTA TIEMPOS",
+        "info": "",
+        "x": 390,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a56f027319d3d899",
+        "type": "ui_text",
+        "z": "f0cdb21c22014a4f",
+        "group": "866705c9118ef2d6",
+        "order": 0,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "MAQUINA LISTA",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "60860490c3ba27df",
+        "type": "comment",
+        "z": "f0cdb21c22014a4f",
+        "name": "MAQUINA LISTA MANUAL",
+        "info": "",
+        "x": 380,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "2ad7435e2dbac3b4",
+        "type": "ui_text",
+        "z": "f0cdb21c22014a4f",
+        "group": "ec054a5a586ad3ef",
+        "order": 0,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "MAQUINA LISTA",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b4173cf40162c1bf",
+        "type": "comment",
+        "z": "f0cdb21c22014a4f",
+        "name": "MAQUINA LISTA I/O",
+        "info": "",
+        "x": 360,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4d0e1f8eac9fe303",
+        "type": "ui_text",
+        "z": "f0cdb21c22014a4f",
+        "group": "535bb69c519e21f0",
+        "order": 0,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "MAQUINA LISTA",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 510,
+        "wires": []
+    },
+    {
         "id": "5570d534b13e9abb",
         "type": "ui_text",
-        "z": "ae46716e8f53205c",
+        "z": "f0cdb21c22014a4f",
         "group": "31b602a69e3d9cf8",
         "order": 0,
         "width": "24",
@@ -6919,8 +6977,28 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 270,
-        "y": 350,
+        "x": 360,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e6116b233a7360c4",
+        "type": "comment",
+        "z": "f0cdb21c22014a4f",
+        "name": "MAQUINA LISTA PRODUCCION",
+        "info": "",
+        "x": 400,
+        "y": 470,
+        "wires": []
+    },
+    {
+        "id": "9c6374c8247dabf6",
+        "type": "comment",
+        "z": "f0cdb21c22014a4f",
+        "name": "MAQUINA LISTA ALARMAS",
+        "info": "",
+        "x": 390,
+        "y": 560,
         "wires": []
     },
     {
@@ -6932,7 +7010,7 @@
         "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-maquina{\n        padding: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .test2{\n        background-color:red !important;\n    }\n\n</style>",
+        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-maquina{\n        padding: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
