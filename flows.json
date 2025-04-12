@@ -80,6 +80,14 @@
         "env": []
     },
     {
+        "id": "50796c7782f3d929",
+        "type": "tab",
+        "label": "EMAIL",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "0785e116879ba187",
         "type": "ui_tab",
         "name": "OPERADOR",
@@ -189,7 +197,7 @@
         "disp": false,
         "width": "14",
         "collapse": false,
-        "className": "pad-box"
+        "className": "pad-box-operador-control"
     },
     {
         "id": "a8c9c43052535184",
@@ -893,9 +901,29 @@
         "z": "ae2f98a0fe00b008",
         "name": "spacer",
         "group": "0c47ae161e31cf2f",
-        "order": 20,
+        "order": 19,
         "width": "24",
         "height": "1"
+    },
+    {
+        "id": "b92660a005617362",
+        "type": "ui_spacer",
+        "z": "ae2f98a0fe00b008",
+        "name": "spacer",
+        "group": "0c47ae161e31cf2f",
+        "order": 2,
+        "width": "24",
+        "height": "1"
+    },
+    {
+        "id": "f1e57fad63399a15",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "SCADACCHAVEZ",
+        "name": ""
     },
     {
         "id": "a1bd326ae6fd8bd4",
@@ -1382,7 +1410,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1403,7 +1431,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "tex",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1445,7 +1473,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1466,7 +1494,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1508,7 +1536,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1529,7 +1557,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1613,7 +1641,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1634,7 +1662,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1676,7 +1704,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -1718,7 +1746,7 @@
         "width": "5",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -6330,7 +6358,7 @@
         "type": "ui_text",
         "z": "ae2f98a0fe00b008",
         "group": "0c47ae161e31cf2f",
-        "order": 2,
+        "order": 1,
         "width": "24",
         "height": "1",
         "name": "",
@@ -6397,7 +6425,7 @@
         "width": "6",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -6418,7 +6446,7 @@
         "width": "6",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -6481,7 +6509,7 @@
         "width": "6",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -6502,7 +6530,7 @@
         "width": "6",
         "height": "1",
         "name": "",
-        "label": "text",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
@@ -6520,7 +6548,7 @@
         "z": "ae2f98a0fe00b008",
         "name": "",
         "group": "0c47ae161e31cf2f",
-        "order": 19,
+        "order": 20,
         "width": "24",
         "height": "1",
         "passthru": false,
@@ -7010,7 +7038,7 @@
         "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-maquina{\n        padding: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n\n</style>",
+        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -7020,6 +7048,207 @@
         "y": 110,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "302f499adbf23c6c",
+        "type": "e-mail",
+        "z": "50796c7782f3d929",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "pablobeltran219@gmail.com",
+        "dname": "mhv",
+        "x": 1000,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "37f9b39b26cadd22",
+        "type": "function",
+        "z": "50796c7782f3d929",
+        "name": "FORMAT TEMPLATE",
+        "func": "var row_list = ``;\n\nmsg.payload.forEach(function(record) {\n  var row_template = `\n    <tr>\n      <td>${record.FECHA}</td>\n      <td>${record.HORA}</td>\n      <td>${record.PULSOS_MATERIAL_1}</td>\n      <td>${record.PULSOS_MATERIAL_2}</td>\n      <td>${record.PULSOS_MATERIAL_3}</td>\n      <td>${record.LITROS_AGUA}</td>\n      <td>${record.KG_CEMENTO}</td>\n      <td>${record.HUMEDAD_SET}</td>\n      <td>${record.ADITIVO}</td>\n    </tr>\n    `\n    row_list = row_list + row_template;\n});\n\n\n\nvar template = `<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Tabla de Empresa</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      margin: 40px;\n      background-color: #f9f9f9;\n      color: #333;\n    }\n\n    .header {\n      background-color:  #154360 ;\n      color: white;\n      padding: 20px;\n      border-radius: 10px;\n      margin-bottom: 30px;\n    }\n\n    .header h1 {\n      margin: 0 0 10px;\n    }\n\n    .header p {\n      margin: 5px 0;\n    }\n\n    table {\n      width: 100%;\n      border-collapse: collapse;\n      background-color: white;\n      border-radius: 10px;\n      overflow: hidden;\n      box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n\n    th, td {\n      border: 1px solid #ddd;\n      padding: 12px;\n      text-align: center;\n    }\n\n    th {\n      background-color:  #2471a3 ;\n      color: white;\n    }\n\n    tr:nth-child(even) {\n      background-color: #f2f2f2;\n    }\n\n    tr:hover {\n      background-color: #e0f0ff;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"header\">\n    <h1>SCADA CONCRETOS CHAVEZ</h1>\n    <p>REPORTE DIARIO EMITIDO AUTOMATICAMENTE</p>\n  </div>\n\n  <table>\n    <thead>\n      <tr>\n        <th>FECHA</th>\n        <th>HORA</th>\n        <th>PUL MAT 1</th>\n        <th>PUL MAT 2</th>\n        <th>PUL MAT 3</th>\n        <th>L AGUA</th>\n        <th>KG CEMENTO</th>\n        <th>HUMEDAD SET</th>\n        <th>ADITIVO</th>\n      </tr>\n    </thead>\n    <tbody>\n      ${row_list}\n    </tbody>\n  </table>\n\n</body>\n</html>`\n\nmsg.payload = template;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 220,
+        "wires": [
+            [
+                "7dfd13eddf816d25",
+                "302f499adbf23c6c"
+            ]
+        ]
+    },
+    {
+        "id": "7dfd13eddf816d25",
+        "type": "debug",
+        "z": "50796c7782f3d929",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 270,
+        "wires": []
+    },
+    {
+        "id": "bfc5812bd9884995",
+        "type": "inject",
+        "z": "50796c7782f3d929",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "480",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 60,
+        "y": 220,
+        "wires": [
+            [
+                "a681f33780c3a31f"
+            ]
+        ]
+    },
+    {
+        "id": "4a4efa5677431476",
+        "type": "debug",
+        "z": "50796c7782f3d929",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2c0cb5250e6410aa",
+        "type": "mongodb in",
+        "z": "50796c7782f3d929",
+        "mongodb": "f1e57fad63399a15",
+        "name": "",
+        "collection": "BATCH",
+        "operation": "find",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "4a4efa5677431476",
+                "37f9b39b26cadd22"
+            ]
+        ]
+    },
+    {
+        "id": "2739b2d60bf1741c",
+        "type": "function",
+        "z": "50796c7782f3d929",
+        "name": "QUERY",
+        "func": "msg.payload = {\"FECHA\":msg.myymd}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "2c0cb5250e6410aa"
+            ]
+        ]
+    },
+    {
+        "id": "a681f33780c3a31f",
+        "type": "simpletime",
+        "z": "50796c7782f3d929",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mymonthf": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "mydayf": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 200,
+        "y": 220,
+        "wires": [
+            [
+                "2739b2d60bf1741c"
+            ]
+        ]
+    },
+    {
+        "id": "c165b055b4e29b9e",
+        "type": "inject",
+        "z": "50796c7782f3d929",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 310,
+        "wires": [
+            [
+                "a681f33780c3a31f"
+            ]
         ]
     }
 ]
