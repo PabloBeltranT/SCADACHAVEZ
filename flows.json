@@ -7063,7 +7063,7 @@
         "tls": true,
         "name": "pablobeltran219@gmail.com",
         "dname": "mhv",
-        "x": 1000,
+        "x": 1020,
         "y": 220,
         "wires": []
     },
@@ -7072,14 +7072,14 @@
         "type": "function",
         "z": "50796c7782f3d929",
         "name": "FORMAT TEMPLATE",
-        "func": "var row_list = ``;\n\nmsg.payload.forEach(function(record) {\n  var row_template = `\n    <tr>\n      <td>${record.FECHA}</td>\n      <td>${record.HORA}</td>\n      <td>${record.PULSOS_MATERIAL_1}</td>\n      <td>${record.PULSOS_MATERIAL_2}</td>\n      <td>${record.PULSOS_MATERIAL_3}</td>\n      <td>${record.LITROS_AGUA}</td>\n      <td>${record.KG_CEMENTO}</td>\n      <td>${record.HUMEDAD_SET}</td>\n      <td>${record.ADITIVO}</td>\n    </tr>\n    `\n    row_list = row_list + row_template;\n});\n\n\n\nvar template = `<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Tabla de Empresa</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      margin: 40px;\n      background-color: #f9f9f9;\n      color: #333;\n    }\n\n    .header {\n      background-color:  #154360 ;\n      color: white;\n      padding: 20px;\n      border-radius: 10px;\n      margin-bottom: 30px;\n    }\n\n    .header h1 {\n      margin: 0 0 10px;\n    }\n\n    .header p {\n      margin: 5px 0;\n    }\n\n    table {\n      width: 100%;\n      border-collapse: collapse;\n      background-color: white;\n      border-radius: 10px;\n      overflow: hidden;\n      box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n\n    th, td {\n      border: 1px solid #ddd;\n      padding: 12px;\n      text-align: center;\n    }\n\n    th {\n      background-color:  #2471a3 ;\n      color: white;\n    }\n\n    tr:nth-child(even) {\n      background-color: #f2f2f2;\n    }\n\n    tr:hover {\n      background-color: #e0f0ff;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"header\">\n    <h1>SCADA CONCRETOS CHAVEZ</h1>\n    <p>REPORTE DIARIO EMITIDO AUTOMATICAMENTE</p>\n  </div>\n\n  <table>\n    <thead>\n      <tr>\n        <th>FECHA</th>\n        <th>HORA</th>\n        <th>PUL MAT 1</th>\n        <th>PUL MAT 2</th>\n        <th>PUL MAT 3</th>\n        <th>L AGUA</th>\n        <th>KG CEMENTO</th>\n        <th>HUMEDAD SET</th>\n        <th>ADITIVO</th>\n      </tr>\n    </thead>\n    <tbody>\n      ${row_list}\n    </tbody>\n  </table>\n\n</body>\n</html>`\n\nmsg.payload = template;\n\nreturn msg;",
+        "func": "var row_list = ``;\n\nmsg.payload.forEach(function(record) {\n  var row_template = `\n    <tr>\n      <td>${record.FECHA}</td>\n      <td>${record.HORA}</td>\n      <td>${record.PULSOS_MATERIAL_1}</td>\n      <td>${record.PULSOS_MATERIAL_2}</td>\n      <td>${record.PULSOS_MATERIAL_3}</td>\n      <td>${record.LITROS_AGUA}</td>\n      <td>${record.KG_CEMENTO}</td>\n      <td>${record.HUMEDAD_SET}</td>\n      <td>${record.ADITIVO}</td>\n    </tr>\n    `\n    row_list = row_list + row_template;\n});\n\n\n\nvar template = `<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Tabla de Empresa</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      margin: 40px;\n      background-color: #f9f9f9;\n      color: #333;\n    }\n\n    .header {\n      background-color:  #154360 ;\n      color: white;\n      padding: 20px;\n      border-radius: 10px;\n      margin-bottom: 30px;\n    }\n\n    .header h1 {\n      margin: 0 0 10px;\n    }\n\n    .header p {\n      margin: 5px 0;\n    }\n\n    table {\n      width: 100%;\n      border-collapse: collapse;\n      background-color: white;\n      border-radius: 10px;\n      overflow: hidden;\n      box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n\n    th, td {\n      border: 1px solid #ddd;\n      padding: 12px;\n      text-align: center;\n    }\n\n    th {\n      background-color:  #2471a3 ;\n      color: white;\n    }\n\n    tr:nth-child(even) {\n      background-color: #f2f2f2;\n    }\n\n    tr:hover {\n      background-color: #e0f0ff;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"header\">\n    <h1>PRODUCCION CONCRETOS CHAVEZ</h1>\n    <p>REPORTE DIARIO EMITIDO AUTOMATICAMENTE</p>\n  </div>\n\n  <table>\n    <thead>\n      <tr>\n        <th>FECHA</th>\n        <th>HORA</th>\n        <th>PUL MAT 1</th>\n        <th>PUL MAT 2</th>\n        <th>PUL MAT 3</th>\n        <th>L AGUA</th>\n        <th>KG CEMENTO</th>\n        <th>HUMEDAD SET</th>\n        <th>ADITIVO</th>\n      </tr>\n    </thead>\n    <tbody>\n      ${row_list}\n    </tbody>\n  </table>\n\n</body>\n</html>`\n\n\nmsg.topic = \"PRODUCCION CONCRETERA CHAVEZ\"\nmsg.payload = template;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
+        "x": 850,
         "y": 220,
         "wires": [
             [
@@ -7101,7 +7101,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1010,
+        "x": 1030,
         "y": 270,
         "wires": []
     },
@@ -7147,7 +7147,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 790,
+        "x": 810,
         "y": 260,
         "wires": []
     },
@@ -7159,7 +7159,7 @@
         "name": "",
         "collection": "BATCH",
         "operation": "find",
-        "x": 660,
+        "x": 580,
         "y": 220,
         "wires": [
             [
