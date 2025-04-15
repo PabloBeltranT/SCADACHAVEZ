@@ -926,6 +926,18 @@
         "name": ""
     },
     {
+        "id": "415de91fb493cf02",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://192.168.0.1:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
         "id": "a1bd326ae6fd8bd4",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
@@ -7109,6 +7121,7 @@
         "id": "bfc5812bd9884995",
         "type": "inject",
         "z": "50796c7782f3d929",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -7249,6 +7262,37 @@
             [
                 "a681f33780c3a31f"
             ]
+        ]
+    },
+    {
+        "id": "36f807461ac6ca20",
+        "type": "OpcUa-Client",
+        "z": "50796c7782f3d929",
+        "endpoint": "415de91fb493cf02",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "",
+        "x": 460,
+        "y": 370,
+        "wires": [
+            [],
+            [],
+            []
         ]
     }
 ]

@@ -7,7 +7,10 @@
         "node-red-contrib-modbus": "5.43.0",
         "node-red-node-mongodb": "0.2.5",
         "node-red-node-ui-table": "0.4.4",
-        "node-red-contrib-ui-led": "0.4.11"
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-node-email": "3.0.3",
+        "node-red-contrib-simpletime": "3.0.2",
+        "node-red-contrib-opcua": "0.2.339"
     },
     "node-red": {
         "settings": {
