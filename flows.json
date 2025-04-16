@@ -88,6 +88,14 @@
         "env": []
     },
     {
+        "id": "0d06e67bad6a6fdf",
+        "type": "tab",
+        "label": "ACTUALIZAR VARIABLES",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "0785e116879ba187",
         "type": "ui_tab",
         "name": "OPERADOR",
@@ -938,6 +946,166 @@
         "userprivatekey": ""
     },
     {
+        "id": "bb039652.dcf5a8",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://H7Q8Q13.vstage.co:53530/OPCUA/SimulationServer",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "83439742.083188",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://0.0.0.0:4840/",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false
+    },
+    {
+        "id": "440c46c6.769ab8",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b59ed3ae.9ea3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "85144921.8931b8",
+        "type": "ui_group",
+        "name": "OPCUA",
+        "tab": "440c46c6.769ab8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "58241fb2.5e084",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://localhost:53881/",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false
+    },
+    {
+        "id": "2a25d3ea.021ccc",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://opcuademo.sterfive.com:26543",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false
+    },
+    {
+        "id": "9cd7df76dded4d0a",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opcua://localhost:53888",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false,
+        "usercert": true,
+        "usercertificate": "cert.pem",
+        "userprivatekey": "key.pem"
+    },
+    {
         "id": "a1bd326ae6fd8bd4",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
@@ -979,8 +1147,8 @@
         "bgcolor": "GREEN",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "true",
+        "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 600,
@@ -1267,8 +1435,8 @@
         "bgcolor": "RED",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "false",
+        "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 740,
@@ -5598,7 +5766,114 @@
         "x": 790,
         "y": 430,
         "wires": [
+            [
+                "268dc081ef2b0d30"
+            ]
+        ]
+    },
+    {
+        "id": "36f807461ac6ca20",
+        "type": "OpcUa-Client",
+        "z": "e84e53e8ddf338f7",
+        "endpoint": "415de91fb493cf02",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "",
+        "x": 1230,
+        "y": 270,
+        "wires": [
+            [],
+            [],
             []
+        ]
+    },
+    {
+        "id": "268dc081ef2b0d30",
+        "type": "OpcUa-Item",
+        "z": "e84e53e8ddf338f7",
+        "item": "ns=5;i=229",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "",
+        "x": 1030,
+        "y": 270,
+        "wires": [
+            [
+                "36f807461ac6ca20"
+            ]
+        ]
+    },
+    {
+        "id": "079ab2720ba9054f",
+        "type": "inject",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 830,
+        "y": 270,
+        "wires": [
+            [
+                "268dc081ef2b0d30"
+            ]
+        ]
+    },
+    {
+        "id": "25d17120d585b7c1",
+        "type": "inject",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 830,
+        "y": 310,
+        "wires": [
+            [
+                "268dc081ef2b0d30"
+            ]
         ]
     },
     {
@@ -7265,11 +7540,11 @@
         ]
     },
     {
-        "id": "36f807461ac6ca20",
+        "id": "d35b282ca2e1db73",
         "type": "OpcUa-Client",
-        "z": "50796c7782f3d929",
+        "z": "0d06e67bad6a6fdf",
         "endpoint": "415de91fb493cf02",
-        "action": "read",
+        "action": "write",
         "deadbandtype": "a",
         "deadbandvalue": 1,
         "time": 10,
@@ -7287,11 +7562,2167 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 460,
-        "y": 370,
+        "x": 2130,
+        "y": 760,
         "wires": [
             [],
             [],
+            []
+        ]
+    },
+    {
+        "id": "167409ffdbdb04e6",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=5;i=217",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "HMI PB INICIAR",
+        "x": 1870,
+        "y": 710,
+        "wires": [
+            [
+                "d35b282ca2e1db73"
+            ]
+        ]
+    },
+    {
+        "id": "3a1e6ca06486fd55",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=5;i=216",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "HMI PB DETENER",
+        "x": 1880,
+        "y": 750,
+        "wires": [
+            [
+                "d35b282ca2e1db73"
+            ]
+        ]
+    },
+    {
+        "id": "5d30b74efd4d9ca5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=5;i=218",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "MODO AUTOMAN",
+        "x": 1880,
+        "y": 790,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9bfcd88deb1c6dd",
+        "type": "OpcUa-Client",
+        "z": "0d06e67bad6a6fdf",
+        "endpoint": "415de91fb493cf02",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "500",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "",
+        "x": 1370,
+        "y": 110,
+        "wires": [
+            [
+                "3371056ff5905a11"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c6accc140966b2df",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=4;i=367",
+        "datatype": "String",
+        "value": "",
+        "name": "INPUT_NUMERO DE RECETA",
+        "x": 420,
+        "y": 420,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "31745d0ebbc0aff8",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SEQ_CEMENTO",
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "dd7f49ccf1787047",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SEQ_AGREGADOS",
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "e77d8710f8330b7a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SEQ_MEZCLADO",
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "40c08d335c19b608",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO CEMENTO SIWAREX",
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "67d10263fdd2243a",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "name": "OPERADOR",
+        "info": "",
+        "x": 90,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6181d840d0c7074b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO AGREGADO 1 SIWAREX",
+        "x": 420,
+        "y": 280,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "0936c20d0a892807",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO AGREGADO 2 SIWAREX",
+        "x": 420,
+        "y": 320,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "4a56a04895460850",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_METROS CUBICOS",
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "48882585328b8864",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO META DE CICLO",
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "792c9c0f7d52d03c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO INICIAL",
+        "x": 470,
+        "y": 520,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "6d7f994dd56acb2c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO META DE CICLO",
+        "x": 500,
+        "y": 560,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "f7556f5b5ec24a4b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO INICIAL",
+        "x": 470,
+        "y": 600,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "1459197b79682bb5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloCementoColgante_DB_PESO META DE CICLO",
+        "x": 480,
+        "y": 640,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "fc772071ef26d041",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloCementoColgante_DB_PESO INICIAL",
+        "x": 450,
+        "y": 680,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "3371056ff5905a11",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "name": "UPDATE GLOBAL AVRIABLES",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1d7242744d16556",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "name": "START SUBSCRIPTION",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nmsg.payload = true;",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "31745d0ebbc0aff8",
+                "dd7f49ccf1787047",
+                "e77d8710f8330b7a",
+                "40c08d335c19b608",
+                "6181d840d0c7074b",
+                "0936c20d0a892807",
+                "4a56a04895460850",
+                "c6accc140966b2df",
+                "48882585328b8864",
+                "792c9c0f7d52d03c",
+                "6d7f994dd56acb2c",
+                "f7556f5b5ec24a4b",
+                "1459197b79682bb5",
+                "fc772071ef26d041",
+                "3fe55afe9bf2055c",
+                "2eb87e4d96ab3b61",
+                "fd75e277e884e37c",
+                "1395ddc62ce62cc3",
+                "e01c52318a8eb718",
+                "d2dd7849d794b3b6",
+                "b62a3c13b138712c",
+                "b79a2f35af36ab19",
+                "c66a7fedfabcee38",
+                "a39b36689f093c6a",
+                "4b7c1ee728d9bbe9",
+                "3acb62836e877dd2",
+                "d0f9d802e1f2be50",
+                "d6ab372e36d04ab5",
+                "80e621adeef3409a",
+                "4c7a1307d8537e37",
+                "ec19dbeeab96892d",
+                "809cbec2731413c4",
+                "9629f5577a7a27fe",
+                "3744c8e544349705",
+                "5524b0363fe3443a",
+                "bab98195137ac938",
+                "a46705178f6d510a",
+                "c5289ca0824925e9",
+                "c43bc9f63b164d1e",
+                "9a41b45acf4771ac",
+                "18116de391b9967a",
+                "6081dcaf943295db",
+                "a0ff8f6bd9a398a4",
+                "7b6b97eaa6e950db",
+                "357b6f2c6f49f609",
+                "7cae27af796abea6",
+                "360b2a979926517b",
+                "af0a5a1b52296e9d",
+                "ba41e77b7c4ead82",
+                "49047193b3226762",
+                "19ce4378fa110174",
+                "24301da966736eb0",
+                "8f560204b3ade856",
+                "3df7643ce90d9c79",
+                "f4058e012d176fe8",
+                "a311b6573383b46d",
+                "4275dd69467225bc",
+                "20892762cad87ce8",
+                "d202ae74b72b2fb4",
+                "e16f51afd6ade9bd",
+                "08c2fc600c2f382b",
+                "90793e53c8a0e12a",
+                "a8c008908eec2f1d",
+                "8f324bb996df8a24",
+                "8a7e84d8368c0f9f",
+                "a54eeef3e58c5fba",
+                "adce18a2f91e2ab1",
+                "1e20542456c94b60",
+                "8320dbfafe5d2df9",
+                "65456e154e493057",
+                "990149059c538c23",
+                "945e2bb0862017fb",
+                "e22e8bf68cafb920",
+                "17cf1c50cd65c7ea",
+                "f365bc71749cae86",
+                "1fa691db8d541b7c",
+                "9c9e746f7d73a12d",
+                "7394f6d60dbcaf9b",
+                "2046ed590953c459",
+                "8e2f047caa2e5611",
+                "b1e4a1eb6f4078eb",
+                "b3d45c05728d7acb",
+                "b95eb5b119eff5a0",
+                "60d8679a2174697e",
+                "897961781ef020d5",
+                "9ac736ec80c4ce27",
+                "795b931c6997fbb0",
+                "d495b3b9f6ac74aa"
+            ]
+        ]
+    },
+    {
+        "id": "96cd545ae655ae7a",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "name": "RECETAS",
+        "info": "",
+        "x": 80,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "3fe55afe9bf2055c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_META_AGUA_1",
+        "x": 410,
+        "y": 740,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "2eb87e4d96ab3b61",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_META_AGUA_2",
+        "x": 410,
+        "y": 780,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "fd75e277e884e37c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_META_ADITIVO",
+        "x": 410,
+        "y": 820,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "1395ddc62ce62cc3",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS",
+        "x": 530,
+        "y": 860,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "e01c52318a8eb718",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 1",
+        "x": 560,
+        "y": 930,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d2dd7849d794b3b6",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_1",
+        "x": 410,
+        "y": 970,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "b62a3c13b138712c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_1",
+        "x": 410,
+        "y": 1010,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "b79a2f35af36ab19",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_1",
+        "x": 420,
+        "y": 1050,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "c66a7fedfabcee38",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_1",
+        "x": 410,
+        "y": 1090,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a39b36689f093c6a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_1",
+        "x": 410,
+        "y": 1130,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "4b7c1ee728d9bbe9",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_1",
+        "x": 420,
+        "y": 1170,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "3acb62836e877dd2",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 2",
+        "x": 560,
+        "y": 1230,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d0f9d802e1f2be50",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_2",
+        "x": 410,
+        "y": 1270,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d6ab372e36d04ab5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_2",
+        "x": 410,
+        "y": 1310,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "80e621adeef3409a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_2",
+        "x": 420,
+        "y": 1350,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "4c7a1307d8537e37",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_2",
+        "x": 410,
+        "y": 1390,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "ec19dbeeab96892d",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_2",
+        "x": 410,
+        "y": 1430,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "809cbec2731413c4",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_2",
+        "x": 420,
+        "y": 1470,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "9629f5577a7a27fe",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 3",
+        "x": 560,
+        "y": 1520,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "3744c8e544349705",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_3",
+        "x": 410,
+        "y": 1560,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "5524b0363fe3443a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_3",
+        "x": 410,
+        "y": 1600,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "bab98195137ac938",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_3",
+        "x": 420,
+        "y": 1640,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a46705178f6d510a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_3",
+        "x": 410,
+        "y": 1680,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "c5289ca0824925e9",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_3",
+        "x": 410,
+        "y": 1720,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "c43bc9f63b164d1e",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_3",
+        "x": 420,
+        "y": 1760,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "9a41b45acf4771ac",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 4",
+        "x": 560,
+        "y": 1820,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "18116de391b9967a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_4",
+        "x": 410,
+        "y": 1860,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8a7e84d8368c0f9f",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_4",
+        "x": 410,
+        "y": 1900,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a54eeef3e58c5fba",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_4",
+        "x": 420,
+        "y": 1940,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "adce18a2f91e2ab1",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_4",
+        "x": 410,
+        "y": 1980,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "1e20542456c94b60",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_4",
+        "x": 410,
+        "y": 2020,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8320dbfafe5d2df9",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_4",
+        "x": 420,
+        "y": 2060,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "65456e154e493057",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 5",
+        "x": 560,
+        "y": 2120,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "990149059c538c23",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_5",
+        "x": 410,
+        "y": 2160,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "945e2bb0862017fb",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_5",
+        "x": 410,
+        "y": 2200,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "e22e8bf68cafb920",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_5",
+        "x": 420,
+        "y": 2240,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "17cf1c50cd65c7ea",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_5",
+        "x": 410,
+        "y": 2280,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "f365bc71749cae86",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_5",
+        "x": 410,
+        "y": 2320,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "1fa691db8d541b7c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_5",
+        "x": 420,
+        "y": 2360,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "6081dcaf943295db",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 6",
+        "x": 1240,
+        "y": 930,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a0ff8f6bd9a398a4",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_6",
+        "x": 1090,
+        "y": 970,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "7b6b97eaa6e950db",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_6",
+        "x": 1090,
+        "y": 1010,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "357b6f2c6f49f609",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_6",
+        "x": 1100,
+        "y": 1050,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "7cae27af796abea6",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_6",
+        "x": 1090,
+        "y": 1090,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "360b2a979926517b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_6",
+        "x": 1090,
+        "y": 1130,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "af0a5a1b52296e9d",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_6",
+        "x": 1100,
+        "y": 1170,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "ba41e77b7c4ead82",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 7",
+        "x": 1240,
+        "y": 1230,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "49047193b3226762",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_7",
+        "x": 1090,
+        "y": 1270,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "19ce4378fa110174",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_7",
+        "x": 1090,
+        "y": 1310,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "24301da966736eb0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_7",
+        "x": 1100,
+        "y": 1350,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8f560204b3ade856",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_7",
+        "x": 1090,
+        "y": 1390,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "3df7643ce90d9c79",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_7",
+        "x": 1090,
+        "y": 1430,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "f4058e012d176fe8",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_7",
+        "x": 1100,
+        "y": 1470,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a311b6573383b46d",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 8",
+        "x": 1240,
+        "y": 1520,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "4275dd69467225bc",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_8",
+        "x": 1090,
+        "y": 1560,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "20892762cad87ce8",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_8",
+        "x": 1090,
+        "y": 1600,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d202ae74b72b2fb4",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_8",
+        "x": 1100,
+        "y": 1640,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "e16f51afd6ade9bd",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_8",
+        "x": 1090,
+        "y": 1680,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "08c2fc600c2f382b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_8",
+        "x": 1090,
+        "y": 1720,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "90793e53c8a0e12a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_8",
+        "x": 1100,
+        "y": 1760,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a8c008908eec2f1d",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 9",
+        "x": 1240,
+        "y": 1820,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8f324bb996df8a24",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_9",
+        "x": 1090,
+        "y": 1860,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "9c9e746f7d73a12d",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_9",
+        "x": 1090,
+        "y": 1900,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "7394f6d60dbcaf9b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_9",
+        "x": 1100,
+        "y": 1940,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "2046ed590953c459",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_9",
+        "x": 1090,
+        "y": 1980,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8e2f047caa2e5611",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_9",
+        "x": 1090,
+        "y": 2020,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "b1e4a1eb6f4078eb",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_9",
+        "x": 1100,
+        "y": 2060,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "b3d45c05728d7acb",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 10",
+        "x": 1250,
+        "y": 2120,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "b95eb5b119eff5a0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_10",
+        "x": 1090,
+        "y": 2160,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "60d8679a2174697e",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_10",
+        "x": 1090,
+        "y": 2200,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "897961781ef020d5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_10",
+        "x": 1110,
+        "y": 2240,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "9ac736ec80c4ce27",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_10",
+        "x": 1100,
+        "y": 2280,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "795b931c6997fbb0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_10",
+        "x": 1100,
+        "y": 2320,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d495b3b9f6ac74aa",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_10",
+        "x": 1100,
+        "y": 2360,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "a49530deb83617ad",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "name": "TIEMPOS",
+        "info": "",
+        "x": 90,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "42e190468b4a5158",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_TIEMPO_META_VACIADO DE BANDAS",
+        "x": 480,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cfef7f9779a0fe4",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_TIEMPO_ACTUAL_VACIADO DE BANDAS",
+        "x": 490,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "addf3aee18d3cd8e",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_TIEMPO_META_ADITIVO",
+        "x": 430,
+        "y": 2500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0369512311ee3f07",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_TIEMPO_ACTUAL_ADITIVO1",
+        "x": 450,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29e7e67ff29fb400",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA BAJO ON",
+        "x": 530,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "02f3bd6a0400cc80",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 1_ET",
+        "x": 510,
+        "y": 2640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ebdcf3821f429d0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA BAJO OFF",
+        "x": 540,
+        "y": 2680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46e924653d2ef70b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 2_ET",
+        "x": 510,
+        "y": 2720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a689ef17f82d9904",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA FINO ON",
+        "x": 530,
+        "y": 2760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "127c71bf46dba583",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 3_ET",
+        "x": 510,
+        "y": 2800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0f30f17b331c51cf",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA FINO OFF",
+        "x": 540,
+        "y": 2840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ea1cd71e031e26c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 4_ET",
+        "x": 510,
+        "y": 2880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0c4a2c2de2e88285",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA BAJO ON",
+        "x": 530,
+        "y": 2940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7f254f308fee6e6",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 1_ET",
+        "x": 510,
+        "y": 2980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a3576a433b99070",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA BAJO OFF",
+        "x": 540,
+        "y": 3020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "02154352317dfebc",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 2_ET",
+        "x": 510,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26b4246dac5fa598",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA FINO ON",
+        "x": 530,
+        "y": 3100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56b9d9a766733141",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 3_ET",
+        "x": 510,
+        "y": 3140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "443178953d11f265",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA FINO OFF",
+        "x": 540,
+        "y": 3180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e663b3c49274698b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 4_ET",
+        "x": 510,
+        "y": 3220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7a7b13cab538d07",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE TIRAJE ALTO AGR1",
+        "x": 1140,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b62d771ff734a792",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE TIRAJE BAJO AGR1",
+        "x": 1140,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51ce5c4d98c68ec1",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE TIRAJE ALTO AGR2",
+        "x": 1140,
+        "y": 2500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "afdb62c3809d78c5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE TIRAJE BAJO AGR2",
+        "x": 1140,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2da73ed2e2bb18b8",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_FLUJO DE PESO AGR1",
+        "x": 1100,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c9c0a94ae46019a1",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_FLUJO DE PESO AGR2",
+        "x": 1100,
+        "y": 2640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d75b7ed9719eaef7",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_TIEMPO_META_ASISTENCIA EN CEMENTO",
+        "x": 1170,
+        "y": 2700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2fc65c2b16361302",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_TIEMPO_ACTUAL_ASISTENCIA EN CEMENTO",
+        "x": 1190,
+        "y": 2740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51c7369056a9fab8",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "name": "MANUAL",
+        "info": "",
+        "x": 90,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "7a652cbc0cf5c334",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 370,
+        "y": 3280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04c9bb845e4bb2a1",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS",
+        "x": 530,
+        "y": 3320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04b5d81fcbf5ad74",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO CEMENTO SIWAREX",
+        "x": 410,
+        "y": 3360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "418e7222313559d8",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_VELOCIDAD MANUAL",
+        "x": 420,
+        "y": 3400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d182faf14c2da80",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO META DE CICLO",
+        "x": 500,
+        "y": 3460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e41e66a97939ec86",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO AGREGADO 1 SIWAREX",
+        "x": 420,
+        "y": 3500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12f59f05977fed0e",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO META DE CICLO",
+        "x": 500,
+        "y": 3540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b898ec2ebd62ce2a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO AGREGADO 2 SIWAREX",
+        "x": 420,
+        "y": 3580,
+        "wires": [
             []
         ]
     }
