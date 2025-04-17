@@ -90,7 +90,15 @@
     {
         "id": "0d06e67bad6a6fdf",
         "type": "tab",
-        "label": "ACTUALIZAR VARIABLES",
+        "label": "SUBSCCRIBE VARIABLES",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b8ec6796739a69a4",
+        "type": "tab",
+        "label": "WRITE VARIABLES",
         "disabled": false,
         "info": "",
         "env": []
@@ -355,23 +363,12 @@
         "height": 1
     },
     {
-        "id": "04b0529a84aa43de",
-        "type": "ui_spacer",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "name": "spacer",
-        "group": "470cad7ce1c62aa0",
-        "order": 4,
-        "width": "14",
-        "height": "1"
-    },
-    {
         "id": "ca2ff8069cbab668",
         "type": "ui_spacer",
         "z": "e515f4b8125260c1",
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 9,
+        "order": 8,
         "width": "14",
         "height": "1"
     },
@@ -401,7 +398,7 @@
         "z": "e515f4b8125260c1",
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 22,
+        "order": 21,
         "width": "14",
         "height": "1"
     },
@@ -411,7 +408,7 @@
         "z": "e515f4b8125260c1",
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 23,
+        "order": 22,
         "width": "4",
         "height": "1"
     },
@@ -421,7 +418,7 @@
         "z": "e515f4b8125260c1",
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 31,
+        "order": 30,
         "width": "5",
         "height": "1"
     },
@@ -1041,7 +1038,9 @@
         "x": 220,
         "y": 290,
         "wires": [
-            []
+            [
+                "4075bec4b492e9d8"
+            ]
         ]
     },
     {
@@ -1064,10 +1063,12 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 600,
+        "x": 690,
         "y": 100,
         "wires": [
-            []
+            [
+                "a411a0e3bd93813b"
+            ]
         ]
     },
     {
@@ -1099,16 +1100,16 @@
         "order": 2,
         "width": "6",
         "height": "1",
-        "name": "",
+        "name": "SEQ_CEMENTO",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SEQ_CEMENTO}}",
         "layout": "row-center",
         "className": "view",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#2dff2d",
-        "x": 110,
+        "x": 150,
         "y": 90,
         "wires": []
     },
@@ -1141,16 +1142,16 @@
         "order": 6,
         "width": "6",
         "height": "1",
-        "name": "",
+        "name": "SEQ_AGREGADOS",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SEQ_AGREGADOS}}",
         "layout": "row-center",
         "className": "view",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#2dff2d",
-        "x": 110,
+        "x": 160,
         "y": 170,
         "wires": []
     },
@@ -1183,16 +1184,16 @@
         "order": 10,
         "width": "6",
         "height": "1",
-        "name": "",
+        "name": "SEQ_MEZCLADO",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SEQ_MEZCLADO}}",
         "layout": "row-center",
         "className": "view",
         "style": true,
         "font": "",
         "fontSize": 16,
         "color": "#2dff2d",
-        "x": 110,
+        "x": 150,
         "y": 250,
         "wires": []
     },
@@ -1216,10 +1217,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 240,
+        "x": 310,
         "y": 90,
         "wires": [
-            []
+            [
+                "c8253e1c2b961d8d"
+            ]
         ]
     },
     {
@@ -1242,10 +1245,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 240,
+        "x": 330,
         "y": 170,
         "wires": [
-            []
+            [
+                "a28d0116e6a72199"
+            ]
         ]
     },
     {
@@ -1268,10 +1273,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 240,
+        "x": 310,
         "y": 250,
         "wires": [
-            []
+            [
+                "eda1ebda02872ccf"
+            ]
         ]
     },
     {
@@ -1297,7 +1304,9 @@
         "x": 150,
         "y": 330,
         "wires": [
-            []
+            [
+                "a38729733188ec52"
+            ]
         ]
     },
     {
@@ -1326,10 +1335,12 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 620,
+        "x": 710,
         "y": 50,
         "wires": [
-            []
+            [
+                "f41e361e81ab59b0"
+            ]
         ]
     },
     {
@@ -1352,33 +1363,35 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 740,
+        "x": 900,
         "y": 100,
         "wires": [
-            []
+            [
+                "3e33856b85a64579"
+            ]
         ]
     },
     {
         "id": "a2938a71b4c90cc4",
         "type": "ui_numeric",
         "z": "e515f4b8125260c1",
-        "name": "",
+        "name": "INPUT_METROS_CUBICOS",
         "label": "MEZCLA TOTAL",
         "tooltip": "METROS CUBICOS",
         "group": "470cad7ce1c62aa0",
-        "order": 5,
+        "order": 4,
         "width": "5",
         "height": "1",
         "wrap": false,
         "passthru": true,
         "topic": "topic",
         "topicType": "msg",
-        "format": "{{value}}",
+        "format": "{{msg.INPUT_METROS_CUBICOS}}",
         "min": 0,
         "max": "20",
         "step": "0.5",
         "className": "view",
-        "x": 630,
+        "x": 750,
         "y": 140,
         "wires": [
             []
@@ -1392,7 +1405,7 @@
         "label": "RECETA",
         "tooltip": "NUMERO DE RECETA",
         "group": "470cad7ce1c62aa0",
-        "order": 7,
+        "order": 5,
         "width": "3",
         "height": "1",
         "wrap": false,
@@ -1404,7 +1417,7 @@
         "max": "30",
         "step": 1,
         "className": "view",
-        "x": 810,
+        "x": 1100,
         "y": 140,
         "wires": [
             []
@@ -1415,7 +1428,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 10,
+        "order": 9,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1427,8 +1440,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 600,
-        "y": 240,
+        "x": 690,
+        "y": 270,
         "wires": []
     },
     {
@@ -1436,7 +1449,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 11,
+        "order": 10,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1448,8 +1461,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 770,
-        "y": 240,
+        "x": 860,
+        "y": 270,
         "wires": []
     },
     {
@@ -1457,7 +1470,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 12,
+        "order": 11,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1469,8 +1482,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 930,
-        "y": 240,
+        "x": 1310,
+        "y": 270,
         "wires": []
     },
     {
@@ -1478,7 +1491,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 13,
+        "order": 12,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1490,8 +1503,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 590,
-        "y": 280,
+        "x": 680,
+        "y": 310,
         "wires": []
     },
     {
@@ -1499,20 +1512,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 14,
+        "order": 13,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 750,
-        "y": 280,
+        "x": 1000,
+        "y": 310,
         "wires": []
     },
     {
@@ -1520,20 +1533,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 15,
+        "order": 14,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO_INICIAL",
         "label": "tex",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 910,
-        "y": 280,
+        "x": 1420,
+        "y": 310,
         "wires": []
     },
     {
@@ -1541,7 +1554,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 16,
+        "order": 15,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1553,8 +1566,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 590,
-        "y": 320,
+        "x": 680,
+        "y": 350,
         "wires": []
     },
     {
@@ -1562,20 +1575,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 17,
+        "order": 16,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 750,
-        "y": 320,
+        "x": 1000,
+        "y": 350,
         "wires": []
     },
     {
@@ -1583,20 +1596,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 18,
+        "order": 17,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO_INICIAL",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 910,
-        "y": 320,
+        "x": 1420,
+        "y": 350,
         "wires": []
     },
     {
@@ -1604,7 +1617,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 19,
+        "order": 18,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1616,8 +1629,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 610,
-        "y": 360,
+        "x": 700,
+        "y": 390,
         "wires": []
     },
     {
@@ -1625,20 +1638,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 20,
+        "order": 19,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "SiloCementoColgante_DB_PESO_META_DE_CICLO",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 750,
-        "y": 360,
+        "x": 990,
+        "y": 390,
         "wires": []
     },
     {
@@ -1646,20 +1659,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 21,
+        "order": 20,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "SiloCementoColgante_DB_PESO_INICIAL",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.SiloCementoColgante_DB_PESO_INICIAL}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 910,
-        "y": 360,
+        "x": 1410,
+        "y": 390,
         "wires": []
     },
     {
@@ -1667,7 +1680,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 24,
+        "order": 23,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1679,8 +1692,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 750,
-        "y": 420,
+        "x": 840,
+        "y": 510,
         "wires": []
     },
     {
@@ -1688,7 +1701,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 25,
+        "order": 24,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1700,8 +1713,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 920,
-        "y": 420,
+        "x": 1160,
+        "y": 510,
         "wires": []
     },
     {
@@ -1709,7 +1722,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 26,
+        "order": 25,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1721,8 +1734,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 600,
-        "y": 460,
+        "x": 690,
+        "y": 550,
         "wires": []
     },
     {
@@ -1730,33 +1743,12 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 27,
+        "order": 26,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "DISPLAY_META_AGUA_1",
         "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "view",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 750,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "b11bc6a26ac2976e",
-        "type": "ui_text",
-        "z": "e515f4b8125260c1",
-        "group": "470cad7ce1c62aa0",
-        "order": 28,
-        "width": "5",
-        "height": "1",
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.DISPLAY_META_AGUA_1}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
@@ -1764,7 +1756,28 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 910,
-        "y": 460,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "b11bc6a26ac2976e",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "470cad7ce1c62aa0",
+        "order": 27,
+        "width": "5",
+        "height": "1",
+        "name": "ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS",
+        "label": "",
+        "format": "{{msg.payload.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS}}",
+        "layout": "row-center",
+        "className": "view",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1340,
+        "y": 550,
         "wires": []
     },
     {
@@ -1772,7 +1785,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 29,
+        "order": 28,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1784,8 +1797,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 600,
-        "y": 500,
+        "x": 690,
+        "y": 590,
         "wires": []
     },
     {
@@ -1793,20 +1806,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 30,
+        "order": 29,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "DISPLAY_META_AGUA_2",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.DISPLAY_META_AGUA_2}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 750,
-        "y": 500,
+        "x": 910,
+        "y": 590,
         "wires": []
     },
     {
@@ -1814,7 +1827,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 32,
+        "order": 31,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1826,8 +1839,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 600,
-        "y": 540,
+        "x": 690,
+        "y": 630,
         "wires": []
     },
     {
@@ -1835,20 +1848,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 33,
+        "order": 32,
         "width": "5",
         "height": "1",
-        "name": "",
+        "name": "DISPLAY_META_ADITIVO",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.DISPLAY_META_ADITIVO}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 750,
-        "y": 540,
+        "x": 910,
+        "y": 630,
         "wires": []
     },
     {
@@ -1859,17 +1872,17 @@
         "order": 1,
         "width": "10",
         "height": "1",
-        "name": "",
+        "name": "PESO_CEMENTO_SIWAREX",
         "label": "CEMENTO",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.PESO_CEMENTO_SIWAREX}}",
         "layout": "row-spread",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1230,
-        "y": 50,
+        "x": 2010,
+        "y": 60,
         "wires": []
     },
     {
@@ -1880,17 +1893,17 @@
         "order": 2,
         "width": "10",
         "height": "1",
-        "name": "",
+        "name": "PESO_AGREGADO_1_SIWAREX",
         "label": "AGR 1",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.PESO_AGREGADO_1_SIWAREX}}",
         "layout": "row-spread",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1210,
-        "y": 90,
+        "x": 2020,
+        "y": 100,
         "wires": []
     },
     {
@@ -1901,17 +1914,17 @@
         "order": 3,
         "width": "10",
         "height": "1",
-        "name": "",
+        "name": "PESO_AGREGADO_2_SIWAREX",
         "label": "AGR 2",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.PESO_AGREGADO_2_SIWAREX}}",
         "layout": "row-spread",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1210,
-        "y": 130,
+        "x": 2020,
+        "y": 140,
         "wires": []
     },
     {
@@ -1919,21 +1932,511 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 8,
+        "order": 6,
         "width": "6",
         "height": "1",
-        "name": "",
+        "name": "Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL",
         "label": "",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 950,
+        "x": 1500,
         "y": 140,
         "wires": []
+    },
+    {
+        "id": "bd34b69a8f96b4f8",
+        "type": "ui_button",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "group": "470cad7ce1c62aa0",
+        "order": 7,
+        "width": "14",
+        "height": "1",
+        "passthru": false,
+        "label": "ENTER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 690,
+        "y": 190,
+        "wires": [
+            [
+                "f0ad93e483928cf6"
+            ]
+        ]
+    },
+    {
+        "id": "19e490adb5132999",
+        "type": "inject",
+        "z": "e515f4b8125260c1",
+        "name": "500 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 210,
+        "y": 830,
+        "wires": [
+            [
+                "8efdc9dbf23515a4"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "8efdc9dbf23515a4",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "FEED LABELS",
+        "func": "\nmsg.payload = {};\n\nmsg.payload.MODO_AUTOMAN = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\nmsg.payload.SEQ_CEMENTO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\");\nmsg.payload.SEQ_AGREGADOS = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\");\nmsg.payload.SEQ_MEZCLADO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\");\nmsg.payload.PESO_CEMENTO_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\nmsg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\nmsg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nmsg.payload.INPUT_METROS_CUBICOS = global.get(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\");\nmsg.payload.INPUT_NUMERO_DE_RECETA = global.get(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\");\nmsg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\");\nmsg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\nmsg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\");\nmsg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\nmsg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\");\nmsg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\");\nmsg.payload.SiloCementoColgante_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\");\nmsg.payload.DISPLAY_META_AGUA_1 = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\");\nmsg.payload.DISPLAY_META_AGUA_2 = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\");\nmsg.payload.DISPLAY_META_ADITIVO = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\");\nmsg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 830,
+        "wires": [
+            [
+                "ab592fc9a97f8146",
+                "a98950dea3c76ef8",
+                "e5531ecb7615611c",
+                "c5c52fee0fbd5be8",
+                "32f8c0e80b66ee1e",
+                "3cc75f9bda540370",
+                "4df02f1664bea28c",
+                "4e1fbb40a4258851",
+                "84d1335483d9fe65",
+                "800215d3096b78d6",
+                "8c6a00345120855b",
+                "972ead03fc6df5c0",
+                "8b67b6cb51422cc7",
+                "919f3b61286170df",
+                "95eaf882a57dea16",
+                "5655e10dea9ec8f1",
+                "6969387af2cdf2e2",
+                "b11bc6a26ac2976e",
+                "17f1f36f25bdc7e6",
+                "14cc617dae6c445d"
+            ]
+        ]
+    },
+    {
+        "id": "4df02f1664bea28c",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "COUPLE",
+        "func": "msg.payload = msg.payload.INPUT_METROS_CUBICOS;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "a2938a71b4c90cc4"
+            ]
+        ],
+        "icon": "node-red/switch.svg"
+    },
+    {
+        "id": "4e1fbb40a4258851",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "COUPLE",
+        "func": "msg.payload = msg.payload.INPUT_NUMERO_DE_RECETA;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 140,
+        "wires": [
+            [
+                "609c84180d781741"
+            ]
+        ],
+        "icon": "node-red/switch.svg"
+    },
+    {
+        "id": "a411a0e3bd93813b",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_INICIAR",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 785,
+        "y": 100,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3e33856b85a64579",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_PARAR",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 995,
+        "y": 100,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f0ad93e483928cf6",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_ENTER",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 785,
+        "y": 190,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c8253e1c2b961d8d",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_JUMPER_1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 405,
+        "y": 90,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a28d0116e6a72199",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_JUMPER_2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 425,
+        "y": 170,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eda1ebda02872ccf",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_JUMPER_3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 405,
+        "y": 250,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4075bec4b492e9d8",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_RESET_SECUENCIAS",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 415,
+        "y": 290,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a38729733188ec52",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_RESET_ALARMAS",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 330,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "232c03619c9a0641",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "UPDATE OPERADOR GLOBAL VARIABLES",
+        "func": "\n\nswitch (msg.topic){\n\n    case \"OPERADOR_BOTON_INICIAR\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_INICIAR\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_PARAR\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_PARAR\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_ENTER\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_ENTER\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_JUMPER_1\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_JUMPER_1\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_JUMPER_2\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_JUMPER_2\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_JUMPER_3\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_JUMPER_3\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_RESET_SECUENCIAS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_RESET_SECUENCIAS\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_RESET_ALARMAS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_RESET_ALARMAS\", msg.payload)\n        break\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 830,
+        "wires": [
+            [
+                "3dcb83ed2f1ffa67"
+            ]
+        ]
+    },
+    {
+        "id": "3dcb83ed2f1ffa67",
+        "type": "debug",
+        "z": "e515f4b8125260c1",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "f41e361e81ab59b0",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "OPERADOR_BOTON_AUTOMATICO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 835,
+        "y": 50,
+        "wires": [
+            [
+                "232c03619c9a0641"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "467d47620ab0dc99",
@@ -7534,7 +8037,7 @@
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
         "endpoint": "415de91fb493cf02",
-        "action": "subscribe",
+        "action": "read",
         "deadbandtype": "a",
         "deadbandvalue": 1,
         "time": "500",
@@ -7556,7 +8059,8 @@
         "y": 110,
         "wires": [
             [
-                "3371056ff5905a11"
+                "3371056ff5905a11",
+                "1df2f1115c621823"
             ],
             [],
             []
@@ -7587,7 +8091,7 @@
         "value": "",
         "name": "SEQ_CEMENTO",
         "x": 380,
-        "y": 100,
+        "y": 60,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -7603,7 +8107,7 @@
         "value": "",
         "name": "SEQ_AGREGADOS",
         "x": 390,
-        "y": 140,
+        "y": 100,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -7619,7 +8123,7 @@
         "value": "",
         "name": "SEQ_MEZCLADO",
         "x": 380,
-        "y": 180,
+        "y": 140,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -7800,125 +8304,18 @@
         "id": "3371056ff5905a11",
         "type": "function",
         "z": "0d06e67bad6a6fdf",
-        "name": "UPDATE GLOBAL AVRIABLES",
-        "func": "\nreturn msg;",
+        "name": "UPDATE OPERADOR GLOBAL VRIABLES",
+        "func": "switch (msg.topic){\n    \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    case \"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\":\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
-        "initialize": "",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 1620,
+        "x": 1660,
         "y": 100,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e1d7242744d16556",
-        "type": "function",
-        "z": "0d06e67bad6a6fdf",
-        "name": "START SUBSCRIPTION",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nmsg.payload = true;",
-        "finalize": "",
-        "libs": [],
-        "x": 130,
-        "y": 100,
-        "wires": [
-            [
-                "31745d0ebbc0aff8",
-                "dd7f49ccf1787047",
-                "e77d8710f8330b7a",
-                "40c08d335c19b608",
-                "6181d840d0c7074b",
-                "0936c20d0a892807",
-                "4a56a04895460850",
-                "c6accc140966b2df",
-                "48882585328b8864",
-                "792c9c0f7d52d03c",
-                "6d7f994dd56acb2c",
-                "f7556f5b5ec24a4b",
-                "1459197b79682bb5",
-                "fc772071ef26d041",
-                "3fe55afe9bf2055c",
-                "2eb87e4d96ab3b61",
-                "fd75e277e884e37c",
-                "1395ddc62ce62cc3",
-                "e01c52318a8eb718",
-                "d2dd7849d794b3b6",
-                "b62a3c13b138712c",
-                "b79a2f35af36ab19",
-                "c66a7fedfabcee38",
-                "a39b36689f093c6a",
-                "4b7c1ee728d9bbe9",
-                "3acb62836e877dd2",
-                "d0f9d802e1f2be50",
-                "d6ab372e36d04ab5",
-                "80e621adeef3409a",
-                "4c7a1307d8537e37",
-                "ec19dbeeab96892d",
-                "809cbec2731413c4",
-                "9629f5577a7a27fe",
-                "3744c8e544349705",
-                "5524b0363fe3443a",
-                "bab98195137ac938",
-                "a46705178f6d510a",
-                "c5289ca0824925e9",
-                "c43bc9f63b164d1e",
-                "9a41b45acf4771ac",
-                "18116de391b9967a",
-                "6081dcaf943295db",
-                "a0ff8f6bd9a398a4",
-                "7b6b97eaa6e950db",
-                "357b6f2c6f49f609",
-                "7cae27af796abea6",
-                "360b2a979926517b",
-                "af0a5a1b52296e9d",
-                "ba41e77b7c4ead82",
-                "49047193b3226762",
-                "19ce4378fa110174",
-                "24301da966736eb0",
-                "8f560204b3ade856",
-                "3df7643ce90d9c79",
-                "f4058e012d176fe8",
-                "a311b6573383b46d",
-                "4275dd69467225bc",
-                "20892762cad87ce8",
-                "d202ae74b72b2fb4",
-                "e16f51afd6ade9bd",
-                "08c2fc600c2f382b",
-                "90793e53c8a0e12a",
-                "a8c008908eec2f1d",
-                "8f324bb996df8a24",
-                "8a7e84d8368c0f9f",
-                "a54eeef3e58c5fba",
-                "adce18a2f91e2ab1",
-                "1e20542456c94b60",
-                "8320dbfafe5d2df9",
-                "65456e154e493057",
-                "990149059c538c23",
-                "945e2bb0862017fb",
-                "e22e8bf68cafb920",
-                "17cf1c50cd65c7ea",
-                "f365bc71749cae86",
-                "1fa691db8d541b7c",
-                "9c9e746f7d73a12d",
-                "7394f6d60dbcaf9b",
-                "2046ed590953c459",
-                "8e2f047caa2e5611",
-                "b1e4a1eb6f4078eb",
-                "b3d45c05728d7acb",
-                "b95eb5b119eff5a0",
-                "60d8679a2174697e",
-                "897961781ef020d5",
-                "9ac736ec80c4ce27",
-                "795b931c6997fbb0",
-                "d495b3b9f6ac74aa"
-            ]
         ]
     },
     {
@@ -9635,6 +10032,600 @@
         "name": "PESO AGREGADO 2 SIWAREX",
         "x": 420,
         "y": 3580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca89be3ee2fb2b76",
+        "type": "inject",
+        "z": "0d06e67bad6a6fdf",
+        "name": "500 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "31745d0ebbc0aff8",
+                "dd7f49ccf1787047",
+                "e77d8710f8330b7a",
+                "40c08d335c19b608",
+                "6181d840d0c7074b",
+                "0936c20d0a892807",
+                "4a56a04895460850",
+                "c6accc140966b2df",
+                "48882585328b8864",
+                "792c9c0f7d52d03c",
+                "6d7f994dd56acb2c",
+                "f7556f5b5ec24a4b",
+                "1459197b79682bb5",
+                "fc772071ef26d041",
+                "3fe55afe9bf2055c",
+                "2eb87e4d96ab3b61",
+                "fd75e277e884e37c",
+                "1395ddc62ce62cc3",
+                "e01c52318a8eb718",
+                "d2dd7849d794b3b6",
+                "b62a3c13b138712c",
+                "b79a2f35af36ab19",
+                "c66a7fedfabcee38",
+                "a39b36689f093c6a",
+                "4b7c1ee728d9bbe9",
+                "3acb62836e877dd2",
+                "d0f9d802e1f2be50",
+                "d6ab372e36d04ab5",
+                "80e621adeef3409a",
+                "4c7a1307d8537e37",
+                "ec19dbeeab96892d",
+                "809cbec2731413c4",
+                "9629f5577a7a27fe",
+                "3744c8e544349705",
+                "5524b0363fe3443a",
+                "bab98195137ac938",
+                "a46705178f6d510a",
+                "c5289ca0824925e9",
+                "6081dcaf943295db",
+                "a0ff8f6bd9a398a4",
+                "357b6f2c6f49f609",
+                "7cae27af796abea6",
+                "360b2a979926517b",
+                "af0a5a1b52296e9d",
+                "ba41e77b7c4ead82",
+                "49047193b3226762",
+                "19ce4378fa110174",
+                "8f560204b3ade856",
+                "3df7643ce90d9c79",
+                "f4058e012d176fe8",
+                "a311b6573383b46d",
+                "4275dd69467225bc",
+                "20892762cad87ce8",
+                "d202ae74b72b2fb4",
+                "e16f51afd6ade9bd",
+                "08c2fc600c2f382b",
+                "c43bc9f63b164d1e",
+                "9a41b45acf4771ac",
+                "18116de391b9967a",
+                "8a7e84d8368c0f9f",
+                "a54eeef3e58c5fba",
+                "adce18a2f91e2ab1",
+                "1e20542456c94b60",
+                "8320dbfafe5d2df9",
+                "65456e154e493057",
+                "990149059c538c23",
+                "945e2bb0862017fb",
+                "e22e8bf68cafb920",
+                "17cf1c50cd65c7ea",
+                "f365bc71749cae86",
+                "1fa691db8d541b7c",
+                "42e190468b4a5158",
+                "5cfef7f9779a0fe4",
+                "addf3aee18d3cd8e",
+                "0369512311ee3f07",
+                "a8c008908eec2f1d",
+                "8f324bb996df8a24",
+                "9c9e746f7d73a12d",
+                "7394f6d60dbcaf9b",
+                "2046ed590953c459",
+                "8e2f047caa2e5611",
+                "b1e4a1eb6f4078eb",
+                "b3d45c05728d7acb",
+                "b95eb5b119eff5a0",
+                "60d8679a2174697e",
+                "897961781ef020d5",
+                "9ac736ec80c4ce27",
+                "795b931c6997fbb0",
+                "d495b3b9f6ac74aa",
+                "f7a7b13cab538d07",
+                "b62d771ff734a792",
+                "51ce5c4d98c68ec1",
+                "afdb62c3809d78c5",
+                "2da73ed2e2bb18b8",
+                "c9c0a94ae46019a1",
+                "d75b7ed9719eaef7",
+                "2fc65c2b16361302",
+                "29e7e67ff29fb400",
+                "02f3bd6a0400cc80",
+                "3ebdcf3821f429d0",
+                "46e924653d2ef70b",
+                "a689ef17f82d9904",
+                "127c71bf46dba583",
+                "0f30f17b331c51cf",
+                "6ea1cd71e031e26c",
+                "0c4a2c2de2e88285",
+                "f7f254f308fee6e6",
+                "7a3576a433b99070",
+                "02154352317dfebc",
+                "26b4246dac5fa598",
+                "56b9d9a766733141",
+                "443178953d11f265",
+                "e663b3c49274698b",
+                "7a652cbc0cf5c334",
+                "04c9bb845e4bb2a1",
+                "04b5d81fcbf5ad74",
+                "418e7222313559d8",
+                "3d182faf14c2da80",
+                "e41e66a97939ec86",
+                "12f59f05977fed0e",
+                "b898ec2ebd62ce2a",
+                "7b6b97eaa6e950db",
+                "24301da966736eb0",
+                "efa1d1bc4a081ce0",
+                "ec6f58e518e628a0"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "1df2f1115c621823",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "name": "UPDATE RECETAS GLOBAL VRIABLES",
+        "func": "switch (msg.topic){\n// VARIABLES PARA RECETA #1\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n// VARIABLES PARA RECETA #2\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #3\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #4\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #5\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #6\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #7\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #8\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #9\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #10\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 170,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5312a6cc014bdc99",
+        "type": "inject",
+        "z": "0d06e67bad6a6fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1500,
+        "y": 320,
+        "wires": [
+            [
+                "9c966759888027f9"
+            ]
+        ]
+    },
+    {
+        "id": "a31b254c91c4c493",
+        "type": "inject",
+        "z": "0d06e67bad6a6fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1500,
+        "y": 360,
+        "wires": [
+            [
+                "e581b194e0d31ea3"
+            ]
+        ]
+    },
+    {
+        "id": "9c966759888027f9",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "name": "function 2",
+        "func": "\nglobal.set(\"zxc.qwe\", 98);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"zxc\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e581b194e0d31ea3",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "name": "function 3",
+        "func": "\n\nmsg.payload = global.get(\"zxc\");\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 360,
+        "wires": [
+            [
+                "b6be45fac3d247f8"
+            ]
+        ]
+    },
+    {
+        "id": "b6be45fac3d247f8",
+        "type": "debug",
+        "z": "0d06e67bad6a6fdf",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.qwe",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1840,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "efa1d1bc4a081ce0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL",
+        "x": 600,
+        "y": 180,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "ec6f58e518e628a0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "MODO AUTOMAN",
+        "x": 380,
+        "y": 20,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "7d72347a681458d8",
+        "type": "OpcUa-Client",
+        "z": "b8ec6796739a69a4",
+        "endpoint": "415de91fb493cf02",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "",
+        "x": 1100,
+        "y": 140,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1d19c6d8238284fb",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "MODO AUTOMAN",
+        "x": 740,
+        "y": 180,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "03246ac10b6068b8",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "HMI PB INICIAR",
+        "x": 730,
+        "y": 220,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "982a6f58d8683c2c",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "HMI PB DETENER",
+        "x": 740,
+        "y": 260,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "90aadda3ff3aa2a9",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_ENTER",
+        "x": 740,
+        "y": 300,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "a2e6525dc51c5313",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_RESET SECUENCIAS",
+        "x": 780,
+        "y": 130,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "995855a336603342",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_JUMPER 1",
+        "x": 750,
+        "y": 350,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "dd1dd3551031e356",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_JUMPER 2",
+        "x": 750,
+        "y": 390,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "ea42195ba05dcb49",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_JUMPER 3",
+        "x": 750,
+        "y": 430,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "0c2bc50699862453",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_RESET ALARMAS",
+        "x": 770,
+        "y": 480,
+        "wires": [
+            [
+                "7d72347a681458d8"
+            ]
+        ]
+    },
+    {
+        "id": "86166ff8926c556f",
+        "type": "comment",
+        "z": "b8ec6796739a69a4",
+        "name": "OPERADOR",
+        "info": "",
+        "x": 720,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "c8e86af3dfe8b046",
+        "type": "switch",
+        "z": "b8ec6796739a69a4",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 150,
+        "y": 510,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a22b853c008366f",
+        "type": "inject",
+        "z": "b8ec6796739a69a4",
+        "name": "500 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 130,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "78209f15be9d970a",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "afaf662f84428e28",
+        "type": "trigger",
+        "z": "b8ec6796739a69a4",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "val",
+        "op2type": "val",
+        "duration": "250",
+        "extend": "false",
+        "overrideDelay": "false",
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 220,
+        "y": 630,
         "wires": [
             []
         ]
