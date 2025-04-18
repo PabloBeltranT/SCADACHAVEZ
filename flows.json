@@ -363,16 +363,6 @@
         "height": 1
     },
     {
-        "id": "ca2ff8069cbab668",
-        "type": "ui_spacer",
-        "z": "e515f4b8125260c1",
-        "name": "spacer",
-        "group": "470cad7ce1c62aa0",
-        "order": 8,
-        "width": "14",
-        "height": "1"
-    },
-    {
         "id": "5ae8e41d65d984bf",
         "type": "ui_spacer",
         "z": "e515f4b8125260c1",
@@ -1537,7 +1527,7 @@
         "width": "5",
         "height": "1",
         "name": "SiloAgregadosColgante_1_DB_PESO_INICIAL",
-        "label": "tex",
+        "label": "",
         "format": "{{msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL}}",
         "layout": "row-center",
         "className": "view",
@@ -1769,7 +1759,7 @@
         "height": "1",
         "name": "ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS",
         "label": "",
-        "format": "{{msg.payload.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS}}",
+        "format": "{{msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
@@ -1997,7 +1987,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 210,
+        "x": 110,
         "y": 830,
         "wires": [
             [
@@ -2011,14 +2001,14 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "name": "FEED LABELS",
-        "func": "\nmsg.payload = {};\n\nmsg.payload.MODO_AUTOMAN = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\nmsg.payload.SEQ_CEMENTO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\");\nmsg.payload.SEQ_AGREGADOS = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\");\nmsg.payload.SEQ_MEZCLADO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\");\nmsg.payload.PESO_CEMENTO_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\nmsg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\nmsg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nmsg.payload.INPUT_METROS_CUBICOS = global.get(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\");\nmsg.payload.INPUT_NUMERO_DE_RECETA = global.get(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\");\nmsg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\");\nmsg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\nmsg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\");\nmsg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\nmsg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\");\nmsg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\");\nmsg.payload.SiloCementoColgante_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\");\nmsg.payload.DISPLAY_META_AGUA_1 = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\");\nmsg.payload.DISPLAY_META_AGUA_2 = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\");\nmsg.payload.DISPLAY_META_ADITIVO = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\");\nmsg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n\nreturn msg;",
+        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload.MODO_AUTOMAN = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\n    msg.payload.SEQ_CEMENTO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\");\n    msg.payload.SEQ_AGREGADOS = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\");\n    msg.payload.SEQ_MEZCLADO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\");\n    msg.payload.PESO_CEMENTO_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n    msg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n    msg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n    msg.payload.INPUT_METROS_CUBICOS = global.get(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\");\n    msg.payload.INPUT_NUMERO_DE_RECETA = global.get(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\");\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\");\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\");\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\");\n    msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\");\n    msg.payload.SiloCementoColgante_DB_PESO_INICIAL = global.get(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\");\n    msg.payload.DISPLAY_META_AGUA_1 = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\");\n    msg.payload.DISPLAY_META_AGUA_2 = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\");\n    msg.payload.DISPLAY_META_ADITIVO = global.get(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\");\n    msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n}else{\n    msg.payload.MODO_AUTOMAN = false;\n    msg.payload.SEQ_CEMENTO = \"ESPERANDO CONEXION\";\n    msg.payload.SEQ_AGREGADOS = \"ESPERANDO CONEXION\";\n    msg.payload.SEQ_MEZCLADO = \"ESPERANDO CONEXION\";\n    msg.payload.PESO_CEMENTO_SIWAREX = \"ESPERANDO CONEXION\";\n    msg.payload.PESO_AGREGADO_1_SIWAREX = \"ESPERANDO CONEXION\";\n    msg.payload.PESO_AGREGADO_2_SIWAREX = \"ESPERANDO CONEXION\";\n    msg.payload.INPUT_METROS_CUBICOS = 0;\n    msg.payload.INPUT_NUMERO_DE_RECETA = 0;\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL = \"ESPERANDO CONEXION\";\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = \"ESPERANDO CONEXION\";\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL = \"ESPERANDO CONEXION\";\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = \"ESPERANDO CONEXION\";\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL = \"ESPERANDO CONEXION\";\n    msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO = \"ESPERANDO CONEXION\";\n    msg.payload.SiloCementoColgante_DB_PESO_INICIAL = \"ESPERANDO CONEXION\";\n    msg.payload.DISPLAY_META_AGUA_1 = \"ESPERANDO CONEXION\";\n    msg.payload.DISPLAY_META_AGUA_2 = \"ESPERANDO CONEXION\";\n    msg.payload.DISPLAY_META_ADITIVO = \"ESPERANDO CONEXION\";\n    msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = \"ESPERANDO CONEXION\";\n}\n\n\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 330,
         "y": 830,
         "wires": [
             [
@@ -2041,7 +2031,7 @@
                 "6969387af2cdf2e2",
                 "b11bc6a26ac2976e",
                 "17f1f36f25bdc7e6",
-                "14cc617dae6c445d"
+                "e66de4de0d409e12"
             ]
         ]
     },
@@ -2117,7 +2107,7 @@
         "y": 100,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2152,7 +2142,7 @@
         "y": 100,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2187,7 +2177,7 @@
         "y": 190,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2222,7 +2212,7 @@
         "y": 90,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2257,7 +2247,7 @@
         "y": 170,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2292,7 +2282,7 @@
         "y": 250,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2327,7 +2317,7 @@
         "y": 290,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2362,7 +2352,7 @@
         "y": 330,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
@@ -2379,8 +2369,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 830,
+        "x": 1120,
+        "y": 750,
         "wires": [
             [
                 "3dcb83ed2f1ffa67"
@@ -2392,15 +2382,15 @@
         "type": "debug",
         "z": "e515f4b8125260c1",
         "name": "debug 4",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1230,
-        "y": 720,
+        "x": 1380,
+        "y": 750,
         "wires": []
     },
     {
@@ -2433,10 +2423,81 @@
         "y": 50,
         "wires": [
             [
-                "232c03619c9a0641"
+                "408b60bc486b96d6"
             ]
         ],
         "l": false
+    },
+    {
+        "id": "940a7cb65bae23e8",
+        "type": "OpcUa-Client",
+        "z": "e515f4b8125260c1",
+        "endpoint": "415de91fb493cf02",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "",
+        "x": 1190,
+        "y": 810,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "408b60bc486b96d6",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 2",
+        "func": "\nswitch (msg.payload){\n\n    case \"OPERADOR_BOTON_JUMPER_1\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_JUMPER_2\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_JUMPER_3\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_RESET_SECUENCIAS\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_RESET_ALARMAS\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_AUTOMATICO\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_INICIAR\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_PARAR\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_ENTER\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 9,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 810,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e66de4de0d409e12",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 3",
+        "func": "msg.payload = msg.payload.MODO_AUTOMAN\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 60,
+        "wires": [
+            [
+                "14cc617dae6c445d"
+            ]
+        ]
     },
     {
         "id": "467d47620ab0dc99",
@@ -6191,6 +6252,7 @@
         "id": "36f807461ac6ca20",
         "type": "OpcUa-Client",
         "z": "e84e53e8ddf338f7",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "write",
         "deadbandtype": "a",
@@ -7843,7 +7905,7 @@
         "type": "debug",
         "z": "50796c7782f3d929",
         "name": "debug 2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7956,14 +8018,14 @@
         ]
     },
     {
-        "id": "d35b282ca2e1db73",
+        "id": "a9bfcd88deb1c6dd",
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
         "endpoint": "415de91fb493cf02",
-        "action": "write",
+        "action": "subscribe",
         "deadbandtype": "a",
         "deadbandvalue": 1,
-        "time": 10,
+        "time": "1",
         "timeUnit": "s",
         "certificate": "n",
         "localfile": "",
@@ -7976,93 +8038,18 @@
         "receiveBufferSize": 8192,
         "sendBufferSize": 8192,
         "setstatusandtime": false,
-        "keepsessionalive": false,
+        "keepsessionalive": true,
         "name": "",
-        "x": 2130,
-        "y": 760,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "167409ffdbdb04e6",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "item": "ns=5;i=217",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "HMI PB INICIAR",
-        "x": 1870,
-        "y": 710,
-        "wires": [
-            [
-                "d35b282ca2e1db73"
-            ]
-        ]
-    },
-    {
-        "id": "3a1e6ca06486fd55",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "item": "ns=5;i=216",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "HMI PB DETENER",
-        "x": 1880,
-        "y": 750,
-        "wires": [
-            [
-                "d35b282ca2e1db73"
-            ]
-        ]
-    },
-    {
-        "id": "5d30b74efd4d9ca5",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "item": "ns=5;i=218",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "MODO AUTOMAN",
-        "x": 1880,
-        "y": 790,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a9bfcd88deb1c6dd",
-        "type": "OpcUa-Client",
-        "z": "0d06e67bad6a6fdf",
-        "endpoint": "415de91fb493cf02",
-        "action": "read",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "500",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "useTransport": false,
-        "maxChunkCount": 1,
-        "maxMessageSize": 8192,
-        "receiveBufferSize": 8192,
-        "sendBufferSize": 8192,
-        "setstatusandtime": false,
-        "keepsessionalive": false,
-        "name": "",
-        "x": 1370,
-        "y": 110,
+        "x": 1260,
+        "y": 240,
         "wires": [
             [
                 "3371056ff5905a11",
                 "1df2f1115c621823"
             ],
-            [],
+            [
+                "46fcf6ccf45b0443"
+            ],
             []
         ]
     },
@@ -8070,12 +8057,12 @@
         "id": "c6accc140966b2df",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "ns=4;i=367",
-        "datatype": "String",
+        "item": "ns=5;i=88",
+        "datatype": "UInt32",
         "value": "",
         "name": "INPUT_NUMERO DE RECETA",
         "x": 420,
-        "y": 420,
+        "y": 550,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8086,12 +8073,12 @@
         "id": "31745d0ebbc0aff8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=106",
+        "datatype": "Int32",
         "value": "",
         "name": "SEQ_CEMENTO",
         "x": 380,
-        "y": 60,
+        "y": 190,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8102,12 +8089,12 @@
         "id": "dd7f49ccf1787047",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=105",
+        "datatype": "UInt32",
         "value": "",
         "name": "SEQ_AGREGADOS",
         "x": 390,
-        "y": 100,
+        "y": 230,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8118,12 +8105,12 @@
         "id": "e77d8710f8330b7a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=107",
+        "datatype": "Int32",
         "value": "",
         "name": "SEQ_MEZCLADO",
         "x": 380,
-        "y": 140,
+        "y": 270,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8134,12 +8121,12 @@
         "id": "40c08d335c19b608",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=239",
+        "datatype": "Float",
         "value": "",
         "name": "PESO CEMENTO SIWAREX",
         "x": 410,
-        "y": 240,
+        "y": 370,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8152,20 +8139,20 @@
         "z": "0d06e67bad6a6fdf",
         "name": "OPERADOR",
         "info": "",
-        "x": 90,
-        "y": 60,
+        "x": 80,
+        "y": 110,
         "wires": []
     },
     {
         "id": "6181d840d0c7074b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=237",
+        "datatype": "Float",
         "value": "",
         "name": "PESO AGREGADO 1 SIWAREX",
         "x": 420,
-        "y": 280,
+        "y": 410,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8176,12 +8163,12 @@
         "id": "0936c20d0a892807",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=238",
+        "datatype": "Float",
         "value": "",
         "name": "PESO AGREGADO 2 SIWAREX",
         "x": 420,
-        "y": 320,
+        "y": 450,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8192,12 +8179,12 @@
         "id": "4a56a04895460850",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=87",
+        "datatype": "Float",
         "value": "",
         "name": "INPUT_METROS CUBICOS",
         "x": 410,
-        "y": 380,
+        "y": 510,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8208,12 +8195,12 @@
         "id": "48882585328b8864",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=463",
+        "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO META DE CICLO",
         "x": 500,
-        "y": 480,
+        "y": 610,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8224,12 +8211,12 @@
         "id": "792c9c0f7d52d03c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=462",
+        "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO INICIAL",
         "x": 470,
-        "y": 520,
+        "y": 650,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8240,12 +8227,12 @@
         "id": "6d7f994dd56acb2c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=610",
+        "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_PESO META DE CICLO",
         "x": 500,
-        "y": 560,
+        "y": 690,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8256,12 +8243,12 @@
         "id": "f7556f5b5ec24a4b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=609",
+        "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_PESO INICIAL",
         "x": 470,
-        "y": 600,
+        "y": 730,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8272,12 +8259,12 @@
         "id": "1459197b79682bb5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=991",
+        "datatype": "Float",
         "value": "",
         "name": "SiloCementoColgante_DB_PESO META DE CICLO",
         "x": 480,
-        "y": 640,
+        "y": 770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8288,12 +8275,12 @@
         "id": "fc772071ef26d041",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=1018",
+        "datatype": "Float",
         "value": "",
         "name": "SiloCementoColgante_DB_PESO INICIAL",
         "x": 450,
-        "y": 680,
+        "y": 810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8305,7 +8292,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE OPERADOR GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n    \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    case \"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\":\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n}\nreturn msg;",
+        "func": "switch (msg.topic){\n    \n    // MODO AUTOMATICO\n    case \"ns=5;i=218\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    // SEQ CEMENTO\n    case \"ns=5;i=106\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    // SEQ AGREGADOS\n    case \"ns=5;i=105\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    // SEQ MEZCLADO\n    case \"ns=5;i=107\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    // PESO CEMENTO SIWAREX\n    case \"ns=5;i=239\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // PESO AGREGADO 1 SIWAREX\n    case \"ns=5;i=237\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    // PESO AGREGADO 2 SIWAREX\n    case \"ns=5;i=238\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    // INPUT METROS CUBICOS\n    case \"ns=5;i=87\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    // INPUT NUMERO DE RECETA\n    case \"ns=5;i=88\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    // Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL\n    case \"ns=4;i=367\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\", msg.payload)\n        break;\n    // SiloAgregadosColgante_1_DB_PESO META DE CICLO\n    case \"ns=4;i=463\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_1_DB_PESO INICIAL\n    case \"ns=4;i=462\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO META DE CICLO\n    case \"ns=4;i=610\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO INICIAL\n    case \"ns=4;i=609\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO META DE CICLO\n    case \"ns=4;i=991\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO INICIAL\n    case \"ns=4;i=1018\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    //DISPLAY_META_AGUA_1\n    case \"ns=5;i=10\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    // DISPLAY_META_AGUA_2\n    case \"ns=5;i=11\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    // DISPLAY_META_ADITIVO\n    case \"ns=5;i=12\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    // ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS\n    case \"ns=4;i=160\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -8313,9 +8300,11 @@
         "finalize": "",
         "libs": [],
         "x": 1660,
-        "y": 100,
+        "y": 230,
         "wires": [
-            []
+            [
+                "7c1e7cef9e716e61"
+            ]
         ]
     },
     {
@@ -8325,19 +8314,19 @@
         "name": "RECETAS",
         "info": "",
         "x": 80,
-        "y": 930,
+        "y": 1100,
         "wires": []
     },
     {
         "id": "3fe55afe9bf2055c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=10",
+        "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_META_AGUA_1",
         "x": 410,
-        "y": 740,
+        "y": 870,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8348,12 +8337,12 @@
         "id": "2eb87e4d96ab3b61",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=11",
+        "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_META_AGUA_2",
         "x": 410,
-        "y": 780,
+        "y": 910,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8364,12 +8353,12 @@
         "id": "fd75e277e884e37c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=5;i=12",
+        "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_META_ADITIVO",
         "x": 410,
-        "y": 820,
+        "y": 950,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8380,12 +8369,12 @@
         "id": "1395ddc62ce62cc3",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=160",
+        "datatype": "Int32",
         "value": "",
         "name": "ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS",
         "x": 530,
-        "y": 860,
+        "y": 990,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8396,12 +8385,12 @@
         "id": "e01c52318a8eb718",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=369",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 1",
         "x": 560,
-        "y": 930,
+        "y": 1100,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8417,7 +8406,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_1",
         "x": 410,
-        "y": 970,
+        "y": 1140,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8433,7 +8422,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_1",
         "x": 410,
-        "y": 1010,
+        "y": 1180,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8449,7 +8438,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_1",
         "x": 420,
-        "y": 1050,
+        "y": 1220,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8465,7 +8454,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_1",
         "x": 410,
-        "y": 1090,
+        "y": 1260,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8481,7 +8470,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_1",
         "x": 410,
-        "y": 1130,
+        "y": 1300,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8497,7 +8486,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_1",
         "x": 420,
-        "y": 1170,
+        "y": 1340,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8508,12 +8497,12 @@
         "id": "3acb62836e877dd2",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=370",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 2",
         "x": 560,
-        "y": 1230,
+        "y": 1400,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8529,11 +8518,9 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_2",
         "x": 410,
-        "y": 1270,
+        "y": 1440,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8545,7 +8532,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_2",
         "x": 410,
-        "y": 1310,
+        "y": 1480,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8561,7 +8548,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_2",
         "x": 420,
-        "y": 1350,
+        "y": 1520,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8577,7 +8564,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_2",
         "x": 410,
-        "y": 1390,
+        "y": 1560,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8593,11 +8580,9 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_2",
         "x": 410,
-        "y": 1430,
+        "y": 1600,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8609,7 +8594,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_2",
         "x": 420,
-        "y": 1470,
+        "y": 1640,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8620,12 +8605,12 @@
         "id": "9629f5577a7a27fe",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=371",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 3",
         "x": 560,
-        "y": 1520,
+        "y": 1690,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8641,7 +8626,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_3",
         "x": 410,
-        "y": 1560,
+        "y": 1730,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8657,7 +8642,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_3",
         "x": 410,
-        "y": 1600,
+        "y": 1770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8673,7 +8658,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_3",
         "x": 420,
-        "y": 1640,
+        "y": 1810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8689,7 +8674,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_3",
         "x": 410,
-        "y": 1680,
+        "y": 1850,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8705,11 +8690,9 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_3",
         "x": 410,
-        "y": 1720,
+        "y": 1890,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8721,7 +8704,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_3",
         "x": 420,
-        "y": 1760,
+        "y": 1930,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8732,12 +8715,12 @@
         "id": "9a41b45acf4771ac",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=372",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 4",
         "x": 560,
-        "y": 1820,
+        "y": 1990,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8753,11 +8736,9 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_4",
         "x": 410,
-        "y": 1860,
+        "y": 2030,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8769,11 +8750,9 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_4",
         "x": 410,
-        "y": 1900,
+        "y": 2070,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8785,7 +8764,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_4",
         "x": 420,
-        "y": 1940,
+        "y": 2110,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8801,11 +8780,9 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_4",
         "x": 410,
-        "y": 1980,
+        "y": 2150,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8817,7 +8794,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_4",
         "x": 410,
-        "y": 2020,
+        "y": 2190,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8833,7 +8810,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_4",
         "x": 420,
-        "y": 2060,
+        "y": 2230,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8844,12 +8821,12 @@
         "id": "65456e154e493057",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=373",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 5",
         "x": 560,
-        "y": 2120,
+        "y": 2290,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8865,7 +8842,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_5",
         "x": 410,
-        "y": 2160,
+        "y": 2330,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8881,7 +8858,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_5",
         "x": 410,
-        "y": 2200,
+        "y": 2370,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8897,7 +8874,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_5",
         "x": 420,
-        "y": 2240,
+        "y": 2410,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8913,7 +8890,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_5",
         "x": 410,
-        "y": 2280,
+        "y": 2450,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8929,11 +8906,9 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_5",
         "x": 410,
-        "y": 2320,
+        "y": 2490,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8945,7 +8920,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_5",
         "x": 420,
-        "y": 2360,
+        "y": 2530,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8956,16 +8931,14 @@
         "id": "6081dcaf943295db",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=374",
+        "datatype": "Boolean",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 6",
         "x": 1240,
-        "y": 930,
+        "y": 1100,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -8977,7 +8950,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_6",
         "x": 1090,
-        "y": 970,
+        "y": 1140,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -8993,7 +8966,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_6",
         "x": 1090,
-        "y": 1010,
+        "y": 1180,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9009,7 +8982,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_6",
         "x": 1100,
-        "y": 1050,
+        "y": 1220,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9025,7 +8998,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_6",
         "x": 1090,
-        "y": 1090,
+        "y": 1260,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9041,7 +9014,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_6",
         "x": 1090,
-        "y": 1130,
+        "y": 1300,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9057,7 +9030,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_6",
         "x": 1100,
-        "y": 1170,
+        "y": 1340,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9068,16 +9041,14 @@
         "id": "ba41e77b7c4ead82",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=375",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 7",
         "x": 1240,
-        "y": 1230,
+        "y": 1400,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9089,7 +9060,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_7",
         "x": 1090,
-        "y": 1270,
+        "y": 1440,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9105,7 +9076,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_7",
         "x": 1090,
-        "y": 1310,
+        "y": 1480,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9121,11 +9092,9 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_7",
         "x": 1100,
-        "y": 1350,
+        "y": 1520,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9137,7 +9106,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_7",
         "x": 1090,
-        "y": 1390,
+        "y": 1560,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9153,7 +9122,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_7",
         "x": 1090,
-        "y": 1430,
+        "y": 1600,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9169,27 +9138,23 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_7",
         "x": 1100,
-        "y": 1470,
+        "y": 1640,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
         "id": "a311b6573383b46d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=376",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 8",
         "x": 1240,
-        "y": 1520,
+        "y": 1690,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9201,7 +9166,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_8",
         "x": 1090,
-        "y": 1560,
+        "y": 1730,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9217,7 +9182,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_8",
         "x": 1090,
-        "y": 1600,
+        "y": 1770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9233,7 +9198,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_8",
         "x": 1100,
-        "y": 1640,
+        "y": 1810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9249,7 +9214,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_8",
         "x": 1090,
-        "y": 1680,
+        "y": 1850,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9265,7 +9230,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_8",
         "x": 1090,
-        "y": 1720,
+        "y": 1890,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9281,7 +9246,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_8",
         "x": 1100,
-        "y": 1760,
+        "y": 1930,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9292,16 +9257,14 @@
         "id": "a8c008908eec2f1d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=377",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 9",
         "x": 1240,
-        "y": 1820,
+        "y": 1990,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9313,7 +9276,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_9",
         "x": 1090,
-        "y": 1860,
+        "y": 2030,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9329,7 +9292,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_9",
         "x": 1090,
-        "y": 1900,
+        "y": 2070,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9345,7 +9308,7 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_9",
         "x": 1100,
-        "y": 1940,
+        "y": 2110,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9361,7 +9324,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_9",
         "x": 1090,
-        "y": 1980,
+        "y": 2150,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9377,7 +9340,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_9",
         "x": 1090,
-        "y": 2020,
+        "y": 2190,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9393,7 +9356,7 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_9",
         "x": 1100,
-        "y": 2060,
+        "y": 2230,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9404,16 +9367,14 @@
         "id": "b3d45c05728d7acb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
+        "item": "ns=4;i=378",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 10",
         "x": 1250,
-        "y": 2120,
+        "y": 2290,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9425,7 +9386,7 @@
         "value": "",
         "name": "INPUT_AGR1_RECETA_10",
         "x": 1090,
-        "y": 2160,
+        "y": 2330,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9441,7 +9402,7 @@
         "value": "",
         "name": "INPUT_AGR2_RECETA_10",
         "x": 1090,
-        "y": 2200,
+        "y": 2370,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9457,11 +9418,9 @@
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_10",
         "x": 1110,
-        "y": 2240,
+        "y": 2410,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9473,7 +9432,7 @@
         "value": "",
         "name": "INPUT_AGUA1_RECETA_10",
         "x": 1100,
-        "y": 2280,
+        "y": 2450,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9489,7 +9448,7 @@
         "value": "",
         "name": "INPUT_AGUA2_RECETA_10",
         "x": 1100,
-        "y": 2320,
+        "y": 2490,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -9505,11 +9464,9 @@
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_10",
         "x": 1100,
-        "y": 2360,
+        "y": 2530,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
@@ -9519,7 +9476,7 @@
         "name": "TIEMPOS",
         "info": "",
         "x": 90,
-        "y": 2420,
+        "y": 2600,
         "wires": []
     },
     {
@@ -9531,7 +9488,7 @@
         "value": "",
         "name": "INPUT_TIEMPO_META_VACIADO DE BANDAS",
         "x": 480,
-        "y": 2420,
+        "y": 2600,
         "wires": [
             []
         ]
@@ -9545,7 +9502,7 @@
         "value": "",
         "name": "DISPLAY_TIEMPO_ACTUAL_VACIADO DE BANDAS",
         "x": 490,
-        "y": 2460,
+        "y": 2640,
         "wires": [
             []
         ]
@@ -9559,7 +9516,7 @@
         "value": "",
         "name": "INPUT_TIEMPO_META_ADITIVO",
         "x": 430,
-        "y": 2500,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -9573,7 +9530,7 @@
         "value": "",
         "name": "DISPLAY_TIEMPO_ACTUAL_ADITIVO1",
         "x": 450,
-        "y": 2540,
+        "y": 2720,
         "wires": [
             []
         ]
@@ -9587,7 +9544,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA BAJO ON",
         "x": 530,
-        "y": 2600,
+        "y": 2780,
         "wires": [
             []
         ]
@@ -9601,7 +9558,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 1_ET",
         "x": 510,
-        "y": 2640,
+        "y": 2820,
         "wires": [
             []
         ]
@@ -9615,7 +9572,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA BAJO OFF",
         "x": 540,
-        "y": 2680,
+        "y": 2860,
         "wires": [
             []
         ]
@@ -9629,7 +9586,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 2_ET",
         "x": 510,
-        "y": 2720,
+        "y": 2900,
         "wires": [
             []
         ]
@@ -9643,7 +9600,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA FINO ON",
         "x": 530,
-        "y": 2760,
+        "y": 2940,
         "wires": [
             []
         ]
@@ -9657,7 +9614,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 3_ET",
         "x": 510,
-        "y": 2800,
+        "y": 2980,
         "wires": [
             []
         ]
@@ -9671,7 +9628,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA FINO OFF",
         "x": 540,
-        "y": 2840,
+        "y": 3020,
         "wires": [
             []
         ]
@@ -9685,7 +9642,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 4_ET",
         "x": 510,
-        "y": 2880,
+        "y": 3060,
         "wires": [
             []
         ]
@@ -9699,7 +9656,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA BAJO ON",
         "x": 530,
-        "y": 2940,
+        "y": 3120,
         "wires": [
             []
         ]
@@ -9713,7 +9670,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 1_ET",
         "x": 510,
-        "y": 2980,
+        "y": 3160,
         "wires": [
             []
         ]
@@ -9727,7 +9684,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA BAJO OFF",
         "x": 540,
-        "y": 3020,
+        "y": 3200,
         "wires": [
             []
         ]
@@ -9741,7 +9698,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 2_ET",
         "x": 510,
-        "y": 3060,
+        "y": 3240,
         "wires": [
             []
         ]
@@ -9755,7 +9712,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA FINO ON",
         "x": 530,
-        "y": 3100,
+        "y": 3280,
         "wires": [
             []
         ]
@@ -9769,7 +9726,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 3_ET",
         "x": 510,
-        "y": 3140,
+        "y": 3320,
         "wires": [
             []
         ]
@@ -9783,7 +9740,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA FINO OFF",
         "x": 540,
-        "y": 3180,
+        "y": 3360,
         "wires": [
             []
         ]
@@ -9797,7 +9754,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 4_ET",
         "x": 510,
-        "y": 3220,
+        "y": 3400,
         "wires": [
             []
         ]
@@ -9811,7 +9768,7 @@
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE ALTO AGR1",
         "x": 1140,
-        "y": 2420,
+        "y": 2600,
         "wires": [
             []
         ]
@@ -9825,7 +9782,7 @@
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE BAJO AGR1",
         "x": 1140,
-        "y": 2460,
+        "y": 2640,
         "wires": [
             []
         ]
@@ -9839,7 +9796,7 @@
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE ALTO AGR2",
         "x": 1140,
-        "y": 2500,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -9853,7 +9810,7 @@
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE BAJO AGR2",
         "x": 1140,
-        "y": 2540,
+        "y": 2720,
         "wires": [
             []
         ]
@@ -9867,7 +9824,7 @@
         "value": "",
         "name": "INPUT_FLUJO DE PESO AGR1",
         "x": 1100,
-        "y": 2600,
+        "y": 2780,
         "wires": [
             []
         ]
@@ -9881,7 +9838,7 @@
         "value": "",
         "name": "INPUT_FLUJO DE PESO AGR2",
         "x": 1100,
-        "y": 2640,
+        "y": 2820,
         "wires": [
             []
         ]
@@ -9895,7 +9852,7 @@
         "value": "",
         "name": "INPUT_TIEMPO_META_ASISTENCIA EN CEMENTO",
         "x": 1170,
-        "y": 2700,
+        "y": 2880,
         "wires": [
             []
         ]
@@ -9909,7 +9866,7 @@
         "value": "",
         "name": "DISPLAY_TIEMPO_ACTUAL_ASISTENCIA EN CEMENTO",
         "x": 1190,
-        "y": 2740,
+        "y": 2920,
         "wires": [
             []
         ]
@@ -9921,7 +9878,7 @@
         "name": "MANUAL",
         "info": "",
         "x": 90,
-        "y": 3280,
+        "y": 3460,
         "wires": []
     },
     {
@@ -9933,7 +9890,7 @@
         "value": null,
         "name": "",
         "x": 370,
-        "y": 3280,
+        "y": 3460,
         "wires": [
             []
         ]
@@ -9947,7 +9904,7 @@
         "value": "",
         "name": "ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS",
         "x": 530,
-        "y": 3320,
+        "y": 3500,
         "wires": [
             []
         ]
@@ -9961,7 +9918,7 @@
         "value": "",
         "name": "PESO CEMENTO SIWAREX",
         "x": 410,
-        "y": 3360,
+        "y": 3540,
         "wires": [
             []
         ]
@@ -9975,7 +9932,7 @@
         "value": "",
         "name": "INPUT_VELOCIDAD MANUAL",
         "x": 420,
-        "y": 3400,
+        "y": 3580,
         "wires": [
             []
         ]
@@ -9989,7 +9946,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO META DE CICLO",
         "x": 500,
-        "y": 3460,
+        "y": 3640,
         "wires": [
             []
         ]
@@ -10003,7 +9960,7 @@
         "value": "",
         "name": "PESO AGREGADO 1 SIWAREX",
         "x": 420,
-        "y": 3500,
+        "y": 3680,
         "wires": [
             []
         ]
@@ -10017,7 +9974,7 @@
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_PESO META DE CICLO",
         "x": 500,
-        "y": 3540,
+        "y": 3720,
         "wires": [
             []
         ]
@@ -10031,39 +9988,124 @@
         "value": "",
         "name": "PESO AGREGADO 2 SIWAREX",
         "x": 420,
-        "y": 3580,
+        "y": 3760,
         "wires": [
             []
         ]
     },
     {
-        "id": "ca89be3ee2fb2b76",
-        "type": "inject",
+        "id": "1df2f1115c621823",
+        "type": "function",
         "z": "0d06e67bad6a6fdf",
-        "name": "500 ms",
-        "props": [
+        "name": "UPDATE RECETAS GLOBAL VRIABLES",
+        "func": "switch (msg.topic){\n// VARIABLES PARA RECETA #1\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n// VARIABLES PARA RECETA #2\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #3\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #4\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #5\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #6\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #7\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #8\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #9\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #10\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "efa1d1bc4a081ce0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=4;i=367",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL",
+        "x": 600,
+        "y": 310,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "ec6f58e518e628a0",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=5;i=218",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "MODO AUTOMAN",
+        "x": 380,
+        "y": 150,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "7c1e7cef9e716e61",
+        "type": "debug",
+        "z": "0d06e67bad6a6fdf",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1920,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "46fcf6ccf45b0443",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "name": "function 1",
+        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"connect\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}else{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n\nglobal.set(\"OPC_SERVER_CONNECTED\");",
+        "finalize": "",
+        "libs": [],
+        "x": 100,
+        "y": 150,
+        "wires": [
+            [
+                "edbc14e0edbad03c"
+            ]
+        ]
+    },
+    {
+        "id": "edbc14e0edbad03c",
+        "type": "switch",
+        "z": "0d06e67bad6a6fdf",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
             {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
+                "t": "eq",
+                "v": "connect",
                 "vt": "str"
             }
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 90,
-        "y": 100,
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 195,
+        "y": 150,
         "wires": [
             [
+                "ec6f58e518e628a0",
                 "31745d0ebbc0aff8",
                 "dd7f49ccf1787047",
                 "e77d8710f8330b7a",
+                "efa1d1bc4a081ce0",
                 "40c08d335c19b608",
                 "6181d840d0c7074b",
                 "0936c20d0a892807",
@@ -10078,285 +10120,16 @@
                 "3fe55afe9bf2055c",
                 "2eb87e4d96ab3b61",
                 "fd75e277e884e37c",
-                "1395ddc62ce62cc3",
-                "e01c52318a8eb718",
-                "d2dd7849d794b3b6",
-                "b62a3c13b138712c",
-                "b79a2f35af36ab19",
-                "c66a7fedfabcee38",
-                "a39b36689f093c6a",
-                "4b7c1ee728d9bbe9",
-                "3acb62836e877dd2",
-                "d0f9d802e1f2be50",
-                "d6ab372e36d04ab5",
-                "80e621adeef3409a",
-                "4c7a1307d8537e37",
-                "ec19dbeeab96892d",
-                "809cbec2731413c4",
-                "9629f5577a7a27fe",
-                "3744c8e544349705",
-                "5524b0363fe3443a",
-                "bab98195137ac938",
-                "a46705178f6d510a",
-                "c5289ca0824925e9",
-                "6081dcaf943295db",
-                "a0ff8f6bd9a398a4",
-                "357b6f2c6f49f609",
-                "7cae27af796abea6",
-                "360b2a979926517b",
-                "af0a5a1b52296e9d",
-                "ba41e77b7c4ead82",
-                "49047193b3226762",
-                "19ce4378fa110174",
-                "8f560204b3ade856",
-                "3df7643ce90d9c79",
-                "f4058e012d176fe8",
-                "a311b6573383b46d",
-                "4275dd69467225bc",
-                "20892762cad87ce8",
-                "d202ae74b72b2fb4",
-                "e16f51afd6ade9bd",
-                "08c2fc600c2f382b",
-                "c43bc9f63b164d1e",
-                "9a41b45acf4771ac",
-                "18116de391b9967a",
-                "8a7e84d8368c0f9f",
-                "a54eeef3e58c5fba",
-                "adce18a2f91e2ab1",
-                "1e20542456c94b60",
-                "8320dbfafe5d2df9",
-                "65456e154e493057",
-                "990149059c538c23",
-                "945e2bb0862017fb",
-                "e22e8bf68cafb920",
-                "17cf1c50cd65c7ea",
-                "f365bc71749cae86",
-                "1fa691db8d541b7c",
-                "42e190468b4a5158",
-                "5cfef7f9779a0fe4",
-                "addf3aee18d3cd8e",
-                "0369512311ee3f07",
-                "a8c008908eec2f1d",
-                "8f324bb996df8a24",
-                "9c9e746f7d73a12d",
-                "7394f6d60dbcaf9b",
-                "2046ed590953c459",
-                "8e2f047caa2e5611",
-                "b1e4a1eb6f4078eb",
-                "b3d45c05728d7acb",
-                "b95eb5b119eff5a0",
-                "60d8679a2174697e",
-                "897961781ef020d5",
-                "9ac736ec80c4ce27",
-                "795b931c6997fbb0",
-                "d495b3b9f6ac74aa",
-                "f7a7b13cab538d07",
-                "b62d771ff734a792",
-                "51ce5c4d98c68ec1",
-                "afdb62c3809d78c5",
-                "2da73ed2e2bb18b8",
-                "c9c0a94ae46019a1",
-                "d75b7ed9719eaef7",
-                "2fc65c2b16361302",
-                "29e7e67ff29fb400",
-                "02f3bd6a0400cc80",
-                "3ebdcf3821f429d0",
-                "46e924653d2ef70b",
-                "a689ef17f82d9904",
-                "127c71bf46dba583",
-                "0f30f17b331c51cf",
-                "6ea1cd71e031e26c",
-                "0c4a2c2de2e88285",
-                "f7f254f308fee6e6",
-                "7a3576a433b99070",
-                "02154352317dfebc",
-                "26b4246dac5fa598",
-                "56b9d9a766733141",
-                "443178953d11f265",
-                "e663b3c49274698b",
-                "7a652cbc0cf5c334",
-                "04c9bb845e4bb2a1",
-                "04b5d81fcbf5ad74",
-                "418e7222313559d8",
-                "3d182faf14c2da80",
-                "e41e66a97939ec86",
-                "12f59f05977fed0e",
-                "b898ec2ebd62ce2a",
-                "7b6b97eaa6e950db",
-                "24301da966736eb0",
-                "efa1d1bc4a081ce0",
-                "ec6f58e518e628a0"
+                "1395ddc62ce62cc3"
             ]
         ],
-        "icon": "node-red/serial.svg"
-    },
-    {
-        "id": "1df2f1115c621823",
-        "type": "function",
-        "z": "0d06e67bad6a6fdf",
-        "name": "UPDATE RECETAS GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA RECETA #1\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n// VARIABLES PARA RECETA #2\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #3\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #4\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #5\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #6\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #7\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #8\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #9\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #10\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
-        "finalize": "",
-        "libs": [],
-        "x": 1650,
-        "y": 170,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5312a6cc014bdc99",
-        "type": "inject",
-        "z": "0d06e67bad6a6fdf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1500,
-        "y": 320,
-        "wires": [
-            [
-                "9c966759888027f9"
-            ]
-        ]
-    },
-    {
-        "id": "a31b254c91c4c493",
-        "type": "inject",
-        "z": "0d06e67bad6a6fdf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1500,
-        "y": 360,
-        "wires": [
-            [
-                "e581b194e0d31ea3"
-            ]
-        ]
-    },
-    {
-        "id": "9c966759888027f9",
-        "type": "function",
-        "z": "0d06e67bad6a6fdf",
-        "name": "function 2",
-        "func": "\nglobal.set(\"zxc.qwe\", 98);\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"zxc\",{});",
-        "finalize": "",
-        "libs": [],
-        "x": 1670,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e581b194e0d31ea3",
-        "type": "function",
-        "z": "0d06e67bad6a6fdf",
-        "name": "function 3",
-        "func": "\n\nmsg.payload = global.get(\"zxc\");\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1670,
-        "y": 360,
-        "wires": [
-            [
-                "b6be45fac3d247f8"
-            ]
-        ]
-    },
-    {
-        "id": "b6be45fac3d247f8",
-        "type": "debug",
-        "z": "0d06e67bad6a6fdf",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload.qwe",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1840,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "efa1d1bc4a081ce0",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL",
-        "x": 600,
-        "y": 180,
-        "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
-        ]
-    },
-    {
-        "id": "ec6f58e518e628a0",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "MODO AUTOMAN",
-        "x": 380,
-        "y": 20,
-        "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
-        ]
+        "l": false
     },
     {
         "id": "7d72347a681458d8",
         "type": "OpcUa-Client",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "write",
         "deadbandtype": "a",
@@ -10537,97 +10310,5 @@
         "x": 720,
         "y": 90,
         "wires": []
-    },
-    {
-        "id": "c8e86af3dfe8b046",
-        "type": "switch",
-        "z": "b8ec6796739a69a4",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 150,
-        "y": 510,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7a22b853c008366f",
-        "type": "inject",
-        "z": "b8ec6796739a69a4",
-        "name": "500 ms",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "0.5",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 90,
-        "y": 130,
-        "wires": [
-            []
-        ],
-        "icon": "node-red/serial.svg"
-    },
-    {
-        "id": "78209f15be9d970a",
-        "type": "function",
-        "z": "b8ec6796739a69a4",
-        "name": "function 1",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 130,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "afaf662f84428e28",
-        "type": "trigger",
-        "z": "b8ec6796739a69a4",
-        "name": "",
-        "op1": "1",
-        "op2": "0",
-        "op1type": "val",
-        "op2type": "val",
-        "duration": "250",
-        "extend": "false",
-        "overrideDelay": "false",
-        "units": "ms",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 220,
-        "y": 630,
-        "wires": [
-            []
-        ]
     }
 ]
