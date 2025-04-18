@@ -1987,8 +1987,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
-        "y": 830,
+        "x": 120,
+        "y": 780,
         "wires": [
             [
                 "8efdc9dbf23515a4"
@@ -2008,8 +2008,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 830,
+        "x": 340,
+        "y": 780,
         "wires": [
             [
                 "ab592fc9a97f8146",
@@ -2464,7 +2464,7 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "name": "function 2",
-        "func": "\nswitch (msg.payload){\n\n    case \"OPERADOR_BOTON_JUMPER_1\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_JUMPER_2\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_JUMPER_3\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_RESET_SECUENCIAS\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_RESET_ALARMAS\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_AUTOMATICO\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_INICIAR\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_PARAR\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n\n    case \"OPERADOR_BOTON_ENTER\":\n        msg.payload = msg.payload;\n        msg.topic = ;\n        break;\n}\n\nreturn msg;",
+        "func": "\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n    switch (msg.payload) {\n\n        case \"OPERADOR_BOTON_JUMPER_1\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_JUMPER_2\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_JUMPER_3\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_RESET_SECUENCIAS\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_RESET_ALARMAS\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_AUTOMATICO\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_INICIAR\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_PARAR\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_ENTER\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n    }\n\n    return msg;\n    \n}\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 9,
