@@ -386,9 +386,10 @@
         "id": "ee487e6445ec033a",
         "type": "ui_spacer",
         "z": "e515f4b8125260c1",
+        "d": true,
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 21,
+        "order": 24,
         "width": "14",
         "height": "1"
     },
@@ -398,7 +399,7 @@
         "z": "e515f4b8125260c1",
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 22,
+        "order": 25,
         "width": "4",
         "height": "1"
     },
@@ -408,7 +409,7 @@
         "z": "e515f4b8125260c1",
         "name": "spacer",
         "group": "470cad7ce1c62aa0",
-        "order": 30,
+        "order": 33,
         "width": "5",
         "height": "1"
     },
@@ -1021,15 +1022,15 @@
         "bgcolor": "#3a3a3a",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "true",
+        "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 220,
         "y": 290,
         "wires": [
             [
-                "4075bec4b492e9d8"
+                "ae21de804468837c"
             ]
         ]
     },
@@ -1057,7 +1058,7 @@
         "y": 100,
         "wires": [
             [
-                "a411a0e3bd93813b"
+                "45a70c62c6e20e21"
             ]
         ]
     },
@@ -1287,15 +1288,15 @@
         "bgcolor": "#3a3a3a",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "true",
+        "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 150,
         "y": 330,
         "wires": [
             [
-                "a38729733188ec52"
+                "91b0436a9bcc6872"
             ]
         ]
     },
@@ -1325,11 +1326,11 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 710,
-        "y": 50,
+        "x": 720,
+        "y": 30,
         "wires": [
             [
-                "f41e361e81ab59b0"
+                "e4f8198839a61320"
             ]
         ]
     },
@@ -1349,15 +1350,15 @@
         "bgcolor": "RED",
         "className": "",
         "icon": "",
-        "payload": "false",
+        "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 900,
+        "x": 830,
         "y": 100,
         "wires": [
             [
-                "3e33856b85a64579"
+                "2ff47531546523da"
             ]
         ]
     },
@@ -1377,14 +1378,16 @@
         "topic": "topic",
         "topicType": "msg",
         "format": "{{msg.INPUT_METROS_CUBICOS}}",
-        "min": 0,
+        "min": "1",
         "max": "20",
         "step": "0.5",
         "className": "view",
         "x": 750,
         "y": 140,
         "wires": [
-            []
+            [
+                "49814de3e7f5583c"
+            ]
         ]
     },
     {
@@ -1392,25 +1395,27 @@
         "type": "ui_numeric",
         "z": "e515f4b8125260c1",
         "name": "",
-        "label": "RECETA",
+        "label": "CAMBIAR RECETA",
         "tooltip": "NUMERO DE RECETA",
         "group": "470cad7ce1c62aa0",
         "order": 5,
-        "width": "3",
+        "width": "4",
         "height": "1",
         "wrap": false,
         "passthru": true,
         "topic": "topic",
         "topicType": "msg",
         "format": "{{value}}",
-        "min": 0,
-        "max": "30",
+        "min": "1",
+        "max": "10",
         "step": 1,
         "className": "view",
-        "x": 1100,
+        "x": 990,
         "y": 140,
         "wires": [
-            []
+            [
+                "1c311b5d2edd8a13"
+            ]
         ]
     },
     {
@@ -1418,7 +1423,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 9,
+        "order": 12,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1431,7 +1436,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 690,
-        "y": 270,
+        "y": 310,
         "wires": []
     },
     {
@@ -1439,7 +1444,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 10,
+        "order": 13,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1452,7 +1457,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 860,
-        "y": 270,
+        "y": 310,
         "wires": []
     },
     {
@@ -1460,7 +1465,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 11,
+        "order": 14,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1472,8 +1477,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1310,
-        "y": 270,
+        "x": 1410,
+        "y": 310,
         "wires": []
     },
     {
@@ -1481,7 +1486,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 12,
+        "order": 15,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1494,7 +1499,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 680,
-        "y": 310,
+        "y": 350,
         "wires": []
     },
     {
@@ -1502,20 +1507,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 13,
+        "order": 16,
         "width": "5",
         "height": "1",
         "name": "SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO",
         "label": "",
-        "format": "{{msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1000,
-        "y": 310,
+        "x": 1050,
+        "y": 350,
         "wires": []
     },
     {
@@ -1523,20 +1528,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 14,
+        "order": 17,
         "width": "5",
         "height": "1",
         "name": "SiloAgregadosColgante_1_DB_PESO_INICIAL",
         "label": "",
-        "format": "{{msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1420,
-        "y": 310,
+        "x": 1520,
+        "y": 350,
         "wires": []
     },
     {
@@ -1544,7 +1549,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 15,
+        "order": 18,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1557,7 +1562,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 680,
-        "y": 350,
+        "y": 390,
         "wires": []
     },
     {
@@ -1565,20 +1570,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 16,
+        "order": 19,
         "width": "5",
         "height": "1",
         "name": "SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO",
         "label": "",
-        "format": "{{msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1000,
-        "y": 350,
+        "x": 1050,
+        "y": 390,
         "wires": []
     },
     {
@@ -1586,20 +1591,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 17,
+        "order": 20,
         "width": "5",
         "height": "1",
         "name": "SiloAgregadosColgante_2_DB_PESO_INICIAL",
         "label": "",
-        "format": "{{msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1420,
-        "y": 350,
+        "x": 1520,
+        "y": 390,
         "wires": []
     },
     {
@@ -1607,7 +1612,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 18,
+        "order": 21,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1620,7 +1625,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 700,
-        "y": 390,
+        "y": 430,
         "wires": []
     },
     {
@@ -1628,20 +1633,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 19,
+        "order": 22,
         "width": "5",
         "height": "1",
         "name": "SiloCementoColgante_DB_PESO_META_DE_CICLO",
         "label": "",
-        "format": "{{msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 990,
-        "y": 390,
+        "x": 1040,
+        "y": 430,
         "wires": []
     },
     {
@@ -1649,20 +1654,20 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 20,
+        "order": 23,
         "width": "5",
         "height": "1",
         "name": "SiloCementoColgante_DB_PESO_INICIAL",
         "label": "",
-        "format": "{{msg.payload.SiloCementoColgante_DB_PESO_INICIAL}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1410,
-        "y": 390,
+        "x": 1510,
+        "y": 430,
         "wires": []
     },
     {
@@ -1670,7 +1675,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 23,
+        "order": 26,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1683,7 +1688,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 840,
-        "y": 510,
+        "y": 520,
         "wires": []
     },
     {
@@ -1691,7 +1696,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 24,
+        "order": 27,
         "width": "5",
         "height": "1",
         "name": "",
@@ -1704,7 +1709,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 1160,
-        "y": 510,
+        "y": 520,
         "wires": []
     },
     {
@@ -1712,7 +1717,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 25,
+        "order": 28,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1725,7 +1730,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 690,
-        "y": 550,
+        "y": 560,
         "wires": []
     },
     {
@@ -1733,7 +1738,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 26,
+        "order": 29,
         "width": "5",
         "height": "1",
         "name": "DISPLAY_META_AGUA_1",
@@ -1746,7 +1751,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 910,
-        "y": 550,
+        "y": 560,
         "wires": []
     },
     {
@@ -1754,7 +1759,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 27,
+        "order": 30,
         "width": "5",
         "height": "1",
         "name": "ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS",
@@ -1767,7 +1772,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 1340,
-        "y": 550,
+        "y": 560,
         "wires": []
     },
     {
@@ -1775,7 +1780,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 28,
+        "order": 31,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1788,7 +1793,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 690,
-        "y": 590,
+        "y": 600,
         "wires": []
     },
     {
@@ -1796,7 +1801,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 29,
+        "order": 32,
         "width": "5",
         "height": "1",
         "name": "DISPLAY_META_AGUA_2",
@@ -1809,7 +1814,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 910,
-        "y": 590,
+        "y": 600,
         "wires": []
     },
     {
@@ -1817,7 +1822,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 31,
+        "order": 34,
         "width": "4",
         "height": "1",
         "name": "",
@@ -1830,7 +1835,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 690,
-        "y": 630,
+        "y": 640,
         "wires": []
     },
     {
@@ -1838,7 +1843,7 @@
         "type": "ui_text",
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
-        "order": 32,
+        "order": 35,
         "width": "5",
         "height": "1",
         "name": "DISPLAY_META_ADITIVO",
@@ -1851,7 +1856,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 910,
-        "y": 630,
+        "y": 640,
         "wires": []
     },
     {
@@ -1864,15 +1869,15 @@
         "height": "1",
         "name": "PESO_CEMENTO_SIWAREX",
         "label": "CEMENTO",
-        "format": "{{msg.payload.PESO_CEMENTO_SIWAREX}}",
+        "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2010,
-        "y": 60,
+        "x": 240,
+        "y": 410,
         "wires": []
     },
     {
@@ -1885,15 +1890,15 @@
         "height": "1",
         "name": "PESO_AGREGADO_1_SIWAREX",
         "label": "AGR 1",
-        "format": "{{msg.payload.PESO_AGREGADO_1_SIWAREX}}",
+        "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2020,
-        "y": 100,
+        "x": 250,
+        "y": 450,
         "wires": []
     },
     {
@@ -1906,15 +1911,15 @@
         "height": "1",
         "name": "PESO_AGREGADO_2_SIWAREX",
         "label": "AGR 2",
-        "format": "{{msg.payload.PESO_AGREGADO_2_SIWAREX}}",
+        "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2020,
-        "y": 140,
+        "x": 250,
+        "y": 490,
         "wires": []
     },
     {
@@ -1923,18 +1928,18 @@
         "z": "e515f4b8125260c1",
         "group": "470cad7ce1c62aa0",
         "order": 6,
-        "width": "6",
+        "width": "5",
         "height": "1",
         "name": "Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL",
         "label": "",
-        "format": "{{msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1500,
+        "x": 1460,
         "y": 140,
         "wires": []
     },
@@ -1944,7 +1949,7 @@
         "z": "e515f4b8125260c1",
         "name": "",
         "group": "470cad7ce1c62aa0",
-        "order": 7,
+        "order": 11,
         "width": "14",
         "height": "1",
         "passthru": false,
@@ -1959,10 +1964,10 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 690,
-        "y": 190,
+        "y": 220,
         "wires": [
             [
-                "f0ad93e483928cf6"
+                "214ec8ea3149c929"
             ]
         ]
     },
@@ -2015,46 +2020,25 @@
                 "ab592fc9a97f8146",
                 "a98950dea3c76ef8",
                 "e5531ecb7615611c",
-                "c5c52fee0fbd5be8",
-                "32f8c0e80b66ee1e",
-                "3cc75f9bda540370",
-                "4df02f1664bea28c",
-                "4e1fbb40a4258851",
-                "84d1335483d9fe65",
-                "800215d3096b78d6",
-                "8c6a00345120855b",
-                "972ead03fc6df5c0",
-                "8b67b6cb51422cc7",
-                "919f3b61286170df",
                 "95eaf882a57dea16",
                 "5655e10dea9ec8f1",
                 "6969387af2cdf2e2",
                 "b11bc6a26ac2976e",
-                "17f1f36f25bdc7e6",
-                "e66de4de0d409e12"
+                "4df02f1664bea28c",
+                "4e1fbb40a4258851",
+                "5c6b9facd67d9fd1",
+                "c0e9ed70f7727369",
+                "dd05cce7ad8bdcdc",
+                "4e4f507139159389",
+                "950d06a63eaf7996",
+                "17110b697beb7624",
+                "d7edd6c2bd359345",
+                "fe1779fa79fc1ef4",
+                "26c5d3aea9e66aea",
+                "d85eb65edec92adb",
+                "3791fefb564defd8"
             ]
         ]
-    },
-    {
-        "id": "4df02f1664bea28c",
-        "type": "function",
-        "z": "e515f4b8125260c1",
-        "name": "COUPLE",
-        "func": "msg.payload = msg.payload.INPUT_METROS_CUBICOS;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 140,
-        "wires": [
-            [
-                "a2938a71b4c90cc4"
-            ]
-        ],
-        "icon": "node-red/switch.svg"
     },
     {
         "id": "4e1fbb40a4258851",
@@ -2068,118 +2052,14 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 140,
+        "x": 915,
+        "y": 180,
         "wires": [
             [
-                "609c84180d781741"
+                "33972402f57a5452"
             ]
         ],
-        "icon": "node-red/switch.svg"
-    },
-    {
-        "id": "a411a0e3bd93813b",
-        "type": "change",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_INICIAR",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 785,
-        "y": 100,
-        "wires": [
-            [
-                "408b60bc486b96d6"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "3e33856b85a64579",
-        "type": "change",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_PARAR",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 995,
-        "y": 100,
-        "wires": [
-            [
-                "408b60bc486b96d6"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "f0ad93e483928cf6",
-        "type": "change",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_ENTER",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 785,
-        "y": 190,
-        "wires": [
-            [
-                "408b60bc486b96d6"
-            ]
-        ],
+        "icon": "node-red/switch.svg",
         "l": false
     },
     {
@@ -2194,13 +2074,6 @@
                 "pt": "msg",
                 "to": "true",
                 "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_JUMPER_1",
-                "tot": "str"
             }
         ],
         "action": "",
@@ -2212,7 +2085,7 @@
         "y": 90,
         "wires": [
             [
-                "408b60bc486b96d6"
+                "1e9a35dc2041cbfc"
             ]
         ],
         "l": false
@@ -2229,13 +2102,6 @@
                 "pt": "msg",
                 "to": "true",
                 "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_JUMPER_2",
-                "tot": "str"
             }
         ],
         "action": "",
@@ -2247,7 +2113,7 @@
         "y": 170,
         "wires": [
             [
-                "408b60bc486b96d6"
+                "0387044b5705aada"
             ]
         ],
         "l": false
@@ -2264,13 +2130,6 @@
                 "pt": "msg",
                 "to": "true",
                 "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_JUMPER_3",
-                "tot": "str"
             }
         ],
         "action": "",
@@ -2282,148 +2141,7 @@
         "y": 250,
         "wires": [
             [
-                "408b60bc486b96d6"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "4075bec4b492e9d8",
-        "type": "change",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_RESET_SECUENCIAS",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 415,
-        "y": 290,
-        "wires": [
-            [
-                "408b60bc486b96d6"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "a38729733188ec52",
-        "type": "change",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_RESET_ALARMAS",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 275,
-        "y": 330,
-        "wires": [
-            [
-                "408b60bc486b96d6"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "232c03619c9a0641",
-        "type": "function",
-        "z": "e515f4b8125260c1",
-        "name": "UPDATE OPERADOR GLOBAL VARIABLES",
-        "func": "\n\nswitch (msg.topic){\n\n    case \"OPERADOR_BOTON_INICIAR\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_INICIAR\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_PARAR\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_PARAR\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_ENTER\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_ENTER\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_JUMPER_1\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_JUMPER_1\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_JUMPER_2\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_JUMPER_2\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_JUMPER_3\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_JUMPER_3\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_RESET_SECUENCIAS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_RESET_SECUENCIAS\", msg.payload)\n        break\n\n    case \"OPERADOR_BOTON_RESET_ALARMAS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.OPERADOR_BOTON_RESET_ALARMAS\", msg.payload)\n        break\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1120,
-        "y": 750,
-        "wires": [
-            [
-                "3dcb83ed2f1ffa67"
-            ]
-        ]
-    },
-    {
-        "id": "3dcb83ed2f1ffa67",
-        "type": "debug",
-        "z": "e515f4b8125260c1",
-        "name": "debug 4",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1380,
-        "y": 750,
-        "wires": []
-    },
-    {
-        "id": "f41e361e81ab59b0",
-        "type": "change",
-        "z": "e515f4b8125260c1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "OPERADOR_BOTON_AUTOMATICO",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 835,
-        "y": 50,
-        "wires": [
-            [
-                "408b60bc486b96d6"
+                "e4e2e9c264f08b3a"
             ]
         ],
         "l": false
@@ -2451,8 +2169,8 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 1190,
-        "y": 810,
+        "x": 1450,
+        "y": 750,
         "wires": [
             [],
             [],
@@ -2460,19 +2178,15 @@
         ]
     },
     {
-        "id": "408b60bc486b96d6",
-        "type": "function",
+        "id": "e4f8198839a61320",
+        "type": "OpcUa-Item",
         "z": "e515f4b8125260c1",
-        "name": "function 2",
-        "func": "\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n    switch (msg.payload) {\n\n        case \"OPERADOR_BOTON_JUMPER_1\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_JUMPER_2\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_JUMPER_3\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_RESET_SECUENCIAS\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_RESET_ALARMAS\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_AUTOMATICO\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_INICIAR\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_PARAR\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n\n        case \"OPERADOR_BOTON_ENTER\":\n            msg.payload = msg.payload;\n            msg.topic = ;\n            break;\n    }\n\n    return msg;\n    \n}\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 9,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1020,
-        "y": 810,
+        "item": "ns=5;i=218",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "AUTOMATICO",
+        "x": 1220,
+        "y": 750,
         "wires": [
             [
                 "940a7cb65bae23e8"
@@ -2480,24 +2194,482 @@
         ]
     },
     {
-        "id": "e66de4de0d409e12",
+        "id": "45a70c62c6e20e21",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=217",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "INICIAR",
+        "x": 1200,
+        "y": 790,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "2ff47531546523da",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=216",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "PARAR",
+        "x": 1200,
+        "y": 830,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "49814de3e7f5583c",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=87",
+        "datatype": "Float",
+        "value": "",
+        "name": "METROS CUBICOS",
+        "x": 1240,
+        "y": 870,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "1c311b5d2edd8a13",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=88",
+        "datatype": "Int32",
+        "value": "",
+        "name": "RECETA",
+        "x": 1200,
+        "y": 910,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "214ec8ea3149c929",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=221",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "ENTER",
+        "x": 1200,
+        "y": 950,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "297707dc9789f3bd",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "470cad7ce1c62aa0",
+        "order": 7,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "METROS ACTUALES",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "view",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "33972402f57a5452",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "470cad7ce1c62aa0",
+        "order": 8,
+        "width": "4",
+        "height": "1",
+        "name": "",
+        "label": "RECETA ACTUAL",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "view",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1040,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4df02f1664bea28c",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "name": "function 3",
-        "func": "msg.payload = msg.payload.MODO_AUTOMAN\nreturn msg;",
+        "name": "COUPLE",
+        "func": "msg.payload = msg.payload.INPUT_METROS_CUBICOS;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
-        "y": 60,
+        "x": 595,
+        "y": 180,
         "wires": [
             [
-                "14cc617dae6c445d"
+                "297707dc9789f3bd"
+            ]
+        ],
+        "icon": "node-red/switch.svg",
+        "l": false
+    },
+    {
+        "id": "2023dea81ec40374",
+        "type": "ui_text",
+        "z": "e515f4b8125260c1",
+        "group": "470cad7ce1c62aa0",
+        "order": 9,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "AUTOMATICO",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1280,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "5c6b9facd67d9fd1",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "COUPLE",
+        "func": "msg.payload = msg.payload.MODO_AUTOMAN;\n\nif (msg.payload == true){\n    msg.payload = \"ACTIVADO\";\n    msg.className = \"automan-enable\";\n    return msg;\n}else{\n    msg.className = \"automan-disable\";\n    msg.payload = \"DESACTIVADO\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1165,
+        "y": 180,
+        "wires": [
+            [
+                "2023dea81ec40374"
+            ]
+        ],
+        "icon": "node-red/switch.svg",
+        "l": false
+    },
+    {
+        "id": "ae21de804468837c",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=235",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "RESET SECUENCIAS",
+        "x": 1240,
+        "y": 990,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
             ]
         ]
+    },
+    {
+        "id": "91b0436a9bcc6872",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=232",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "RESET ALARMAS",
+        "x": 1230,
+        "y": 1030,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "1e9a35dc2041cbfc",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=223",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "JUMPER 1",
+        "x": 1210,
+        "y": 1070,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "0387044b5705aada",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=224",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "JUMPER 2",
+        "x": 1210,
+        "y": 1110,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e4e2e9c264f08b3a",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=225",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "JUMPER 3",
+        "x": 1210,
+        "y": 1150,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "c0e9ed70f7727369",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "COUPLE",
+        "func": "msg.payload = msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1115,
+        "y": 140,
+        "wires": [
+            [
+                "17f1f36f25bdc7e6"
+            ]
+        ],
+        "icon": "node-red/switch.svg",
+        "l": false
+    },
+    {
+        "id": "dd05cce7ad8bdcdc",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 3",
+        "func": "\nmsg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 75,
+        "y": 410,
+        "wires": [
+            [
+                "32f8c0e80b66ee1e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4e4f507139159389",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 4",
+        "func": "\nmsg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 75,
+        "y": 450,
+        "wires": [
+            [
+                "c5c52fee0fbd5be8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "950d06a63eaf7996",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 5",
+        "func": "\nmsg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 75,
+        "y": 490,
+        "wires": [
+            [
+                "3cc75f9bda540370"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "17110b697beb7624",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 6",
+        "func": "\nmsg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 805,
+        "y": 350,
+        "wires": [
+            [
+                "84d1335483d9fe65"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d7edd6c2bd359345",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 7",
+        "func": "\nmsg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 805,
+        "y": 390,
+        "wires": [
+            [
+                "800215d3096b78d6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fe1779fa79fc1ef4",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 8",
+        "func": "\nmsg.payload = parseFloat(msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 805,
+        "y": 430,
+        "wires": [
+            [
+                "8c6a00345120855b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "26c5d3aea9e66aea",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 9",
+        "func": "\nmsg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1305,
+        "y": 350,
+        "wires": [
+            [
+                "972ead03fc6df5c0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d85eb65edec92adb",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 10",
+        "func": "\nmsg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1305,
+        "y": 390,
+        "wires": [
+            [
+                "8b67b6cb51422cc7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3791fefb564defd8",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 11",
+        "func": "\nmsg.payload = parseFloat(msg.payload.SiloCementoColgante_DB_PESO_INICIAL).toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1305,
+        "y": 430,
+        "wires": [
+            [
+                "919f3b61286170df"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "467d47620ab0dc99",
@@ -7581,23 +7753,25 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "2",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 140,
+        "x": 105,
         "y": 310,
         "wires": [
             [
-                "b59b2b076148cec0",
                 "87c41833cd977d24",
                 "a56f027319d3d899",
                 "4d0e1f8eac9fe303",
                 "5570d534b13e9abb",
-                "2ad7435e2dbac3b4"
+                "2ad7435e2dbac3b4",
+                "72927c6d212db3ca"
             ]
-        ]
+        ],
+        "icon": "node-red/serial.svg",
+        "l": false
     },
     {
         "id": "67a7650d793e1c29",
@@ -7616,8 +7790,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 140,
-        "y": 350,
+        "x": 110,
+        "y": 450,
         "wires": [
             [
                 "b59b2b076148cec0",
@@ -7795,6 +7969,27 @@
         "wires": []
     },
     {
+        "id": "72927c6d212db3ca",
+        "type": "function",
+        "z": "f0cdb21c22014a4f",
+        "name": "function 2",
+        "func": "\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.ALARMA\") == true){\n    msg.className = \"alarma-disable\";\n    return msg;\n}else{\n    msg.className = \"alarma-enable\";\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 225,
+        "y": 150,
+        "wires": [
+            [
+                "b59b2b076148cec0"
+            ]
+        ],
+        "l": false
+    },
+    {
         "id": "9220328aa74aaf24",
         "type": "ui_template",
         "z": "8ac809d973c98efe",
@@ -7803,7 +7998,7 @@
         "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n\n</style>",
+        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n    .automan-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .automan-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n\n    .alarma-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .alarma-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -8025,8 +8220,8 @@
         "action": "subscribe",
         "deadbandtype": "a",
         "deadbandvalue": 1,
-        "time": "1",
-        "timeUnit": "s",
+        "time": "500",
+        "timeUnit": "ms",
         "certificate": "n",
         "localfile": "",
         "localkeyfile": "",
@@ -8040,7 +8235,7 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 1260,
+        "x": 1290,
         "y": 240,
         "wires": [
             [
@@ -8292,7 +8487,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE OPERADOR GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n    \n    // MODO AUTOMATICO\n    case \"ns=5;i=218\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    // SEQ CEMENTO\n    case \"ns=5;i=106\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    // SEQ AGREGADOS\n    case \"ns=5;i=105\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    // SEQ MEZCLADO\n    case \"ns=5;i=107\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    // PESO CEMENTO SIWAREX\n    case \"ns=5;i=239\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // PESO AGREGADO 1 SIWAREX\n    case \"ns=5;i=237\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    // PESO AGREGADO 2 SIWAREX\n    case \"ns=5;i=238\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    // INPUT METROS CUBICOS\n    case \"ns=5;i=87\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    // INPUT NUMERO DE RECETA\n    case \"ns=5;i=88\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    // Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL\n    case \"ns=4;i=367\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\", msg.payload)\n        break;\n    // SiloAgregadosColgante_1_DB_PESO META DE CICLO\n    case \"ns=4;i=463\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_1_DB_PESO INICIAL\n    case \"ns=4;i=462\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO META DE CICLO\n    case \"ns=4;i=610\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO INICIAL\n    case \"ns=4;i=609\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO META DE CICLO\n    case \"ns=4;i=991\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO INICIAL\n    case \"ns=4;i=1018\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    //DISPLAY_META_AGUA_1\n    case \"ns=5;i=10\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    // DISPLAY_META_AGUA_2\n    case \"ns=5;i=11\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    // DISPLAY_META_ADITIVO\n    case \"ns=5;i=12\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    // ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS\n    case \"ns=4;i=160\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
+        "func": "switch (msg.topic){\n    \n    // ALARMA\n    case \"ns=5;i=136\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ALARMA\",msg.payload);\n        break;\n    // MODO AUTOMATICO\n    case \"ns=5;i=218\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    // SEQ CEMENTO\n    case \"ns=5;i=106\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    // SEQ AGREGADOS\n    case \"ns=5;i=105\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    // SEQ MEZCLADO\n    case \"ns=5;i=107\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    // PESO CEMENTO SIWAREX\n    case \"ns=5;i=239\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // PESO AGREGADO 1 SIWAREX\n    case \"ns=5;i=237\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    // PESO AGREGADO 2 SIWAREX\n    case \"ns=5;i=238\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    // INPUT METROS CUBICOS\n    case \"ns=5;i=87\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    // INPUT NUMERO DE RECETA\n    case \"ns=5;i=88\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    // Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL\n    case \"ns=4;i=367\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\", msg.payload)\n        break;\n    // SiloAgregadosColgante_1_DB_PESO META DE CICLO\n    case \"ns=4;i=463\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_1_DB_PESO INICIAL\n    case \"ns=4;i=462\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO META DE CICLO\n    case \"ns=4;i=610\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO INICIAL\n    case \"ns=4;i=609\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO META DE CICLO\n    case \"ns=4;i=991\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO INICIAL\n    case \"ns=4;i=1018\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    //DISPLAY_META_AGUA_1\n    case \"ns=5;i=10\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    // DISPLAY_META_AGUA_2\n    case \"ns=5;i=11\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    // DISPLAY_META_ADITIVO\n    case \"ns=5;i=12\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    // ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS\n    case \"ns=4;i=160\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -8300,11 +8495,9 @@
         "finalize": "",
         "libs": [],
         "x": 1660,
-        "y": 230,
+        "y": 220,
         "wires": [
-            [
-                "7c1e7cef9e716e61"
-            ]
+            []
         ]
     },
     {
@@ -8385,6 +8578,7 @@
         "id": "e01c52318a8eb718",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=369",
         "datatype": "String",
         "value": "",
@@ -8401,6 +8595,7 @@
         "id": "d2dd7849d794b3b6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8408,15 +8603,14 @@
         "x": 410,
         "y": 1140,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
         "id": "b62a3c13b138712c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8424,15 +8618,14 @@
         "x": 410,
         "y": 1180,
         "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
+            []
         ]
     },
     {
         "id": "b79a2f35af36ab19",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8449,6 +8642,7 @@
         "id": "c66a7fedfabcee38",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8465,6 +8659,7 @@
         "id": "a39b36689f093c6a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8481,6 +8676,7 @@
         "id": "4b7c1ee728d9bbe9",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8497,6 +8693,7 @@
         "id": "3acb62836e877dd2",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=370",
         "datatype": "String",
         "value": "",
@@ -8513,6 +8710,7 @@
         "id": "d0f9d802e1f2be50",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8527,6 +8725,7 @@
         "id": "d6ab372e36d04ab5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8543,6 +8742,7 @@
         "id": "80e621adeef3409a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8559,6 +8759,7 @@
         "id": "4c7a1307d8537e37",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8575,6 +8776,7 @@
         "id": "ec19dbeeab96892d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8589,6 +8791,7 @@
         "id": "809cbec2731413c4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8605,6 +8808,7 @@
         "id": "9629f5577a7a27fe",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=371",
         "datatype": "String",
         "value": "",
@@ -8621,6 +8825,7 @@
         "id": "3744c8e544349705",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8637,6 +8842,7 @@
         "id": "5524b0363fe3443a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8653,6 +8859,7 @@
         "id": "bab98195137ac938",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8669,6 +8876,7 @@
         "id": "a46705178f6d510a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8685,6 +8893,7 @@
         "id": "c5289ca0824925e9",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8699,6 +8908,7 @@
         "id": "c43bc9f63b164d1e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8715,6 +8925,7 @@
         "id": "9a41b45acf4771ac",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=372",
         "datatype": "String",
         "value": "",
@@ -8731,6 +8942,7 @@
         "id": "18116de391b9967a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8745,6 +8957,7 @@
         "id": "8a7e84d8368c0f9f",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8759,6 +8972,7 @@
         "id": "a54eeef3e58c5fba",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8775,6 +8989,7 @@
         "id": "adce18a2f91e2ab1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8789,6 +9004,7 @@
         "id": "1e20542456c94b60",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8805,6 +9021,7 @@
         "id": "8320dbfafe5d2df9",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8821,6 +9038,7 @@
         "id": "65456e154e493057",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=373",
         "datatype": "String",
         "value": "",
@@ -8837,6 +9055,7 @@
         "id": "990149059c538c23",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8853,6 +9072,7 @@
         "id": "945e2bb0862017fb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8869,6 +9089,7 @@
         "id": "e22e8bf68cafb920",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8885,6 +9106,7 @@
         "id": "17cf1c50cd65c7ea",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8901,6 +9123,7 @@
         "id": "f365bc71749cae86",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8915,6 +9138,7 @@
         "id": "1fa691db8d541b7c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8931,6 +9155,7 @@
         "id": "6081dcaf943295db",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=374",
         "datatype": "Boolean",
         "value": "",
@@ -8945,6 +9170,7 @@
         "id": "a0ff8f6bd9a398a4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8961,6 +9187,7 @@
         "id": "7b6b97eaa6e950db",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8977,6 +9204,7 @@
         "id": "357b6f2c6f49f609",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -8993,6 +9221,7 @@
         "id": "7cae27af796abea6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9009,6 +9238,7 @@
         "id": "360b2a979926517b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9025,6 +9255,7 @@
         "id": "af0a5a1b52296e9d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9041,6 +9272,7 @@
         "id": "ba41e77b7c4ead82",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=375",
         "datatype": "String",
         "value": "",
@@ -9055,6 +9287,7 @@
         "id": "49047193b3226762",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9071,6 +9304,7 @@
         "id": "19ce4378fa110174",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9087,6 +9321,7 @@
         "id": "24301da966736eb0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9101,6 +9336,7 @@
         "id": "8f560204b3ade856",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9117,6 +9353,7 @@
         "id": "3df7643ce90d9c79",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9133,6 +9370,7 @@
         "id": "f4058e012d176fe8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9147,6 +9385,7 @@
         "id": "a311b6573383b46d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=376",
         "datatype": "String",
         "value": "",
@@ -9161,6 +9400,7 @@
         "id": "4275dd69467225bc",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9177,6 +9417,7 @@
         "id": "20892762cad87ce8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9193,6 +9434,7 @@
         "id": "d202ae74b72b2fb4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9209,6 +9451,7 @@
         "id": "e16f51afd6ade9bd",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9225,6 +9468,7 @@
         "id": "08c2fc600c2f382b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9241,6 +9485,7 @@
         "id": "90793e53c8a0e12a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9257,6 +9502,7 @@
         "id": "a8c008908eec2f1d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=377",
         "datatype": "String",
         "value": "",
@@ -9271,6 +9517,7 @@
         "id": "8f324bb996df8a24",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9287,6 +9534,7 @@
         "id": "9c9e746f7d73a12d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9303,6 +9551,7 @@
         "id": "7394f6d60dbcaf9b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9319,6 +9568,7 @@
         "id": "2046ed590953c459",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9335,6 +9585,7 @@
         "id": "8e2f047caa2e5611",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9351,6 +9602,7 @@
         "id": "b1e4a1eb6f4078eb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9367,6 +9619,7 @@
         "id": "b3d45c05728d7acb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "ns=4;i=378",
         "datatype": "String",
         "value": "",
@@ -9381,6 +9634,7 @@
         "id": "b95eb5b119eff5a0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9397,6 +9651,7 @@
         "id": "60d8679a2174697e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9413,6 +9668,7 @@
         "id": "897961781ef020d5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9427,6 +9683,7 @@
         "id": "9ac736ec80c4ce27",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9443,6 +9700,7 @@
         "id": "795b931c6997fbb0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9459,6 +9717,7 @@
         "id": "d495b3b9f6ac74aa",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9483,6 +9742,7 @@
         "id": "42e190468b4a5158",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9497,6 +9757,7 @@
         "id": "5cfef7f9779a0fe4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9511,6 +9772,7 @@
         "id": "addf3aee18d3cd8e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9525,6 +9787,7 @@
         "id": "0369512311ee3f07",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9539,6 +9802,7 @@
         "id": "29e7e67ff29fb400",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9553,6 +9817,7 @@
         "id": "02f3bd6a0400cc80",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9567,6 +9832,7 @@
         "id": "3ebdcf3821f429d0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9581,6 +9847,7 @@
         "id": "46e924653d2ef70b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9595,6 +9862,7 @@
         "id": "a689ef17f82d9904",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9609,6 +9877,7 @@
         "id": "127c71bf46dba583",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9623,6 +9892,7 @@
         "id": "0f30f17b331c51cf",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9637,6 +9907,7 @@
         "id": "6ea1cd71e031e26c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9651,6 +9922,7 @@
         "id": "0c4a2c2de2e88285",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9665,6 +9937,7 @@
         "id": "f7f254f308fee6e6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9679,6 +9952,7 @@
         "id": "7a3576a433b99070",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9693,6 +9967,7 @@
         "id": "02154352317dfebc",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9707,6 +9982,7 @@
         "id": "26b4246dac5fa598",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9721,6 +9997,7 @@
         "id": "56b9d9a766733141",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9735,6 +10012,7 @@
         "id": "443178953d11f265",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9749,6 +10027,7 @@
         "id": "e663b3c49274698b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9763,6 +10042,7 @@
         "id": "f7a7b13cab538d07",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9777,6 +10057,7 @@
         "id": "b62d771ff734a792",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9791,6 +10072,7 @@
         "id": "51ce5c4d98c68ec1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9805,6 +10087,7 @@
         "id": "afdb62c3809d78c5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9819,6 +10102,7 @@
         "id": "2da73ed2e2bb18b8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9833,6 +10117,7 @@
         "id": "c9c0a94ae46019a1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9847,6 +10132,7 @@
         "id": "d75b7ed9719eaef7",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9861,6 +10147,7 @@
         "id": "2fc65c2b16361302",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9885,6 +10172,7 @@
         "id": "7a652cbc0cf5c334",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": null,
@@ -9899,6 +10187,7 @@
         "id": "04c9bb845e4bb2a1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9913,6 +10202,7 @@
         "id": "04b5d81fcbf5ad74",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9927,6 +10217,7 @@
         "id": "418e7222313559d8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9941,6 +10232,7 @@
         "id": "3d182faf14c2da80",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9955,6 +10247,7 @@
         "id": "e41e66a97939ec86",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9969,6 +10262,7 @@
         "id": "12f59f05977fed0e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9983,6 +10277,7 @@
         "id": "b898ec2ebd62ce2a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -9997,6 +10292,7 @@
         "id": "1df2f1115c621823",
         "type": "function",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "name": "UPDATE RECETAS GLOBAL VRIABLES",
         "func": "switch (msg.topic){\n// VARIABLES PARA RECETA #1\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n// VARIABLES PARA RECETA #2\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #3\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #4\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #5\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #6\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #7\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #8\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #9\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    // VARIABLES PARA RECETA #10\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
         "outputs": 1,
@@ -10044,28 +10340,11 @@
         ]
     },
     {
-        "id": "7c1e7cef9e716e61",
-        "type": "debug",
-        "z": "0d06e67bad6a6fdf",
-        "name": "debug 3",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1920,
-        "y": 230,
-        "wires": []
-    },
-    {
         "id": "46fcf6ccf45b0443",
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "function 1",
-        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"connect\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}else{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
+        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}else{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -10097,7 +10376,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 195,
+        "x": 225,
         "y": 150,
         "wires": [
             [
@@ -10120,10 +10399,56 @@
                 "3fe55afe9bf2055c",
                 "2eb87e4d96ab3b61",
                 "fd75e277e884e37c",
-                "1395ddc62ce62cc3"
+                "1395ddc62ce62cc3",
+                "4ffc079ec35da4f6"
             ]
         ],
         "l": false
+    },
+    {
+        "id": "6b476f508ee99bb1",
+        "type": "inject",
+        "z": "0d06e67bad6a6fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 270,
+        "wires": [
+            [
+                "edbc14e0edbad03c"
+            ]
+        ]
+    },
+    {
+        "id": "4ffc079ec35da4f6",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "item": "ns=5;i=136",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "ALARMA",
+        "x": 350,
+        "y": 110,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
     },
     {
         "id": "7d72347a681458d8",
@@ -10161,6 +10486,7 @@
         "id": "1d19c6d8238284fb",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10177,6 +10503,7 @@
         "id": "03246ac10b6068b8",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10193,6 +10520,7 @@
         "id": "982a6f58d8683c2c",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10209,6 +10537,7 @@
         "id": "90aadda3ff3aa2a9",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10225,6 +10554,7 @@
         "id": "a2e6525dc51c5313",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10241,6 +10571,7 @@
         "id": "995855a336603342",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10257,6 +10588,7 @@
         "id": "dd1dd3551031e356",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10273,6 +10605,7 @@
         "id": "ea42195ba05dcb49",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
@@ -10289,6 +10622,7 @@
         "id": "0c2bc50699862453",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "item": "",
         "datatype": "",
         "value": "",
