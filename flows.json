@@ -2961,7 +2961,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 670,
+        "x": 730,
         "y": 70,
         "wires": []
     },
@@ -2982,7 +2982,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 810,
+        "x": 960,
         "y": 70,
         "wires": []
     },
@@ -3003,7 +3003,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 930,
+        "x": 1190,
         "y": 70,
         "wires": []
     },
@@ -3024,7 +3024,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1220,
+        "x": 1660,
         "y": 70,
         "wires": []
     },
@@ -3045,7 +3045,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1360,
+        "x": 1890,
         "y": 70,
         "wires": []
     },
@@ -3066,7 +3066,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1500,
+        "x": 2120,
         "y": 70,
         "wires": []
     },
@@ -3087,7 +3087,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 110,
         "wires": []
     },
@@ -3108,7 +3108,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1070,
+        "x": 1440,
         "y": 70,
         "wires": []
     },
@@ -3129,7 +3129,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 150,
         "wires": []
     },
@@ -3150,7 +3150,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 190,
         "wires": []
     },
@@ -3171,7 +3171,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 230,
         "wires": []
     },
@@ -3192,7 +3192,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 270,
         "wires": []
     },
@@ -3213,7 +3213,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 310,
         "wires": []
     },
@@ -3234,7 +3234,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 350,
         "wires": []
     },
@@ -3255,7 +3255,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 390,
         "wires": []
     },
@@ -3276,7 +3276,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 430,
         "wires": []
     },
@@ -3297,7 +3297,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
+        "x": 480,
         "y": 470,
         "wires": []
     },
@@ -3319,7 +3319,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 110,
         "wires": [
             []
@@ -3343,7 +3343,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 150,
         "wires": [
             []
@@ -3367,7 +3367,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 190,
         "wires": [
             []
@@ -3391,7 +3391,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 230,
         "wires": [
             []
@@ -3415,7 +3415,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 270,
         "wires": [
             []
@@ -3439,7 +3439,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 310,
         "wires": [
             []
@@ -3463,7 +3463,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 350,
         "wires": [
             []
@@ -3487,7 +3487,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 390,
         "wires": [
             []
@@ -3511,7 +3511,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 430,
         "wires": [
             []
@@ -3535,7 +3535,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 660,
+        "x": 720,
         "y": 470,
         "wires": [
             []
@@ -3559,7 +3559,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 110,
         "wires": [
             []
@@ -3583,7 +3583,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 110,
         "wires": [
             []
@@ -3607,7 +3607,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 110,
         "wires": [
             []
@@ -3631,7 +3631,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 110,
         "wires": [
             []
@@ -3655,7 +3655,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 110,
         "wires": [
             []
@@ -3679,7 +3679,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 110,
         "wires": [
             []
@@ -3703,7 +3703,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 150,
         "wires": [
             []
@@ -3727,7 +3727,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 150,
         "wires": [
             []
@@ -3751,7 +3751,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 150,
         "wires": [
             []
@@ -3775,7 +3775,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 150,
         "wires": [
             []
@@ -3799,7 +3799,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 150,
         "wires": [
             []
@@ -3823,7 +3823,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 150,
         "wires": [
             []
@@ -3847,7 +3847,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 190,
         "wires": [
             []
@@ -3871,7 +3871,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 190,
         "wires": [
             []
@@ -3895,7 +3895,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 190,
         "wires": [
             []
@@ -3919,7 +3919,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 190,
         "wires": [
             []
@@ -3943,7 +3943,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 190,
         "wires": [
             []
@@ -3967,7 +3967,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 190,
         "wires": [
             []
@@ -3991,7 +3991,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 230,
         "wires": [
             []
@@ -4015,7 +4015,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 230,
         "wires": [
             []
@@ -4039,7 +4039,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 230,
         "wires": [
             []
@@ -4063,7 +4063,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 230,
         "wires": [
             []
@@ -4087,7 +4087,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 230,
         "wires": [
             []
@@ -4111,7 +4111,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 230,
         "wires": [
             []
@@ -4135,7 +4135,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 270,
         "wires": [
             []
@@ -4159,7 +4159,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 270,
         "wires": [
             []
@@ -4183,7 +4183,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 270,
         "wires": [
             []
@@ -4207,7 +4207,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 270,
         "wires": [
             []
@@ -4231,7 +4231,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 270,
         "wires": [
             []
@@ -4255,7 +4255,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 270,
         "wires": [
             []
@@ -4279,7 +4279,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 310,
         "wires": [
             []
@@ -4303,7 +4303,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 310,
         "wires": [
             []
@@ -4327,7 +4327,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 310,
         "wires": [
             []
@@ -4351,7 +4351,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 310,
         "wires": [
             []
@@ -4375,7 +4375,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 310,
         "wires": [
             []
@@ -4399,7 +4399,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 310,
         "wires": [
             []
@@ -4423,7 +4423,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 350,
         "wires": [
             []
@@ -4447,7 +4447,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 350,
         "wires": [
             []
@@ -4471,7 +4471,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 350,
         "wires": [
             []
@@ -4495,7 +4495,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 350,
         "wires": [
             []
@@ -4519,7 +4519,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 350,
         "wires": [
             []
@@ -4543,7 +4543,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 350,
         "wires": [
             []
@@ -4567,7 +4567,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 390,
         "wires": [
             []
@@ -4591,7 +4591,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 390,
         "wires": [
             []
@@ -4615,7 +4615,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 390,
         "wires": [
             []
@@ -4639,7 +4639,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 390,
         "wires": [
             []
@@ -4663,7 +4663,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 390,
         "wires": [
             []
@@ -4687,7 +4687,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 390,
         "wires": [
             []
@@ -4711,7 +4711,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 430,
         "wires": [
             []
@@ -4735,7 +4735,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 430,
         "wires": [
             []
@@ -4759,7 +4759,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 430,
         "wires": [
             []
@@ -4783,7 +4783,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 430,
         "wires": [
             []
@@ -4807,7 +4807,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 430,
         "wires": [
             []
@@ -4831,7 +4831,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 430,
         "wires": [
             []
@@ -4855,7 +4855,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 810,
+        "x": 960,
         "y": 470,
         "wires": [
             []
@@ -4879,7 +4879,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 930,
+        "x": 1190,
         "y": 470,
         "wires": [
             []
@@ -4903,7 +4903,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1050,
+        "x": 1420,
         "y": 470,
         "wires": [
             []
@@ -4927,7 +4927,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1210,
+        "x": 1650,
         "y": 470,
         "wires": [
             []
@@ -4951,7 +4951,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1350,
+        "x": 1880,
         "y": 470,
         "wires": [
             []
@@ -4975,7 +4975,7 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1490,
+        "x": 2110,
         "y": 470,
         "wires": [
             []
@@ -4998,7 +4998,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 670,
+        "x": 620,
         "y": 510,
         "wires": []
     },
@@ -5019,7 +5019,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 690,
+        "x": 640,
         "y": 550,
         "wires": []
     },
@@ -5058,18 +5058,3515 @@
         "type": "function",
         "z": "40722463514f64b4",
         "name": "FEED LABELS",
-        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload.MODO_AUTOMAN = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\n}else{\n    msg.payload.MODO_AUTOMAN = false;\n    msg.payload.SEQ_CEMENTO = \"ESPERANDO CONEXION\";\n}\n\n\n\nreturn msg;",
+        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n// VARIABLES PARA RECETA #1\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1\");\n    msg.payload.INPUT_AGR1_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_1\");\n    msg.payload.INPUT_AGR2_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_1\");\n    msg.payload.INPUT_CEMENTO_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_1\");\n    msg.payload.INPUT_AGUA1_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_1\");\n    msg.payload.INPUT_AGUA2_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_1\");\n    msg.payload.INPUT_ADITIVO_RECETA_1 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_1\");\n\n// VARIABLES PARA RECETA #2\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2\");\n    msg.payload.INPUT_AGR1_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_2\");\n    msg.payload.INPUT_AGR2_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_2\");\n    msg.payload.INPUT_CEMENTO_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_2\");\n    msg.payload.INPUT_AGUA1_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_2\");\n    msg.payload.INPUT_AGUA2_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_2\");\n    msg.payload.INPUT_ADITIVO_RECETA_2 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_2\");\n\n// VARIABLES PARA RECETA #3\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3\");\n    msg.payload.INPUT_AGR1_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_3\");\n    msg.payload.INPUT_AGR2_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_3\");\n    msg.payload.INPUT_CEMENTO_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_3\");\n    msg.payload.INPUT_AGUA1_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_3\");\n    msg.payload.INPUT_AGUA2_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_3\");\n    msg.payload.INPUT_ADITIVO_RECETA_3 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_3\");\n\n// VARIABLES PARA RECETA #4\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4\");\n    msg.payload.INPUT_AGR1_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_4\");\n    msg.payload.INPUT_AGR2_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_4\");\n    msg.payload.INPUT_CEMENTO_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_4\");\n    msg.payload.INPUT_AGUA1_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_4\");\n    msg.payload.INPUT_AGUA2_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_4\");\n    msg.payload.INPUT_ADITIVO_RECETA_4 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_4\");\n\n// VARIABLES PARA RECETA #5\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5\");\n    msg.payload.INPUT_AGR1_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_5\");\n    msg.payload.INPUT_AGR2_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_5\");\n    msg.payload.INPUT_CEMENTO_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_5\");\n    msg.payload.INPUT_AGUA1_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_5\");\n    msg.payload.INPUT_AGUA2_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_5\");\n    msg.payload.INPUT_ADITIVO_RECETA_5 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_5\");\n\n// VARIABLES PARA RECETA #6\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6\");\n    msg.payload.INPUT_AGR1_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_6\");\n    msg.payload.INPUT_AGR2_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_6\");\n    msg.payload.INPUT_CEMENTO_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_6\");\n    msg.payload.INPUT_AGUA1_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_6\");\n    msg.payload.INPUT_AGUA2_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_6\");\n    msg.payload.INPUT_ADITIVO_RECETA_6 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_6\");\n\n// VARIABLES PARA RECETA #7\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7\");\n    msg.payload.INPUT_AGR1_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_7\");\n    msg.payload.INPUT_AGR2_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_7\");\n    msg.payload.INPUT_CEMENTO_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_7\");\n    msg.payload.INPUT_AGUA1_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_7\");\n    msg.payload.INPUT_AGUA2_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_7\");\n    msg.payload.INPUT_ADITIVO_RECETA_7 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_7\");\n\n// VARIABLES PARA RECETA #8\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8\");\n    msg.payload.INPUT_AGR1_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_8\");\n    msg.payload.INPUT_AGR2_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_8\");\n    msg.payload.INPUT_CEMENTO_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_8\");\n    msg.payload.INPUT_AGUA1_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_8\");\n    msg.payload.INPUT_AGUA2_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_8\");\n    msg.payload.INPUT_ADITIVO_RECETA_8 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_8\");\n\n// VARIABLES PARA RECETA #9\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9\");\n    msg.payload.INPUT_AGR1_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_9\");\n    msg.payload.INPUT_AGR2_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_9\");\n    msg.payload.INPUT_CEMENTO_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_9\");\n    msg.payload.INPUT_AGUA1_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_9\");\n    msg.payload.INPUT_AGUA2_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_9\");\n    msg.payload.INPUT_ADITIVO_RECETA_9 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_9\");\n\n    // VARIABLES PARA RECETA #5\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10\");\n    msg.payload.INPUT_AGR1_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_10\");\n    msg.payload.INPUT_AGR2_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_10\");\n    msg.payload.INPUT_CEMENTO_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_10\");\n    msg.payload.INPUT_AGUA1_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_10\");\n    msg.payload.INPUT_AGUA2_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_10\");\n    msg.payload.INPUT_ADITIVO_RECETA_10 = global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_10\");\n\n}else{\n    // VARIABLES PARA RECETA #1\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10 = \"ESPERANDO CONEXION\";\n}\n\n\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 280,
+        "x": 290,
         "y": 70,
         "wires": [
-            []
+            [
+                "e390981ab52bb581",
+                "c4979a74e3be8ee8",
+                "aeadffbff69762dc",
+                "18e89ae73c22eba6",
+                "ed3687d73e9d9b34",
+                "530f6f23dc649d22",
+                "78018afd50ee8f49",
+                "db041c930a2f021e",
+                "d34a325abdf7a2c8",
+                "8d74f27fe7286547",
+                "c77fb16b60e75a3b",
+                "bf33f8d2fb672f1a",
+                "b2e68dbe1bb43185",
+                "3b8f868b04673dd0",
+                "e71baf0b70c1b744",
+                "d3cd43c7e909b738",
+                "389c06f3b1f7f26a",
+                "4ae49fa8f4116d6c",
+                "e5d7bc2013d7f3be",
+                "e49154a75f181724",
+                "5324c1e60314b91c",
+                "f94e22c4727017fa",
+                "d0d2c3c373ac7725",
+                "d4db58849077b8eb",
+                "7654b8de66531c1e",
+                "7792f7f26b8fe33e",
+                "dcd55ed5a2a1d24f",
+                "136d5a09cebaa0aa",
+                "9a412cccac386925",
+                "e23d0dd9cd63ae8a",
+                "d6d29bf6c021fd5d",
+                "b026a50b7aa450e0",
+                "d1f2fd7dc2d9f8be",
+                "3bd88abf0f17bce5",
+                "8218ad03bd436eb1",
+                "eda8e22ae40b7705",
+                "9394782ff691afac",
+                "c7bcc4862bf0734b",
+                "eac33fd7046aeb82",
+                "2d13e49c5740a495",
+                "22b9d7d9e94df13e",
+                "6b37b02f028d78ce",
+                "957a919978be3f26",
+                "992b45626037bb38",
+                "117f824ecd4faf86",
+                "b7dfec0c3d2991c4",
+                "6cb0155a42b02448",
+                "3c624f0579f167a6",
+                "c60c333d0be710a1",
+                "3c7fc3aa8266a5dc",
+                "c7c93457fde33fd9",
+                "92fcdf8dfdda2b32",
+                "96c06a83a9a1aa55",
+                "a1fab274047e8410",
+                "5b9f5b531d59b125",
+                "3bf1a36a48a909b2",
+                "137c6e0234390e7c",
+                "250526faeb4f2c27",
+                "2443adf3cd8f7a67",
+                "612b079888339311",
+                "d8b7184b02ccc494",
+                "01cdec1862e78b4e",
+                "7e67a44c20755882",
+                "5dbf1c96e6130677",
+                "942fdd1bfbc68dc6",
+                "9bae486290a8faca",
+                "21951ccef744bf9d",
+                "80a1a9ed9bce760e",
+                "a4d4046f4425cd31",
+                "58880a3192ccfa0f"
+            ]
         ]
+    },
+    {
+        "id": "086b1bbddd10cfb8",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 110,
+        "wires": [
+            [
+                "158379ef12850e98"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2f3f23fca85c18ad",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 150,
+        "wires": [
+            [
+                "3456ea8233ee9125"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7f13c593ef69e4c5",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 190,
+        "wires": [
+            [
+                "abe761fc1ed60914"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "79b7b50991fa9384",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 230,
+        "wires": [
+            [
+                "fe27679d9f916266"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "60acfebfdec50dd6",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 270,
+        "wires": [
+            [
+                "e9c99bafa6a67773"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b9f6563d2285c51f",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 310,
+        "wires": [
+            [
+                "521f9308024f83e3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "678438dfe79b372e",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 350,
+        "wires": [
+            [
+                "cbba8cf538780b92"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e6cbc9af63333af3",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 390,
+        "wires": [
+            [
+                "e5508851b863d985"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8630ab40d1a04bfa",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 430,
+        "wires": [
+            [
+                "05fcd2123995d14b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "63242eb7f32067d3",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 625,
+        "y": 470,
+        "wires": [
+            [
+                "72dae8f69584b33a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b62d734f76583f9d",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 110,
+        "wires": [
+            [
+                "df4d6196353b7c28"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c687407525cb860a",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 150,
+        "wires": [
+            [
+                "6f36f6d26eb4becb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "db5e1357845cbed5",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 190,
+        "wires": [
+            [
+                "4a0b31127d62ba7e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6ba6621f31d21b0e",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 230,
+        "wires": [
+            [
+                "1a721a7830f61621"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7953291a829dabd4",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 270,
+        "wires": [
+            [
+                "1b957c00a27bf15c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f2cc2eadb95ac7cc",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 310,
+        "wires": [
+            [
+                "24963f63e0169ce4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "365626bc4fef772d",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 350,
+        "wires": [
+            [
+                "cfb15b92c158058a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c6c7a0bc589bf0d6",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 390,
+        "wires": [
+            [
+                "d2db3cd8c4e19cd8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b5d6b6a2c3ce24a5",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 430,
+        "wires": [
+            [
+                "ee0d79daafe9c892"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8d6fe2a0836bb58b",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 470,
+        "wires": [
+            [
+                "ebda7db3e6696ea0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "030b48990c7ef8d1",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 110,
+        "wires": [
+            [
+                "bfade7b9aeea7001"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7fe2d8b0d33afd76",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 150,
+        "wires": [
+            [
+                "b7ab36266fe63020"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8c3b62e22f6576a2",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 190,
+        "wires": [
+            [
+                "5008106193754279"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "24f68b0b7da1d4d0",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 230,
+        "wires": [
+            [
+                "1e76a385cb70e097"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "724fd730bd9b3361",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 270,
+        "wires": [
+            [
+                "1dcccf381bd5788f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f94e22c4727017fa",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 310,
+        "wires": [
+            [
+                "2560273d447f638c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5324c1e60314b91c",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 350,
+        "wires": [
+            [
+                "c9c7d497bec9a762"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "296fbbf538e058fd",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 390,
+        "wires": [
+            [
+                "dc72e1fc2d1c2140"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "af9c8597d8349480",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 430,
+        "wires": [
+            [
+                "5becf0a39a1a1fa4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ca55fe5b799ff78b",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 470,
+        "wires": [
+            [
+                "16b20c4d427958a5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d96c2e874f6db9ac",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 110,
+        "wires": [
+            [
+                "923c98bb506b9695"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "89df8fa60db5c3b3",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 150,
+        "wires": [
+            [
+                "55b3b33231b138d7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0616ecab091b9183",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 190,
+        "wires": [
+            [
+                "df4f6576a75c929c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5b430feb8f727c2a",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 230,
+        "wires": [
+            [
+                "980dd55463ab9062"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4946e1a71d6d9fce",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 270,
+        "wires": [
+            [
+                "6c97170c51826c7c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "60afe04d4fe085b0",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 310,
+        "wires": [
+            [
+                "6ac9f8c9ecaeb322"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3347a91dced9ae60",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 350,
+        "wires": [
+            [
+                "702afee2ce8d6f3e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4766c54012ae2a1d",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 390,
+        "wires": [
+            [
+                "3c7f8b44dc640827"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c75c2ffc877be18d",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 430,
+        "wires": [
+            [
+                "184eae73e449fc96"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "31a07c11ae0d0d99",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1335,
+        "y": 470,
+        "wires": [
+            [
+                "b50a566755fe5d1f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "56d4cf0810a2b6db",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 110,
+        "wires": [
+            [
+                "b1c9a36aacc34977"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "011305e9c75c6a97",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 150,
+        "wires": [
+            [
+                "3845ab0ee02a421d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "544b06db6872b80a",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 190,
+        "wires": [
+            [
+                "edb04bb9fee8b9ad"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d96c8c105b8414cb",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 230,
+        "wires": [
+            [
+                "ff6f85891bf1d309"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4e97357d4d89517c",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 270,
+        "wires": [
+            [
+                "57f6652dedc21319"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0e1a1c9e5056d60b",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 310,
+        "wires": [
+            [
+                "cb3d45d754e1ff2b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6ef2d91b92afb1d0",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 350,
+        "wires": [
+            [
+                "3e01499535b39a76"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6fc48a0c7197849d",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 390,
+        "wires": [
+            [
+                "ad046278d0682c3f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "41c138d18b1655d0",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 430,
+        "wires": [
+            [
+                "92264324e1a4185f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d91eeb80b65c517b",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1565,
+        "y": 470,
+        "wires": [
+            [
+                "702be61efec48fa1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "763e3ac73f49c779",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 110,
+        "wires": [
+            [
+                "1ea832abe7659b84"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d9a1bf8eafeab5c5",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 150,
+        "wires": [
+            [
+                "f76d5166d37d300f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bb761b828cd663f3",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 190,
+        "wires": [
+            [
+                "9652f11952d9dc73"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "88b819618e6909c7",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 230,
+        "wires": [
+            [
+                "4052e4466a4e09ac"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fc32779b8e038b84",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 270,
+        "wires": [
+            [
+                "c859548ec790d338"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1c757eee1fb42faf",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 310,
+        "wires": [
+            [
+                "d24c6da55fbb190c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d736ad52b1bebc33",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 350,
+        "wires": [
+            [
+                "02cdcffdbcd9848f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8d4fab1de652d3c0",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 390,
+        "wires": [
+            [
+                "ce77be1cf6218193"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "adc0687cf55b6c05",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 430,
+        "wires": [
+            [
+                "4ddf930829adc431"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5a635187ccc0f830",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1795,
+        "y": 470,
+        "wires": [
+            [
+                "9eb7f53c09d9875f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "57e7cf0d9fe35246",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 110,
+        "wires": [
+            [
+                "86bc801c47fe5fa1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f212396ae9e505a0",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 150,
+        "wires": [
+            [
+                "0ac5a69c0bfc65a5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4dc8ad673ff5cd25",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 190,
+        "wires": [
+            [
+                "65f36a9c2f8ef392"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4dab1d3efa97c7b6",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 230,
+        "wires": [
+            [
+                "b23791d771871297"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1b299c1a1cb9567e",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 270,
+        "wires": [
+            [
+                "4fa7f659b85a83be"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "72e7fd76bad3ab1b",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 310,
+        "wires": [
+            [
+                "b93cbb80a4fb261d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8163fc11d53bea2c",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 350,
+        "wires": [
+            [
+                "29e3f0adc443f5a4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d7a15a2f0ad360c3",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 390,
+        "wires": [
+            [
+                "33bd1b2a8d0c75aa"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7fe1814a74788c04",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 430,
+        "wires": [
+            [
+                "4493724aeba13e68"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8ef241fd106f1a19",
+        "type": "rbe",
+        "z": "40722463514f64b4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2025,
+        "y": 470,
+        "wires": [
+            [
+                "565e950341d97d1d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e390981ab52bb581",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 110,
+        "wires": [
+            [
+                "086b1bbddd10cfb8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c4979a74e3be8ee8",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 150,
+        "wires": [
+            [
+                "2f3f23fca85c18ad"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "aeadffbff69762dc",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 190,
+        "wires": [
+            [
+                "7f13c593ef69e4c5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "18e89ae73c22eba6",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 230,
+        "wires": [
+            [
+                "79b7b50991fa9384"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8d74f27fe7286547",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 270,
+        "wires": [
+            [
+                "60acfebfdec50dd6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ed3687d73e9d9b34",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 310,
+        "wires": [
+            [
+                "b9f6563d2285c51f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "530f6f23dc649d22",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 350,
+        "wires": [
+            [
+                "678438dfe79b372e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "78018afd50ee8f49",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 390,
+        "wires": [
+            [
+                "e6cbc9af63333af3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "db041c930a2f021e",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 430,
+        "wires": [
+            [
+                "8630ab40d1a04bfa"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d34a325abdf7a2c8",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 575,
+        "y": 470,
+        "wires": [
+            [
+                "63242eb7f32067d3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c77fb16b60e75a3b",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 110,
+        "wires": [
+            [
+                "b62d734f76583f9d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bf33f8d2fb672f1a",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 150,
+        "wires": [
+            [
+                "c687407525cb860a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b2e68dbe1bb43185",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 190,
+        "wires": [
+            [
+                "db5e1357845cbed5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3b8f868b04673dd0",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 230,
+        "wires": [
+            [
+                "6ba6621f31d21b0e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e71baf0b70c1b744",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 270,
+        "wires": [
+            [
+                "7953291a829dabd4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d3cd43c7e909b738",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 310,
+        "wires": [
+            [
+                "f2cc2eadb95ac7cc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "389c06f3b1f7f26a",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 350,
+        "wires": [
+            [
+                "365626bc4fef772d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4ae49fa8f4116d6c",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 390,
+        "wires": [
+            [
+                "c6c7a0bc589bf0d6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e5d7bc2013d7f3be",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 430,
+        "wires": [
+            [
+                "b5d6b6a2c3ce24a5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e49154a75f181724",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR1_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 825,
+        "y": 470,
+        "wires": [
+            [
+                "8d6fe2a0836bb58b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d0d2c3c373ac7725",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 110,
+        "wires": [
+            [
+                "030b48990c7ef8d1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d4db58849077b8eb",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 150,
+        "wires": [
+            [
+                "7fe2d8b0d33afd76"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7654b8de66531c1e",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 190,
+        "wires": [
+            [
+                "8c3b62e22f6576a2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7792f7f26b8fe33e",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 230,
+        "wires": [
+            [
+                "24f68b0b7da1d4d0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dcd55ed5a2a1d24f",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 270,
+        "wires": [
+            [
+                "724fd730bd9b3361"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f978be829c782bfb",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 310,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "a0325589feaf10c8",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 350,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "136d5a09cebaa0aa",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 390,
+        "wires": [
+            [
+                "296fbbf538e058fd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9a412cccac386925",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 430,
+        "wires": [
+            [
+                "af9c8597d8349480"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e23d0dd9cd63ae8a",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGR2_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1055,
+        "y": 470,
+        "wires": [
+            [
+                "ca55fe5b799ff78b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d6d29bf6c021fd5d",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 110,
+        "wires": [
+            [
+                "d96c2e874f6db9ac"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b026a50b7aa450e0",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 150,
+        "wires": [
+            [
+                "89df8fa60db5c3b3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d1f2fd7dc2d9f8be",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 190,
+        "wires": [
+            [
+                "0616ecab091b9183"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3bd88abf0f17bce5",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 230,
+        "wires": [
+            [
+                "5b430feb8f727c2a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8218ad03bd436eb1",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 270,
+        "wires": [
+            [
+                "4946e1a71d6d9fce"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eda8e22ae40b7705",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 310,
+        "wires": [
+            [
+                "60afe04d4fe085b0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9394782ff691afac",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 350,
+        "wires": [
+            [
+                "3347a91dced9ae60"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c7bcc4862bf0734b",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 390,
+        "wires": [
+            [
+                "4766c54012ae2a1d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eac33fd7046aeb82",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 430,
+        "wires": [
+            [
+                "c75c2ffc877be18d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2d13e49c5740a495",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_CEMENTO_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1285,
+        "y": 470,
+        "wires": [
+            [
+                "31a07c11ae0d0d99"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "612b079888339311",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 110,
+        "wires": [
+            [
+                "56d4cf0810a2b6db"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "22b9d7d9e94df13e",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 150,
+        "wires": [
+            [
+                "011305e9c75c6a97"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6b37b02f028d78ce",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 190,
+        "wires": [
+            [
+                "544b06db6872b80a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "957a919978be3f26",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 230,
+        "wires": [
+            [
+                "d96c8c105b8414cb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "992b45626037bb38",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 270,
+        "wires": [
+            [
+                "4e97357d4d89517c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "117f824ecd4faf86",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 310,
+        "wires": [
+            [
+                "0e1a1c9e5056d60b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b7dfec0c3d2991c4",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 350,
+        "wires": [
+            [
+                "6ef2d91b92afb1d0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6cb0155a42b02448",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 390,
+        "wires": [
+            [
+                "6fc48a0c7197849d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3c624f0579f167a6",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 430,
+        "wires": [
+            [
+                "41c138d18b1655d0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c60c333d0be710a1",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA1_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1515,
+        "y": 470,
+        "wires": [
+            [
+                "d91eeb80b65c517b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3c7fc3aa8266a5dc",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 110,
+        "wires": [
+            [
+                "763e3ac73f49c779"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c7c93457fde33fd9",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 150,
+        "wires": [
+            [
+                "d9a1bf8eafeab5c5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "92fcdf8dfdda2b32",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 190,
+        "wires": [
+            [
+                "bb761b828cd663f3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "96c06a83a9a1aa55",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 230,
+        "wires": [
+            [
+                "88b819618e6909c7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a1fab274047e8410",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 270,
+        "wires": [
+            [
+                "fc32779b8e038b84"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5b9f5b531d59b125",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 310,
+        "wires": [
+            [
+                "1c757eee1fb42faf"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3bf1a36a48a909b2",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 350,
+        "wires": [
+            [
+                "d736ad52b1bebc33"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "137c6e0234390e7c",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 390,
+        "wires": [
+            [
+                "8d4fab1de652d3c0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "250526faeb4f2c27",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 430,
+        "wires": [
+            [
+                "adc0687cf55b6c05"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2443adf3cd8f7a67",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_AGUA2_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1745,
+        "y": 470,
+        "wires": [
+            [
+                "5a635187ccc0f830"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d8b7184b02ccc494",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 110,
+        "wires": [
+            [
+                "57e7cf0d9fe35246"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "01cdec1862e78b4e",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 150,
+        "wires": [
+            [
+                "f212396ae9e505a0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7e67a44c20755882",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 190,
+        "wires": [
+            [
+                "4dc8ad673ff5cd25"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5dbf1c96e6130677",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_4",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 230,
+        "wires": [
+            [
+                "4dab1d3efa97c7b6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "942fdd1bfbc68dc6",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_5",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 270,
+        "wires": [
+            [
+                "1b299c1a1cb9567e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9bae486290a8faca",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_6",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 310,
+        "wires": [
+            [
+                "72e7fd76bad3ab1b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "21951ccef744bf9d",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_7",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 350,
+        "wires": [
+            [
+                "8163fc11d53bea2c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "80a1a9ed9bce760e",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_8",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 390,
+        "wires": [
+            [
+                "d7a15a2f0ad360c3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a4d4046f4425cd31",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_9",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 430,
+        "wires": [
+            [
+                "7fe1814a74788c04"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "58880a3192ccfa0f",
+        "type": "change",
+        "z": "40722463514f64b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_ADITIVO_RECETA_10",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1975,
+        "y": 470,
+        "wires": [
+            [
+                "8ef241fd106f1a19"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "20cf359b5f6dd87b",
