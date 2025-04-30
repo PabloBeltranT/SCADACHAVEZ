@@ -999,14 +999,6 @@
         "userprivatekey": "key.pem"
     },
     {
-        "id": "cc0175a7c126868a",
-        "type": "button-events-config",
-        "name": "asd",
-        "clickedInterval": 500,
-        "pressedInterval": 750,
-        "debounceInterval": 15
-    },
-    {
         "id": "a1bd326ae6fd8bd4",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
@@ -2169,11 +2161,13 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 1450,
-        "y": 750,
+        "x": 1500,
+        "y": 760,
         "wires": [
             [],
-            [],
+            [
+                "6536134582c4d224"
+            ],
             []
         ]
     },
@@ -2670,6 +2664,23 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "6536134582c4d224",
+        "type": "debug",
+        "z": "e515f4b8125260c1",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1780,
+        "y": 700,
+        "wires": []
     },
     {
         "id": "467d47620ab0dc99",
@@ -8235,8 +8246,8 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 1290,
-        "y": 240,
+        "x": 1280,
+        "y": 160,
         "wires": [
             [
                 "3371056ff5905a11",
