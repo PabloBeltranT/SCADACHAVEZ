@@ -20408,7 +20408,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "function 1",
-        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}\n\n//if (suscrito == \"active subscribed\" || suscrito == \"session active\"){\n//    msg.payload = \"connect\";\n//    global.set(\"OPC_SERVER_CONNECTED\", true);\n//}\nelse{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
+        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\n//if (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n//    msg.payload = \"connect\";\n//    global.set(\"OPC_SERVER_CONNECTED\", true);\n//}\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}\nelse{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
