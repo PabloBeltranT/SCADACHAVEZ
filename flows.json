@@ -2048,11 +2048,81 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 120,
+        "x": 110,
         "y": 780,
         "wires": [
             [
-                "8efdc9dbf23515a4"
+                "8efdc9dbf23515a4",
+                "084f0b522e98640f",
+                "2af013f4daeca2cd",
+                "447d1afb02e848ea",
+                "7c09765a2b0af57c",
+                "c8f2f29032230ed3",
+                "71166e9240aa2ec0",
+                "6f9211e40ecce516",
+                "653b4dfd6cc3c9e6",
+                "75571ce88a4aff05",
+                "79a0bfe165977f58",
+                "a7affe8a7cb58773",
+                "bfb829cdd77dbbe6",
+                "640e178d8405587f",
+                "741a17a099ffb202",
+                "e984b169b270fb7a",
+                "a0500ce58fc1fdab",
+                "9e460193bc288579",
+                "3bd27745ecce047a",
+                "4d717b52a1a466a5",
+                "319f823ce1490161",
+                "ff299117b7cb0070",
+                "601cf2fd6c7503a7",
+                "653b09fe50ec6eaa",
+                "942321a862b41901",
+                "092e19388a681f83",
+                "2e615e21fd22f279",
+                "580f5c0608e6714c",
+                "9ea3c165fe2d754d",
+                "f36243172c779fd8",
+                "d63198a7b765d0ae",
+                "ed46d3682a6f177e",
+                "4f76c37179011bba",
+                "fdbb2c1d0274cc39",
+                "e4d70143f1122f14",
+                "7531eb3fe1967556",
+                "1cf027f713697a79",
+                "e27aa3d00795359d",
+                "0eea2a94363f3c08",
+                "54bc77d9f9bdbc16",
+                "99b8d992dcccc696",
+                "d8f2e9ad5fdb53da",
+                "fdca6a2fe5a98d1b",
+                "de4421637dc6ac79",
+                "090a5ec064a993f8",
+                "f689c86fcb03bc82",
+                "876c8cc9be043103",
+                "732842f3d5ddb526",
+                "413b55d400878412",
+                "61ef32cca886b0ad",
+                "0e1b67768e3c3fed",
+                "25a899790fe9936d",
+                "b355a0c07d660f1d",
+                "7856bff58881c97f",
+                "468fd188fdece4ac",
+                "e7416e5bae805473",
+                "073786520abdeb92",
+                "390c275d8b8e9e25",
+                "adee806f1b43e105",
+                "79d78137bf30f347",
+                "0a347236ca90e4de",
+                "c72fedda0c0a0f67",
+                "b77bf2f3d2431618",
+                "137eda0704111986",
+                "11e27fe86a72d7a4",
+                "b822d44c51794ce5",
+                "336a8f76805eb8bf",
+                "39ed1bdc00d78f32",
+                "589e804b082b983c",
+                "c93345216b07ff8e",
+                "87b5af648177b4ad"
             ]
         ],
         "icon": "node-red/serial.svg"
@@ -2146,8 +2216,8 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 1490,
-        "y": 750,
+        "x": 2180,
+        "y": 1050,
         "wires": [
             [],
             [],
@@ -3029,6 +3099,4136 @@
         "l": false
     },
     {
+        "id": "084f0b522e98640f",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 17",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1210,
+        "wires": [
+            [
+                "59d39d084b7973f4"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "59d39d084b7973f4",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1210,
+        "wires": [
+            [
+                "856a82c274810ba4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "856a82c274810ba4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=369",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 1",
+        "x": 1410,
+        "y": 1210,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "2af013f4daeca2cd",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 18",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1250,
+        "wires": [
+            [
+                "d1cf9003d28482bd"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "d1cf9003d28482bd",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1250,
+        "wires": [
+            [
+                "0f4fe80b631862dd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0f4fe80b631862dd",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=370",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 2",
+        "x": 1410,
+        "y": 1250,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "447d1afb02e848ea",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 19",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1290,
+        "wires": [
+            [
+                "dac046627adef445"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "dac046627adef445",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1290,
+        "wires": [
+            [
+                "43ac53ef5c0f0832"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "43ac53ef5c0f0832",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=371",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 3",
+        "x": 1410,
+        "y": 1290,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "7c09765a2b0af57c",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 20",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1330,
+        "wires": [
+            [
+                "5cf746cec1548e87"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "5cf746cec1548e87",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1330,
+        "wires": [
+            [
+                "15f556b46b9c33b1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "15f556b46b9c33b1",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=372",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 4",
+        "x": 1410,
+        "y": 1330,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "c8f2f29032230ed3",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 21",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1370,
+        "wires": [
+            [
+                "25823f6b9cfc51ac"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "25823f6b9cfc51ac",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1370,
+        "wires": [
+            [
+                "831c9c69d9f29245"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "831c9c69d9f29245",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=373",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 5",
+        "x": 1410,
+        "y": 1370,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "71166e9240aa2ec0",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 22",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1410,
+        "wires": [
+            [
+                "81dedb4c51f8011b"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "81dedb4c51f8011b",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1410,
+        "wires": [
+            [
+                "750dd769437f782d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "750dd769437f782d",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=374",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 6",
+        "x": 1410,
+        "y": 1410,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "6f9211e40ecce516",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 23",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1450,
+        "wires": [
+            [
+                "b2a0269b646cd041"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b2a0269b646cd041",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1450,
+        "wires": [
+            [
+                "8a170ee47cf5b099"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8a170ee47cf5b099",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=375",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 7",
+        "x": 1410,
+        "y": 1450,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "653b4dfd6cc3c9e6",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 24",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1490,
+        "wires": [
+            [
+                "8c75cde2addc7124"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "8c75cde2addc7124",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1490,
+        "wires": [
+            [
+                "2cec729aa05622e7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2cec729aa05622e7",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=376",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 8",
+        "x": 1410,
+        "y": 1490,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "75571ce88a4aff05",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 25",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1530,
+        "wires": [
+            [
+                "948dc8111ba9641e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "948dc8111ba9641e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1530,
+        "wires": [
+            [
+                "65fd30d5cbf0f24f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "65fd30d5cbf0f24f",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=377",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 9",
+        "x": 1410,
+        "y": 1530,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "79a0bfe165977f58",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 26",
+        "func": "msg.payload = global.get(\"NOMBRE_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1570,
+        "wires": [
+            [
+                "21f756b72937fe7d"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "21f756b72937fe7d",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1570,
+        "wires": [
+            [
+                "9ba2650d3b8b0c09"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9ba2650d3b8b0c09",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=4;i=378",
+        "datatype": "String",
+        "value": "",
+        "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 10",
+        "x": 1420,
+        "y": 1570,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "a7affe8a7cb58773",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 27",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1650,
+        "wires": [
+            [
+                "10288299d384be3e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "10288299d384be3e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1650,
+        "wires": [
+            [
+                "24e5ca24d822a6e9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "24e5ca24d822a6e9",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=31",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_1",
+        "x": 1260,
+        "y": 1650,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "bfb829cdd77dbbe6",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 28",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1690,
+        "wires": [
+            [
+                "16ac995a750ecb79"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "16ac995a750ecb79",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1690,
+        "wires": [
+            [
+                "87ca03d18dd12870"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "87ca03d18dd12870",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=33",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_2",
+        "x": 1260,
+        "y": 1690,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "640e178d8405587f",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 29",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1730,
+        "wires": [
+            [
+                "392b71a4cb70ac58"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "392b71a4cb70ac58",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1730,
+        "wires": [
+            [
+                "91c58c929da34cf4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "91c58c929da34cf4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=34",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_3",
+        "x": 1260,
+        "y": 1730,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "741a17a099ffb202",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 30",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1770,
+        "wires": [
+            [
+                "8a4fd9a27dc566c5"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "8a4fd9a27dc566c5",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1770,
+        "wires": [
+            [
+                "9f4faf898d250753"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9f4faf898d250753",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=35",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_4",
+        "x": 1260,
+        "y": 1770,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e984b169b270fb7a",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 31",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1810,
+        "wires": [
+            [
+                "9b1eefe77f0cece2"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "9b1eefe77f0cece2",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1810,
+        "wires": [
+            [
+                "9c1ff3d0210a3ad7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9c1ff3d0210a3ad7",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=36",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_5",
+        "x": 1260,
+        "y": 1810,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "a0500ce58fc1fdab",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 32",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1850,
+        "wires": [
+            [
+                "a4869e4362cddf0b"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a4869e4362cddf0b",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1850,
+        "wires": [
+            [
+                "a0516f95089afb0e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a0516f95089afb0e",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=37",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_6",
+        "x": 1260,
+        "y": 1850,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "9e460193bc288579",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 33",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1890,
+        "wires": [
+            [
+                "556aef35a1f36b7e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "556aef35a1f36b7e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1890,
+        "wires": [
+            [
+                "767fb0870fea1ecb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "767fb0870fea1ecb",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=38",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_7",
+        "x": 1260,
+        "y": 1890,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "3bd27745ecce047a",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 34",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1930,
+        "wires": [
+            [
+                "0e522c28b537f4ba"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "0e522c28b537f4ba",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1930,
+        "wires": [
+            [
+                "d6823111287ac7cf"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d6823111287ac7cf",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=39",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_8",
+        "x": 1260,
+        "y": 1930,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "4d717b52a1a466a5",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 35",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 1970,
+        "wires": [
+            [
+                "8660fa66cabe9f83"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "8660fa66cabe9f83",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 1970,
+        "wires": [
+            [
+                "7be89056f454d792"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7be89056f454d792",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=40",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_9",
+        "x": 1260,
+        "y": 1970,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "319f823ce1490161",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 36",
+        "func": "msg.payload = global.get(\"AGREGADO_1_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2010,
+        "wires": [
+            [
+                "d579a2df0e9ec011"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "d579a2df0e9ec011",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2010,
+        "wires": [
+            [
+                "506b39fa02740e84"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "506b39fa02740e84",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=32",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR1_RECETA_10",
+        "x": 1260,
+        "y": 2010,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "ff299117b7cb0070",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 37",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1650,
+        "wires": [
+            [
+                "a24fd5c2ab438bfc"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a24fd5c2ab438bfc",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1650,
+        "wires": [
+            [
+                "73e286eb631687d9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "73e286eb631687d9",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=43",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_1",
+        "x": 1730,
+        "y": 1650,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "601cf2fd6c7503a7",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 38",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1690,
+        "wires": [
+            [
+                "8baa9ba56d8ff2c1"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "8baa9ba56d8ff2c1",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1690,
+        "wires": [
+            [
+                "38b0868c0e0b350e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "38b0868c0e0b350e",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=45",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_2",
+        "x": 1730,
+        "y": 1690,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "653b09fe50ec6eaa",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 39",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1730,
+        "wires": [
+            [
+                "1c7312f6477327e0"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "1c7312f6477327e0",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1730,
+        "wires": [
+            [
+                "4068eb9bf1851d28"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4068eb9bf1851d28",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=46",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_3",
+        "x": 1730,
+        "y": 1730,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "942321a862b41901",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 40",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1770,
+        "wires": [
+            [
+                "515f0e8c5c805469"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "515f0e8c5c805469",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1770,
+        "wires": [
+            [
+                "ca45a55da6875a13"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ca45a55da6875a13",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=47",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_4",
+        "x": 1730,
+        "y": 1770,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "092e19388a681f83",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 41",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1810,
+        "wires": [
+            [
+                "b369d20e7bbd146a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b369d20e7bbd146a",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1810,
+        "wires": [
+            [
+                "94bd1711d6094749"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "94bd1711d6094749",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=48",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_5",
+        "x": 1730,
+        "y": 1810,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "2e615e21fd22f279",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 42",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1850,
+        "wires": [
+            [
+                "12c00f8d17df1846"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "12c00f8d17df1846",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1850,
+        "wires": [
+            [
+                "747d251cb21acde0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "747d251cb21acde0",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=49",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_6",
+        "x": 1730,
+        "y": 1850,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "580f5c0608e6714c",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 43",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1890,
+        "wires": [
+            [
+                "b742eb4c6ef71a07"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b742eb4c6ef71a07",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1890,
+        "wires": [
+            [
+                "855662ed55e0a49e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "855662ed55e0a49e",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=50",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_7",
+        "x": 1730,
+        "y": 1890,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "9ea3c165fe2d754d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 44",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1930,
+        "wires": [
+            [
+                "46c79281c16252c7"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "46c79281c16252c7",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1930,
+        "wires": [
+            [
+                "7511686d5fd9d264"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7511686d5fd9d264",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=51",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_8",
+        "x": 1730,
+        "y": 1930,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "f36243172c779fd8",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 45",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 1970,
+        "wires": [
+            [
+                "4a7ab39616a31f76"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "4a7ab39616a31f76",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 1970,
+        "wires": [
+            [
+                "d38393cd1862e732"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d38393cd1862e732",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=52",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_9",
+        "x": 1730,
+        "y": 1970,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "d63198a7b765d0ae",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 46",
+        "func": "msg.payload = global.get(\"AGREGADO_2_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2010,
+        "wires": [
+            [
+                "f82c625a0b07cb6c"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "f82c625a0b07cb6c",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2010,
+        "wires": [
+            [
+                "2652b5f4ac68834b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2652b5f4ac68834b",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=44",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGR2_RECETA_10",
+        "x": 1730,
+        "y": 2010,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "ed46d3682a6f177e",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 47",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2080,
+        "wires": [
+            [
+                "2b5e2255ba1d5185"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "2b5e2255ba1d5185",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2080,
+        "wires": [
+            [
+                "12b9dc4ebb205443"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "12b9dc4ebb205443",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=75",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_1",
+        "x": 1270,
+        "y": 2080,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "4f76c37179011bba",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 48",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2120,
+        "wires": [
+            [
+                "7e46bc9106688f51"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "7e46bc9106688f51",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2120,
+        "wires": [
+            [
+                "a025ed76b14fa12a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a025ed76b14fa12a",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=77",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_2",
+        "x": 1270,
+        "y": 2120,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "fdbb2c1d0274cc39",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 49",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2160,
+        "wires": [
+            [
+                "c1148e63cde91f9e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c1148e63cde91f9e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2160,
+        "wires": [
+            [
+                "750e9b494540ad74"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "750e9b494540ad74",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=78",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_3",
+        "x": 1270,
+        "y": 2160,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e4d70143f1122f14",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 50",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2200,
+        "wires": [
+            [
+                "e33755ad16399506"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e33755ad16399506",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2200,
+        "wires": [
+            [
+                "e87dc964c143c8fa"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e87dc964c143c8fa",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=79",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_4",
+        "x": 1270,
+        "y": 2200,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "7531eb3fe1967556",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 51",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2240,
+        "wires": [
+            [
+                "e1c66cb9ec5dc954"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e1c66cb9ec5dc954",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2240,
+        "wires": [
+            [
+                "d66d48fb0f373d08"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d66d48fb0f373d08",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=80",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_5",
+        "x": 1270,
+        "y": 2240,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "1cf027f713697a79",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 52",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2280,
+        "wires": [
+            [
+                "d1fdf71ef9c288a3"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "d1fdf71ef9c288a3",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2280,
+        "wires": [
+            [
+                "95f3abe850175122"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "95f3abe850175122",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=81",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_6",
+        "x": 1270,
+        "y": 2280,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e27aa3d00795359d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 53",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2320,
+        "wires": [
+            [
+                "50e13eb2f167734d"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "50e13eb2f167734d",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2320,
+        "wires": [
+            [
+                "7ad1a67014b010c6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7ad1a67014b010c6",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=82",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_7",
+        "x": 1270,
+        "y": 2320,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "0eea2a94363f3c08",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 54",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2360,
+        "wires": [
+            [
+                "76427c10dc6f05ce"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "76427c10dc6f05ce",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2360,
+        "wires": [
+            [
+                "cc13db4d149ef3a5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cc13db4d149ef3a5",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=83",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_8",
+        "x": 1270,
+        "y": 2360,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "54bc77d9f9bdbc16",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 55",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2400,
+        "wires": [
+            [
+                "b66ac0e6f77ca351"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b66ac0e6f77ca351",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2400,
+        "wires": [
+            [
+                "9e831d4c36f86537"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9e831d4c36f86537",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=84",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_9",
+        "x": 1270,
+        "y": 2400,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "99b8d992dcccc696",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 56",
+        "func": "msg.payload = global.get(\"CEMENTO_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2440,
+        "wires": [
+            [
+                "657bf4bfeceb7888"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "657bf4bfeceb7888",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2440,
+        "wires": [
+            [
+                "3f467b89386dc2d7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3f467b89386dc2d7",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=76",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_CEMENTO_RECETA_10",
+        "x": 1280,
+        "y": 2440,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "d8f2e9ad5fdb53da",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 57",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2500,
+        "wires": [
+            [
+                "c779916adc0203cb"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c779916adc0203cb",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2500,
+        "wires": [
+            [
+                "13b8154ea6005ae4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "13b8154ea6005ae4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=53",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_1",
+        "x": 1260,
+        "y": 2500,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "fdca6a2fe5a98d1b",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 58",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2540,
+        "wires": [
+            [
+                "6636d597a5896e62"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "6636d597a5896e62",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2540,
+        "wires": [
+            [
+                "b3e1a37575fdfd7c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b3e1a37575fdfd7c",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=55",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_2",
+        "x": 1260,
+        "y": 2540,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "de4421637dc6ac79",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 59",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2580,
+        "wires": [
+            [
+                "7e4a7920d2dbd456"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "7e4a7920d2dbd456",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2580,
+        "wires": [
+            [
+                "0deffd5667e8c1ea"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0deffd5667e8c1ea",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=56",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_3",
+        "x": 1260,
+        "y": 2580,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "090a5ec064a993f8",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 60",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2620,
+        "wires": [
+            [
+                "bdc062d1416b649a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "bdc062d1416b649a",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2620,
+        "wires": [
+            [
+                "aae06966f9b3b397"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "aae06966f9b3b397",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=57",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_4",
+        "x": 1260,
+        "y": 2620,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "f689c86fcb03bc82",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 61",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2660,
+        "wires": [
+            [
+                "04797c31cbe87d75"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "04797c31cbe87d75",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2660,
+        "wires": [
+            [
+                "9b3d750046880e0f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9b3d750046880e0f",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=58",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_5",
+        "x": 1260,
+        "y": 2660,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "876c8cc9be043103",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 62",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2700,
+        "wires": [
+            [
+                "b9a76a6ba8aee531"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b9a76a6ba8aee531",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2700,
+        "wires": [
+            [
+                "9d32b46a69e346ed"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9d32b46a69e346ed",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=59",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_6",
+        "x": 1260,
+        "y": 2700,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "732842f3d5ddb526",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 63",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2740,
+        "wires": [
+            [
+                "71b61e0b8e640074"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "71b61e0b8e640074",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2740,
+        "wires": [
+            [
+                "c73672508b7e32b4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c73672508b7e32b4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=60",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_7",
+        "x": 1260,
+        "y": 2740,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "413b55d400878412",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 64",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2780,
+        "wires": [
+            [
+                "ca373155c317fa7e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "ca373155c317fa7e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2780,
+        "wires": [
+            [
+                "439c3c639093ef13"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "439c3c639093ef13",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=61",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_8",
+        "x": 1260,
+        "y": 2780,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "61ef32cca886b0ad",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 65",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2820,
+        "wires": [
+            [
+                "db96b19933e00ab3"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "db96b19933e00ab3",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2820,
+        "wires": [
+            [
+                "63db1748d1f8e08e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "63db1748d1f8e08e",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=62",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_9",
+        "x": 1260,
+        "y": 2820,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "0e1b67768e3c3fed",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 66",
+        "func": "msg.payload = global.get(\"AGUA_1_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2860,
+        "wires": [
+            [
+                "a8c496cf73e3b44f"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a8c496cf73e3b44f",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2860,
+        "wires": [
+            [
+                "de6c2551c6807607"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "de6c2551c6807607",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=54",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA1_RECETA_10",
+        "x": 1270,
+        "y": 2860,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "25a899790fe9936d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 67",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2500,
+        "wires": [
+            [
+                "9904281ca0124e02"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "9904281ca0124e02",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2500,
+        "wires": [
+            [
+                "dda9d52dc1e36eef"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dda9d52dc1e36eef",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=63",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_1",
+        "x": 1730,
+        "y": 2500,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "b355a0c07d660f1d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 68",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2540,
+        "wires": [
+            [
+                "e6713106b0db524c"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e6713106b0db524c",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2540,
+        "wires": [
+            [
+                "b744c1e8ee9571a3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b744c1e8ee9571a3",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=65",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_2",
+        "x": 1730,
+        "y": 2540,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "7856bff58881c97f",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 69",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2580,
+        "wires": [
+            [
+                "e41e19e5c11d18d5"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e41e19e5c11d18d5",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2580,
+        "wires": [
+            [
+                "56093f84b8341bf6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "56093f84b8341bf6",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=66",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_3",
+        "x": 1730,
+        "y": 2580,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "468fd188fdece4ac",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 70",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2620,
+        "wires": [
+            [
+                "3185a2f53dbe6187"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "3185a2f53dbe6187",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2620,
+        "wires": [
+            [
+                "45f07b74f84114c4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "45f07b74f84114c4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=67",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_4",
+        "x": 1730,
+        "y": 2620,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e7416e5bae805473",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 71",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2660,
+        "wires": [
+            [
+                "c3334fa5032f5eb3"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c3334fa5032f5eb3",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2660,
+        "wires": [
+            [
+                "892dc5e4ddfde411"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "892dc5e4ddfde411",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=68",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_5",
+        "x": 1730,
+        "y": 2660,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "073786520abdeb92",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 72",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2700,
+        "wires": [
+            [
+                "99422e31cc15a981"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "99422e31cc15a981",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2700,
+        "wires": [
+            [
+                "52b5548b3937e945"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "52b5548b3937e945",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=69",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_6",
+        "x": 1730,
+        "y": 2700,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "390c275d8b8e9e25",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 73",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2740,
+        "wires": [
+            [
+                "097d5896f9842242"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "097d5896f9842242",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2740,
+        "wires": [
+            [
+                "b856574dc083d864"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b856574dc083d864",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=70",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_7",
+        "x": 1730,
+        "y": 2740,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "adee806f1b43e105",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 74",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2780,
+        "wires": [
+            [
+                "179f0711173e4174"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "179f0711173e4174",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2780,
+        "wires": [
+            [
+                "5ff5db9d7c06e2f3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5ff5db9d7c06e2f3",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=71",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_8",
+        "x": 1730,
+        "y": 2780,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "79d78137bf30f347",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 75",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2820,
+        "wires": [
+            [
+                "9b9c26ed25d9377a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "9b9c26ed25d9377a",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2820,
+        "wires": [
+            [
+                "57caa5caef82778a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "57caa5caef82778a",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=72",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_9",
+        "x": 1730,
+        "y": 2820,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "0a347236ca90e4de",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 76",
+        "func": "msg.payload = global.get(\"AGUA_2_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1525,
+        "y": 2860,
+        "wires": [
+            [
+                "647bbf2d8be8e3cc"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "647bbf2d8be8e3cc",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1575,
+        "y": 2860,
+        "wires": [
+            [
+                "2bba4cf06402c632"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2bba4cf06402c632",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=64",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_AGUA2_RECETA_10",
+        "x": 1740,
+        "y": 2860,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "c72fedda0c0a0f67",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 77",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2930,
+        "wires": [
+            [
+                "8a296d8f6ef3db93"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "8a296d8f6ef3db93",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2930,
+        "wires": [
+            [
+                "c9714af653d6c9b4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c9714af653d6c9b4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=19",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_1",
+        "x": 1270,
+        "y": 2930,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "b77bf2f3d2431618",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 78",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 2970,
+        "wires": [
+            [
+                "5952f5aaa5a0bab7"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "5952f5aaa5a0bab7",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 2970,
+        "wires": [
+            [
+                "7f4da1b3068bfbbf"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7f4da1b3068bfbbf",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=21",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_2",
+        "x": 1270,
+        "y": 2970,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "137eda0704111986",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 79",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_3\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3010,
+        "wires": [
+            [
+                "31934aa4cc5f1fc7"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "31934aa4cc5f1fc7",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3010,
+        "wires": [
+            [
+                "27908f9ecf559dd5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "27908f9ecf559dd5",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=22",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_3",
+        "x": 1270,
+        "y": 3010,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "11e27fe86a72d7a4",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 80",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_4\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3050,
+        "wires": [
+            [
+                "4b6ba8d7d59880ee"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "4b6ba8d7d59880ee",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3050,
+        "wires": [
+            [
+                "5c16527514ac24ec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5c16527514ac24ec",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=23",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_4",
+        "x": 1270,
+        "y": 3050,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "b822d44c51794ce5",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 81",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_5\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3090,
+        "wires": [
+            [
+                "1a28f938e16459ea"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "1a28f938e16459ea",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3090,
+        "wires": [
+            [
+                "02d23a66a3a40197"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "02d23a66a3a40197",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=24",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_5",
+        "x": 1270,
+        "y": 3090,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "336a8f76805eb8bf",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 82",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_6\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3130,
+        "wires": [
+            [
+                "c1af71805a6273cc"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c1af71805a6273cc",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3130,
+        "wires": [
+            [
+                "d5c58f330d272d08"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d5c58f330d272d08",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=25",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_6",
+        "x": 1270,
+        "y": 3130,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "39ed1bdc00d78f32",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 83",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_7\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3170,
+        "wires": [
+            [
+                "13da6bc2ec3c15ce"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "13da6bc2ec3c15ce",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3170,
+        "wires": [
+            [
+                "df8a374165c2cafc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "df8a374165c2cafc",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=26",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_7",
+        "x": 1270,
+        "y": 3170,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "589e804b082b983c",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 84",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_8\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3210,
+        "wires": [
+            [
+                "c08ee0d3b1e05422"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c08ee0d3b1e05422",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3210,
+        "wires": [
+            [
+                "491765224a75b4e6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "491765224a75b4e6",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=27",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_8",
+        "x": 1270,
+        "y": 3210,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "c93345216b07ff8e",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 85",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_9\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3250,
+        "wires": [
+            [
+                "c7b898e78d5ae991"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c7b898e78d5ae991",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3250,
+        "wires": [
+            [
+                "163ab91ee2780e68"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "163ab91ee2780e68",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=28",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_9",
+        "x": 1270,
+        "y": 3250,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "87b5af648177b4ad",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "function 86",
+        "func": "msg.payload = global.get(\"ADITIVO_RECETA_10\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1055,
+        "y": 3290,
+        "wires": [
+            [
+                "7a1428f76fa9779f"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "7a1428f76fa9779f",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1105,
+        "y": 3290,
+        "wires": [
+            [
+                "9c60cbb6cfe7e63b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9c60cbb6cfe7e63b",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "item": "ns=5;i=20",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_ADITIVO_RECETA_10",
+        "x": 1270,
+        "y": 3290,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
         "id": "467d47620ab0dc99",
         "type": "ui_text",
         "z": "40722463514f64b4",
@@ -3396,9 +7596,9 @@
         "order": 10,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3406,7 +7606,9 @@
         "x": 720,
         "y": 110,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3420,9 +7622,9 @@
         "order": 18,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3430,7 +7632,9 @@
         "x": 720,
         "y": 150,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3444,9 +7648,9 @@
         "order": 26,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3454,7 +7658,9 @@
         "x": 720,
         "y": 190,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3468,9 +7674,9 @@
         "order": 34,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3478,7 +7684,9 @@
         "x": 720,
         "y": 230,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3492,9 +7700,9 @@
         "order": 42,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3502,7 +7710,9 @@
         "x": 720,
         "y": 270,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3516,9 +7726,9 @@
         "order": 50,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3526,7 +7736,9 @@
         "x": 720,
         "y": 310,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3540,9 +7752,9 @@
         "order": 58,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3550,7 +7762,9 @@
         "x": 720,
         "y": 350,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3564,9 +7778,9 @@
         "order": 66,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3574,7 +7788,9 @@
         "x": 720,
         "y": 390,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3588,9 +7804,9 @@
         "order": 74,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3598,7 +7814,9 @@
         "x": 720,
         "y": 430,
         "wires": [
-            []
+            [
+                "1171de42841cd808"
+            ]
         ]
     },
     {
@@ -3612,9 +7830,9 @@
         "order": 82,
         "width": "5",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3623,7 +7841,7 @@
         "y": 470,
         "wires": [
             [
-                "15d4b3e0775891ef"
+                "1171de42841cd808"
             ]
         ]
     },
@@ -3638,9 +7856,9 @@
         "order": 11,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3648,7 +7866,9 @@
         "x": 960,
         "y": 110,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -3662,9 +7882,9 @@
         "order": 12,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3672,7 +7892,9 @@
         "x": 1190,
         "y": 110,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -3686,9 +7908,9 @@
         "order": 13,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3696,7 +7918,9 @@
         "x": 1420,
         "y": 110,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -3710,9 +7934,9 @@
         "order": 14,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3720,7 +7944,9 @@
         "x": 1650,
         "y": 110,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -3734,9 +7960,9 @@
         "order": 15,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3744,7 +7970,9 @@
         "x": 1880,
         "y": 110,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -3758,9 +7986,9 @@
         "order": 16,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3768,7 +7996,9 @@
         "x": 2110,
         "y": 110,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -3782,9 +8012,9 @@
         "order": 19,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3792,7 +8022,9 @@
         "x": 960,
         "y": 150,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -3806,9 +8038,9 @@
         "order": 20,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3816,7 +8048,9 @@
         "x": 1190,
         "y": 150,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -3830,9 +8064,9 @@
         "order": 21,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3840,7 +8074,9 @@
         "x": 1420,
         "y": 150,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -3854,9 +8090,9 @@
         "order": 22,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3864,7 +8100,9 @@
         "x": 1650,
         "y": 150,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -3878,9 +8116,9 @@
         "order": 23,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3888,7 +8126,9 @@
         "x": 1880,
         "y": 150,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -3902,9 +8142,9 @@
         "order": 24,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3912,7 +8152,9 @@
         "x": 2110,
         "y": 150,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -3926,9 +8168,9 @@
         "order": 27,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3936,7 +8178,9 @@
         "x": 960,
         "y": 190,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -3950,9 +8194,9 @@
         "order": 28,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3960,7 +8204,9 @@
         "x": 1190,
         "y": 190,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -3974,9 +8220,9 @@
         "order": 29,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -3984,7 +8230,9 @@
         "x": 1420,
         "y": 190,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -3998,9 +8246,9 @@
         "order": 30,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4008,7 +8256,9 @@
         "x": 1650,
         "y": 190,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4022,9 +8272,9 @@
         "order": 31,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4032,7 +8282,9 @@
         "x": 1880,
         "y": 190,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4046,9 +8298,9 @@
         "order": 32,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4056,7 +8308,9 @@
         "x": 2110,
         "y": 190,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4070,9 +8324,9 @@
         "order": 35,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4080,7 +8334,9 @@
         "x": 960,
         "y": 230,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4094,9 +8350,9 @@
         "order": 36,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4104,7 +8360,9 @@
         "x": 1190,
         "y": 230,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4118,9 +8376,9 @@
         "order": 37,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4128,7 +8386,9 @@
         "x": 1420,
         "y": 230,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -4142,9 +8402,9 @@
         "order": 38,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4152,7 +8412,9 @@
         "x": 1650,
         "y": 230,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4166,9 +8428,9 @@
         "order": 39,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4176,7 +8438,9 @@
         "x": 1880,
         "y": 230,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4190,9 +8454,9 @@
         "order": 40,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4200,7 +8464,9 @@
         "x": 2110,
         "y": 230,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4214,9 +8480,9 @@
         "order": 43,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4224,7 +8490,9 @@
         "x": 960,
         "y": 270,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4238,9 +8506,9 @@
         "order": 44,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4248,7 +8516,9 @@
         "x": 1190,
         "y": 270,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4262,9 +8532,9 @@
         "order": 45,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4272,7 +8542,9 @@
         "x": 1420,
         "y": 270,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -4286,9 +8558,9 @@
         "order": 46,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4296,7 +8568,9 @@
         "x": 1650,
         "y": 270,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4310,9 +8584,9 @@
         "order": 47,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4320,7 +8594,9 @@
         "x": 1880,
         "y": 270,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4334,9 +8610,9 @@
         "order": 48,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4344,7 +8620,9 @@
         "x": 2110,
         "y": 270,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4358,9 +8636,9 @@
         "order": 51,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4368,7 +8646,9 @@
         "x": 960,
         "y": 310,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4382,9 +8662,9 @@
         "order": 52,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4392,7 +8672,9 @@
         "x": 1190,
         "y": 310,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4406,9 +8688,9 @@
         "order": 53,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4416,7 +8698,9 @@
         "x": 1420,
         "y": 310,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -4430,9 +8714,9 @@
         "order": 54,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4440,7 +8724,9 @@
         "x": 1650,
         "y": 310,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4454,9 +8740,9 @@
         "order": 55,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4464,7 +8750,9 @@
         "x": 1880,
         "y": 310,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4478,9 +8766,9 @@
         "order": 56,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4488,7 +8776,9 @@
         "x": 2110,
         "y": 310,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4502,9 +8792,9 @@
         "order": 59,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4512,7 +8802,9 @@
         "x": 960,
         "y": 350,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4526,9 +8818,9 @@
         "order": 60,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4536,7 +8828,9 @@
         "x": 1190,
         "y": 350,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4550,9 +8844,9 @@
         "order": 61,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4560,7 +8854,9 @@
         "x": 1420,
         "y": 350,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -4574,9 +8870,9 @@
         "order": 62,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4584,7 +8880,9 @@
         "x": 1650,
         "y": 350,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4598,9 +8896,9 @@
         "order": 63,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4608,7 +8906,9 @@
         "x": 1880,
         "y": 350,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4622,9 +8922,9 @@
         "order": 64,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4632,7 +8932,9 @@
         "x": 2110,
         "y": 350,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4646,9 +8948,9 @@
         "order": 67,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4656,7 +8958,9 @@
         "x": 960,
         "y": 390,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4670,9 +8974,9 @@
         "order": 68,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4680,7 +8984,9 @@
         "x": 1190,
         "y": 390,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4694,9 +9000,9 @@
         "order": 69,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4704,7 +9010,9 @@
         "x": 1420,
         "y": 390,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -4718,9 +9026,9 @@
         "order": 70,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4728,7 +9036,9 @@
         "x": 1650,
         "y": 390,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4742,9 +9052,9 @@
         "order": 71,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4752,7 +9062,9 @@
         "x": 1880,
         "y": 390,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4766,9 +9078,9 @@
         "order": 72,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4776,7 +9088,9 @@
         "x": 2110,
         "y": 390,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4790,9 +9104,9 @@
         "order": 75,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4800,7 +9114,9 @@
         "x": 960,
         "y": 430,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4814,9 +9130,9 @@
         "order": 76,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4824,7 +9140,9 @@
         "x": 1190,
         "y": 430,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4838,9 +9156,9 @@
         "order": 77,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4848,7 +9166,9 @@
         "x": 1420,
         "y": 430,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -4862,9 +9182,9 @@
         "order": 78,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4872,7 +9192,9 @@
         "x": 1650,
         "y": 430,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -4886,9 +9208,9 @@
         "order": 79,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4896,7 +9218,9 @@
         "x": 1880,
         "y": 430,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -4910,9 +9234,9 @@
         "order": 80,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4920,7 +9244,9 @@
         "x": 2110,
         "y": 430,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -4934,9 +9260,9 @@
         "order": 83,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4944,7 +9270,9 @@
         "x": 960,
         "y": 470,
         "wires": [
-            []
+            [
+                "9ad738f013b13089"
+            ]
         ]
     },
     {
@@ -4958,9 +9286,9 @@
         "order": 83,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4968,7 +9296,9 @@
         "x": 1190,
         "y": 470,
         "wires": [
-            []
+            [
+                "14e6bf6e3dd20cf9"
+            ]
         ]
     },
     {
@@ -4982,9 +9312,9 @@
         "order": 83,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -4992,7 +9322,9 @@
         "x": 1420,
         "y": 470,
         "wires": [
-            []
+            [
+                "b225da4eeb96b37e"
+            ]
         ]
     },
     {
@@ -5006,9 +9338,9 @@
         "order": 83,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -5016,7 +9348,9 @@
         "x": 1650,
         "y": 470,
         "wires": [
-            []
+            [
+                "e1015215c3f021df"
+            ]
         ]
     },
     {
@@ -5030,9 +9364,9 @@
         "order": 83,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -5040,7 +9374,9 @@
         "x": 1880,
         "y": 470,
         "wires": [
-            []
+            [
+                "567c183c904d2ecc"
+            ]
         ]
     },
     {
@@ -5054,9 +9390,9 @@
         "order": 83,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -5064,7 +9400,9 @@
         "x": 2110,
         "y": 470,
         "wires": [
-            []
+            [
+                "9a307e0d6c8176fc"
+            ]
         ]
     },
     {
@@ -5085,7 +9423,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 620,
-        "y": 510,
+        "y": 640,
         "wires": []
     },
     {
@@ -5106,7 +9444,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 640,
-        "y": 550,
+        "y": 680,
         "wires": []
     },
     {
@@ -6710,6 +11048,20 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_10",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topicNOMBRE_RECETA_1",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6738,6 +11090,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6766,6 +11125,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6794,6 +11160,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6822,6 +11195,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6850,6 +11230,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6878,6 +11265,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6906,6 +11300,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6934,6 +11335,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6962,6 +11370,13 @@
                 "pt": "msg",
                 "to": "payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "NOMBRE_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6990,6 +11405,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_1",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7018,6 +11440,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7046,6 +11475,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7074,6 +11510,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7102,6 +11545,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7130,6 +11580,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7158,6 +11615,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7186,6 +11650,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7214,6 +11685,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7242,6 +11720,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR1_RECETA_10",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_1_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7270,6 +11755,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_1",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7298,6 +11790,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7326,6 +11825,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7354,6 +11860,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7382,6 +11895,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7410,6 +11930,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7438,6 +11965,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7466,6 +12000,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7494,6 +12035,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7522,6 +12070,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGR2_RECETA_10",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGREGADO_2_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7550,6 +12105,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_1",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7578,6 +12140,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7606,6 +12175,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7634,6 +12210,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7662,6 +12245,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7690,6 +12280,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7718,6 +12315,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7746,6 +12350,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7774,6 +12385,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7802,6 +12420,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_CEMENTO_RECETA_10",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CEMENTO_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7830,6 +12455,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_1",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7858,6 +12490,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7886,6 +12525,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7914,6 +12560,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7942,6 +12595,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7970,6 +12630,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -7998,6 +12665,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8026,6 +12700,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8054,6 +12735,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8082,6 +12770,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA1_RECETA_10",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_1_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8110,6 +12805,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_1",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8138,6 +12840,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8166,6 +12875,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8194,6 +12910,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8222,6 +12945,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8250,6 +12980,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8278,6 +13015,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8306,6 +13050,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8334,6 +13085,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8362,6 +13120,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_AGUA2_RECETA_10",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AGUA_2_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8390,6 +13155,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_1",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_1",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8418,6 +13190,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_2",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_2",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8446,6 +13225,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_3",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_3",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8474,6 +13260,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_4",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_4",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8502,6 +13295,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_5",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_5",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8530,6 +13330,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_6",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_6",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8558,6 +13365,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_7",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_7",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8586,6 +13400,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_8",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_8",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8614,6 +13435,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_9",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_9",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8642,6 +13470,13 @@
                 "pt": "msg",
                 "to": "payload.INPUT_ADITIVO_RECETA_10",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ADITIVO_RECETA_10",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -8659,20 +13494,130 @@
         "l": false
     },
     {
-        "id": "15d4b3e0775891ef",
-        "type": "debug",
+        "id": "1171de42841cd808",
+        "type": "function",
         "z": "40722463514f64b4",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1070,
-        "y": 590,
-        "wires": []
+        "name": "WRITE RECETA NOMBRE",
+        "func": "switch (msg.topic){\n\n    // NOMBRE RECETA 1\n    case \"NOMBRE_RECETA_1\":\n        global.set(\"NOMBRE_RECETA_1\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 2\n    case \"NOMBRE_RECETA_2\":\n        global.set(\"NOMBRE_RECETA_2\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 3\n    case \"NOMBRE_RECETA_3\":\n        global.set(\"NOMBRE_RECETA_3\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 4\n    case \"NOMBRE_RECETA_4\":\n        global.set(\"NOMBRE_RECETA_4\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 5\n    case \"NOMBRE_RECETA_5\":\n        global.set(\"NOMBRE_RECETA_5\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 6\n    case \"NOMBRE_RECETA_6\":\n        global.set(\"NOMBRE_RECETA_6\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 7\n    case \"NOMBRE_RECETA_7\":\n        global.set(\"NOMBRE_RECETA_7\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 8\n    case \"NOMBRE_RECETA_8\":\n        global.set(\"NOMBRE_RECETA_8\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 9\n    case \"NOMBRE_RECETA_9\":\n        global.set(\"NOMBRE_RECETA_9\", msg.payload);\n    break;\n\n    // NOMBRE RECETA 10\n    case \"NOMBRE_RECETA_10\":\n        global.set(\"NOMBRE_RECETA_10\", msg.payload);\n    break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ad738f013b13089",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "WRITE AGREGADO 1",
+        "func": "switch (msg.topic){\n\n    // AGREGADO 1 RECETA 1\n    case \"AGREGADO_1_RECETA_1\":\n        global.set(\"AGREGADO_1_RECETA_1\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 2\n    case \"AGREGADO_1_RECETA_2\":\n        global.set(\"AGREGADO_1_RECETA_2\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 3\n    case \"AGREGADO_1_RECETA_3\":\n        global.set(\"AGREGADO_1_RECETA_3\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 4\n    case \"AGREGADO_1_RECETA_4\":\n        global.set(\"AGREGADO_1_RECETA_4\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 5\n    case \"AGREGADO_1_RECETA_5\":\n        global.set(\"AGREGADO_1_RECETA_5\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 6\n    case \"AGREGADO_1_RECETA_6\":\n        global.set(\"AGREGADO_1_RECETA_6\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 7\n    case \"AGREGADO_1_RECETA_7\":\n        global.set(\"AGREGADO_1_RECETA_7\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 8\n    case \"AGREGADO_1_RECETA_8\":\n        global.set(\"AGREGADO_1_RECETA_8\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 9\n    case \"AGREGADO_1_RECETA_9\":\n        global.set(\"AGREGADO_1_RECETA_9\", msg.payload);\n    break;\n\n    // AGREGADO 1 RECETA 10\n    case \"AGREGADO_1_RECETA_10\":\n        global.set(\"AGREGADO_1_RECETA_10\", msg.payload);\n    break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b225da4eeb96b37e",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "WRITE CEMENTO",
+        "func": "switch (msg.topic){\n\n    // CEMENTO RECETA 1\n    case \"CEMENTO_RECETA_1\":\n        global.set(\"CEMENTO_RECETA_1\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 2\n    case \"CEMENTO_RECETA_2\":\n        global.set(\"CEMENTO_RECETA_2\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 3\n    case \"CEMENTO_RECETA_3\":\n        global.set(\"CEMENTO_RECETA_3\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 4\n    case \"CEMENTO_RECETA_4\":\n        global.set(\"CEMENTO_RECETA_4\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 5\n    case \"CEMENTO_RECETA_5\":\n        global.set(\"CEMENTO_RECETA_5\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 6\n    case \"CEMENTO_RECETA_6\":\n        global.set(\"CEMENTO_RECETA_6\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 7\n    case \"CEMENTO_RECETA_7\":\n        global.set(\"CEMENTO_RECETA_7\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 8\n    case \"CEMENTO_RECETA_8\":\n        global.set(\"CEMENTO_RECETA_8\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 9\n    case \"CEMENTO_RECETA_9\":\n        global.set(\"CEMENTO_RECETA_9\", msg.payload);\n    break;\n\n    // CEMENTO RECETA 10\n    case \"CEMENTO_RECETA_10\":\n        global.set(\"CEMENTO_RECETA_10\", msg.payload);\n    break;\n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1015215c3f021df",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "WRITE AGUA 1",
+        "func": "switch (msg.topic){\n\n    // AGUA 1 RECETA 1\n    case \"AGUA_1_RECETA_1\":\n        global.set(\"AGUA_1_RECETA_1\", msg.payload);\n    break;\n    \n    // AGUA 1 RECETA 2\n    case \"AGUA_1_RECETA_2\":\n        global.set(\"AGUA_1_RECETA_2\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 3\n    case \"AGUA_1_RECETA_3\":\n        global.set(\"AGUA_1_RECETA_3\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 4\n    case \"AGUA_1_RECETA_4\":\n        global.set(\"AGUA_1_RECETA_4\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 5\n    case \"AGUA_1_RECETA_5\":\n        global.set(\"AGUA_1_RECETA_5\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 6\n    case \"AGUA_1_RECETA_6\":\n        global.set(\"AGUA_1_RECETA_6\", msg.payload);\n    break;\n    \n    // AGUA 1 RECETA 7\n    case \"AGUA_1_RECETA_7\":\n        global.set(\"AGUA_1_RECETA_7\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 8\n    case \"AGUA_1_RECETA_8\":\n        global.set(\"AGUA_1_RECETA_8\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 9\n    case \"AGUA_1_RECETA_9\":\n        global.set(\"AGUA_1_RECETA_9\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 10\n    case \"AGUA_1_RECETA_10\":\n        global.set(\"AGUA_1_RECETA_10\", msg.payload);\n    break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a307e0d6c8176fc",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "WRITE ADITIVO",
+        "func": "switch (msg.topic){\n\n    // ADITIVO RECETA 1\n    case \"ADITIVO_RECETA_1\":\n        global.set(\"ADITIVO_RECETA_1\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 2\n    case \"ADITIVO_RECETA_2\":\n        global.set(\"ADITIVO_RECETA_2\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 3\n    case \"ADITIVO_RECETA_3\":\n        global.set(\"ADITIVO_RECETA_3\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 4\n    case \"ADITIVO_RECETA_4\":\n        global.set(\"ADITIVO_RECETA_4\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 5\n    case \"ADITIVO_RECETA_5\":\n        global.set(\"ADITIVO_RECETA_5\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 6\n    case \"ADITIVO_RECETA_6\":\n        global.set(\"ADITIVO_RECETA_6\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 7\n    case \"ADITIVO_RECETA_7\":\n        global.set(\"ADITIVO_RECETA_7\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 8\n    case \"ADITIVO_RECETA_8\":\n        global.set(\"ADITIVO_RECETA_8\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 9\n    case \"ADITIVO_RECETA_9\":\n        global.set(\"ADITIVO_RECETA_9\", msg.payload);\n    break;\n\n    // ADITIVO RECETA 10\n    case \"ADITIVO_RECETA_10\":\n        global.set(\"ADITIVO_RECETA_10\", msg.payload);\n    break;\n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2130,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14e6bf6e3dd20cf9",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "WRITE AGREGADO 2",
+        "func": "switch (msg.topic){\n\n    // AGREGADO 2 RECETA 1\n    case \"AGREGADO_2_RECETA_1\":\n        global.set(\"AGREGADO_2_RECETA_1\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 2\n    case \"AGREGADO_2_RECETA_2\":\n        global.set(\"AGREGADO_2_RECETA_2\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 3\n    case \"AGREGADO_2_RECETA_3\":\n        global.set(\"AGREGADO_2_RECETA_3\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 4\n    case \"AGREGADO_2_RECETA_4\":\n        global.set(\"AGREGADO_2_RECETA_4\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 5\n    case \"AGREGADO_2_RECETA_5\":\n        global.set(\"AGREGADO_2_RECETA_5\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 6\n    case \"AGREGADO_2_RECETA_6\":\n        global.set(\"AGREGADO_2_RECETA_6\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 7\n    case \"AGREGADO_2_RECETA_7\":\n        global.set(\"AGREGADO_2_RECETA_7\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 8\n    case \"AGREGADO_2_RECETA_8\":\n        global.set(\"AGREGADO_2_RECETA_8\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 9\n    case \"AGREGADO_2_RECETA_9\":\n        global.set(\"AGREGADO_2_RECETA_9\", msg.payload);\n    break;\n\n    // AGREGADO 2 RECETA 10\n    case \"AGREGADO_2_RECETA_10\":\n        global.set(\"AGREGADO_2_RECETA_10\", msg.payload);\n    break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "567c183c904d2ecc",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "WRITE AGUA 2",
+        "func": "switch (msg.topic){\n\n    // AGUA 2 RECETA 1\n    case \"AGUA_2_RECETA_1\":\n        global.set(\"AGUA_2_RECETA_1\", msg.payload);\n    break;\n    \n    // AGUA 2 RECETA 2\n    case \"AGUA_2_RECETA_2\":\n        global.set(\"AGUA_2_RECETA_2\", msg.payload);\n    break;\n\n    // AGUA 2 RECETA 3\n    case \"AGUA_2_RECETA_3\":\n        global.set(\"AGUA_2_RECETA_3\", msg.payload);\n    break;\n\n    // AGUA 2 RECETA 4\n    case \"AGUA_2_RECETA_4\":\n        global.set(\"AGUA_2_RECETA_4\", msg.payload);\n    break;\n\n    // AGUA 2 RECETA 5\n    case \"AGUA_2_RECETA_5\":\n        global.set(\"AGUA_2_RECETA_5\", msg.payload);\n    break;\n\n    // AGUA 2 RECETA 6\n    case \"AGUA_2_RECETA_6\":\n        global.set(\"AGUA_2_RECETA_6\", msg.payload);\n    break;\n    \n    // AGUA 2 RECETA 7\n    case \"AGUA_2_RECETA_7\":\n        global.set(\"AGUA_2_RECETA_7\", msg.payload);\n    break;\n\n    // AGUA 2 RECETA 8\n    case \"AGUA_2_RECETA_8\":\n        global.set(\"AGUA_2_RECETA_8\", msg.payload);\n    break;\n\n    // AGUA 2 RECETA 9\n    case \"AGUA_2_RECETA_9\":\n        global.set(\"AGUA_2_RECETA_9\", msg.payload);\n    break;\n\n    // AGUA 1 RECETA 10\n    case \"AGUA_2_RECETA_10\":\n        global.set(\"AGUA_2_RECETA_10\", msg.payload);\n    break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1890,
+        "y": 580,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "20cf359b5f6dd87b",
@@ -14295,7 +19240,7 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "item": "ns=4;i=374",
-        "datatype": "Boolean",
+        "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 6",
         "x": 1240,
@@ -15463,7 +20408,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "function 1",
-        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}else{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
+        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}\n\n//if (suscrito == \"active subscribed\" || suscrito == \"session active\"){\n//    msg.payload = \"connect\";\n//    global.set(\"OPC_SERVER_CONNECTED\", true);\n//}\nelse{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
