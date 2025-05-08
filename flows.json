@@ -2028,7 +2028,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
+        "x": 90,
         "y": 780,
         "wires": [
             [
@@ -2102,7 +2102,35 @@
                 "39ed1bdc00d78f32",
                 "589e804b082b983c",
                 "c93345216b07ff8e",
-                "87b5af648177b4ad"
+                "87b5af648177b4ad",
+                "d6ba842af2d9b49a",
+                "71173ba5587c55b9",
+                "3b5697828cc4d94d",
+                "2c40d462f556e91e",
+                "34ad11a01eeac2cd",
+                "5dc6ba98471e3785",
+                "46dd525ac2ce93be",
+                "54ea70bbd2cb45c9",
+                "58c395f7cf485838",
+                "d09a0ade2c0bd885",
+                "ccac4c269ae6a469",
+                "1e3c208f7c6994fc",
+                "6e2fe4880d506008",
+                "c4a60b2b7ee974e4",
+                "b891739f43ac3479",
+                "c62bb2eded06f01c",
+                "df0e88c0dc0a861d",
+                "907bc35a2445b277",
+                "01cd4c3517e4f2c9",
+                "6b66787c04ec5110",
+                "b9407ff6eb502355",
+                "4f7c37ffe9afe4b3",
+                "52609262f35e7437",
+                "e0f484ef2e568ea5",
+                "9ca5ea5a45a1d10d",
+                "c270c982f316c64e",
+                "150b4df622c20ace",
+                "b4ee1f3292850688"
             ]
         ],
         "icon": "node-red/serial.svg"
@@ -2119,7 +2147,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
+        "x": 310,
         "y": 780,
         "wires": [
             [
@@ -2196,8 +2224,8 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 2180,
-        "y": 1050,
+        "x": 2990,
+        "y": 1060,
         "wires": [
             [],
             [],
@@ -7207,6 +7235,1752 @@
                 "940a7cb65bae23e8"
             ]
         ]
+    },
+    {
+        "id": "cf22cb1ae9076e79",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_TIEMPO_META_VACIADO_DE_BANDAS",
+        "x": 2340,
+        "y": 1290,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "b1a5154ce171b5da",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS",
+        "x": 2360,
+        "y": 1330,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "f0da4f15c8b1e9ca",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_TIEMPO_META_ADITIVO",
+        "x": 2290,
+        "y": 1370,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "47d8b3f35229fae8",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_TIEMPO_ACTUAL_ADITIVO1",
+        "x": 2310,
+        "y": 1410,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "74c77237fd31adc3",
+        "type": "comment",
+        "z": "e515f4b8125260c1",
+        "name": "TIEMPOS",
+        "info": "",
+        "x": 2210,
+        "y": 1250,
+        "wires": []
+    },
+    {
+        "id": "fab15ab683d5faa9",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON",
+        "x": 2400,
+        "y": 1470,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "fb16c279e3f5e4cd",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET",
+        "x": 2380,
+        "y": 1510,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "035acbbfb30cf65a",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF",
+        "x": 2400,
+        "y": 1550,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "5ad5f6155de421f6",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET",
+        "x": 2380,
+        "y": 1590,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e163a6f63135ccfe",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON",
+        "x": 2400,
+        "y": 1630,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "d4b39041912a7793",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET",
+        "x": 2380,
+        "y": 1670,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "0c834074b1256fcd",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF",
+        "x": 2400,
+        "y": 1710,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "a6acd719b5402438",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET",
+        "x": 2380,
+        "y": 1750,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "29addc0383ec0227",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON",
+        "x": 2400,
+        "y": 1810,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "3f1182adeca566c4",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET",
+        "x": 2380,
+        "y": 1850,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "90b2eb1763fe9521",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF",
+        "x": 2400,
+        "y": 1890,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "b53b7dfee3c85311",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET",
+        "x": 2380,
+        "y": 1930,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "bc5d57652bd9fac8",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON",
+        "x": 2400,
+        "y": 1970,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "50d41ea26ad376e6",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET",
+        "x": 2380,
+        "y": 2010,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "58964b1b20003ab6",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF",
+        "x": 2400,
+        "y": 2050,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "30594b948f6601d8",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET",
+        "x": 2380,
+        "y": 2090,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "2827291205670ebd",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1",
+        "x": 2330,
+        "y": 2150,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "8a8f375f2dd57642",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1",
+        "x": 2330,
+        "y": 2190,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "612b54265a77f712",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2",
+        "x": 2330,
+        "y": 2230,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "029c81e0c20791cc",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2",
+        "x": 2330,
+        "y": 2270,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "2972774bb3a24c53",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_FLUJO_DE_PESO_AGR1",
+        "x": 2290,
+        "y": 2330,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "ec9472f986fa2dc9",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_FLUJO_DE_PESO_AGR2",
+        "x": 2290,
+        "y": 2370,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "7db808279bd7f8b9",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO",
+        "x": 2360,
+        "y": 2430,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "7b60c72a2214583c",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO",
+        "x": 2370,
+        "y": 2470,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "d6ba842af2d9b49a",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 143",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1290,
+        "wires": [
+            [
+                "0b491a3552644a1a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "0b491a3552644a1a",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1290,
+        "wires": [
+            [
+                "cf22cb1ae9076e79"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "71173ba5587c55b9",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 144",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1330,
+        "wires": [
+            [
+                "29ffb8ac658a7101"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "29ffb8ac658a7101",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1330,
+        "wires": [
+            [
+                "b1a5154ce171b5da"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3b5697828cc4d94d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 145",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1370,
+        "wires": [
+            [
+                "bd479c934aaf4bf0"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "bd479c934aaf4bf0",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1370,
+        "wires": [
+            [
+                "f0da4f15c8b1e9ca"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2c40d462f556e91e",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 146",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1410,
+        "wires": [
+            [
+                "59faa267c95f0c4e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "59faa267c95f0c4e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1410,
+        "wires": [
+            [
+                "47d8b3f35229fae8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "34ad11a01eeac2cd",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 147",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1470,
+        "wires": [
+            [
+                "c0836082e6a52ca4"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c0836082e6a52ca4",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1470,
+        "wires": [
+            [
+                "fab15ab683d5faa9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5dc6ba98471e3785",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 148",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1510,
+        "wires": [
+            [
+                "4f1cb8129d7883a3"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "4f1cb8129d7883a3",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1510,
+        "wires": [
+            [
+                "fb16c279e3f5e4cd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "46dd525ac2ce93be",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 149",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1550,
+        "wires": [
+            [
+                "6a1dcd3e8e38d6c9"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "6a1dcd3e8e38d6c9",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1550,
+        "wires": [
+            [
+                "035acbbfb30cf65a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "54ea70bbd2cb45c9",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 150",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1590,
+        "wires": [
+            [
+                "93d00aa29549bfc5"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "93d00aa29549bfc5",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1590,
+        "wires": [
+            [
+                "5ad5f6155de421f6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "58c395f7cf485838",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 151",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1630,
+        "wires": [
+            [
+                "c6ee06d5d3970ad0"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "c6ee06d5d3970ad0",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1630,
+        "wires": [
+            [
+                "e163a6f63135ccfe"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d09a0ade2c0bd885",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 152",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1670,
+        "wires": [
+            [
+                "2a6a8ec9cb4eb4a6"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "2a6a8ec9cb4eb4a6",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1670,
+        "wires": [
+            [
+                "d4b39041912a7793"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ccac4c269ae6a469",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 153",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1710,
+        "wires": [
+            [
+                "6a7b1b883351f0f1"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "6a7b1b883351f0f1",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1710,
+        "wires": [
+            [
+                "0c834074b1256fcd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1e3c208f7c6994fc",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 154",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1750,
+        "wires": [
+            [
+                "2979d3d0089f5f9a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "2979d3d0089f5f9a",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1750,
+        "wires": [
+            [
+                "a6acd719b5402438"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6e2fe4880d506008",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 155",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1810,
+        "wires": [
+            [
+                "408781fd0019eea6"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "408781fd0019eea6",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1810,
+        "wires": [
+            [
+                "29addc0383ec0227"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c4a60b2b7ee974e4",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 156",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1850,
+        "wires": [
+            [
+                "7bb0919feb80ee47"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "7bb0919feb80ee47",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1850,
+        "wires": [
+            [
+                "3f1182adeca566c4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b891739f43ac3479",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 157",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1890,
+        "wires": [
+            [
+                "a4e7153d19698667"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a4e7153d19698667",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1890,
+        "wires": [
+            [
+                "90b2eb1763fe9521"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c62bb2eded06f01c",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 158",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1930,
+        "wires": [
+            [
+                "e1545e93ce22ef8e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e1545e93ce22ef8e",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1930,
+        "wires": [
+            [
+                "b53b7dfee3c85311"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "df0e88c0dc0a861d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 159",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 1970,
+        "wires": [
+            [
+                "cdaabf85378a33fe"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "cdaabf85378a33fe",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 1970,
+        "wires": [
+            [
+                "bc5d57652bd9fac8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "907bc35a2445b277",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 160",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2010,
+        "wires": [
+            [
+                "e59b3193b167daa5"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e59b3193b167daa5",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2010,
+        "wires": [
+            [
+                "50d41ea26ad376e6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "01cd4c3517e4f2c9",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 161",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2050,
+        "wires": [
+            [
+                "58d4bbbe5551888c"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "58d4bbbe5551888c",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2050,
+        "wires": [
+            [
+                "58964b1b20003ab6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6b66787c04ec5110",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 162",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2090,
+        "wires": [
+            [
+                "b02a46e41e3fd8a3"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b02a46e41e3fd8a3",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2090,
+        "wires": [
+            [
+                "30594b948f6601d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b9407ff6eb502355",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 163",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2150,
+        "wires": [
+            [
+                "10fc3405a67e1d26"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "10fc3405a67e1d26",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2150,
+        "wires": [
+            [
+                "2827291205670ebd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4f7c37ffe9afe4b3",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 164",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2190,
+        "wires": [
+            [
+                "e491c233c91dc23d"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e491c233c91dc23d",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2190,
+        "wires": [
+            [
+                "8a8f375f2dd57642"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "52609262f35e7437",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 165",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2230,
+        "wires": [
+            [
+                "04b5248c419c3629"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "04b5248c419c3629",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2230,
+        "wires": [
+            [
+                "612b54265a77f712"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e0f484ef2e568ea5",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 166",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2270,
+        "wires": [
+            [
+                "a2cef534bdef6e51"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a2cef534bdef6e51",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2270,
+        "wires": [
+            [
+                "029c81e0c20791cc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9ca5ea5a45a1d10d",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 167",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2330,
+        "wires": [
+            [
+                "d1b7b280fe4ac3f8"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "d1b7b280fe4ac3f8",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2330,
+        "wires": [
+            [
+                "2972774bb3a24c53"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c270c982f316c64e",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 168",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2370,
+        "wires": [
+            [
+                "8c181ef826eb8294"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "8c181ef826eb8294",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2370,
+        "wires": [
+            [
+                "ec9472f986fa2dc9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "150b4df622c20ace",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 169",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2430,
+        "wires": [
+            [
+                "402520abf44a3baa"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "402520abf44a3baa",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2430,
+        "wires": [
+            [
+                "7db808279bd7f8b9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b4ee1f3292850688",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 170",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2065,
+        "y": 2470,
+        "wires": [
+            [
+                "0531a51102dbce98"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "0531a51102dbce98",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2115,
+        "y": 2470,
+        "wires": [
+            [
+                "7b60c72a2214583c"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "467d47620ab0dc99",
@@ -13658,7 +15432,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 770,
+        "x": 850,
         "y": 80,
         "wires": []
     },
@@ -13673,9 +15447,9 @@
         "order": 5,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -13683,7 +15457,9 @@
         "x": 540,
         "y": 120,
         "wires": [
-            []
+            [
+                "4c6d4fbcb4b262de"
+            ]
         ]
     },
     {
@@ -13704,10 +15480,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 120,
         "wires": [
-            []
+            [
+                "64c4c713b691c8cf"
+            ]
         ]
     },
     {
@@ -13752,7 +15530,9 @@
         "x": 540,
         "y": 160,
         "wires": [
-            []
+            [
+                "3ba2f19bcf399304"
+            ]
         ]
     },
     {
@@ -13773,10 +15553,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 160,
         "wires": [
-            []
+            [
+                "3786697a8db627e1"
+            ]
         ]
     },
     {
@@ -13821,7 +15603,9 @@
         "x": 540,
         "y": 220,
         "wires": [
-            []
+            [
+                "98ade3e1f91b0d33"
+            ]
         ]
     },
     {
@@ -13842,10 +15626,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 220,
         "wires": [
-            []
+            [
+                "b8dd8f3ac44c9f94"
+            ]
         ]
     },
     {
@@ -13890,7 +15676,9 @@
         "x": 540,
         "y": 260,
         "wires": [
-            []
+            [
+                "b6ccea7dc02294bc"
+            ]
         ]
     },
     {
@@ -13911,10 +15699,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 260,
         "wires": [
-            []
+            [
+                "b1c812140c6b7ac2"
+            ]
         ]
     },
     {
@@ -13959,7 +15749,9 @@
         "x": 540,
         "y": 300,
         "wires": [
-            []
+            [
+                "38c89ab1b37eef07"
+            ]
         ]
     },
     {
@@ -13980,10 +15772,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 300,
         "wires": [
-            []
+            [
+                "43deefaf35cea2b9"
+            ]
         ]
     },
     {
@@ -14028,7 +15822,9 @@
         "x": 540,
         "y": 340,
         "wires": [
-            []
+            [
+                "13b9b49bdb115bf2"
+            ]
         ]
     },
     {
@@ -14049,10 +15845,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 340,
         "wires": [
-            []
+            [
+                "75d6f38fb4f9ebc1"
+            ]
         ]
     },
     {
@@ -14097,7 +15895,9 @@
         "x": 540,
         "y": 440,
         "wires": [
-            []
+            [
+                "7ee9f8829043cb4b"
+            ]
         ]
     },
     {
@@ -14118,10 +15918,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 440,
         "wires": [
-            []
+            [
+                "3fcc938ccc9598e3"
+            ]
         ]
     },
     {
@@ -14166,7 +15968,9 @@
         "x": 540,
         "y": 480,
         "wires": [
-            []
+            [
+                "981fc440316dc8e9"
+            ]
         ]
     },
     {
@@ -14187,10 +15991,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 480,
         "wires": [
-            []
+            [
+                "66d6ed4a8be02584"
+            ]
         ]
     },
     {
@@ -14235,7 +16041,9 @@
         "x": 540,
         "y": 520,
         "wires": [
-            []
+            [
+                "15619f90fc66bf63"
+            ]
         ]
     },
     {
@@ -14256,10 +16064,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 520,
         "wires": [
-            []
+            [
+                "bc9f61d9320d7db3"
+            ]
         ]
     },
     {
@@ -14304,7 +16114,9 @@
         "x": 540,
         "y": 560,
         "wires": [
-            []
+            [
+                "0be2a8cb0cf9c2f9"
+            ]
         ]
     },
     {
@@ -14325,10 +16137,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 760,
+        "x": 840,
         "y": 560,
         "wires": [
-            []
+            [
+                "a2704e81c9ce8b68"
+            ]
         ]
     },
     {
@@ -14348,8 +16162,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1040,
-        "y": 90,
+        "x": 1140,
+        "y": 120,
         "wires": []
     },
     {
@@ -14370,10 +16184,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1360,
-        "y": 90,
+        "x": 1470,
+        "y": 120,
         "wires": [
-            []
+            [
+                "987348cb73d2bcc5"
+            ]
         ]
     },
     {
@@ -14393,8 +16209,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1040,
-        "y": 130,
+        "x": 1140,
+        "y": 160,
         "wires": []
     },
     {
@@ -14415,10 +16231,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1360,
-        "y": 130,
+        "x": 1470,
+        "y": 160,
         "wires": [
-            []
+            [
+                "e97b989d523e8b42"
+            ]
         ]
     },
     {
@@ -14438,8 +16256,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1040,
-        "y": 170,
+        "x": 1140,
+        "y": 200,
         "wires": []
     },
     {
@@ -14459,8 +16277,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1040,
-        "y": 210,
+        "x": 1140,
+        "y": 240,
         "wires": []
     },
     {
@@ -14481,10 +16299,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1360,
-        "y": 170,
+        "x": 1470,
+        "y": 200,
         "wires": [
-            []
+            [
+                "d745b47ffd659604"
+            ]
         ]
     },
     {
@@ -14505,10 +16325,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1360,
-        "y": 210,
+        "x": 1470,
+        "y": 240,
         "wires": [
-            []
+            [
+                "6e524419890cac9b"
+            ]
         ]
     },
     {
@@ -14528,8 +16350,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1610,
-        "y": 90,
+        "x": 1780,
+        "y": 120,
         "wires": []
     },
     {
@@ -14550,10 +16372,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1940,
-        "y": 90,
+        "x": 2120,
+        "y": 120,
         "wires": [
-            []
+            [
+                "30cfb7efeb6cf454"
+            ]
         ]
     },
     {
@@ -14573,8 +16397,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1610,
-        "y": 130,
+        "x": 1780,
+        "y": 160,
         "wires": []
     },
     {
@@ -14595,10 +16419,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1940,
-        "y": 130,
+        "x": 2120,
+        "y": 160,
         "wires": [
-            []
+            [
+                "d873a3c2181ce79f"
+            ]
         ]
     },
     {
@@ -14618,8 +16444,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2200,
-        "y": 90,
+        "x": 2410,
+        "y": 40,
         "wires": []
     },
     {
@@ -14639,8 +16465,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2510,
-        "y": 130,
+        "x": 2730,
+        "y": 80,
         "wires": []
     },
     {
@@ -14660,8 +16486,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2740,
-        "y": 130,
+        "x": 3020,
+        "y": 80,
         "wires": []
     },
     {
@@ -14681,8 +16507,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2190,
-        "y": 170,
+        "x": 2400,
+        "y": 120,
         "wires": []
     },
     {
@@ -14703,10 +16529,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 2510,
-        "y": 170,
+        "x": 2730,
+        "y": 120,
         "wires": [
-            []
+            [
+                "fa067149b8445d28"
+            ]
         ]
     },
     {
@@ -14727,39 +16555,13 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 2730,
-        "y": 170,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "33f51ea199965543",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_TIEMPO_META_VACIADO_DE_BANDAS",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
+        "x": 3010,
         "y": 120,
         "wires": [
             [
-                "3b067aab6ef53282"
+                "233a10987f37ae85"
             ]
-        ],
-        "l": false
+        ]
     },
     {
         "id": "3b067aab6ef53282",
@@ -14778,34 +16580,6 @@
         "wires": [
             [
                 "b6dea98fe46bb6f8"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "4079fbaf93cb20e1",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_TIEMPO_META_ADITIVO",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 160,
-        "wires": [
-            [
-                "7788e69b9766ded5"
             ]
         ],
         "l": false
@@ -14832,34 +16606,6 @@
         "l": false
     },
     {
-        "id": "4d29cdfd0d48e82a",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 220,
-        "wires": [
-            [
-                "299fb89518a8c6ec"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "299fb89518a8c6ec",
         "type": "rbe",
         "z": "e26a0d022ba5021a",
@@ -14876,34 +16622,6 @@
         "wires": [
             [
                 "115b8dd56c5fc894"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "5558ef930ff986a2",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 260,
-        "wires": [
-            [
-                "d1b44309cb9eb11d"
             ]
         ],
         "l": false
@@ -14930,34 +16648,6 @@
         "l": false
     },
     {
-        "id": "e7f55a71a2624e1b",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 300,
-        "wires": [
-            [
-                "10e25784054e57a2"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "10e25784054e57a2",
         "type": "rbe",
         "z": "e26a0d022ba5021a",
@@ -14974,34 +16664,6 @@
         "wires": [
             [
                 "40ba65761191ce63"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "8f0b3fb2e5185b59",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 340,
-        "wires": [
-            [
-                "2b4c7157d0106d53"
             ]
         ],
         "l": false
@@ -15028,34 +16690,6 @@
         "l": false
     },
     {
-        "id": "698274e353f58ee8",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 440,
-        "wires": [
-            [
-                "2c1862b4ad7c60be"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "2c1862b4ad7c60be",
         "type": "rbe",
         "z": "e26a0d022ba5021a",
@@ -15072,34 +16706,6 @@
         "wires": [
             [
                 "36aa7b8244c025c6"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "9551cc25eb8e961a",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 480,
-        "wires": [
-            [
-                "0b501e47a9844014"
             ]
         ],
         "l": false
@@ -15126,34 +16732,6 @@
         "l": false
     },
     {
-        "id": "5dedac2d27e935b9",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 520,
-        "wires": [
-            [
-                "33ad01b0dcf9cf53"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "33ad01b0dcf9cf53",
         "type": "rbe",
         "z": "e26a0d022ba5021a",
@@ -15170,34 +16748,6 @@
         "wires": [
             [
                 "e0009758eb31261b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "3fba87aa7a007591",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 405,
-        "y": 560,
-        "wires": [
-            [
-                "bf29794b253a07f4"
             ]
         ],
         "l": false
@@ -15245,88 +16795,40 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 110,
-        "y": 650,
+        "y": 630,
         "wires": [
             [
-                "085990c834533baf"
+                "43c01f72a57803da",
+                "bbb8c16baf97ca95",
+                "f35fbcd4feb4bb31",
+                "af02e1a7ca7935dc",
+                "efea76b692609dc9",
+                "ac73038b07037349",
+                "8a581ac637e19c13",
+                "269446f0919db57e",
+                "bab7025450b0f1d6",
+                "6d153aad2146a5b4",
+                "dc17097b22eaaaeb",
+                "4ed3eaf8b799738f",
+                "01e53ce718b468d3",
+                "6144029230e33e91",
+                "abfb24b83dfe3ef7",
+                "85c34ed01ab5e09d",
+                "07d1d6f121655d38",
+                "5ffc903c7cf7bbd3",
+                "3baf664fee227f64",
+                "d516fdfc8a37233e",
+                "2d71b2dec02a667c",
+                "351272a5bce983e7",
+                "2fbc7a7b10d4133a",
+                "34585584929599c7",
+                "ccb4567a2222855f",
+                "26044e6c75253da2",
+                "4e875774293d3bfe",
+                "7364fbb7380d5bbf"
             ]
         ],
         "icon": "node-red/serial.svg"
-    },
-    {
-        "id": "085990c834533baf",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "FEED LABELS",
-        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true) {\n    msg.payload.INPUT_TIEMPO_META_VACIADO_DE_BANDAS = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\");\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\");\n    msg.payload.INPUT_TIEMPO_META_ADITIVO = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\");\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_ADITIVO1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\");\n\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\");\n\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\");\n\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\");\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\");\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\");\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\");\n\n    msg.payload.INPUT_FLUJO_DE_PESO_AGR1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\");\n    msg.payload.INPUT_FLUJO_DE_PESO_AGR2 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\");\n\n    msg.payload.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\");\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\");\n} else {\n    msg.payload.INPUT_TIEMPO_META_VACIADO_DE_BANDAS = NaN;\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS = NaN;\n    msg.payload.INPUT_TIEMPO_META_ADITIVO = NaN;\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_ADITIVO1 = NaN;\n\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON = NaN;\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET = NaN;\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF = NaN;\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET = NaN;\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET = NaN;\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF = NaN;\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET = NaN;\n\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF = NaN;\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET = NaN;\n\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1 = NaN;\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1 = NaN;\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2 = NaN;\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2 = NaN;\n\n    msg.payload.INPUT_FLUJO_DE_PESO_AGR1 = NaN;\n    msg.payload.INPUT_FLUJO_DE_PESO_AGR2 = NaN;\n\n    msg.payload.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO = NaN;\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO = NaN;\n}\n\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 650,
-        "wires": [
-            [
-                "33f51ea199965543",
-                "4079fbaf93cb20e1",
-                "4d29cdfd0d48e82a",
-                "5558ef930ff986a2",
-                "e7f55a71a2624e1b",
-                "8f0b3fb2e5185b59",
-                "698274e353f58ee8",
-                "9551cc25eb8e961a",
-                "5dedac2d27e935b9",
-                "3fba87aa7a007591",
-                "ff79cb36b460c2eb",
-                "bcb249f5cf1fa9bc",
-                "951b665120e10e35",
-                "b0d64ed712355454",
-                "a5ab8ed32056a318",
-                "bbb635717aec8629",
-                "e252aac1402b40f3",
-                "adc838972f0d1dfd",
-                "9803cddb5d8b66ea",
-                "d8797ae805b0139c",
-                "770356dd10638ab0",
-                "af7253047ae29dee",
-                "bb23027fd94b3a04",
-                "dc5239d8a9a99bc5",
-                "f577a2bc1c3b7acc",
-                "680493fafaad8443",
-                "66024742078cfbda",
-                "8bb0253ad20656db"
-            ]
-        ]
-    },
-    {
-        "id": "ff79cb36b460c2eb",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 120,
-        "wires": [
-            [
-                "6544c6ef700777f2"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "6544c6ef700777f2",
@@ -15340,39 +16842,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 120,
         "wires": [
             [
                 "6b2b594b27bbe70a"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "bcb249f5cf1fa9bc",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.DISPLAY_TIEMPO_ACTUAL_ADITIVO1",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 160,
-        "wires": [
-            [
-                "0ab47668d392515b"
             ]
         ],
         "l": false
@@ -15389,39 +16863,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 160,
         "wires": [
             [
                 "a836d6e9b94593be"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "951b665120e10e35",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 220,
-        "wires": [
-            [
-                "6a682f48e51b2f5f"
             ]
         ],
         "l": false
@@ -15438,39 +16884,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 220,
         "wires": [
             [
                 "c2005ca860af989e"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "b0d64ed712355454",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 260,
-        "wires": [
-            [
-                "936395ba8d1cce33"
             ]
         ],
         "l": false
@@ -15487,39 +16905,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 260,
         "wires": [
             [
                 "33272433d606c046"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "a5ab8ed32056a318",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 300,
-        "wires": [
-            [
-                "3c1ba0fc5dadb86c"
             ]
         ],
         "l": false
@@ -15536,39 +16926,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 300,
         "wires": [
             [
                 "40495bf75374af9a"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "bbb635717aec8629",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 340,
-        "wires": [
-            [
-                "ddf136876253555c"
             ]
         ],
         "l": false
@@ -15585,39 +16947,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 340,
         "wires": [
             [
                 "30473aa785986637"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "e252aac1402b40f3",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 440,
-        "wires": [
-            [
-                "e4d7888452701338"
             ]
         ],
         "l": false
@@ -15634,39 +16968,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 440,
         "wires": [
             [
                 "f3d2203c38962525"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "adc838972f0d1dfd",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 480,
-        "wires": [
-            [
-                "ad96b0d63513b86e"
             ]
         ],
         "l": false
@@ -15683,39 +16989,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 480,
         "wires": [
             [
                 "357755878d8ccaea"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "9803cddb5d8b66ea",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 520,
-        "wires": [
-            [
-                "845fe5b71d57b8f0"
             ]
         ],
         "l": false
@@ -15732,39 +17010,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 520,
         "wires": [
             [
                 "236276847a9b954a"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "d8797ae805b0139c",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 625,
-        "y": 560,
-        "wires": [
-            [
-                "07935e20a00afd2a"
             ]
         ],
         "l": false
@@ -15781,39 +17031,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 675,
+        "x": 755,
         "y": 560,
         "wires": [
             [
                 "9c762a05c3a87608"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "770356dd10638ab0",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1225,
-        "y": 90,
-        "wires": [
-            [
-                "425aef9409c12506"
             ]
         ],
         "l": false
@@ -15830,39 +17052,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1275,
-        "y": 90,
+        "x": 1385,
+        "y": 120,
         "wires": [
             [
                 "40b4a102b4a16336"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "af7253047ae29dee",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1225,
-        "y": 130,
-        "wires": [
-            [
-                "929f2aed8bf2a539"
             ]
         ],
         "l": false
@@ -15879,38 +17073,10 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1275,
-        "y": 130,
+        "x": 1385,
+        "y": 160,
         "wires": [
             []
-        ],
-        "l": false
-    },
-    {
-        "id": "bb23027fd94b3a04",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1225,
-        "y": 170,
-        "wires": [
-            [
-                "67d9a34874a2d5f3"
-            ]
         ],
         "l": false
     },
@@ -15926,38 +17092,10 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1275,
-        "y": 170,
+        "x": 1385,
+        "y": 200,
         "wires": [
             []
-        ],
-        "l": false
-    },
-    {
-        "id": "dc5239d8a9a99bc5",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1225,
-        "y": 210,
-        "wires": [
-            [
-                "31b6f7b3ea77379f"
-            ]
         ],
         "l": false
     },
@@ -15973,38 +17111,10 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1275,
-        "y": 210,
+        "x": 1385,
+        "y": 240,
         "wires": [
             []
-        ],
-        "l": false
-    },
-    {
-        "id": "f577a2bc1c3b7acc",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_FLUJO_DE_PESO_AGR1",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1805,
-        "y": 90,
-        "wires": [
-            [
-                "0303dfdafc8ac10b"
-            ]
         ],
         "l": false
     },
@@ -16020,39 +17130,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1855,
-        "y": 90,
+        "x": 2035,
+        "y": 120,
         "wires": [
             [
                 "db2e2d7ea1143479"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "680493fafaad8443",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_FLUJO_DE_PESO_AGR2",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1805,
-        "y": 130,
-        "wires": [
-            [
-                "10d109d98f2ec878"
             ]
         ],
         "l": false
@@ -16069,39 +17151,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1855,
-        "y": 130,
+        "x": 2035,
+        "y": 160,
         "wires": [
             [
                 "d1e4330195fe77a7"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "66024742078cfbda",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2375,
-        "y": 170,
-        "wires": [
-            [
-                "d672774488e347e5"
             ]
         ],
         "l": false
@@ -16118,39 +17172,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 2425,
-        "y": 170,
+        "x": 2645,
+        "y": 120,
         "wires": [
             [
                 "ac568797a970d2ed"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "8bb0253ad20656db",
-        "type": "change",
-        "z": "e26a0d022ba5021a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2595,
-        "y": 170,
-        "wires": [
-            [
-                "87be470e9d3b5890"
             ]
         ],
         "l": false
@@ -16167,11 +17193,1240 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 2645,
-        "y": 170,
+        "x": 2925,
+        "y": 120,
         "wires": [
             [
                 "fa0d75c5a3d93cf0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4f0fff9265acac24",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "WRITE TIEMPOS",
+        "func": "switch (msg.topic){\n\n    // \n    case \"INPUT_TIEMPO_META_VACIADO_DE_BANDAS\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\",msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\", msg.payload);\n    break;\n    case \"INPUT_TIEMPO_META_ADITIVO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_ADITIVO1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\", msg.payload);\n    break;\n\n    // \n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\", msg.payload);\n    break;\n\n    // \n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\", msg.payload);\n    break;\n\n    // \n    case \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\", msg.payload);\n    break;\n\n    // \n    case \"INPUT_FLUJO_DE_PESO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\", msg.payload);\n    break;\n    case \"INPUT_FLUJO_DE_PESO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\", msg.payload);\n    break;\n\n    // \n    case \"INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\", msg.payload);\n    break;\n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3180,
+        "y": 330,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8b5bf274166a4ca",
+        "type": "debug",
+        "z": "e26a0d022ba5021a",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "43c01f72a57803da",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 87",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 120,
+        "wires": [
+            [
+                "3b067aab6ef53282"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f068a30b5051cf3b",
+        "type": "debug",
+        "z": "e26a0d022ba5021a",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 650,
+        "wires": []
+    },
+    {
+        "id": "4c6d4fbcb4b262de",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 88",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_TIEMPO_META_VACIADO_DE_BANDAS\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 120,
+        "wires": [
+            [
+                "4f0fff9265acac24",
+                "f068a30b5051cf3b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bbb8c16baf97ca95",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 89",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 160,
+        "wires": [
+            [
+                "7788e69b9766ded5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f35fbcd4feb4bb31",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 90",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 220,
+        "wires": [
+            [
+                "299fb89518a8c6ec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "af02e1a7ca7935dc",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 91",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 260,
+        "wires": [
+            [
+                "d1b44309cb9eb11d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "efea76b692609dc9",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 92",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 300,
+        "wires": [
+            [
+                "10e25784054e57a2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ac73038b07037349",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 93",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 340,
+        "wires": [
+            [
+                "2b4c7157d0106d53"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8a581ac637e19c13",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 94",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 440,
+        "wires": [
+            [
+                "2c1862b4ad7c60be"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "269446f0919db57e",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 95",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 480,
+        "wires": [
+            [
+                "0b501e47a9844014"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bab7025450b0f1d6",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 96",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 520,
+        "wires": [
+            [
+                "33ad01b0dcf9cf53"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6d153aad2146a5b4",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 97",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 405,
+        "y": 560,
+        "wires": [
+            [
+                "bf29794b253a07f4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dc17097b22eaaaeb",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 98",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 120,
+        "wires": [
+            [
+                "6544c6ef700777f2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4ed3eaf8b799738f",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 99",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 160,
+        "wires": [
+            [
+                "0ab47668d392515b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "01e53ce718b468d3",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 100",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 220,
+        "wires": [
+            [
+                "6a682f48e51b2f5f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6144029230e33e91",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 101",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 260,
+        "wires": [
+            [
+                "936395ba8d1cce33"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "abfb24b83dfe3ef7",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 102",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 300,
+        "wires": [
+            [
+                "3c1ba0fc5dadb86c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "85c34ed01ab5e09d",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 103",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 340,
+        "wires": [
+            [
+                "ddf136876253555c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "07d1d6f121655d38",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 104",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 440,
+        "wires": [
+            [
+                "e4d7888452701338"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5ffc903c7cf7bbd3",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 105",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 480,
+        "wires": [
+            [
+                "ad96b0d63513b86e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3baf664fee227f64",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 106",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 520,
+        "wires": [
+            [
+                "845fe5b71d57b8f0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d516fdfc8a37233e",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 107",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 560,
+        "wires": [
+            [
+                "07935e20a00afd2a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3ba2f19bcf399304",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 108",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_TIEMPO_META_ADITIVO\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 160,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "98ade3e1f91b0d33",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 109",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 220,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b6ccea7dc02294bc",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 110",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 260,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "38c89ab1b37eef07",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 111",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 300,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "13b9b49bdb115bf2",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 112",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 340,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7ee9f8829043cb4b",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 113",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 440,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "981fc440316dc8e9",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 114",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 480,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "15619f90fc66bf63",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 115",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 520,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0be2a8cb0cf9c2f9",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 116",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 560,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "64c4c713b691c8cf",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 117",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 120,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3786697a8db627e1",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 118",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"DISPLAY_TIEMPO_ACTUAL_ADITIVO1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 160,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b8dd8f3ac44c9f94",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 119",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 220,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b1c812140c6b7ac2",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 120",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 260,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "43deefaf35cea2b9",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 121",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 300,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "75d6f38fb4f9ebc1",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 122",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 340,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3fcc938ccc9598e3",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 123",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 440,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "66d6ed4a8be02584",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 124",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 480,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bc9f61d9320d7db3",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 125",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 520,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a2704e81c9ce8b68",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 126",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 925,
+        "y": 560,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2d71b2dec02a667c",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 127",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1335,
+        "y": 120,
+        "wires": [
+            [
+                "425aef9409c12506"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "351272a5bce983e7",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 128",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1335,
+        "y": 160,
+        "wires": [
+            [
+                "929f2aed8bf2a539"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2fbc7a7b10d4133a",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 129",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1335,
+        "y": 200,
+        "wires": [
+            [
+                "67d9a34874a2d5f3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "34585584929599c7",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 130",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1335,
+        "y": 240,
+        "wires": [
+            [
+                "31b6f7b3ea77379f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "987348cb73d2bcc5",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 131",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1555,
+        "y": 120,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e97b989d523e8b42",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 132",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1555,
+        "y": 160,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d745b47ffd659604",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 133",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1555,
+        "y": 200,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6e524419890cac9b",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 134",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1555,
+        "y": 240,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ccb4567a2222855f",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 135",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1985,
+        "y": 120,
+        "wires": [
+            [
+                "0303dfdafc8ac10b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "26044e6c75253da2",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 136",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1985,
+        "y": 160,
+        "wires": [
+            [
+                "10d109d98f2ec878"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "30cfb7efeb6cf454",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 137",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_FLUJO_DE_PESO_AGR1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2205,
+        "y": 120,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d873a3c2181ce79f",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 138",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_FLUJO_DE_PESO_AGR2\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2205,
+        "y": 160,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4e875774293d3bfe",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 139",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2595,
+        "y": 120,
+        "wires": [
+            [
+                "d672774488e347e5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7364fbb7380d5bbf",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 140",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2875,
+        "y": 120,
+        "wires": [
+            [
+                "87be470e9d3b5890"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fa067149b8445d28",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 141",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2815,
+        "y": 120,
+        "wires": [
+            [
+                "4f0fff9265acac24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "233a10987f37ae85",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "function 142",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3095,
+        "y": 120,
+        "wires": [
+            [
+                "4f0fff9265acac24"
             ]
         ],
         "l": false
@@ -16193,8 +18448,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 510,
-        "y": 70,
+        "x": 760,
+        "y": 90,
         "wires": []
     },
     {
@@ -16215,10 +18470,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 490,
+        "x": 860,
         "y": 170,
         "wires": [
-            []
+            [
+                "d901832ca7236e1f"
+            ]
         ]
     },
     {
@@ -16241,7 +18498,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 320,
+        "x": 570,
         "y": 170,
         "wires": [
             []
@@ -16267,8 +18524,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 670,
-        "y": 220,
+        "x": 1100,
+        "y": 240,
         "wires": [
             []
         ]
@@ -16293,8 +18550,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 310,
-        "y": 220,
+        "x": 560,
+        "y": 240,
         "wires": [
             []
         ]
@@ -16317,10 +18574,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 480,
-        "y": 220,
+        "x": 850,
+        "y": 240,
         "wires": [
-            []
+            [
+                "a434b70a7bcc5487"
+            ]
         ]
     },
     {
@@ -16343,8 +18602,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 330,
-        "y": 270,
+        "x": 580,
+        "y": 320,
         "wires": [
             []
         ]
@@ -16367,10 +18626,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 510,
-        "y": 270,
+        "x": 880,
+        "y": 320,
         "wires": [
-            []
+            [
+                "f68a2f1b8b3163f6"
+            ]
         ]
     },
     {
@@ -16399,10 +18660,12 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 280,
-        "y": 310,
+        "x": 630,
+        "y": 360,
         "wires": [
-            []
+            [
+                "683a24b11bcc108e"
+            ]
         ]
     },
     {
@@ -16423,10 +18686,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 410,
-        "y": 310,
+        "x": 990,
+        "y": 360,
         "wires": [
-            []
+            [
+                "84c1b65997b0887a"
+            ]
         ]
     },
     {
@@ -16449,8 +18714,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 300,
-        "y": 390,
+        "x": 550,
+        "y": 450,
         "wires": [
             []
         ]
@@ -16473,10 +18738,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 450,
-        "y": 390,
+        "x": 820,
+        "y": 450,
         "wires": [
-            []
+            [
+                "14192ddb4d490cc8"
+            ]
         ]
     },
     {
@@ -16497,10 +18764,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 580,
-        "y": 390,
+        "x": 1130,
+        "y": 450,
         "wires": [
-            []
+            [
+                "74320d88b140e970"
+            ]
         ]
     },
     {
@@ -16529,10 +18798,12 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 800,
-        "y": 390,
+        "x": 1500,
+        "y": 450,
         "wires": [
-            []
+            [
+                "2dbbfd8aaf2492f5"
+            ]
         ]
     },
     {
@@ -16555,8 +18826,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 300,
-        "y": 430,
+        "x": 550,
+        "y": 490,
         "wires": [
             []
         ]
@@ -16579,10 +18850,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 450,
-        "y": 430,
+        "x": 820,
+        "y": 490,
         "wires": [
-            []
+            [
+                "c9b485eab736e42c"
+            ]
         ]
     },
     {
@@ -16603,10 +18876,12 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 580,
-        "y": 430,
+        "x": 1130,
+        "y": 490,
         "wires": [
-            []
+            [
+                "20cb26edd81cc653"
+            ]
         ]
     },
     {
@@ -16635,67 +18910,19 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 790,
-        "y": 430,
+        "x": 1490,
+        "y": 490,
         "wires": [
             [
-                "268dc081ef2b0d30"
+                "421ca2da93141e9e"
             ]
         ]
     },
     {
-        "id": "36f807461ac6ca20",
-        "type": "OpcUa-Client",
-        "z": "e84e53e8ddf338f7",
-        "d": true,
-        "endpoint": "415de91fb493cf02",
-        "action": "write",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": 10,
-        "timeUnit": "s",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "useTransport": false,
-        "maxChunkCount": 1,
-        "maxMessageSize": 8192,
-        "receiveBufferSize": 8192,
-        "sendBufferSize": 8192,
-        "setstatusandtime": false,
-        "keepsessionalive": false,
-        "name": "",
-        "x": 1230,
-        "y": 270,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "268dc081ef2b0d30",
-        "type": "OpcUa-Item",
-        "z": "e84e53e8ddf338f7",
-        "item": "ns=5;i=229",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "",
-        "x": 1030,
-        "y": 270,
-        "wires": [
-            [
-                "36f807461ac6ca20"
-            ]
-        ]
-    },
-    {
-        "id": "079ab2720ba9054f",
+        "id": "83d10b79fa1c3f82",
         "type": "inject",
         "z": "e84e53e8ddf338f7",
-        "name": "",
+        "name": "500 ms",
         "props": [
             {
                 "p": "payload"
@@ -16705,49 +18932,724 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "0.5",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 830,
-        "y": 270,
+        "x": 90,
+        "y": 80,
         "wires": [
             [
-                "268dc081ef2b0d30"
+                "7975b1cf0be96d53"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "7975b1cf0be96d53",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "FEED LABELS",
+        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n// VARIABLES PARA MANUAL\n    msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n    msg.payload.PESO_CEMENTO_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n    msg.payload.INPUT_VELOCIDAD_MANUAL = global.get(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\");\n    msg.payload.SEL_HMI_JOG_MANUAL_MOTOR = global.get(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\");\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n    msg.payload.PB_HMI_MANUAL_BANDA_COLECTORA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");\n    msg.payload.PB_HMI_MANUAL_BANDA_INCLINADA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");\n\n}else{\n    // VARIABLES PARA RECETA #1\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10 = \"ESPERANDO CONEXION\";\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "c7fbd9cf0a3f70c6",
+                "3abcc4c0ca70571b",
+                "5d5a7801d16941c4",
+                "255c4a93295f7359",
+                "54f9e2b466a7c5b4",
+                "cfa6cda7d7fe08e8",
+                "ad9e4ad24931759f",
+                "3a3a7f8ded559b2a",
+                "e99ca363e3158e26",
+                "8bbf8401cd0aafcf"
             ]
         ]
     },
     {
-        "id": "25d17120d585b7c1",
-        "type": "inject",
+        "id": "56e557f8cf5ab5bc",
+        "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "d": true,
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "x": 830,
-        "y": 310,
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 775,
+        "y": 170,
         "wires": [
             [
-                "268dc081ef2b0d30"
+                "d2872bb6d0e0cf77"
             ]
-        ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7008d3a85719682a",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "d": true,
+        "name": "function 171",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725,
+        "y": 170,
+        "wires": [
+            [
+                "56e557f8cf5ab5bc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d901832ca7236e1f",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "d": true,
+        "name": "function 172",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 945,
+        "y": 170,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "51ecae5677e4a403",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 755,
+        "y": 240,
+        "wires": [
+            [
+                "e273d7c0fc36f95a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c7fbd9cf0a3f70c6",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 173",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 705,
+        "y": 240,
+        "wires": [
+            [
+                "51ecae5677e4a403"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a434b70a7bcc5487",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 174",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_CEMENTO_SIWAREX\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 945,
+        "y": 240,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "3e97bf919416af48",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 795,
+        "y": 320,
+        "wires": [
+            [
+                "ede024f92bab74fe"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3abcc4c0ca70571b",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 175",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 745,
+        "y": 320,
+        "wires": [
+            [
+                "3e97bf919416af48"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f68a2f1b8b3163f6",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 176",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 965,
+        "y": 320,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "e9fcc21e1f10c89c",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 905,
+        "y": 360,
+        "wires": [
+            [
+                "3f4535a1fec2fdb0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "255c4a93295f7359",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 177",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 855,
+        "y": 360,
+        "wires": [
+            [
+                "e9fcc21e1f10c89c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "84c1b65997b0887a",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 178",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_VELOCIDAD_MANUAL\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1075,
+        "y": 360,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "496678b01615809f",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 735,
+        "y": 450,
+        "wires": [
+            [
+                "3c631aae960b4f66"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "54f9e2b466a7c5b4",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 179",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 685,
+        "y": 450,
+        "wires": [
+            [
+                "496678b01615809f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "099443035029a44b",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 735,
+        "y": 490,
+        "wires": [
+            [
+                "3aa850241b5fe676"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cfa6cda7d7fe08e8",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 180",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 685,
+        "y": 490,
+        "wires": [
+            [
+                "099443035029a44b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2a8ab5e6de681a21",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1035,
+        "y": 450,
+        "wires": [
+            [
+                "a363d848c5ff8ca3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ad9e4ad24931759f",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 181",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 985,
+        "y": 450,
+        "wires": [
+            [
+                "2a8ab5e6de681a21"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "58f21a643ada6cbc",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1035,
+        "y": 490,
+        "wires": [
+            [
+                "cfb789dc2501963f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3a3a7f8ded559b2a",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 182",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 985,
+        "y": 490,
+        "wires": [
+            [
+                "58f21a643ada6cbc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1a3ca0e604873d1d",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1365,
+        "y": 450,
+        "wires": [
+            [
+                "4b1b7f363ea1d6c5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e99ca363e3158e26",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 183",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1315,
+        "y": 450,
+        "wires": [
+            [
+                "1a3ca0e604873d1d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bd3446f0259b9d01",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1365,
+        "y": 490,
+        "wires": [
+            [
+                "5e0f9fdb4d1acedc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8bbf8401cd0aafcf",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 184",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1315,
+        "y": 490,
+        "wires": [
+            [
+                "bd3446f0259b9d01"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "14192ddb4d490cc8",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 185",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 905,
+        "y": 450,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "c9b485eab736e42c",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 186",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 905,
+        "y": 490,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "74320d88b140e970",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 187",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_AGREGADO_1_SIWAREX\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 450,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "20cb26edd81cc653",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 188",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_AGREGADO_2_SIWAREX\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 490,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "2dbbfd8aaf2492f5",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 189",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"PB_HMI_MANUAL_BANDA_COLECTORA\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1635,
+        "y": 450,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "421ca2da93141e9e",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 190",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"PB_HMI_MANUAL_BANDA_INCLINADA\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1615,
+        "y": 490,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "e2747ebc5984e78f",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 535,
+        "y": 360,
+        "wires": [
+            [
+                "adc926c11e773624"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5d5a7801d16941c4",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 191",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\");;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 485,
+        "y": 360,
+        "wires": [
+            [
+                "e2747ebc5984e78f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "683a24b11bcc108e",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 192",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"SEL_HMI_JOG_MANUAL_MOTOR\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725,
+        "y": 360,
+        "wires": [
+            []
+        ],
+        "l": false
     },
     {
         "id": "6fbc7df4a638fead",
@@ -22128,7 +25030,7 @@
         "z": "0d06e67bad6a6fdf",
         "d": true,
         "name": "UPDATE TIEMPOS GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA TIEMPOS\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\",msg.payload);\n        break; \n//\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\",msg.payload);\n        break; \n//\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.\",msg.payload);\n        break;\n\n}\nreturn msg;",
+        "func": "switch (msg.topic) {\n\n    // \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\", msg.payload);\n        break;\n\n    // \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\", msg.payload);\n        break;\n    case \"SiloAgegadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\", msg.payload);\n        break;\n\n    // \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\", msg.payload);\n        break;\n\n    // \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\", msg.payload);\n        break;\n\n    // \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\", msg.payload);\n        break;\n\n    // \n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\", msg.payload);\n        break;\n    case \"\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\", msg.payload);\n        break;\n\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -22147,7 +25049,7 @@
         "z": "0d06e67bad6a6fdf",
         "d": true,
         "name": "UPDATE MANUAL GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n\n}\nreturn msg;",
+        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\",msg.payload);\n        break;\n\n//\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break; \n\n//\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\",msg.payload);\n        break; \n\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -22155,7 +25057,7 @@
         "finalize": "",
         "libs": [],
         "x": 2700,
-        "y": 510,
+        "y": 530,
         "wires": [
             []
         ]
@@ -22174,7 +25076,7 @@
         "finalize": "",
         "libs": [],
         "x": 2680,
-        "y": 550,
+        "y": 570,
         "wires": [
             []
         ]
