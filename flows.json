@@ -1040,7 +1040,6 @@
         "showcontrols": true,
         "loop": true,
         "onstart": false,
-        "muted": true,
         "scope": "local",
         "tooltip": "",
         "x": 90,
@@ -2028,7 +2027,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 90,
+        "x": 100,
         "y": 780,
         "wires": [
             [
@@ -2130,7 +2129,23 @@
                 "9ca5ea5a45a1d10d",
                 "c270c982f316c64e",
                 "150b4df622c20ace",
-                "b4ee1f3292850688"
+                "b4ee1f3292850688",
+                "5ff19f7ba63d8958",
+                "3670e394636775a8",
+                "8b8597fab8b2f133",
+                "03fb6bc4a8edd202",
+                "052587f3e3ec972a",
+                "e7b79767d07a97e8",
+                "0e93014f91710ccc",
+                "d6564d0fa64b3722",
+                "fbb885945c6826cf",
+                "ff991969b3cb3c3a",
+                "173993ab6545b139",
+                "c4294b3f6d968138",
+                "f09d29642299665f",
+                "28bd060b792f4603",
+                "705ad31905be5dcb",
+                "56a7c6aa3afa72c5"
             ]
         ],
         "icon": "node-red/serial.svg"
@@ -2224,8 +2239,8 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 2990,
-        "y": 1060,
+        "x": 2660,
+        "y": 480,
         "wires": [
             [],
             [],
@@ -3080,7 +3095,8 @@
         "y": 30,
         "wires": [
             [
-                "14cc617dae6c445d"
+                "14cc617dae6c445d",
+                "d69e69726c8be2b0"
             ]
         ],
         "l": false
@@ -8981,6 +8997,1008 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "5ff19f7ba63d8958",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 193",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3480,
+        "wires": [
+            [
+                "02fdaa94d8298667"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "02fdaa94d8298667",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3480,
+        "wires": [
+            [
+                "c4e945708adbf815"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c4e945708adbf815",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS",
+        "x": 1550,
+        "y": 3480,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "3670e394636775a8",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 194",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3520,
+        "wires": [
+            [
+                "d5b5c3bd8e5af28a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "d5b5c3bd8e5af28a",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3520,
+        "wires": [
+            [
+                "6d67735f8fc932af"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6d67735f8fc932af",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "PESO_CEMENTO_SIWAREX",
+        "x": 1440,
+        "y": 3520,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "8b8597fab8b2f133",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 195",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3560,
+        "wires": [
+            [
+                "015b249f535cca02"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "015b249f535cca02",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3560,
+        "wires": [
+            [
+                "ecae62b21a2d815d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ecae62b21a2d815d",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "INPUT_VELOCIDAD_MANUAL",
+        "x": 1440,
+        "y": 3560,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "03fb6bc4a8edd202",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 196",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3600,
+        "wires": [
+            [
+                "34a9af012263b369"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "34a9af012263b369",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3600,
+        "wires": [
+            [
+                "244b639958b2a718"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "244b639958b2a718",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "SEL_HMI_JOG_MANUAL_MOTOR",
+        "x": 1450,
+        "y": 3600,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "052587f3e3ec972a",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 197",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3640,
+        "wires": [
+            [
+                "a7d5936293c05d1d"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a7d5936293c05d1d",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3640,
+        "wires": [
+            [
+                "ee4b8a2793ea2d88"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ee4b8a2793ea2d88",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO",
+        "x": 1520,
+        "y": 3640,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "e7b79767d07a97e8",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 198",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3680,
+        "wires": [
+            [
+                "1c6d4fd33c673660"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "1c6d4fd33c673660",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3680,
+        "wires": [
+            [
+                "859fbed19a03962d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "859fbed19a03962d",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "PESO_AGREGADO_1_SIWAREX",
+        "x": 1450,
+        "y": 3680,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "0e93014f91710ccc",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 199",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3720,
+        "wires": [
+            [
+                "cd9a96e9284718b2"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "cd9a96e9284718b2",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3720,
+        "wires": [
+            [
+                "0ef3c6ed165e49eb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0ef3c6ed165e49eb",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO",
+        "x": 1520,
+        "y": 3720,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "d6564d0fa64b3722",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 200",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3760,
+        "wires": [
+            [
+                "51a0c7b470363464"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "51a0c7b470363464",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3760,
+        "wires": [
+            [
+                "11e4b3664895479d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "11e4b3664895479d",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "PESO_AGREGADO_2_SIWAREX",
+        "x": 1450,
+        "y": 3760,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "fbb885945c6826cf",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 201",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3800,
+        "wires": [
+            [
+                "a0d142f4c453a614"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a0d142f4c453a614",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3800,
+        "wires": [
+            [
+                "a637bf5f7c814c2e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a637bf5f7c814c2e",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "PB_HMI_MANUAL_BANDA_COLECTORA",
+        "x": 1480,
+        "y": 3800,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "ff991969b3cb3c3a",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 202",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3840,
+        "wires": [
+            [
+                "1fd8098e37ae0420"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "1fd8098e37ae0420",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3840,
+        "wires": [
+            [
+                "02f61ea91f2175ec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "02f61ea91f2175ec",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "PB_HMI_MANUAL_BANDA_INCLINADA",
+        "x": 1470,
+        "y": 3840,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "173993ab6545b139",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 203",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3880,
+        "wires": [
+            [
+                "d0fad8118c38bddb"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "d0fad8118c38bddb",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3880,
+        "wires": [
+            [
+                "e7bebebfe7fbbd30"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e7bebebfe7fbbd30",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "",
+        "x": 1390,
+        "y": 3880,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "c4294b3f6d968138",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 204",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3920,
+        "wires": [
+            [
+                "fd091ccaf5ebc469"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "fd091ccaf5ebc469",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3920,
+        "wires": [
+            [
+                "4cc7164fef7d102d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4cc7164fef7d102d",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "",
+        "x": 1390,
+        "y": 3920,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "f09d29642299665f",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 205",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 3960,
+        "wires": [
+            [
+                "e3c129dd87ff47e2"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e3c129dd87ff47e2",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 3960,
+        "wires": [
+            [
+                "c0c0cfe94935c034"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c0c0cfe94935c034",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "",
+        "x": 1390,
+        "y": 3960,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "28bd060b792f4603",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 206",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 4000,
+        "wires": [
+            [
+                "27113cc31ed16cbf"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "27113cc31ed16cbf",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 4000,
+        "wires": [
+            [
+                "735bed2df0dd5844"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "735bed2df0dd5844",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "",
+        "x": 1390,
+        "y": 4000,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "705ad31905be5dcb",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 207",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 4040,
+        "wires": [
+            [
+                "019054c4de20b032"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "019054c4de20b032",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 4040,
+        "wires": [
+            [
+                "187a82188b4854ae"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "187a82188b4854ae",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "",
+        "x": 1390,
+        "y": 4040,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "56a7c6aa3afa72c5",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "function 208",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1225,
+        "y": 4080,
+        "wires": [
+            [
+                "ee694d83ba04f260"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "ee694d83ba04f260",
+        "type": "rbe",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1275,
+        "y": 4080,
+        "wires": [
+            [
+                "7cd5e98f4802b4e2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7cd5e98f4802b4e2",
+        "type": "OpcUa-Item",
+        "z": "e515f4b8125260c1",
+        "d": true,
+        "item": "",
+        "datatype": "Int32",
+        "value": "",
+        "name": "",
+        "x": 1390,
+        "y": 4080,
+        "wires": [
+            [
+                "940a7cb65bae23e8"
+            ]
+        ]
+    },
+    {
+        "id": "bfa79d43f29c98d4",
+        "type": "comment",
+        "z": "e515f4b8125260c1",
+        "name": "MANUAL",
+        "info": "",
+        "x": 1260,
+        "y": 3440,
+        "wires": []
     },
     {
         "id": "467d47620ab0dc99",
@@ -19098,7 +20116,9 @@
         "x": 945,
         "y": 240,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19159,7 +20179,9 @@
         "x": 965,
         "y": 320,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19220,7 +20242,9 @@
         "x": 1075,
         "y": 360,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19491,7 +20515,9 @@
         "x": 905,
         "y": 450,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19510,7 +20536,9 @@
         "x": 905,
         "y": 490,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19529,7 +20557,9 @@
         "x": 1225,
         "y": 450,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19548,7 +20578,9 @@
         "x": 1225,
         "y": 490,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19567,7 +20599,9 @@
         "x": 1635,
         "y": 450,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19586,7 +20620,9 @@
         "x": 1615,
         "y": 490,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
     },
@@ -19647,9 +20683,29 @@
         "x": 725,
         "y": 360,
         "wires": [
-            []
+            [
+                "b9d73e5819a0debf"
+            ]
         ],
         "l": false
+    },
+    {
+        "id": "b9d73e5819a0debf",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "WRITE RECETA NOMBRE",
+        "func": "switch (msg.topic){\n\n    // \n    case \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\", msg.payload);\n    break;\n    // \n    case \"PESO_CEMENTO_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // \n    case \"INPUT_VELOCIDAD_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\", msg.payload);\n        break;\n    // \n    case \"SEL_HMI_JOG_MANUAL_MOTOR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_1_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_2_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_COLECTORA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_INCLINADA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 280,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "6fbc7df4a638fead",
@@ -21661,8 +22717,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 360,
-        "y": 60,
+        "x": 590,
+        "y": 180,
         "wires": []
     },
     {
@@ -21682,8 +22738,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 330,
-        "y": 100,
+        "x": 560,
+        "y": 220,
         "wires": []
     },
     {
@@ -21703,8 +22759,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 330,
-        "y": 140,
+        "x": 560,
+        "y": 260,
         "wires": []
     },
     {
@@ -21724,8 +22780,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 480,
-        "y": 100,
+        "x": 710,
+        "y": 220,
         "wires": []
     },
     {
@@ -21745,8 +22801,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 480,
-        "y": 140,
+        "x": 710,
+        "y": 260,
         "wires": []
     },
     {
@@ -21766,8 +22822,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 340,
-        "y": 200,
+        "x": 570,
+        "y": 320,
         "wires": []
     },
     {
@@ -21787,8 +22843,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 320,
-        "y": 240,
+        "x": 550,
+        "y": 360,
         "wires": []
     },
     {
@@ -21808,8 +22864,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 500,
-        "y": 200,
+        "x": 730,
+        "y": 320,
         "wires": []
     },
     {
@@ -21829,8 +22885,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 500,
-        "y": 240,
+        "x": 730,
+        "y": 360,
         "wires": []
     },
     {
@@ -21853,8 +22909,74 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 360,
-        "y": 290,
+        "x": 590,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3b4b987d87a09c6",
+        "type": "inject",
+        "z": "ae2f98a0fe00b008",
+        "name": "500 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "c8e7e25124d986f2"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "c8e7e25124d986f2",
+        "type": "function",
+        "z": "ae2f98a0fe00b008",
+        "name": "FEED LABELS",
+        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n// VARIABLES PARA MANUAL\n    msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n    msg.payload.PESO_CEMENTO_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n    msg.payload.INPUT_VELOCIDAD_MANUAL = global.get(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\");\n    msg.payload.SEL_HMI_JOG_MANUAL_MOTOR = global.get(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\");\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n    msg.payload.PB_HMI_MANUAL_BANDA_COLECTORA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");\n    msg.payload.PB_HMI_MANUAL_BANDA_INCLINADA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");\n\n}else{\n    // VARIABLES PARA RECETA #1\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10 = \"ESPERANDO CONEXION\";\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95918c64b87dcc28",
+        "type": "function",
+        "z": "ae2f98a0fe00b008",
+        "name": "WRITE RECETA NOMBRE",
+        "func": "switch (msg.topic){\n\n    // \n    case \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\", msg.payload);\n    break;\n    // \n    case \"PESO_CEMENTO_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // \n    case \"INPUT_VELOCIDAD_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\", msg.payload);\n        break;\n    // \n    case \"SEL_HMI_JOG_MANUAL_MOTOR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_1_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_2_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_COLECTORA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_INCLINADA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 500,
         "wires": [
             []
         ]
@@ -22589,7 +23711,7 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 2280,
+        "x": 2260,
         "y": 400,
         "wires": [
             [
@@ -22600,7 +23722,8 @@
                 "343979d78696a25e"
             ],
             [
-                "46fcf6ccf45b0443"
+                "46fcf6ccf45b0443",
+                "8e8e3d8da06c2c81"
             ],
             []
         ]
@@ -24541,129 +25664,9 @@
         "z": "0d06e67bad6a6fdf",
         "name": "MANUAL",
         "info": "",
-        "x": 90,
-        "y": 3750,
+        "x": 80,
+        "y": 3620,
         "wires": []
-    },
-    {
-        "id": "7a652cbc0cf5c334",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": null,
-        "name": "",
-        "x": 370,
-        "y": 3750,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "04c9bb845e4bb2a1",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS",
-        "x": 530,
-        "y": 3790,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "04b5d81fcbf5ad74",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "PESO CEMENTO SIWAREX",
-        "x": 410,
-        "y": 3830,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "418e7222313559d8",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "INPUT_VELOCIDAD MANUAL",
-        "x": 420,
-        "y": 3870,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3d182faf14c2da80",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "SiloAgregadosColgante_1_DB_PESO META DE CICLO",
-        "x": 500,
-        "y": 3930,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e41e66a97939ec86",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "PESO AGREGADO 1 SIWAREX",
-        "x": 420,
-        "y": 3970,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "12f59f05977fed0e",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "SiloAgregadosColgante_2_DB_PESO META DE CICLO",
-        "x": 500,
-        "y": 4010,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b898ec2ebd62ce2a",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "PESO AGREGADO 2 SIWAREX",
-        "x": 420,
-        "y": 4050,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "1df2f1115c621823",
@@ -24752,8 +25755,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 205,
-        "y": 150,
+        "x": 85,
+        "y": 3860,
         "wires": [
             [
                 "ec6f58e518e628a0",
@@ -24906,7 +25909,23 @@
                 "2da73ed2e2bb18b8",
                 "c9c0a94ae46019a1",
                 "d75b7ed9719eaef7",
-                "2fc65c2b16361302"
+                "2fc65c2b16361302",
+                "db83298be5ed9154",
+                "c350bf19db4572a3",
+                "7d117abf538d3751",
+                "15f7f7bb41d9fa6b",
+                "702f298549562788",
+                "1a773246ab8d2022",
+                "8a325ded25c0af71",
+                "88442ca2180afbb1",
+                "d333979c6ce582fa",
+                "69f0b2a31ece7d38",
+                "210429757e8a6c02",
+                "baf57d5392af0c55",
+                "adfa1d519874b434",
+                "3ecf6fd07d4854a2",
+                "8f13660f8904b3d5",
+                "b89960b23af6ef9e"
             ]
         ],
         "l": false
@@ -25566,6 +26585,352 @@
         "x": 190,
         "y": 490,
         "wires": []
+    },
+    {
+        "id": "8e8e3d8da06c2c81",
+        "type": "debug",
+        "z": "0d06e67bad6a6fdf",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2680,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "db83298be5ed9154",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS",
+        "x": 600,
+        "y": 3780,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "c350bf19db4572a3",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO_CEMENTO_SIWAREX",
+        "x": 490,
+        "y": 3820,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "7d117abf538d3751",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "INPUT_VELOCIDAD_MANUAL",
+        "x": 490,
+        "y": 3860,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "15f7f7bb41d9fa6b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SEL_HMI_JOG_MANUAL_MOTOR",
+        "x": 500,
+        "y": 3900,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "702f298549562788",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO",
+        "x": 570,
+        "y": 3960,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "1a773246ab8d2022",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO_AGREGADO_1_SIWAREX",
+        "x": 500,
+        "y": 4000,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8a325ded25c0af71",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO",
+        "x": 570,
+        "y": 4040,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "88442ca2180afbb1",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PESO_AGREGADO_2_SIWAREX",
+        "x": 500,
+        "y": 4080,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d333979c6ce582fa",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_MANUAL_BANDA_COLECTORA",
+        "x": 530,
+        "y": 4140,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "69f0b2a31ece7d38",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": "",
+        "name": "PB_HMI_MANUAL_BANDA_INCLINADA",
+        "x": 520,
+        "y": 4180,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "210429757e8a6c02",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 440,
+        "y": 4240,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "baf57d5392af0c55",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 440,
+        "y": 4280,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "adfa1d519874b434",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 440,
+        "y": 4320,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "3ecf6fd07d4854a2",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 440,
+        "y": 4360,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8f13660f8904b3d5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 440,
+        "y": 4400,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "b89960b23af6ef9e",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "item": "",
+        "datatype": "",
+        "value": null,
+        "name": "",
+        "x": 440,
+        "y": 4440,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d003b86a6f4b6893",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "name": "UPDATE PRODUCCION VRIABLES",
+        "func": "switch (msg.topic){\n// VARIABLES PARA IO\n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 2690,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04bd30c1e0404198",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "name": "UPDATE PRODUCCION VRIABLES",
+        "func": "switch (msg.topic){\n// VARIABLES PARA IO\n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 2690,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf3d0dcd38e6336e",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "name": "UPDATE ALARMAS VRIABLES",
+        "func": "switch (msg.topic){\n// VARIABLES PARA IO\n    case \"\":\n        global.set(\"ALARMAS_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 2670,
+        "y": 700,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "7d72347a681458d8",
