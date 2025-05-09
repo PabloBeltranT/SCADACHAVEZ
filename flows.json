@@ -611,12 +611,486 @@
             "d181902cb9d31861",
             "57d7810626475575",
             "b689a768845b3081",
-            "a080f5115c5b24ea"
+            "a080f5115c5b24ea",
+            "6dab26d15cf23d97",
+            "d60235d7bb54fe88",
+            "8b1d0c4c0350ae30"
         ],
-        "x": 294,
+        "x": 284,
         "y": 19,
-        "w": 352,
+        "w": 402,
         "h": 522
+    },
+    {
+        "id": "c2d158134dcf5829",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c6accc140966b2df",
+            "31745d0ebbc0aff8",
+            "dd7f49ccf1787047",
+            "e77d8710f8330b7a",
+            "40c08d335c19b608",
+            "6181d840d0c7074b",
+            "0936c20d0a892807",
+            "4a56a04895460850",
+            "48882585328b8864",
+            "792c9c0f7d52d03c",
+            "6d7f994dd56acb2c",
+            "f7556f5b5ec24a4b",
+            "1459197b79682bb5",
+            "fc772071ef26d041",
+            "3fe55afe9bf2055c",
+            "2eb87e4d96ab3b61",
+            "fd75e277e884e37c",
+            "1395ddc62ce62cc3",
+            "efa1d1bc4a081ce0",
+            "ec6f58e518e628a0",
+            "4ffc079ec35da4f6",
+            "c8de1c6d91f4e5ab"
+        ],
+        "x": 514,
+        "y": 69,
+        "w": 672,
+        "h": 1012
+    },
+    {
+        "id": "d655ade3b10d0471",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3075a9c10feaeec7",
+            "38754c7845c62af8",
+            "5680662348b46318",
+            "b3ca250b5b556041",
+            "f8566f1a4b61f7f7",
+            "91a5530ff30c572d",
+            "a5361f943df4e98e",
+            "ad321162b3d8676a",
+            "d9bbe313f9a933f1",
+            "550cd89cdf5fe32e",
+            "42813cdb2bf147c9",
+            "35806c310d960678",
+            "3051c352e1e0dc18",
+            "6cc4c62b98f8255a",
+            "649a56a64a55bd8f",
+            "69482f2d2ff84d67",
+            "f7ef6feec8c4de7d",
+            "870b48770eed5a12",
+            "8a2c0c9283ba7b1c",
+            "994158398780cc47",
+            "05ce9f2aafad5a94",
+            "b179457731088bb6",
+            "e659feff831f711b",
+            "b448221be563c4c6",
+            "d3708eeeb205d14a",
+            "3d53ec81df3ed35e",
+            "9ab4bbb0d9dda852",
+            "c915fda40df6d6ae",
+            "4388bfa623c47bcf"
+        ],
+        "x": 514,
+        "y": 4559,
+        "w": 492,
+        "h": 732
+    },
+    {
+        "id": "413dc507032ee6db",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e01c52318a8eb718",
+            "d2dd7849d794b3b6",
+            "b62a3c13b138712c",
+            "b79a2f35af36ab19",
+            "c66a7fedfabcee38",
+            "a39b36689f093c6a",
+            "4b7c1ee728d9bbe9",
+            "3acb62836e877dd2",
+            "d0f9d802e1f2be50",
+            "d6ab372e36d04ab5",
+            "80e621adeef3409a",
+            "4c7a1307d8537e37",
+            "ec19dbeeab96892d",
+            "809cbec2731413c4",
+            "9629f5577a7a27fe",
+            "3744c8e544349705",
+            "5524b0363fe3443a",
+            "bab98195137ac938",
+            "a46705178f6d510a",
+            "c5289ca0824925e9",
+            "c43bc9f63b164d1e",
+            "9a41b45acf4771ac",
+            "18116de391b9967a",
+            "8a7e84d8368c0f9f",
+            "a54eeef3e58c5fba",
+            "adce18a2f91e2ab1",
+            "1e20542456c94b60",
+            "8320dbfafe5d2df9",
+            "65456e154e493057",
+            "990149059c538c23",
+            "945e2bb0862017fb",
+            "e22e8bf68cafb920",
+            "17cf1c50cd65c7ea",
+            "f365bc71749cae86",
+            "1fa691db8d541b7c",
+            "6081dcaf943295db",
+            "a0ff8f6bd9a398a4",
+            "7b6b97eaa6e950db",
+            "357b6f2c6f49f609",
+            "7cae27af796abea6",
+            "360b2a979926517b",
+            "af0a5a1b52296e9d",
+            "ba41e77b7c4ead82",
+            "49047193b3226762",
+            "19ce4378fa110174",
+            "24301da966736eb0",
+            "8f560204b3ade856",
+            "3df7643ce90d9c79",
+            "f4058e012d176fe8",
+            "a311b6573383b46d",
+            "4275dd69467225bc",
+            "20892762cad87ce8",
+            "d202ae74b72b2fb4",
+            "e16f51afd6ade9bd",
+            "08c2fc600c2f382b",
+            "90793e53c8a0e12a",
+            "a8c008908eec2f1d",
+            "8f324bb996df8a24",
+            "9c9e746f7d73a12d",
+            "7394f6d60dbcaf9b",
+            "2046ed590953c459",
+            "8e2f047caa2e5611",
+            "b1e4a1eb6f4078eb",
+            "b3d45c05728d7acb",
+            "b95eb5b119eff5a0",
+            "60d8679a2174697e",
+            "897961781ef020d5",
+            "9ac736ec80c4ce27",
+            "795b931c6997fbb0",
+            "d495b3b9f6ac74aa",
+            "96cd545ae655ae7a"
+        ],
+        "x": 514,
+        "y": 1109,
+        "w": 1292,
+        "h": 1552
+    },
+    {
+        "id": "95fedce0ba60de3d",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a49530deb83617ad",
+            "42e190468b4a5158",
+            "5cfef7f9779a0fe4",
+            "addf3aee18d3cd8e",
+            "0369512311ee3f07",
+            "29e7e67ff29fb400",
+            "02f3bd6a0400cc80",
+            "3ebdcf3821f429d0",
+            "46e924653d2ef70b",
+            "a689ef17f82d9904",
+            "127c71bf46dba583",
+            "0f30f17b331c51cf",
+            "6ea1cd71e031e26c",
+            "0c4a2c2de2e88285",
+            "f7f254f308fee6e6",
+            "7a3576a433b99070",
+            "02154352317dfebc",
+            "26b4246dac5fa598",
+            "56b9d9a766733141",
+            "443178953d11f265",
+            "e663b3c49274698b",
+            "f7a7b13cab538d07",
+            "b62d771ff734a792",
+            "51ce5c4d98c68ec1",
+            "afdb62c3809d78c5",
+            "2da73ed2e2bb18b8",
+            "c9c0a94ae46019a1",
+            "d75b7ed9719eaef7",
+            "2fc65c2b16361302"
+        ],
+        "x": 514,
+        "y": 2689,
+        "w": 1092,
+        "h": 922
+    },
+    {
+        "id": "cfae9b60ed141fa6",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "51c7369056a9fab8",
+            "db83298be5ed9154",
+            "c350bf19db4572a3",
+            "7d117abf538d3751",
+            "15f7f7bb41d9fa6b",
+            "702f298549562788",
+            "1a773246ab8d2022",
+            "8a325ded25c0af71",
+            "88442ca2180afbb1",
+            "d333979c6ce582fa",
+            "69f0b2a31ece7d38",
+            "210429757e8a6c02",
+            "baf57d5392af0c55",
+            "adfa1d519874b434",
+            "3ecf6fd07d4854a2",
+            "8f13660f8904b3d5",
+            "b89960b23af6ef9e",
+            "c08479b56d7bb9f3",
+            "6170668af4114efd",
+            "42c908a48c29dbb3"
+        ],
+        "x": 514,
+        "y": 3629,
+        "w": 542,
+        "h": 912
+    },
+    {
+        "id": "a4d595a840de58a4",
+        "type": "group",
+        "z": "e515f4b8125260c1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a1bd326ae6fd8bd4",
+            "be9a93ea477201b1",
+            "ab592fc9a97f8146",
+            "48150ebc96aa91ad",
+            "a98950dea3c76ef8",
+            "9c16f12ba5f16347",
+            "e5531ecb7615611c",
+            "276c624c2503f528",
+            "3a775d44bee15d60",
+            "d272d0a202bc0ee6",
+            "2ea7946d14bcb1dd",
+            "3a3104a04ef83a82",
+            "be35e35b25a6e068",
+            "32775e6c80bd1523",
+            "d1dc170508247584",
+            "db7270737f9efb5d",
+            "82b9144f80e84d10",
+            "936c247a87f1d33e",
+            "7fcfdc7ffd7b93a7",
+            "bfa61cf77988194b",
+            "da6823bf76aba95c",
+            "e22a1d5c82ca1cc3",
+            "80ffcb3ddc413fe1",
+            "fc5b57c9afd57aa8",
+            "e3a4b7f27a48fdf8",
+            "a6b21a5e056675a4",
+            "6313741804b74c30"
+        ],
+        "x": 464,
+        "y": 139,
+        "w": 582,
+        "h": 362
+    },
+    {
+        "id": "2fda87db13c9e47e",
+        "type": "group",
+        "z": "e515f4b8125260c1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "32f8c0e80b66ee1e",
+            "c5c52fee0fbd5be8",
+            "3cc75f9bda540370",
+            "dd05cce7ad8bdcdc",
+            "4e4f507139159389",
+            "950d06a63eaf7996",
+            "5eb38dd507e7cadb",
+            "91405451b91990fc",
+            "31da6a1264b6a792"
+        ],
+        "x": 464,
+        "y": 519,
+        "w": 432,
+        "h": 162
+    },
+    {
+        "id": "0b460e13d448ea25",
+        "type": "group",
+        "z": "e515f4b8125260c1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5359d6656da105c7",
+            "14cc617dae6c445d",
+            "ece03bce14ec34e9",
+            "a2938a71b4c90cc4",
+            "609c84180d781741",
+            "17f1f36f25bdc7e6",
+            "bd34b69a8f96b4f8",
+            "4e1fbb40a4258851",
+            "297707dc9789f3bd",
+            "33972402f57a5452",
+            "4df02f1664bea28c",
+            "2023dea81ec40374",
+            "5c6b9facd67d9fd1",
+            "c0e9ed70f7727369",
+            "b275cf66ebb69030",
+            "058853e26cdc556e",
+            "7bae689a2e2ca7e5",
+            "aeac3308cbfa44be",
+            "4f12b3ea8cf387d5",
+            "2f4a201c9ad6eac6",
+            "119c81604f6c510f",
+            "a5ec04733fdbe0aa",
+            "ad2bb968adc7b539",
+            "e6591c5d6434d1b2",
+            "09486cd5ada8c676"
+        ],
+        "x": 1134,
+        "y": 139,
+        "w": 1392,
+        "h": 252
+    },
+    {
+        "id": "4692cadec59c4d7f",
+        "type": "group",
+        "z": "e515f4b8125260c1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2bd8c082077b0e3f",
+            "70027621e669bed0",
+            "ca25f5472137eb52",
+            "5b8e8566b552d29a",
+            "84d1335483d9fe65",
+            "972ead03fc6df5c0",
+            "c2610988fd749fa4",
+            "800215d3096b78d6",
+            "8b67b6cb51422cc7",
+            "30d428cfa50ede96",
+            "8c6a00345120855b",
+            "919f3b61286170df",
+            "17110b697beb7624",
+            "d7edd6c2bd359345",
+            "fe1779fa79fc1ef4",
+            "26c5d3aea9e66aea",
+            "d85eb65edec92adb",
+            "3791fefb564defd8",
+            "2c190c839569b9ac",
+            "fb61168275c43b1c",
+            "d7a59baee425e950"
+        ],
+        "x": 1134,
+        "y": 419,
+        "w": 1172,
+        "h": 202
+    },
+    {
+        "id": "53590877c54f3db5",
+        "type": "group",
+        "z": "e515f4b8125260c1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c631cb1e6f0df9a5",
+            "61c6721982f35720",
+            "d47c7c1a09fa16a4",
+            "95eaf882a57dea16",
+            "b11bc6a26ac2976e",
+            "c04ff059c239ae52",
+            "5655e10dea9ec8f1",
+            "249dc01c76695f41",
+            "6969387af2cdf2e2",
+            "aa794e88d18a9214",
+            "4dd1a10f301554aa",
+            "7d7ecea1c977e19a",
+            "46f6dc40c846fc39",
+            "1dfb359aaf3149e8",
+            "0185e26dd48c33a3",
+            "186736912b448aa9",
+            "91086aa6221dc932",
+            "cce4edf60e0d8dca"
+        ],
+        "x": 1134,
+        "y": 659,
+        "w": 1202,
+        "h": 202
     },
     {
         "id": "0785e116879ba187",
@@ -630,6 +1104,7 @@
     {
         "id": "7b4f97c42fdb8c27",
         "type": "ui_tab",
+        "d": true,
         "name": "SECUENCIAS",
         "icon": "dashboard",
         "order": 2,
@@ -648,6 +1123,7 @@
     {
         "id": "5c5a4a81c222c9a5",
         "type": "ui_tab",
+        "d": true,
         "name": "RECETAS",
         "icon": "dashboard",
         "order": 3,
@@ -657,6 +1133,7 @@
     {
         "id": "4682469d00c6dc2b",
         "type": "ui_tab",
+        "d": true,
         "name": "TIEMPOS",
         "icon": "dashboard",
         "order": 4,
@@ -666,6 +1143,7 @@
     {
         "id": "c74343a98692add8",
         "type": "ui_tab",
+        "d": true,
         "name": "MANUAL",
         "icon": "dashboard",
         "order": 5,
@@ -675,6 +1153,7 @@
     {
         "id": "13129f2d2f18bd64",
         "type": "ui_tab",
+        "d": true,
         "name": "I/0",
         "icon": "dashboard",
         "order": 6,
@@ -684,6 +1163,7 @@
     {
         "id": "f9b492d96b98a4be",
         "type": "ui_tab",
+        "d": true,
         "name": "PRODUCCION",
         "icon": "dashboard",
         "order": 7,
@@ -693,6 +1173,7 @@
     {
         "id": "d66784ca98c472d7",
         "type": "ui_tab",
+        "d": true,
         "name": "ALARMAS",
         "icon": "dashboard",
         "order": 8,
@@ -702,6 +1183,7 @@
     {
         "id": "1a905e23da656670",
         "type": "ui_tab",
+        "d": true,
         "name": "CONFIGURACION",
         "icon": "dashboard",
         "order": 9,
@@ -1528,6 +2010,7 @@
         "id": "a1bd326ae6fd8bd4",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "group": "4e5b91b3ad36dc06",
         "order": 14,
@@ -1544,8 +2027,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 360,
-        "y": 400,
+        "x": 750,
+        "y": 420,
         "wires": [
             [
                 "be35e35b25a6e068"
@@ -1556,6 +2039,7 @@
         "id": "5359d6656da105c7",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "group": "470cad7ce1c62aa0",
         "order": 2,
@@ -1572,8 +2056,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 830,
-        "y": 210,
+        "x": 1220,
+        "y": 230,
         "wires": [
             [
                 "7bae689a2e2ca7e5"
@@ -1584,6 +2068,7 @@
         "id": "be9a93ea477201b1",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "group": "4e5b91b3ad36dc06",
         "order": 1,
         "width": "10",
@@ -1597,14 +2082,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#3a3a3a",
-        "x": 310,
-        "y": 160,
+        "x": 700,
+        "y": 180,
         "wires": []
     },
     {
         "id": "ab592fc9a97f8146",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "group": "4e5b91b3ad36dc06",
         "order": 2,
         "width": "6",
@@ -1618,14 +2104,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#2dff2d",
-        "x": 290,
-        "y": 200,
+        "x": 680,
+        "y": 220,
         "wires": []
     },
     {
         "id": "48150ebc96aa91ad",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "group": "4e5b91b3ad36dc06",
         "order": 5,
         "width": "10",
@@ -1639,14 +2126,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#3a3a3a",
-        "x": 320,
-        "y": 240,
+        "x": 710,
+        "y": 260,
         "wires": []
     },
     {
         "id": "a98950dea3c76ef8",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "group": "4e5b91b3ad36dc06",
         "order": 6,
         "width": "6",
@@ -1660,14 +2148,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#2dff2d",
-        "x": 300,
-        "y": 280,
+        "x": 690,
+        "y": 300,
         "wires": []
     },
     {
         "id": "9c16f12ba5f16347",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "group": "4e5b91b3ad36dc06",
         "order": 9,
         "width": "10",
@@ -1681,14 +2170,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#3a3a3a",
-        "x": 310,
-        "y": 320,
+        "x": 700,
+        "y": 340,
         "wires": []
     },
     {
         "id": "e5531ecb7615611c",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "group": "4e5b91b3ad36dc06",
         "order": 10,
         "width": "6",
@@ -1702,14 +2192,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#2dff2d",
-        "x": 290,
-        "y": 360,
+        "x": 680,
+        "y": 380,
         "wires": []
     },
     {
         "id": "276c624c2503f528",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "group": "4e5b91b3ad36dc06",
         "order": 3,
@@ -1726,8 +2217,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 450,
-        "y": 200,
+        "x": 840,
+        "y": 220,
         "wires": [
             [
                 "32775e6c80bd1523"
@@ -1738,6 +2229,7 @@
         "id": "3a775d44bee15d60",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "group": "4e5b91b3ad36dc06",
         "order": 7,
@@ -1754,8 +2246,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 470,
-        "y": 280,
+        "x": 860,
+        "y": 300,
         "wires": [
             [
                 "d1dc170508247584"
@@ -1766,6 +2258,7 @@
         "id": "d272d0a202bc0ee6",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "group": "4e5b91b3ad36dc06",
         "order": 11,
@@ -1782,8 +2275,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 450,
-        "y": 360,
+        "x": 840,
+        "y": 380,
         "wires": [
             [
                 "db7270737f9efb5d"
@@ -1794,6 +2287,7 @@
         "id": "2ea7946d14bcb1dd",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "group": "4e5b91b3ad36dc06",
         "order": 15,
@@ -1810,8 +2304,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 290,
-        "y": 440,
+        "x": 680,
+        "y": 460,
         "wires": [
             [
                 "3a3104a04ef83a82"
@@ -1822,6 +2316,7 @@
         "id": "14cc617dae6c445d",
         "type": "ui_switch",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "label": "AUTOMATICO",
         "tooltip": "",
@@ -1844,11 +2339,10 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 860,
-        "y": 140,
+        "x": 1340,
+        "y": 180,
         "wires": [
             [
-                "e4f8198839a61320",
                 "2f4a201c9ad6eac6"
             ]
         ]
@@ -1857,6 +2351,7 @@
         "id": "ece03bce14ec34e9",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "group": "470cad7ce1c62aa0",
         "order": 3,
@@ -1873,8 +2368,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1050,
-        "y": 210,
+        "x": 1560,
+        "y": 230,
         "wires": [
             [
                 "058853e26cdc556e"
@@ -1885,6 +2380,7 @@
         "id": "a2938a71b4c90cc4",
         "type": "ui_numeric",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "INPUT_METROS_CUBICOS",
         "label": "MEZCLA TOTAL",
         "tooltip": "METROS CUBICOS",
@@ -1901,11 +2397,11 @@
         "max": "20",
         "step": "0.5",
         "className": "view",
-        "x": 890,
-        "y": 250,
+        "x": 1280,
+        "y": 270,
         "wires": [
             [
-                "49814de3e7f5583c"
+                "e6591c5d6434d1b2"
             ]
         ]
     },
@@ -1913,6 +2409,7 @@
         "id": "609c84180d781741",
         "type": "ui_numeric",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "label": "CAMBIAR RECETA",
         "tooltip": "NUMERO DE RECETA",
@@ -1929,11 +2426,11 @@
         "max": "10",
         "step": 1,
         "className": "view",
-        "x": 1130,
-        "y": 250,
+        "x": 1590,
+        "y": 270,
         "wires": [
             [
-                "1c311b5d2edd8a13"
+                "09486cd5ada8c676"
             ]
         ]
     },
@@ -1941,6 +2438,7 @@
         "id": "2bd8c082077b0e3f",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 12,
         "width": "4",
@@ -1954,14 +2452,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 830,
-        "y": 420,
+        "x": 1270,
+        "y": 460,
         "wires": []
     },
     {
         "id": "70027621e669bed0",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 13,
         "width": "5",
@@ -1975,14 +2474,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1000,
-        "y": 420,
+        "x": 1440,
+        "y": 460,
         "wires": []
     },
     {
         "id": "ca25f5472137eb52",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 14,
         "width": "5",
@@ -1996,14 +2496,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1550,
-        "y": 420,
+        "x": 1990,
+        "y": 460,
         "wires": []
     },
     {
         "id": "5b8e8566b552d29a",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 15,
         "width": "4",
@@ -2017,14 +2518,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 820,
-        "y": 460,
+        "x": 1260,
+        "y": 500,
         "wires": []
     },
     {
         "id": "84d1335483d9fe65",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 16,
         "width": "5",
@@ -2038,14 +2540,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1190,
-        "y": 460,
+        "x": 1630,
+        "y": 500,
         "wires": []
     },
     {
         "id": "972ead03fc6df5c0",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 17,
         "width": "5",
@@ -2059,14 +2562,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1660,
-        "y": 460,
+        "x": 2100,
+        "y": 500,
         "wires": []
     },
     {
         "id": "c2610988fd749fa4",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 18,
         "width": "4",
@@ -2080,14 +2584,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 820,
-        "y": 500,
+        "x": 1260,
+        "y": 540,
         "wires": []
     },
     {
         "id": "800215d3096b78d6",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 19,
         "width": "5",
@@ -2101,14 +2606,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1190,
-        "y": 500,
+        "x": 1630,
+        "y": 540,
         "wires": []
     },
     {
         "id": "8b67b6cb51422cc7",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 20,
         "width": "5",
@@ -2122,14 +2628,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1660,
-        "y": 500,
+        "x": 2100,
+        "y": 540,
         "wires": []
     },
     {
         "id": "30d428cfa50ede96",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 21,
         "width": "4",
@@ -2143,14 +2650,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 840,
-        "y": 540,
+        "x": 1280,
+        "y": 580,
         "wires": []
     },
     {
         "id": "8c6a00345120855b",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 22,
         "width": "5",
@@ -2164,14 +2672,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1180,
-        "y": 540,
+        "x": 1620,
+        "y": 580,
         "wires": []
     },
     {
         "id": "919f3b61286170df",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "4692cadec59c4d7f",
         "group": "470cad7ce1c62aa0",
         "order": 23,
         "width": "5",
@@ -2185,14 +2694,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1650,
-        "y": 540,
+        "x": 2090,
+        "y": 580,
         "wires": []
     },
     {
         "id": "c631cb1e6f0df9a5",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 26,
         "width": "5",
@@ -2206,7 +2716,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 970,
+        "x": 1420,
         "y": 700,
         "wires": []
     },
@@ -2214,6 +2724,7 @@
         "id": "61c6721982f35720",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 27,
         "width": "5",
@@ -2227,7 +2738,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1440,
+        "x": 1890,
         "y": 700,
         "wires": []
     },
@@ -2235,6 +2746,7 @@
         "id": "d47c7c1a09fa16a4",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 28,
         "width": "4",
@@ -2248,7 +2760,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 820,
+        "x": 1270,
         "y": 740,
         "wires": []
     },
@@ -2256,6 +2768,7 @@
         "id": "95eaf882a57dea16",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 29,
         "width": "5",
@@ -2269,7 +2782,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
+        "x": 1590,
         "y": 740,
         "wires": []
     },
@@ -2277,6 +2790,7 @@
         "id": "b11bc6a26ac2976e",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 30,
         "width": "5",
@@ -2290,7 +2804,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1620,
+        "x": 2070,
         "y": 740,
         "wires": []
     },
@@ -2298,6 +2812,7 @@
         "id": "c04ff059c239ae52",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 31,
         "width": "4",
@@ -2311,7 +2826,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 820,
+        "x": 1270,
         "y": 780,
         "wires": []
     },
@@ -2319,6 +2834,7 @@
         "id": "5655e10dea9ec8f1",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 32,
         "width": "5",
@@ -2332,7 +2848,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
+        "x": 1590,
         "y": 780,
         "wires": []
     },
@@ -2340,6 +2856,7 @@
         "id": "249dc01c76695f41",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 34,
         "width": "4",
@@ -2353,7 +2870,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 820,
+        "x": 1270,
         "y": 820,
         "wires": []
     },
@@ -2361,6 +2878,7 @@
         "id": "6969387af2cdf2e2",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "group": "470cad7ce1c62aa0",
         "order": 35,
         "width": "5",
@@ -2374,7 +2892,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
+        "x": 1590,
         "y": 820,
         "wires": []
     },
@@ -2382,6 +2900,7 @@
         "id": "32f8c0e80b66ee1e",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "group": "388c1be3ba75b309",
         "order": 1,
         "width": "10",
@@ -2395,14 +2914,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 330,
-        "y": 540,
+        "x": 720,
+        "y": 560,
         "wires": []
     },
     {
         "id": "c5c52fee0fbd5be8",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "group": "388c1be3ba75b309",
         "order": 2,
         "width": "10",
@@ -2416,14 +2936,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 340,
-        "y": 580,
+        "x": 730,
+        "y": 600,
         "wires": []
     },
     {
         "id": "3cc75f9bda540370",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "group": "388c1be3ba75b309",
         "order": 3,
         "width": "10",
@@ -2437,14 +2958,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 340,
-        "y": 620,
+        "x": 730,
+        "y": 640,
         "wires": []
     },
     {
         "id": "17f1f36f25bdc7e6",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "group": "470cad7ce1c62aa0",
         "order": 6,
         "width": "5",
@@ -2458,14 +2980,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1600,
-        "y": 250,
+        "x": 2190,
+        "y": 270,
         "wires": []
     },
     {
         "id": "bd34b69a8f96b4f8",
         "type": "ui_button",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "group": "470cad7ce1c62aa0",
         "order": 11,
@@ -2482,8 +3005,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 830,
-        "y": 330,
+        "x": 1220,
+        "y": 350,
         "wires": [
             [
                 "b275cf66ebb69030"
@@ -2511,8 +3034,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 240,
-        "y": 890,
+        "x": 70,
+        "y": 60,
         "wires": [
             [
                 "8efdc9dbf23515a4"
@@ -2532,8 +3055,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 890,
+        "x": 280,
+        "y": 60,
         "wires": [
             [
                 "4df02f1664bea28c",
@@ -2543,13 +3066,11 @@
                 "dd05cce7ad8bdcdc",
                 "4e4f507139159389",
                 "950d06a63eaf7996",
-                "17110b697beb7624",
                 "d7edd6c2bd359345",
                 "fe1779fa79fc1ef4",
                 "26c5d3aea9e66aea",
                 "d85eb65edec92adb",
                 "3791fefb564defd8",
-                "2c190c839569b9ac",
                 "fb61168275c43b1c",
                 "d7a59baee425e950",
                 "aa794e88d18a9214",
@@ -2560,7 +3081,9 @@
                 "4dd1a10f301554aa",
                 "7d7ecea1c977e19a",
                 "46f6dc40c846fc39",
-                "91086aa6221dc932"
+                "91086aa6221dc932",
+                "17110b697beb7624",
+                "2c190c839569b9ac"
             ]
         ]
     },
@@ -2568,17 +3091,17 @@
         "id": "4e1fbb40a4258851",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "0b460e13d448ea25",
         "name": "COUPLE",
-        "func": "//msg.payload = msg.payload.INPUT_NUMERO_DE_RECETA;\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = msg.payload.INPUT_NUMERO_DE_RECETA;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1055,
-        "y": 290,
+        "x": 1515,
+        "y": 310,
         "wires": [
             [
                 "33972402f57a5452"
@@ -2588,143 +3111,10 @@
         "l": false
     },
     {
-        "id": "940a7cb65bae23e8",
-        "type": "OpcUa-Client",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "endpoint": "415de91fb493cf02",
-        "action": "write",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": 10,
-        "timeUnit": "s",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "useTransport": false,
-        "maxChunkCount": 1,
-        "maxMessageSize": 8192,
-        "receiveBufferSize": 8192,
-        "sendBufferSize": 8192,
-        "setstatusandtime": false,
-        "keepsessionalive": false,
-        "name": "",
-        "x": 2640,
-        "y": 130,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "e4f8198839a61320",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=218",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "AUTOMATICO",
-        "x": 2400,
-        "y": 120,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "45a70c62c6e20e21",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=217",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "INICIAR",
-        "x": 2380,
-        "y": 160,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "2ff47531546523da",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=216",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "PARAR",
-        "x": 2380,
-        "y": 200,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "49814de3e7f5583c",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=87",
-        "datatype": "Float",
-        "value": "",
-        "name": "METROS CUBICOS",
-        "x": 2420,
-        "y": 240,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "1c311b5d2edd8a13",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=88",
-        "datatype": "Int32",
-        "value": "",
-        "name": "RECETA",
-        "x": 2380,
-        "y": 280,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "214ec8ea3149c929",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=221",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "ENTER",
-        "x": 2380,
-        "y": 320,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
         "id": "297707dc9789f3bd",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "group": "470cad7ce1c62aa0",
         "order": 7,
         "width": "5",
@@ -2738,14 +3128,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 870,
-        "y": 290,
+        "x": 1310,
+        "y": 310,
         "wires": []
     },
     {
         "id": "33972402f57a5452",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "group": "470cad7ce1c62aa0",
         "order": 8,
         "width": "4",
@@ -2759,25 +3150,25 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1180,
-        "y": 290,
+        "x": 1640,
+        "y": 310,
         "wires": []
     },
     {
         "id": "4df02f1664bea28c",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "0b460e13d448ea25",
         "name": "COUPLE",
-        "func": "//msg.payload = msg.payload.INPUT_METROS_CUBICOS;\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = msg.payload.INPUT_METROS_CUBICOS;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 735,
-        "y": 290,
+        "x": 1175,
+        "y": 310,
         "wires": [
             [
                 "297707dc9789f3bd"
@@ -2790,6 +3181,7 @@
         "id": "2023dea81ec40374",
         "type": "ui_text",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "group": "470cad7ce1c62aa0",
         "order": 9,
         "width": "5",
@@ -2803,15 +3195,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1420,
-        "y": 290,
+        "x": 1960,
+        "y": 310,
         "wires": []
     },
     {
         "id": "5c6b9facd67d9fd1",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "0b460e13d448ea25",
         "name": "COUPLE",
         "func": "msg.payload = msg.payload.MODO_AUTOMAN;\n\nif (msg.payload == true){\n    msg.payload = \"ACTIVADO\";\n    msg.className = \"automan-enable\";\n    return msg;\n}else{\n    msg.className = \"automan-disable\";\n    msg.payload = \"DESACTIVADO\";\n    return msg;\n}\n",
         "outputs": 1,
@@ -2820,8 +3212,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1305,
-        "y": 290,
+        "x": 1845,
+        "y": 310,
         "wires": [
             [
                 "2023dea81ec40374"
@@ -2831,105 +3223,20 @@
         "l": false
     },
     {
-        "id": "ae21de804468837c",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=235",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "RESET SECUENCIAS",
-        "x": 2420,
-        "y": 360,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "91b0436a9bcc6872",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=232",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "RESET ALARMAS",
-        "x": 2410,
-        "y": 400,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "1e9a35dc2041cbfc",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=223",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "JUMPER 1",
-        "x": 2390,
-        "y": 440,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "0387044b5705aada",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=224",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "JUMPER 2",
-        "x": 2390,
-        "y": 480,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
-        "id": "e4e2e9c264f08b3a",
-        "type": "OpcUa-Item",
-        "z": "e515f4b8125260c1",
-        "d": true,
-        "item": "ns=5;i=225",
-        "datatype": "Boolean",
-        "value": "",
-        "name": "JUMPER 3",
-        "x": 2390,
-        "y": 520,
-        "wires": [
-            [
-                "940a7cb65bae23e8"
-            ]
-        ]
-    },
-    {
         "id": "c0e9ed70f7727369",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "0b460e13d448ea25",
         "name": "COUPLE",
-        "func": "//msg.payload = msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL;\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1255,
-        "y": 250,
+        "x": 1845,
+        "y": 270,
         "wires": [
             [
                 "17f1f36f25bdc7e6"
@@ -2942,16 +3249,17 @@
         "id": "dd05cce7ad8bdcdc",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "name": "function 3",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 115,
-        "y": 540,
+        "x": 505,
+        "y": 560,
         "wires": [
             [
                 "5eb38dd507e7cadb"
@@ -2963,16 +3271,17 @@
         "id": "4e4f507139159389",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "name": "function 4",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 115,
-        "y": 580,
+        "x": 505,
+        "y": 600,
         "wires": [
             [
                 "91405451b91990fc"
@@ -2984,16 +3293,17 @@
         "id": "950d06a63eaf7996",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "name": "function 5",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 115,
-        "y": 620,
+        "x": 505,
+        "y": 640,
         "wires": [
             [
                 "31da6a1264b6a792"
@@ -3005,17 +3315,17 @@
         "id": "17110b697beb7624",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 6",
-        "func": "\n//msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 945,
-        "y": 460,
+        "x": 1385,
+        "y": 500,
         "wires": [
             [
                 "84d1335483d9fe65"
@@ -3027,17 +3337,17 @@
         "id": "d7edd6c2bd359345",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 7",
-        "func": "\n//msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 945,
-        "y": 500,
+        "x": 1385,
+        "y": 540,
         "wires": [
             [
                 "800215d3096b78d6"
@@ -3049,17 +3359,17 @@
         "id": "fe1779fa79fc1ef4",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 8",
-        "func": "\n//msg.payload = parseFloat(msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloCementoColgante_DB_PESO_META_DE_CICLO).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 945,
-        "y": 540,
+        "x": 1385,
+        "y": 580,
         "wires": [
             [
                 "8c6a00345120855b"
@@ -3071,17 +3381,17 @@
         "id": "26c5d3aea9e66aea",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 9",
-        "func": "\n//msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_INICIAL).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1445,
-        "y": 460,
+        "x": 1885,
+        "y": 500,
         "wires": [
             [
                 "972ead03fc6df5c0"
@@ -3093,17 +3403,17 @@
         "id": "d85eb65edec92adb",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 10",
-        "func": "\n//msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_INICIAL).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1445,
-        "y": 500,
+        "x": 1885,
+        "y": 540,
         "wires": [
             [
                 "8b67b6cb51422cc7"
@@ -3115,17 +3425,17 @@
         "id": "3791fefb564defd8",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 11",
-        "func": "\n//msg.payload = parseFloat(msg.payload.SiloCementoColgante_DB_PESO_INICIAL).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloCementoColgante_DB_PESO_INICIAL).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1445,
-        "y": 540,
+        "x": 1885,
+        "y": 580,
         "wires": [
             [
                 "919f3b61286170df"
@@ -3134,26 +3444,10 @@
         "l": false
     },
     {
-        "id": "6536134582c4d224",
-        "type": "debug",
-        "z": "e515f4b8125260c1",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1780,
-        "y": 700,
-        "wires": []
-    },
-    {
         "id": "b275cf66ebb69030",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3167,11 +3461,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 925,
-        "y": 330,
+        "x": 1315,
+        "y": 350,
         "wires": [
             [
-                "214ec8ea3149c929"
+                "ad2bb968adc7b539"
             ]
         ],
         "l": false
@@ -3180,6 +3474,7 @@
         "id": "058853e26cdc556e",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3193,11 +3488,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1145,
-        "y": 210,
+        "x": 1655,
+        "y": 230,
         "wires": [
             [
-                "2ff47531546523da"
+                "a5ec04733fdbe0aa"
             ]
         ],
         "l": false
@@ -3206,6 +3501,7 @@
         "id": "7bae689a2e2ca7e5",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3219,11 +3515,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 925,
-        "y": 210,
+        "x": 1315,
+        "y": 230,
         "wires": [
             [
-                "45a70c62c6e20e21"
+                "119c81604f6c510f"
             ]
         ],
         "l": false
@@ -3232,6 +3528,7 @@
         "id": "3a3104a04ef83a82",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3245,11 +3542,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 415,
-        "y": 440,
+        "x": 805,
+        "y": 460,
         "wires": [
             [
-                "91b0436a9bcc6872"
+                "a6b21a5e056675a4"
             ]
         ],
         "l": false
@@ -3258,6 +3555,7 @@
         "id": "be35e35b25a6e068",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3271,11 +3569,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 555,
-        "y": 400,
+        "x": 945,
+        "y": 420,
         "wires": [
             [
-                "ae21de804468837c"
+                "6313741804b74c30"
             ]
         ],
         "l": false
@@ -3284,6 +3582,7 @@
         "id": "32775e6c80bd1523",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3297,11 +3596,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 545,
-        "y": 200,
+        "x": 935,
+        "y": 220,
         "wires": [
             [
-                "1e9a35dc2041cbfc"
+                "80ffcb3ddc413fe1"
             ]
         ],
         "l": false
@@ -3310,6 +3609,7 @@
         "id": "d1dc170508247584",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3323,11 +3623,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 565,
-        "y": 280,
+        "x": 955,
+        "y": 300,
         "wires": [
             [
-                "0387044b5705aada"
+                "fc5b57c9afd57aa8"
             ]
         ],
         "l": false
@@ -3336,6 +3636,7 @@
         "id": "db7270737f9efb5d",
         "type": "trigger",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "op1": "true",
         "op2": "false",
@@ -3349,11 +3650,11 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 545,
-        "y": 360,
+        "x": 935,
+        "y": 380,
         "wires": [
             [
-                "e4e2e9c264f08b3a"
+                "e3a4b7f27a48fdf8"
             ]
         ],
         "l": false
@@ -3363,6 +3664,7 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 12",
         "func": "\nif (msg.payload.VALVULA_ABRIR_AGREGADO_1 == true){\n    msg.className = \"view-head-true\";\n\n}else{\n    msg.className = \"view-head\";\n}\n\n\nmsg.payload = \"\";\nreturn msg;",
         "outputs": 1,
@@ -3371,8 +3673,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 735,
-        "y": 460,
+        "x": 1175,
+        "y": 500,
         "wires": [
             [
                 "5b8e8566b552d29a"
@@ -3385,6 +3687,7 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 13",
         "func": "\nif (msg.payload.VALVULA_ABRIR_AGREGADO_2 == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view-head\";\n}\n\nmsg.payload = \"\";\nreturn msg;",
         "outputs": 1,
@@ -3393,8 +3696,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 735,
-        "y": 500,
+        "x": 1175,
+        "y": 540,
         "wires": [
             [
                 "c2610988fd749fa4"
@@ -3407,6 +3710,7 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "d": true,
+        "g": "4692cadec59c4d7f",
         "name": "function 14",
         "func": "\nif (msg.payload.SENAL_VFD_ORUGA == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view-head\";\n}\n\n\nmsg.payload = \"\";\nreturn msg;",
         "outputs": 1,
@@ -3415,8 +3719,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 735,
-        "y": 540,
+        "x": 1175,
+        "y": 580,
         "wires": [
             [
                 "30d428cfa50ede96"
@@ -3429,6 +3733,7 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "d": true,
+        "g": "53590877c54f3db5",
         "name": "function 15",
         "func": "\nif (msg.payload.VALVULA_AGUA == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view-head\";\n}\n\n\nmsg.payload = \"\";\nmsg.className = \"view-head\";\nreturn msg;",
         "outputs": 1,
@@ -3437,7 +3742,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 725,
+        "x": 1175,
         "y": 740,
         "wires": [
             [
@@ -3451,6 +3756,7 @@
         "id": "aeac3308cbfa44be",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3459,12 +3765,11 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 715,
-        "y": 80,
+        "x": 1225,
+        "y": 180,
         "wires": [
             [
-                "14cc617dae6c445d",
-                "2e9678e8be6eae08"
+                "14cc617dae6c445d"
             ]
         ],
         "l": false
@@ -3473,19 +3778,19 @@
         "id": "4f12b3ea8cf387d5",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "function 16",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\nreturn msg;\n",
+        "func": "msg.payload = msg.payload.MODO_AUTOMAN;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 695,
-        "y": 140,
+        "x": 1175,
+        "y": 180,
         "wires": [
             [
-                "541e6947020e0028",
                 "aeac3308cbfa44be"
             ]
         ],
@@ -3496,33 +3801,15 @@
         "type": "function",
         "z": "e515f4b8125260c1",
         "name": "WRITE OPERADOR",
-        "func": "switch (msg.topic){\n\n    //\n    case \"MODO_AUTOMAN\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\", msg.payload);\n    break;\n\n}\nreturn msg;",
+        "func": "switch (msg.topic){\n\n    //\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.\", msg.payload);\n    break;\n    case \"INICIAR\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INICIAR\", msg.payload);\n    break;\n    case \"PARAR\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PARAR\", msg.payload);\n    break;\n    case \"ENTER\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ENTER\", msg.payload);\n    break;\n\n    //\n    case \"JUMPER_1\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.JUMPER_1\", msg.payload);\n    break;\n    case \"JUMPER_2\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.JUMPER_1\", msg.payload);\n    break;\n    case \"JUMPER_3\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.JUMPER_1\", msg.payload);\n    break;\n    case \"RESET_SECUENCIAS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.RESET_SECUENCIAS\", msg.payload);\n    break;\n    case \"RESET_ALARMAS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.RESET_ALARMAS\", msg.payload);\n    break;\n    \n    \n\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1580,
-        "y": 870,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9c6d788ab8f37ffe",
-        "type": "function",
-        "z": "e515f4b8125260c1",
-        "name": "UPDATE OPERADOR GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n    \n    // ALARMA\n    case \"ns=5;i=136\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ALARMA\",msg.payload);\n        break;\n    // MODO AUTOMATICO\n    case \"ns=5;i=218\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    // SEQ CEMENTO\n    case \"ns=5;i=106\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    // SEQ AGREGADOS\n    case \"ns=5;i=105\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    // SEQ MEZCLADO\n    case \"ns=5;i=107\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    // PESO CEMENTO SIWAREX\n    case \"ns=5;i=239\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // PESO AGREGADO 1 SIWAREX\n    case \"ns=5;i=237\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    // PESO AGREGADO 2 SIWAREX\n    case \"ns=5;i=238\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    // INPUT METROS CUBICOS\n    case \"ns=5;i=87\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    // INPUT NUMERO DE RECETA\n    case \"ns=5;i=88\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    // Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL\n    case \"ns=4;i=367\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\", msg.payload)\n        break;\n    // SiloAgregadosColgante_1_DB_PESO META DE CICLO\n    case \"ns=4;i=463\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_1_DB_PESO INICIAL\n    case \"ns=4;i=462\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO META DE CICLO\n    case \"ns=4;i=610\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO INICIAL\n    case \"ns=4;i=609\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO META DE CICLO\n    case \"ns=4;i=991\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO INICIAL\n    case \"ns=4;i=1018\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    //DISPLAY_META_AGUA_1\n    case \"ns=5;i=10\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    // DISPLAY_META_AGUA_2\n    case \"ns=5;i=11\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    // DISPLAY_META_ADITIVO\n    case \"ns=5;i=12\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    // ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS\n    case \"ns=4;i=160\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n\n    // VALVULA_ABRIR_AGREGADO_1\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_1\", msg.payload);\n        break;\n    // VALVULA_ABRIR_AGREGADO_2\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_2\", msg.payload);\n        break;\n    // SEÑAL_VFD_ORUGA\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SENAL_VFD_ORUGA\", msg.payload);\n        break;\n    // VALVULA_AGUA\n    case \"\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_AGUA\", msg.payload);\n        break;\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
-        "finalize": "",
-        "libs": [],
-        "x": 1330,
-        "y": 80,
+        "x": 2470,
+        "y": 500,
         "wires": [
             []
         ]
@@ -3531,6 +3818,7 @@
         "id": "82b9144f80e84d10",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3539,8 +3827,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 165,
-        "y": 200,
+        "x": 555,
+        "y": 220,
         "wires": [
             [
                 "ab592fc9a97f8146"
@@ -3552,16 +3840,17 @@
         "id": "936c247a87f1d33e",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "function 222",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\");\nreturn msg;\n",
+        "func": "msg.payload = msg.payload.SEQ_CEMENTO;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\");\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 115,
-        "y": 200,
+        "x": 505,
+        "y": 220,
         "wires": [
             [
                 "82b9144f80e84d10"
@@ -3573,6 +3862,7 @@
         "id": "7fcfdc7ffd7b93a7",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3581,8 +3871,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 165,
-        "y": 280,
+        "x": 555,
+        "y": 300,
         "wires": [
             [
                 "a98950dea3c76ef8"
@@ -3594,16 +3884,17 @@
         "id": "bfa61cf77988194b",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "function 223",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\");\nreturn msg;\n",
+        "func": "msg.payload = msg.payload.SEQ_AGREGADOS;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\");\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 115,
-        "y": 280,
+        "x": 505,
+        "y": 300,
         "wires": [
             [
                 "7fcfdc7ffd7b93a7"
@@ -3615,6 +3906,7 @@
         "id": "da6823bf76aba95c",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3623,8 +3915,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 165,
-        "y": 360,
+        "x": 555,
+        "y": 380,
         "wires": [
             [
                 "e5531ecb7615611c"
@@ -3636,16 +3928,17 @@
         "id": "e22a1d5c82ca1cc3",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
         "name": "function 224",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\");\nreturn msg;\n",
+        "func": "msg.payload = msg.payload.SEQ_MEZCLADO;\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\");\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 115,
-        "y": 360,
+        "x": 505,
+        "y": 380,
         "wires": [
             [
                 "da6823bf76aba95c"
@@ -3657,6 +3950,7 @@
         "id": "5eb38dd507e7cadb",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3665,8 +3959,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 165,
-        "y": 540,
+        "x": 555,
+        "y": 560,
         "wires": [
             [
                 "32f8c0e80b66ee1e"
@@ -3678,6 +3972,7 @@
         "id": "91405451b91990fc",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3686,8 +3981,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 165,
-        "y": 580,
+        "x": 555,
+        "y": 600,
         "wires": [
             [
                 "c5c52fee0fbd5be8"
@@ -3699,6 +3994,7 @@
         "id": "31da6a1264b6a792",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "2fda87db13c9e47e",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3707,8 +4003,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 165,
-        "y": 620,
+        "x": 555,
+        "y": 640,
         "wires": [
             [
                 "3cc75f9bda540370"
@@ -3720,16 +4016,16 @@
         "id": "4dd1a10f301554aa",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "53590877c54f3db5",
         "name": "function 225",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 935,
+        "x": 1385,
         "y": 740,
         "wires": [
             [
@@ -3742,16 +4038,16 @@
         "id": "7d7ecea1c977e19a",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "53590877c54f3db5",
         "name": "function 226",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 935,
+        "x": 1385,
         "y": 780,
         "wires": [
             [
@@ -3764,16 +4060,16 @@
         "id": "46f6dc40c846fc39",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "53590877c54f3db5",
         "name": "function 227",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 935,
+        "x": 1385,
         "y": 820,
         "wires": [
             [
@@ -3786,6 +4082,7 @@
         "id": "1dfb359aaf3149e8",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3794,7 +4091,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 985,
+        "x": 1435,
         "y": 740,
         "wires": [
             [
@@ -3807,6 +4104,7 @@
         "id": "0185e26dd48c33a3",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3815,7 +4113,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 985,
+        "x": 1435,
         "y": 780,
         "wires": [
             [
@@ -3828,6 +4126,7 @@
         "id": "186736912b448aa9",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3836,7 +4135,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 985,
+        "x": 1435,
         "y": 820,
         "wires": [
             [
@@ -3849,16 +4148,16 @@
         "id": "91086aa6221dc932",
         "type": "function",
         "z": "e515f4b8125260c1",
-        "d": true,
+        "g": "53590877c54f3db5",
         "name": "function 228",
-        "func": "\n//msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1295,
+        "x": 1745,
         "y": 740,
         "wires": [
             [
@@ -3871,6 +4170,7 @@
         "id": "cce4edf60e0d8dca",
         "type": "rbe",
         "z": "e515f4b8125260c1",
+        "g": "53590877c54f3db5",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -3879,7 +4179,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1345,
+        "x": 1795,
         "y": 740,
         "wires": [
             [
@@ -3892,16 +4192,46 @@
         "id": "2f4a201c9ad6eac6",
         "type": "function",
         "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
         "name": "function 229",
-        "func": "msg.payload = msg.payload;\nmsg.topic = \"MODO_AUTOMAN\";\nreturn msg;",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"ISOLATED_MODO_AUTOMAN\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 995,
-        "y": 160,
+        "x": 1455,
+        "y": 180,
+        "wires": [
+            [
+                "cf1bc6a7f4aaf259"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "80ffcb3ddc413fe1",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "JUMPER_1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 985,
+        "y": 220,
         "wires": [
             [
                 "0995fc4030e18495"
@@ -3910,36 +4240,283 @@
         "l": false
     },
     {
-        "id": "541e6947020e0028",
-        "type": "debug",
+        "id": "fc5b57c9afd57aa8",
+        "type": "change",
         "z": "e515f4b8125260c1",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 870,
-        "y": 40,
-        "wires": []
+        "g": "a4d595a840de58a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "JUMPER_2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1005,
+        "y": 300,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
     },
     {
-        "id": "2e9678e8be6eae08",
-        "type": "debug",
+        "id": "e3a4b7f27a48fdf8",
+        "type": "change",
         "z": "e515f4b8125260c1",
-        "name": "debug 9",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 90,
-        "wires": []
+        "g": "a4d595a840de58a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "JUMPER_3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 985,
+        "y": 380,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a6b21a5e056675a4",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "RESET_ALARMAS",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 855,
+        "y": 460,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6313741804b74c30",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "a4d595a840de58a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "RESET_SECUENCIAS",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 995,
+        "y": 420,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "119c81604f6c510f",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "INICIAR",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1365,
+        "y": 230,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a5ec04733fdbe0aa",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "PARAR ",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1705,
+        "y": 230,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ad2bb968adc7b539",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ENTER",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1365,
+        "y": 350,
+        "wires": [
+            [
+                "0995fc4030e18495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cf1bc6a7f4aaf259",
+        "type": "function",
+        "z": "e515f4b8125260c1",
+        "name": "ISOLATED WRITE OPERADOR",
+        "func": "switch (msg.topic){\n\n    //\n    case \"ISOLATED_MODO_AUTOMAN\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ISOLATED_MODO_AUTOMAN\", msg.payload);\n    break;\n    case \"ISOLATED_INPUT_METROS_CUBICOS\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ISOLATED_INPUT_METROS_CUBICOS\", msg.payload);\n    break;\n    case \"ISOLATED_NUMERO_DE_RECETA\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ISOLATED_NUMERO_DE_RECETA\", msg.payload);\n    break;\n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2500,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6591c5d6434d1b2",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "INPUT_METROS_CUBICOS",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1435,
+        "y": 270,
+        "wires": [
+            [
+                "cf1bc6a7f4aaf259"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "09486cd5ada8c676",
+        "type": "change",
+        "z": "e515f4b8125260c1",
+        "g": "0b460e13d448ea25",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ISOLATED_NUMERO_DE_RECETA",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1715,
+        "y": 270,
+        "wires": [
+            [
+                "cf1bc6a7f4aaf259"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "467d47620ab0dc99",
@@ -17652,8 +18229,8 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 3000,
-        "y": 400,
+        "x": 1690,
+        "y": 430,
         "wires": [
             [
                 "3371056ff5905a11",
@@ -17672,12 +18249,13 @@
         "id": "c6accc140966b2df",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=88",
         "datatype": "UInt32",
         "value": "",
         "name": "INPUT_NUMERO DE RECETA",
-        "x": 1460,
-        "y": 590,
+        "x": 670,
+        "y": 600,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17688,12 +18266,13 @@
         "id": "31745d0ebbc0aff8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=106",
         "datatype": "Int32",
         "value": "",
         "name": "SEQ_CEMENTO",
-        "x": 1420,
-        "y": 230,
+        "x": 630,
+        "y": 240,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17704,12 +18283,13 @@
         "id": "dd7f49ccf1787047",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=105",
         "datatype": "UInt32",
         "value": "",
         "name": "SEQ_AGREGADOS",
-        "x": 1430,
-        "y": 270,
+        "x": 640,
+        "y": 280,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17720,12 +18300,13 @@
         "id": "e77d8710f8330b7a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=107",
         "datatype": "Int32",
         "value": "",
         "name": "SEQ_MEZCLADO",
-        "x": 1420,
-        "y": 310,
+        "x": 630,
+        "y": 320,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17736,12 +18317,13 @@
         "id": "40c08d335c19b608",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=239",
         "datatype": "Float",
         "value": "",
         "name": "PESO CEMENTO SIWAREX",
-        "x": 1450,
-        "y": 410,
+        "x": 660,
+        "y": 420,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17762,12 +18344,13 @@
         "id": "6181d840d0c7074b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=237",
         "datatype": "Float",
         "value": "",
         "name": "PESO AGREGADO 1 SIWAREX",
-        "x": 1460,
-        "y": 450,
+        "x": 670,
+        "y": 460,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17778,12 +18361,13 @@
         "id": "0936c20d0a892807",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=238",
         "datatype": "Float",
         "value": "",
         "name": "PESO AGREGADO 2 SIWAREX",
-        "x": 1460,
-        "y": 490,
+        "x": 670,
+        "y": 500,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17794,12 +18378,13 @@
         "id": "4a56a04895460850",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=87",
         "datatype": "Float",
         "value": "",
         "name": "INPUT_METROS CUBICOS",
-        "x": 1450,
-        "y": 550,
+        "x": 660,
+        "y": 560,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17810,12 +18395,13 @@
         "id": "48882585328b8864",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=463",
         "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO META DE CICLO",
-        "x": 1540,
-        "y": 650,
+        "x": 750,
+        "y": 660,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17826,12 +18412,13 @@
         "id": "792c9c0f7d52d03c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=462",
         "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO INICIAL",
-        "x": 1510,
-        "y": 690,
+        "x": 720,
+        "y": 700,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17842,12 +18429,13 @@
         "id": "6d7f994dd56acb2c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=610",
         "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_PESO META DE CICLO",
-        "x": 1540,
-        "y": 730,
+        "x": 750,
+        "y": 740,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17858,12 +18446,13 @@
         "id": "f7556f5b5ec24a4b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=609",
         "datatype": "Float",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_PESO INICIAL",
-        "x": 1510,
-        "y": 770,
+        "x": 720,
+        "y": 780,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17874,12 +18463,13 @@
         "id": "1459197b79682bb5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=991",
         "datatype": "Float",
         "value": "",
         "name": "SiloCementoColgante_DB_PESO META DE CICLO",
-        "x": 1520,
-        "y": 810,
+        "x": 730,
+        "y": 820,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17890,12 +18480,13 @@
         "id": "fc772071ef26d041",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=1018",
         "datatype": "Float",
         "value": "",
         "name": "SiloCementoColgante_DB_PESO INICIAL",
-        "x": 1490,
-        "y": 850,
+        "x": 700,
+        "y": 860,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17914,8 +18505,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3450,
-        "y": 390,
+        "x": 2040,
+        "y": 420,
         "wires": [
             []
         ]
@@ -17924,22 +18515,24 @@
         "id": "96cd545ae655ae7a",
         "type": "comment",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "name": "RECETAS",
         "info": "",
-        "x": 80,
-        "y": 1370,
+        "x": 600,
+        "y": 1150,
         "wires": []
     },
     {
         "id": "3fe55afe9bf2055c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=10",
         "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_META_AGUA_1",
-        "x": 1450,
-        "y": 910,
+        "x": 660,
+        "y": 920,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17950,12 +18543,13 @@
         "id": "2eb87e4d96ab3b61",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=11",
         "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_META_AGUA_2",
-        "x": 1450,
-        "y": 950,
+        "x": 660,
+        "y": 960,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17966,12 +18560,13 @@
         "id": "fd75e277e884e37c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=12",
         "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_META_ADITIVO",
-        "x": 1450,
-        "y": 990,
+        "x": 660,
+        "y": 1000,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17982,12 +18577,13 @@
         "id": "1395ddc62ce62cc3",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=160",
         "datatype": "Int32",
         "value": "",
         "name": "ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS",
-        "x": 1570,
-        "y": 1030,
+        "x": 780,
+        "y": 1040,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -17998,12 +18594,13 @@
         "id": "e01c52318a8eb718",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=369",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 1",
-        "x": 560,
-        "y": 1370,
+        "x": 810,
+        "y": 1190,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18014,12 +18611,13 @@
         "id": "d2dd7849d794b3b6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=31",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_1",
-        "x": 410,
-        "y": 1410,
+        "x": 660,
+        "y": 1230,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18030,12 +18628,13 @@
         "id": "b62a3c13b138712c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=43",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_1",
-        "x": 410,
-        "y": 1450,
+        "x": 660,
+        "y": 1270,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18046,12 +18645,13 @@
         "id": "b79a2f35af36ab19",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=75",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_1",
-        "x": 420,
-        "y": 1490,
+        "x": 670,
+        "y": 1310,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18062,12 +18662,13 @@
         "id": "c66a7fedfabcee38",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=53",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_1",
-        "x": 410,
-        "y": 1530,
+        "x": 660,
+        "y": 1350,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18078,12 +18679,13 @@
         "id": "a39b36689f093c6a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=63",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_1",
-        "x": 410,
-        "y": 1570,
+        "x": 660,
+        "y": 1390,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18094,12 +18696,13 @@
         "id": "4b7c1ee728d9bbe9",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=19",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_1",
-        "x": 420,
-        "y": 1610,
+        "x": 670,
+        "y": 1430,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18110,12 +18713,13 @@
         "id": "3acb62836e877dd2",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=370",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 2",
-        "x": 560,
-        "y": 1670,
+        "x": 810,
+        "y": 1490,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18126,12 +18730,13 @@
         "id": "d0f9d802e1f2be50",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=33",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_2",
-        "x": 410,
-        "y": 1710,
+        "x": 660,
+        "y": 1530,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18142,12 +18747,13 @@
         "id": "d6ab372e36d04ab5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=45",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_2",
-        "x": 410,
-        "y": 1750,
+        "x": 660,
+        "y": 1570,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18158,12 +18764,13 @@
         "id": "80e621adeef3409a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=77",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_2",
-        "x": 420,
-        "y": 1790,
+        "x": 670,
+        "y": 1610,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18174,12 +18781,13 @@
         "id": "4c7a1307d8537e37",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=55",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_2",
-        "x": 410,
-        "y": 1830,
+        "x": 660,
+        "y": 1650,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18190,12 +18798,13 @@
         "id": "ec19dbeeab96892d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=65",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_2",
-        "x": 410,
-        "y": 1870,
+        "x": 660,
+        "y": 1690,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18206,12 +18815,13 @@
         "id": "809cbec2731413c4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=21",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_2",
-        "x": 420,
-        "y": 1910,
+        "x": 670,
+        "y": 1730,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18222,12 +18832,13 @@
         "id": "9629f5577a7a27fe",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=371",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 3",
-        "x": 560,
-        "y": 1960,
+        "x": 810,
+        "y": 1780,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18238,12 +18849,13 @@
         "id": "3744c8e544349705",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=34",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_3",
-        "x": 410,
-        "y": 2000,
+        "x": 660,
+        "y": 1820,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18254,12 +18866,13 @@
         "id": "5524b0363fe3443a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=46",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_3",
-        "x": 410,
-        "y": 2040,
+        "x": 660,
+        "y": 1860,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18270,12 +18883,13 @@
         "id": "bab98195137ac938",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=78",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_3",
-        "x": 420,
-        "y": 2080,
+        "x": 670,
+        "y": 1900,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18286,12 +18900,13 @@
         "id": "a46705178f6d510a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=56",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_3",
-        "x": 410,
-        "y": 2120,
+        "x": 660,
+        "y": 1940,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18302,12 +18917,13 @@
         "id": "c5289ca0824925e9",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=66",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_3",
-        "x": 410,
-        "y": 2160,
+        "x": 660,
+        "y": 1980,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18318,12 +18934,13 @@
         "id": "c43bc9f63b164d1e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=22",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_3",
-        "x": 420,
-        "y": 2200,
+        "x": 670,
+        "y": 2020,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18334,12 +18951,13 @@
         "id": "9a41b45acf4771ac",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=372",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 4",
-        "x": 560,
-        "y": 2260,
+        "x": 810,
+        "y": 2080,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18350,12 +18968,13 @@
         "id": "18116de391b9967a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=35",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_4",
-        "x": 410,
-        "y": 2300,
+        "x": 660,
+        "y": 2120,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18366,12 +18985,13 @@
         "id": "8a7e84d8368c0f9f",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=47",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_4",
-        "x": 410,
-        "y": 2340,
+        "x": 660,
+        "y": 2160,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18382,12 +19002,13 @@
         "id": "a54eeef3e58c5fba",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=79",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_4",
-        "x": 420,
-        "y": 2380,
+        "x": 670,
+        "y": 2200,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18398,12 +19019,13 @@
         "id": "adce18a2f91e2ab1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=57",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_4",
-        "x": 410,
-        "y": 2420,
+        "x": 660,
+        "y": 2240,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18414,12 +19036,13 @@
         "id": "1e20542456c94b60",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=67",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_4",
-        "x": 410,
-        "y": 2460,
+        "x": 660,
+        "y": 2280,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18430,12 +19053,13 @@
         "id": "8320dbfafe5d2df9",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=23",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_4",
-        "x": 420,
-        "y": 2500,
+        "x": 670,
+        "y": 2320,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18446,12 +19070,13 @@
         "id": "65456e154e493057",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=373",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 5",
-        "x": 560,
-        "y": 2560,
+        "x": 810,
+        "y": 2380,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18462,12 +19087,13 @@
         "id": "990149059c538c23",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=36",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_5",
-        "x": 410,
-        "y": 2600,
+        "x": 660,
+        "y": 2420,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18478,12 +19104,13 @@
         "id": "945e2bb0862017fb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=48",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_5",
-        "x": 410,
-        "y": 2640,
+        "x": 660,
+        "y": 2460,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18494,12 +19121,13 @@
         "id": "e22e8bf68cafb920",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=80",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_5",
-        "x": 420,
-        "y": 2680,
+        "x": 670,
+        "y": 2500,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18510,12 +19138,13 @@
         "id": "17cf1c50cd65c7ea",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=58",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_5",
-        "x": 410,
-        "y": 2720,
+        "x": 660,
+        "y": 2540,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18526,12 +19155,13 @@
         "id": "f365bc71749cae86",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=68",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_5",
-        "x": 410,
-        "y": 2760,
+        "x": 660,
+        "y": 2580,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18542,12 +19172,13 @@
         "id": "1fa691db8d541b7c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=24",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_5",
-        "x": 420,
-        "y": 2800,
+        "x": 670,
+        "y": 2620,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18558,12 +19189,13 @@
         "id": "6081dcaf943295db",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=374",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 6",
-        "x": 1240,
-        "y": 1370,
+        "x": 1490,
+        "y": 1190,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18574,12 +19206,13 @@
         "id": "a0ff8f6bd9a398a4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=37",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_6",
-        "x": 1090,
-        "y": 1410,
+        "x": 1340,
+        "y": 1230,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18590,12 +19223,13 @@
         "id": "7b6b97eaa6e950db",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=49",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_6",
-        "x": 1090,
-        "y": 1450,
+        "x": 1340,
+        "y": 1270,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18606,12 +19240,13 @@
         "id": "357b6f2c6f49f609",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=81",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_6",
-        "x": 1100,
-        "y": 1490,
+        "x": 1350,
+        "y": 1310,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18622,12 +19257,13 @@
         "id": "7cae27af796abea6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=59",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_6",
-        "x": 1090,
-        "y": 1530,
+        "x": 1340,
+        "y": 1350,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18638,12 +19274,13 @@
         "id": "360b2a979926517b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=69",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_6",
-        "x": 1090,
-        "y": 1570,
+        "x": 1340,
+        "y": 1390,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18654,12 +19291,13 @@
         "id": "af0a5a1b52296e9d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=25",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_6",
-        "x": 1100,
-        "y": 1610,
+        "x": 1350,
+        "y": 1430,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18670,12 +19308,13 @@
         "id": "ba41e77b7c4ead82",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=375",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 7",
-        "x": 1240,
-        "y": 1670,
+        "x": 1490,
+        "y": 1490,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18686,12 +19325,13 @@
         "id": "49047193b3226762",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=38",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_7",
-        "x": 1090,
-        "y": 1710,
+        "x": 1340,
+        "y": 1530,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18702,12 +19342,13 @@
         "id": "19ce4378fa110174",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=50",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_7",
-        "x": 1090,
-        "y": 1750,
+        "x": 1340,
+        "y": 1570,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18718,12 +19359,13 @@
         "id": "24301da966736eb0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=82",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_7",
-        "x": 1100,
-        "y": 1790,
+        "x": 1350,
+        "y": 1610,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18734,12 +19376,13 @@
         "id": "8f560204b3ade856",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=60",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_7",
-        "x": 1090,
-        "y": 1830,
+        "x": 1340,
+        "y": 1650,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18750,12 +19393,13 @@
         "id": "3df7643ce90d9c79",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=70",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_7",
-        "x": 1090,
-        "y": 1870,
+        "x": 1340,
+        "y": 1690,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18766,12 +19410,13 @@
         "id": "f4058e012d176fe8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=26",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_7",
-        "x": 1100,
-        "y": 1910,
+        "x": 1350,
+        "y": 1730,
         "wires": [
             []
         ]
@@ -18780,12 +19425,13 @@
         "id": "a311b6573383b46d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=376",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 8",
-        "x": 1240,
-        "y": 1960,
+        "x": 1490,
+        "y": 1780,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18796,12 +19442,13 @@
         "id": "4275dd69467225bc",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=39",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_8",
-        "x": 1090,
-        "y": 2000,
+        "x": 1340,
+        "y": 1820,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18812,12 +19459,13 @@
         "id": "20892762cad87ce8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=51",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_8",
-        "x": 1090,
-        "y": 2040,
+        "x": 1340,
+        "y": 1860,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18828,12 +19476,13 @@
         "id": "d202ae74b72b2fb4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=83",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_8",
-        "x": 1100,
-        "y": 2080,
+        "x": 1350,
+        "y": 1900,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18844,12 +19493,13 @@
         "id": "e16f51afd6ade9bd",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=61",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_8",
-        "x": 1090,
-        "y": 2120,
+        "x": 1340,
+        "y": 1940,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18860,12 +19510,13 @@
         "id": "08c2fc600c2f382b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=71",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_8",
-        "x": 1090,
-        "y": 2160,
+        "x": 1340,
+        "y": 1980,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18876,12 +19527,13 @@
         "id": "90793e53c8a0e12a",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=27",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_8",
-        "x": 1100,
-        "y": 2200,
+        "x": 1350,
+        "y": 2020,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18892,12 +19544,13 @@
         "id": "a8c008908eec2f1d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=377",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 9",
-        "x": 1240,
-        "y": 2260,
+        "x": 1490,
+        "y": 2080,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18908,12 +19561,13 @@
         "id": "8f324bb996df8a24",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=40",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_9",
-        "x": 1090,
-        "y": 2300,
+        "x": 1340,
+        "y": 2120,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18924,12 +19578,13 @@
         "id": "9c9e746f7d73a12d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=52",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_9",
-        "x": 1090,
-        "y": 2340,
+        "x": 1340,
+        "y": 2160,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18940,12 +19595,13 @@
         "id": "7394f6d60dbcaf9b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=84",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_9",
-        "x": 1100,
-        "y": 2380,
+        "x": 1350,
+        "y": 2200,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18956,12 +19612,13 @@
         "id": "2046ed590953c459",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=62",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_9",
-        "x": 1090,
-        "y": 2420,
+        "x": 1340,
+        "y": 2240,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18972,12 +19629,13 @@
         "id": "8e2f047caa2e5611",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=72",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_9",
-        "x": 1090,
-        "y": 2460,
+        "x": 1340,
+        "y": 2280,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -18988,12 +19646,13 @@
         "id": "b1e4a1eb6f4078eb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=28",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_9",
-        "x": 1100,
-        "y": 2500,
+        "x": 1350,
+        "y": 2320,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19004,12 +19663,13 @@
         "id": "b3d45c05728d7acb",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=4;i=378",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE RECETA 10",
-        "x": 1250,
-        "y": 2560,
+        "x": 1500,
+        "y": 2380,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19020,12 +19680,13 @@
         "id": "b95eb5b119eff5a0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=32",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR1_RECETA_10",
-        "x": 1090,
-        "y": 2600,
+        "x": 1340,
+        "y": 2420,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19036,12 +19697,13 @@
         "id": "60d8679a2174697e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=44",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGR2_RECETA_10",
-        "x": 1090,
-        "y": 2640,
+        "x": 1340,
+        "y": 2460,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19052,12 +19714,13 @@
         "id": "897961781ef020d5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=76",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_CEMENTO_RECETA_10",
-        "x": 1110,
-        "y": 2680,
+        "x": 1360,
+        "y": 2500,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19068,12 +19731,13 @@
         "id": "9ac736ec80c4ce27",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=54",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA1_RECETA_10",
-        "x": 1100,
-        "y": 2720,
+        "x": 1350,
+        "y": 2540,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19084,12 +19748,13 @@
         "id": "795b931c6997fbb0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=64",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_AGUA2_RECETA_10",
-        "x": 1100,
-        "y": 2760,
+        "x": 1350,
+        "y": 2580,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19100,12 +19765,13 @@
         "id": "d495b3b9f6ac74aa",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "413dc507032ee6db",
         "item": "ns=5;i=20",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_ADITIVO_RECETA_10",
-        "x": 1100,
-        "y": 2800,
+        "x": 1350,
+        "y": 2620,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19116,23 +19782,24 @@
         "id": "a49530deb83617ad",
         "type": "comment",
         "z": "0d06e67bad6a6fdf",
+        "g": "95fedce0ba60de3d",
         "name": "TIEMPOS",
         "info": "",
-        "x": 90,
-        "y": 2890,
+        "x": 600,
+        "y": 2730,
         "wires": []
     },
     {
         "id": "42e190468b4a5158",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=101",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_TIEMPO_META_VACIADO DE BANDAS",
-        "x": 480,
-        "y": 2890,
+        "x": 740,
+        "y": 2770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19143,13 +19810,13 @@
         "id": "5cfef7f9779a0fe4",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=17",
         "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_TIEMPO_ACTUAL_VACIADO DE BANDAS",
-        "x": 490,
-        "y": 2930,
+        "x": 750,
+        "y": 2810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19160,13 +19827,13 @@
         "id": "addf3aee18d3cd8e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=99",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_TIEMPO_META_ADITIVO",
-        "x": 430,
-        "y": 2970,
+        "x": 690,
+        "y": 2850,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19177,13 +19844,13 @@
         "id": "0369512311ee3f07",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=14",
         "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_TIEMPO_ACTUAL_ADITIVO1",
-        "x": 450,
-        "y": 3010,
+        "x": 710,
+        "y": 2890,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19194,13 +19861,13 @@
         "id": "29e7e67ff29fb400",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=14",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA BAJO ON",
-        "x": 530,
-        "y": 3070,
+        "x": 790,
+        "y": 2950,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19211,13 +19878,13 @@
         "id": "02f3bd6a0400cc80",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=498",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 1_ET",
-        "x": 510,
-        "y": 3110,
+        "x": 770,
+        "y": 2990,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19228,13 +19895,13 @@
         "id": "3ebdcf3821f429d0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=403",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA BAJO OFF",
-        "x": 540,
-        "y": 3150,
+        "x": 800,
+        "y": 3030,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19245,13 +19912,13 @@
         "id": "46e924653d2ef70b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=503",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 2_ET",
-        "x": 510,
-        "y": 3190,
+        "x": 770,
+        "y": 3070,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19262,13 +19929,13 @@
         "id": "a689ef17f82d9904",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=404",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA FINO ON",
-        "x": 530,
-        "y": 3230,
+        "x": 790,
+        "y": 3110,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19279,13 +19946,13 @@
         "id": "127c71bf46dba583",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=508",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 3_ET",
-        "x": 510,
-        "y": 3270,
+        "x": 770,
+        "y": 3150,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19296,13 +19963,13 @@
         "id": "0f30f17b331c51cf",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=405",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIEMPO DE APERTURA FINO OFF",
-        "x": 540,
-        "y": 3310,
+        "x": 800,
+        "y": 3190,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19313,13 +19980,13 @@
         "id": "6ea1cd71e031e26c",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=513",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_TIMER DE APERTURA 4_ET",
-        "x": 510,
-        "y": 3350,
+        "x": 770,
+        "y": 3230,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19330,13 +19997,13 @@
         "id": "0c4a2c2de2e88285",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=549",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA BAJO ON",
-        "x": 530,
-        "y": 3410,
+        "x": 790,
+        "y": 3290,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19347,13 +20014,13 @@
         "id": "f7f254f308fee6e6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=645",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 1_ET",
-        "x": 510,
-        "y": 3450,
+        "x": 770,
+        "y": 3330,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19364,13 +20031,13 @@
         "id": "7a3576a433b99070",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=550",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA BAJO OFF",
-        "x": 540,
-        "y": 3490,
+        "x": 800,
+        "y": 3370,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19381,13 +20048,13 @@
         "id": "02154352317dfebc",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=650",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 2_ET",
-        "x": 510,
-        "y": 3530,
+        "x": 770,
+        "y": 3410,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19398,13 +20065,13 @@
         "id": "26b4246dac5fa598",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=551",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA FINO ON",
-        "x": 530,
-        "y": 3570,
+        "x": 790,
+        "y": 3450,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19415,13 +20082,13 @@
         "id": "56b9d9a766733141",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=655",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 3_ET",
-        "x": 510,
-        "y": 3610,
+        "x": 770,
+        "y": 3490,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19432,13 +20099,13 @@
         "id": "443178953d11f265",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=552",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIEMPO DE APERTURA FINO OFF",
-        "x": 540,
-        "y": 3650,
+        "x": 800,
+        "y": 3530,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19449,13 +20116,13 @@
         "id": "e663b3c49274698b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=4;i=660",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_TIMER DE APERTURA 4_ET",
-        "x": 510,
-        "y": 3690,
+        "x": 770,
+        "y": 3570,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19466,13 +20133,13 @@
         "id": "f7a7b13cab538d07",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=93",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE ALTO AGR1",
-        "x": 1140,
-        "y": 2890,
+        "x": 1310,
+        "y": 2770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19483,13 +20150,13 @@
         "id": "b62d771ff734a792",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=95",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE BAJO AGR1",
-        "x": 1140,
-        "y": 2930,
+        "x": 1310,
+        "y": 2810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19500,13 +20167,13 @@
         "id": "51ce5c4d98c68ec1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=94",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE ALTO AGR2",
-        "x": 1140,
-        "y": 2970,
+        "x": 1310,
+        "y": 2850,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19517,13 +20184,13 @@
         "id": "afdb62c3809d78c5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=96",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_PORCENTAJE TIRAJE BAJO AGR2",
-        "x": 1140,
-        "y": 3010,
+        "x": 1310,
+        "y": 2890,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19534,13 +20201,13 @@
         "id": "2da73ed2e2bb18b8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=96",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_FLUJO DE PESO AGR1",
-        "x": 1100,
-        "y": 3070,
+        "x": 1270,
+        "y": 2950,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19551,13 +20218,13 @@
         "id": "c9c0a94ae46019a1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=86",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_FLUJO DE PESO AGR2",
-        "x": 1100,
-        "y": 3110,
+        "x": 1270,
+        "y": 2990,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19568,13 +20235,13 @@
         "id": "d75b7ed9719eaef7",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=100",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_TIEMPO_META_ASISTENCIA EN CEMENTO",
-        "x": 1170,
-        "y": 3170,
+        "x": 1340,
+        "y": 3050,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19585,13 +20252,13 @@
         "id": "2fc65c2b16361302",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "95fedce0ba60de3d",
         "item": "ns=5;i=15",
         "datatype": "Int32",
         "value": "",
         "name": "DISPLAY_TIEMPO_ACTUAL_ASISTENCIA EN CEMENTO",
-        "x": 1190,
-        "y": 3210,
+        "x": 1360,
+        "y": 3090,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19602,10 +20269,11 @@
         "id": "51c7369056a9fab8",
         "type": "comment",
         "z": "0d06e67bad6a6fdf",
+        "g": "cfae9b60ed141fa6",
         "name": "MANUAL",
         "info": "",
-        "x": 170,
-        "y": 3790,
+        "x": 610,
+        "y": 3670,
         "wires": []
     },
     {
@@ -19620,8 +20288,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3440,
-        "y": 430,
+        "x": 2030,
+        "y": 460,
         "wires": [
             []
         ]
@@ -19630,12 +20298,13 @@
         "id": "efa1d1bc4a081ce0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=4;i=367",
         "datatype": "String",
         "value": "",
         "name": "Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL",
-        "x": 1640,
-        "y": 350,
+        "x": 850,
+        "y": 360,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19646,12 +20315,13 @@
         "id": "ec6f58e518e628a0",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=218",
         "datatype": "Boolean",
         "value": "",
         "name": "MODO AUTOMAN",
-        "x": 1420,
-        "y": 190,
+        "x": 630,
+        "y": 200,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19695,8 +20365,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 155,
-        "y": 2760,
+        "x": 195,
+        "y": 150,
         "wires": [
             [
                 "ec6f58e518e628a0",
@@ -19720,10 +20390,6 @@
                 "fd75e277e884e37c",
                 "1395ddc62ce62cc3",
                 "4ffc079ec35da4f6",
-                "bd8119ea8a15df8b",
-                "d27f97d5640e4a06",
-                "530ab0d6b7f7c446",
-                "41baf02a96b3a786",
                 "e01c52318a8eb718",
                 "d2dd7849d794b3b6",
                 "b62a3c13b138712c",
@@ -19903,80 +20569,13 @@
         "id": "4ffc079ec35da4f6",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
         "item": "ns=5;i=136",
         "datatype": "Boolean",
         "value": "",
         "name": "ALARMA",
-        "x": 1390,
-        "y": 150,
-        "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
-        ]
-    },
-    {
-        "id": "bd8119ea8a15df8b",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "VALVULA ABRIR AGREGADO 1",
-        "x": 1470,
-        "y": 1080,
-        "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
-        ]
-    },
-    {
-        "id": "d27f97d5640e4a06",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "VALVULA ABRIR AGREGADO 2",
-        "x": 1470,
-        "y": 1120,
-        "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
-        ]
-    },
-    {
-        "id": "530ab0d6b7f7c446",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "SEÑAL VFD ORUGA",
-        "x": 1430,
-        "y": 1160,
-        "wires": [
-            [
-                "a9bfcd88deb1c6dd"
-            ]
-        ]
-    },
-    {
-        "id": "41baf02a96b3a786",
-        "type": "OpcUa-Item",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "VALVULA AGUA",
-        "x": 1420,
-        "y": 1200,
+        "x": 600,
+        "y": 160,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -19996,8 +20595,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3440,
-        "y": 470,
+        "x": 2030,
+        "y": 500,
         "wires": [
             []
         ]
@@ -20015,8 +20614,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3440,
-        "y": 530,
+        "x": 2030,
+        "y": 560,
         "wires": [
             []
         ]
@@ -20034,8 +20633,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3420,
-        "y": 570,
+        "x": 2010,
+        "y": 600,
         "wires": [
             []
         ]
@@ -20045,12 +20644,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": "",
         "name": "IB0",
-        "x": 410,
-        "y": 490,
+        "x": 590,
+        "y": 4650,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20062,12 +20662,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 530,
+        "x": 620,
+        "y": 4690,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20079,12 +20680,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 570,
+        "x": 620,
+        "y": 4730,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20096,12 +20698,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 610,
+        "x": 620,
+        "y": 4770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20113,12 +20716,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 650,
+        "x": 620,
+        "y": 4810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20130,12 +20734,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 690,
+        "x": 620,
+        "y": 4850,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20147,12 +20752,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 730,
+        "x": 620,
+        "y": 4890,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20164,12 +20770,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 770,
+        "x": 620,
+        "y": 4930,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20181,12 +20788,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 810,
+        "x": 620,
+        "y": 4970,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20198,12 +20806,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 850,
+        "x": 620,
+        "y": 5010,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20215,12 +20824,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 890,
+        "x": 620,
+        "y": 5050,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20232,12 +20842,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 930,
+        "x": 620,
+        "y": 5090,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20249,12 +20860,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 970,
+        "x": 620,
+        "y": 5130,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20266,12 +20878,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 1010,
+        "x": 620,
+        "y": 5170,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20283,12 +20896,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 1050,
+        "x": 620,
+        "y": 5210,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20300,12 +20914,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 440,
-        "y": 1090,
+        "x": 620,
+        "y": 5250,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20317,12 +20932,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 490,
+        "x": 900,
+        "y": 4650,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20334,12 +20950,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 530,
+        "x": 900,
+        "y": 4690,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20351,12 +20968,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 570,
+        "x": 900,
+        "y": 4730,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20368,12 +20986,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 610,
+        "x": 900,
+        "y": 4770,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20385,12 +21004,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 650,
+        "x": 900,
+        "y": 4810,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20402,12 +21022,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 690,
+        "x": 900,
+        "y": 4850,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20419,12 +21040,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 730,
+        "x": 900,
+        "y": 4890,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20436,12 +21058,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 770,
+        "x": 900,
+        "y": 4930,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20453,12 +21076,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 810,
+        "x": 900,
+        "y": 4970,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20470,12 +21094,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 850,
+        "x": 900,
+        "y": 5010,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20487,12 +21112,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 890,
+        "x": 900,
+        "y": 5050,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20504,12 +21130,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "d655ade3b10d0471",
         "item": "",
         "datatype": "",
         "value": null,
         "name": "",
-        "x": 720,
-        "y": 930,
+        "x": 900,
+        "y": 5090,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20520,23 +21147,24 @@
         "id": "4388bfa623c47bcf",
         "type": "comment",
         "z": "0d06e67bad6a6fdf",
+        "g": "d655ade3b10d0471",
         "name": "IO",
         "info": "",
-        "x": 190,
-        "y": 490,
+        "x": 590,
+        "y": 4600,
         "wires": []
     },
     {
         "id": "db83298be5ed9154",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=4;i=160",
         "datatype": "Int32",
         "value": "",
         "name": "ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS",
-        "x": 600,
-        "y": 3780,
+        "x": 790,
+        "y": 3710,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20547,13 +21175,13 @@
         "id": "c350bf19db4572a3",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=239",
         "datatype": "Float",
         "value": "",
         "name": "PESO_CEMENTO_SIWAREX",
-        "x": 490,
-        "y": 3820,
+        "x": 680,
+        "y": 3750,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20564,13 +21192,13 @@
         "id": "7d117abf538d3751",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=104",
         "datatype": "Int32",
         "value": "",
         "name": "INPUT_VELOCIDAD_MANUAL",
-        "x": 490,
-        "y": 3860,
+        "x": 680,
+        "y": 3790,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20581,13 +21209,13 @@
         "id": "15f7f7bb41d9fa6b",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=242",
         "datatype": "Boolean",
         "value": "",
         "name": "SEL_HMI_JOG_MANUAL_MOTOR",
-        "x": 500,
-        "y": 3900,
+        "x": 690,
+        "y": 3830,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20599,12 +21227,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "",
         "datatype": "",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO",
-        "x": 570,
-        "y": 3960,
+        "x": 760,
+        "y": 3890,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20615,13 +21244,13 @@
         "id": "1a773246ab8d2022",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=237",
         "datatype": "Float",
         "value": "",
         "name": "PESO_AGREGADO_1_SIWAREX",
-        "x": 500,
-        "y": 4000,
+        "x": 690,
+        "y": 3930,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20633,12 +21262,13 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "",
         "datatype": "",
         "value": "",
         "name": "SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO",
-        "x": 570,
-        "y": 4040,
+        "x": 760,
+        "y": 3970,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20649,13 +21279,13 @@
         "id": "88442ca2180afbb1",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=238",
         "datatype": "Float",
         "value": "",
         "name": "PESO_AGREGADO_2_SIWAREX",
-        "x": 500,
-        "y": 4080,
+        "x": 690,
+        "y": 4010,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20666,13 +21296,13 @@
         "id": "d333979c6ce582fa",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=228",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_MANUAL_BANDA_COLECTORA",
-        "x": 530,
-        "y": 4140,
+        "x": 720,
+        "y": 4070,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20683,13 +21313,13 @@
         "id": "69f0b2a31ece7d38",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=229",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_MANUAL_BANDA_INCLINADA",
-        "x": 520,
-        "y": 4180,
+        "x": 710,
+        "y": 4110,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20700,13 +21330,13 @@
         "id": "210429757e8a6c02",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=220",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_AGREGAR_ADITIVO_MANUAL",
-        "x": 520,
-        "y": 4240,
+        "x": 710,
+        "y": 4170,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20717,13 +21347,13 @@
         "id": "baf57d5392af0c55",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=219",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_AGREGAR_AGUA_MANUAL",
-        "x": 510,
-        "y": 4280,
+        "x": 700,
+        "y": 4210,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20734,13 +21364,13 @@
         "id": "adfa1d519874b434",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=236",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_RESET TIEMPO DE AGUA MANUAL",
-        "x": 540,
-        "y": 4320,
+        "x": 730,
+        "y": 4250,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20751,13 +21381,13 @@
         "id": "3ecf6fd07d4854a2",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=222",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_JOG MANUAL MOTOR",
-        "x": 500,
-        "y": 4360,
+        "x": 690,
+        "y": 4290,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20768,13 +21398,13 @@
         "id": "8f13660f8904b3d5",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=242",
         "datatype": "Boolean",
         "value": "",
         "name": "SEL_HMI_JOG MANUAL MOTOR",
-        "x": 500,
-        "y": 4400,
+        "x": 690,
+        "y": 4330,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20785,13 +21415,13 @@
         "id": "b89960b23af6ef9e",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=230",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_MANUAL COMPUERTA AGR1 ABRIR",
-        "x": 540,
-        "y": 4440,
+        "x": 730,
+        "y": 4370,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -20811,8 +21441,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3430,
-        "y": 620,
+        "x": 2020,
+        "y": 650,
         "wires": [
             []
         ]
@@ -20830,8 +21460,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3430,
-        "y": 660,
+        "x": 2020,
+        "y": 690,
         "wires": [
             []
         ]
@@ -20849,8 +21479,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3410,
-        "y": 700,
+        "x": 2000,
+        "y": 730,
         "wires": [
             []
         ]
@@ -20859,13 +21489,13 @@
         "id": "c08479b56d7bb9f3",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=231",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_MANUAL COMPUERTA AGR2 ABRIR",
-        "x": 530,
-        "y": 4490,
+        "x": 720,
+        "y": 4420,
         "wires": [
             []
         ]
@@ -20874,13 +21504,13 @@
         "id": "6170668af4114efd",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=228",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_MANUAL_BANDA COLECTORA",
-        "x": 520,
-        "y": 4530,
+        "x": 710,
+        "y": 4460,
         "wires": [
             []
         ]
@@ -20889,16 +21519,27 @@
         "id": "42c908a48c29dbb3",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
+        "g": "cfae9b60ed141fa6",
         "item": "ns=5;i=229",
         "datatype": "Boolean",
         "value": "",
         "name": "PB_HMI_MANUAL_BANDA INCLINADA",
-        "x": 520,
-        "y": 4570,
+        "x": 710,
+        "y": 4500,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c8de1c6d91f4e5ab",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
+        "name": "OPERADOR",
+        "info": "",
+        "x": 610,
+        "y": 110,
+        "wires": []
     },
     {
         "id": "084f0b522e98640f",
@@ -25389,17 +26030,17 @@
                 "56a7c6aa3afa72c5",
                 "a720cc24de74477c",
                 "ae6002c0e81e98f0",
-                "9174652843ef1a28",
                 "1346888e40660eee",
                 "7dcadcd721ca305c",
-                "01fea314fca07eca",
-                "721ec7dd7642c485",
                 "089ad705810d807a",
                 "2afb859dabc8869b",
                 "3076826042a11282",
                 "03ddaa22750628ee",
                 "f1d2092ed243bfeb",
-                "57d7810626475575"
+                "57d7810626475575",
+                "6dab26d15cf23d97",
+                "d60235d7bb54fe88",
+                "8b1d0c4c0350ae30"
             ]
         ]
     },
@@ -28446,12 +29087,11 @@
         "datatype": "Boolean",
         "value": "",
         "name": "AUTOMATICO",
-        "x": 500,
+        "x": 540,
         "y": 100,
         "wires": [
             [
-                "55f446257aa45587",
-                "4958e020b2174074"
+                "55f446257aa45587"
             ]
         ]
     },
@@ -28464,7 +29104,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "INICIAR",
-        "x": 480,
+        "x": 520,
         "y": 140,
         "wires": [
             [
@@ -28481,7 +29121,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "PARAR",
-        "x": 480,
+        "x": 520,
         "y": 180,
         "wires": [
             [
@@ -28498,7 +29138,7 @@
         "datatype": "Float",
         "value": "",
         "name": "METROS CUBICOS",
-        "x": 520,
+        "x": 560,
         "y": 220,
         "wires": [
             [
@@ -28515,7 +29155,7 @@
         "datatype": "Int32",
         "value": "",
         "name": "RECETA",
-        "x": 480,
+        "x": 520,
         "y": 260,
         "wires": [
             [
@@ -28532,7 +29172,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "ENTER",
-        "x": 480,
+        "x": 520,
         "y": 300,
         "wires": [
             [
@@ -28549,7 +29189,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "RESET SECUENCIAS",
-        "x": 520,
+        "x": 560,
         "y": 340,
         "wires": [
             [
@@ -28566,7 +29206,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "RESET ALARMAS",
-        "x": 510,
+        "x": 550,
         "y": 380,
         "wires": [
             [
@@ -28583,7 +29223,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "JUMPER 1",
-        "x": 490,
+        "x": 530,
         "y": 420,
         "wires": [
             [
@@ -28601,7 +29241,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "JUMPER 2",
-        "x": 490,
+        "x": 530,
         "y": 460,
         "wires": [
             [
@@ -28618,7 +29258,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "JUMPER 3",
-        "x": 490,
+        "x": 530,
         "y": 500,
         "wires": [
             [
@@ -28632,14 +29272,14 @@
         "z": "b8ec6796739a69a4",
         "g": "5eb01b917e57ddfb",
         "name": "function 211",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.ISOLATED_MODO_AUTOMAN\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 100,
         "wires": [
             [
@@ -28662,7 +29302,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 100,
         "wires": [
             [
@@ -28675,17 +29315,16 @@
         "id": "1346888e40660eee",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 212",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.INICIAR\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 140,
         "wires": [
             [
@@ -28708,7 +29347,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 140,
         "wires": [
             [
@@ -28721,17 +29360,16 @@
         "id": "7dcadcd721ca305c",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 213",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PARAR\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 180,
         "wires": [
             [
@@ -28754,7 +29392,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 180,
         "wires": [
             [
@@ -28767,17 +29405,16 @@
         "id": "01fea314fca07eca",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 214",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.ISOLATED_INPUT_METROS_CUBICOS\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 220,
         "wires": [
             [
@@ -28800,7 +29437,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 220,
         "wires": [
             [
@@ -28813,17 +29450,16 @@
         "id": "721ec7dd7642c485",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 215",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.ISOLATED_NUMERO_DE_RECETA\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 260,
         "wires": [
             [
@@ -28846,7 +29482,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 260,
         "wires": [
             [
@@ -28859,17 +29495,16 @@
         "id": "089ad705810d807a",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 216",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.ENTER\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 300,
         "wires": [
             [
@@ -28892,7 +29527,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 300,
         "wires": [
             [
@@ -28905,17 +29540,16 @@
         "id": "2afb859dabc8869b",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 217",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.RESET_SECUENCIAS\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 340,
         "wires": [
             [
@@ -28938,7 +29572,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 340,
         "wires": [
             [
@@ -28951,17 +29585,16 @@
         "id": "3076826042a11282",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 218",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.RESET_ALARMAS\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 380,
         "wires": [
             [
@@ -28984,7 +29617,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 380,
         "wires": [
             [
@@ -28997,17 +29630,16 @@
         "id": "03ddaa22750628ee",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 219",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.JUMPER_1\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 420,
         "wires": [
             [
@@ -29030,7 +29662,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 420,
         "wires": [
             [
@@ -29043,17 +29675,16 @@
         "id": "f1d2092ed243bfeb",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 220",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.JUMPER_2\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 460,
         "wires": [
             [
@@ -29076,7 +29707,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 460,
         "wires": [
             [
@@ -29089,17 +29720,16 @@
         "id": "57d7810626475575",
         "type": "function",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "g": "5eb01b917e57ddfb",
         "name": "function 221",
-        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.JUMPER_3\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
+        "x": 375,
         "y": 500,
         "wires": [
             [
@@ -29122,7 +29752,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 385,
+        "x": 425,
         "y": 500,
         "wires": [
             [
@@ -29138,7 +29768,7 @@
         "g": "5eb01b917e57ddfb",
         "name": "OPERADOR",
         "info": "",
-        "x": 390,
+        "x": 430,
         "y": 60,
         "wires": []
     },
@@ -29178,22 +29808,6 @@
         ]
     },
     {
-        "id": "4958e020b2174074",
-        "type": "debug",
-        "z": "b8ec6796739a69a4",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1020,
-        "y": 40,
-        "wires": []
-    },
-    {
         "id": "ac74e0807e5cd0e1",
         "type": "debug",
         "z": "b8ec6796739a69a4",
@@ -29208,6 +29822,72 @@
         "x": 2080,
         "y": 220,
         "wires": []
+    },
+    {
+        "id": "6dab26d15cf23d97",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "5eb01b917e57ddfb",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 325,
+        "y": 100,
+        "wires": [
+            [
+                "9174652843ef1a28"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d60235d7bb54fe88",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "5eb01b917e57ddfb",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 325,
+        "y": 220,
+        "wires": [
+            [
+                "01fea314fca07eca"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8b1d0c4c0350ae30",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "5eb01b917e57ddfb",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 325,
+        "y": 260,
+        "wires": [
+            [
+                "721ec7dd7642c485"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "a1fefccddd7b8916",
