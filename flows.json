@@ -619,14 +619,11 @@
             "d181902cb9d31861",
             "57d7810626475575",
             "b689a768845b3081",
-            "a080f5115c5b24ea",
-            "6dab26d15cf23d97",
-            "d60235d7bb54fe88",
-            "8b1d0c4c0350ae30"
+            "a080f5115c5b24ea"
         ],
-        "x": 284,
+        "x": 334,
         "y": 19,
-        "w": 402,
+        "w": 352,
         "h": 522
     },
     {
@@ -29164,9 +29161,9 @@
                 "03ddaa22750628ee",
                 "f1d2092ed243bfeb",
                 "57d7810626475575",
-                "6dab26d15cf23d97",
-                "d60235d7bb54fe88",
-                "8b1d0c4c0350ae30"
+                "721ec7dd7642c485",
+                "01fea314fca07eca",
+                "9174652843ef1a28"
             ]
         ]
     },
@@ -32950,72 +32947,6 @@
         "x": 2080,
         "y": 220,
         "wires": []
-    },
-    {
-        "id": "6dab26d15cf23d97",
-        "type": "rbe",
-        "z": "b8ec6796739a69a4",
-        "g": "5eb01b917e57ddfb",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 325,
-        "y": 100,
-        "wires": [
-            [
-                "9174652843ef1a28"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "d60235d7bb54fe88",
-        "type": "rbe",
-        "z": "b8ec6796739a69a4",
-        "g": "5eb01b917e57ddfb",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 325,
-        "y": 220,
-        "wires": [
-            [
-                "01fea314fca07eca"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "8b1d0c4c0350ae30",
-        "type": "rbe",
-        "z": "b8ec6796739a69a4",
-        "g": "5eb01b917e57ddfb",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 325,
-        "y": 260,
-        "wires": [
-            [
-                "721ec7dd7642c485"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "05789747e763191a",
