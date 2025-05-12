@@ -96,6 +96,14 @@
         "env": []
     },
     {
+        "id": "75e16cd3dda9abfe",
+        "type": "tab",
+        "label": "DEBUG",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "b8ec6796739a69a4",
         "type": "tab",
         "label": "WRITE VARIABLES",
@@ -1093,6 +1101,141 @@
         "h": 202
     },
     {
+        "id": "e08e206c4c480f22",
+        "type": "group",
+        "z": "75e16cd3dda9abfe",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "12e5c1010a72a0fe",
+            "6c794dfc5403d5c9",
+            "30906e12e31496d2",
+            "11b8de2123373693",
+            "b407e5dfb72c8414",
+            "d0070a462afa5190",
+            "4a35e680eec9adbd",
+            "cff4514cf26c4841",
+            "e6c066db5dd7f24b",
+            "755ab1c527bc524d",
+            "65e24d856a115f78",
+            "2f9adce93054809a",
+            "3c103bcb1cd2f96f",
+            "fa11aa2b08dfb364",
+            "6cb76851f3d9dca2",
+            "2b25b6027e078976",
+            "a64ee26334c17fd0",
+            "5d035d43712a9e4e",
+            "8c89c8971a77049f",
+            "1b5ed743ab37d624",
+            "83b20268f2255f75",
+            "86afc4447b066783",
+            "ae3197149dfbb959",
+            "679074c4728242f8"
+        ],
+        "x": 54,
+        "y": 79,
+        "w": 672,
+        "h": 1102
+    },
+    {
+        "id": "3f642ae08bfe652a",
+        "type": "group",
+        "z": "75e16cd3dda9abfe",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d88f7e4f24634ee0",
+            "4289041c705b89a9",
+            "bddf7e09ca01f499",
+            "32b58c4a5e891d83",
+            "dc2537bf0bed10a5",
+            "3ebee3ebb4ead226",
+            "d4d23391dc3ddbe7",
+            "a52b676ea084660e",
+            "2cd4055207d1bd20",
+            "3b178d753bcb59c4",
+            "57eec2bdf62f30ce",
+            "47ada4bdaab9c659",
+            "61fa7b7519db73e5",
+            "c09741c194b85650",
+            "78ce3101df96a7a6",
+            "dcd50511694c2389",
+            "7300a17423658687",
+            "3f26dabffa5ce951",
+            "191a68c4cc59e1ca",
+            "367f20fbdca3e38c",
+            "b4f21750f90fd3eb",
+            "552d992ffa0eb6b8",
+            "e595acf4ce9eac9d",
+            "baf73fc5ea6a5ead",
+            "4b5673130360cc1e",
+            "990b3f7d662676da",
+            "89963820dd8df122",
+            "4e98cf6821dab0bc",
+            "1984355eba6a2714",
+            "b8c1e556cc030635",
+            "ad0195f7fef06c9d",
+            "8e3a5544790cc1ac",
+            "b2a097c156cb5ed5",
+            "e1eec5e5a2393786",
+            "7ab765c04a49c190",
+            "7479df29a68d51a6",
+            "23e9baea2808030f",
+            "88e639410349b155",
+            "40d439807a82b6b4",
+            "6e7072778e2b4354",
+            "f7c9de099c527ad6",
+            "e7b25a422b47d9b1",
+            "0970ce192b1e68c5",
+            "033b968c487ba98f",
+            "10d5838b919b77f3",
+            "fd01ea232ebec0e3",
+            "c1d49d18508367dd",
+            "c8b97be918870a5f",
+            "c59d1e3aa226866c",
+            "c9c4b7dded98657f",
+            "428be60a3f02b194",
+            "a55a2d31ae1dc4d5",
+            "886e9b349a8176ca",
+            "7df1d592e19fa70c",
+            "025fcccb28e0f22b",
+            "dbadb7525846a046",
+            "acb5753155bf9054",
+            "fef6613cdb7a1d31",
+            "b40e607e9322e24a",
+            "fd23bbf48269f460",
+            "3efdc20dd2c13680",
+            "9e86deafc9cd25b6",
+            "8a7506029d9496fc",
+            "ac4b9c94d11ad4b3",
+            "d4d1bd62141c25a1",
+            "c708e7a59bde5339",
+            "6ff6d041bb5be2c5",
+            "3169915da7c8cff8",
+            "efd7f83c8bd3068b",
+            "e10e79a4f9787785",
+            "4e938f3b1e9092df"
+        ],
+        "x": 754,
+        "y": 79,
+        "w": 992,
+        "h": 1522
+    },
+    {
         "id": "0785e116879ba187",
         "type": "ui_tab",
         "name": "OPERADOR",
@@ -2081,7 +2224,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#3a3a3a",
-        "x": 700,
+        "x": 710,
         "y": 180,
         "wires": []
     },
@@ -2096,7 +2239,7 @@
         "height": "1",
         "name": "SEQ_CEMENTO",
         "label": "",
-        "format": "{{msg.payload.SEQ_CEMENTO}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": true,
@@ -2140,7 +2283,7 @@
         "height": "1",
         "name": "SEQ_AGREGADOS",
         "label": "",
-        "format": "{{msg.payload.SEQ_AGREGADOS}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": true,
@@ -2184,7 +2327,7 @@
         "height": "1",
         "name": "SEQ_MEZCLADO",
         "label": "",
-        "format": "{{msg.payload.SEQ_MEZCLADO}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": true,
@@ -2774,7 +2917,7 @@
         "height": "1",
         "name": "DISPLAY_META_AGUA_1",
         "label": "",
-        "format": "{{msg.payload.DISPLAY_META_AGUA_1}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
@@ -2796,7 +2939,7 @@
         "height": "1",
         "name": "ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS",
         "label": "",
-        "format": "{{msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
@@ -2840,7 +2983,7 @@
         "height": "1",
         "name": "DISPLAY_META_AGUA_2",
         "label": "",
-        "format": "{{msg.payload.DISPLAY_META_AGUA_2}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
@@ -2884,7 +3027,7 @@
         "height": "1",
         "name": "DISPLAY_META_ADITIVO",
         "label": "",
-        "format": "{{msg.payload.DISPLAY_META_ADITIVO}}",
+        "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "view",
         "style": false,
@@ -3026,7 +3169,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "0.075",
+        "repeat": "3",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -3757,7 +3900,7 @@
         "z": "e515f4b8125260c1",
         "g": "0b460e13d448ea25",
         "name": "",
-        "func": "rbe",
+        "func": "rbei",
         "gap": "",
         "start": "",
         "inout": "out",
@@ -4017,7 +4160,7 @@
         "z": "e515f4b8125260c1",
         "g": "53590877c54f3db5",
         "name": "function 225",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.DISPLAY_META_AGUA_1).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -4039,7 +4182,7 @@
         "z": "e515f4b8125260c1",
         "g": "53590877c54f3db5",
         "name": "function 226",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.DISPLAY_META_AGUA_2).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -4061,7 +4204,7 @@
         "z": "e515f4b8125260c1",
         "g": "53590877c54f3db5",
         "name": "function 227",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.DISPLAY_META_ADITIVO).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -4149,7 +4292,7 @@
         "z": "e515f4b8125260c1",
         "g": "53590877c54f3db5",
         "name": "function 228",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -6750,7 +6893,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "0.5",
+        "repeat": "3",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -6851,7 +6994,8 @@
                 "58880a3192ccfa0f",
                 "f978be829c782bfb",
                 "a0325589feaf10c8",
-                "fe615f1a356db84d"
+                "fe615f1a356db84d",
+                "27b004123d98e1c2"
             ]
         ]
     },
@@ -6868,7 +7012,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 625,
-        "y": 110,
+        "y": 100,
         "wires": [
             [
                 "158379ef12850e98"
@@ -6952,7 +7096,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 625,
-        "y": 270,
+        "y": 280,
         "wires": [
             [
                 "e9c99bafa6a67773"
@@ -7162,7 +7306,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 875,
-        "y": 270,
+        "y": 280,
         "wires": [
             [
                 "1b957c00a27bf15c"
@@ -8359,7 +8503,7 @@
         "to": "",
         "reg": false,
         "x": 575,
-        "y": 110,
+        "y": 100,
         "wires": [
             [
                 "086b1bbddd10cfb8"
@@ -8814,7 +8958,7 @@
         "to": "",
         "reg": false,
         "x": 825,
-        "y": 270,
+        "y": 280,
         "wires": [
             [
                 "7953291a829dabd4"
@@ -10907,6 +11051,22 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "27b004123d98e1c2",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "20cf359b5f6dd87b",
@@ -18209,6 +18369,7 @@
         "id": "a9bfcd88deb1c6dd",
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "subscribe",
         "deadbandtype": "a",
@@ -18239,8 +18400,7 @@
                 "343979d78696a25e"
             ],
             [
-                "46fcf6ccf45b0443",
-                "256875e1455a4a3c"
+                "46fcf6ccf45b0443"
             ],
             []
         ]
@@ -18505,7 +18665,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 2040,
+        "x": 2050,
         "y": 420,
         "wires": [
             []
@@ -21633,21 +21793,2879 @@
         "wires": []
     },
     {
-        "id": "256875e1455a4a3c",
-        "type": "debug",
-        "z": "0d06e67bad6a6fdf",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1840,
+        "id": "12e5c1010a72a0fe",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "DEBUG OPERADOR",
+        "func": "switch (msg.topic){\n    \n    case \"ALARMA_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ALARMA\",msg.payload);\n        break;\n\n    case \"AUTOMATICO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    \n    case \"SEQ_CEMENTO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break;\n\n    case \"SEQ_AGREGADOS_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\",msg.payload);\n        break;\n    \n    case \"SEQ_MEZCLADO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break;\n    \n    case \"NOMBRE_DE_RECETA_ACTUAL_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\",msg.payload);\n        break;\n    \n    case \"PESO_CEMENTO_SIWAREX_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n    \n    case \"PESO_AGREGADO_1_SIWAREX_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break;\n\n    case \"PESO_AGREGADO_2_SIWAREX_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break;\n\n    case \"INPUT_METROS_CUBICOS_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break;\n\n    case \"INPUT_NUMERO_DE_RECETA_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n\n    case \"2_DB_PESO_META_DE_CICLO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n\n    case \"2_DB_PESO_INICIAL_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n\n    case \"1_DB_PESO_META_DE_CICLO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n\n    case \"1_DB_PESO_INICIAL_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n\n    case \"CEMENTO_PESO_META_DE_CICLO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n\n    case \"CEMENTO_PESO_INICIAL_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    \n    case \"DISPLAY_META_AGUA_1_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    \n    case \"DISPLAY_META_AGUA_2_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    \n    case \"DISPLAY_META_ADITIVO_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    \n    case \"LITROS_AÑADIDOS_ACTUALES_LITROS_DEB\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c794dfc5403d5c9",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "SEQ_CEMENTO_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SEQ_CEMENTO_DEB",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "30906e12e31496d2",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "SEQ_AGREGADOS_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SEQ_AGREGADOS_DEB",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "11b8de2123373693",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "SEQ_MEZCLADO_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SEQ_MEZCLADO_DEB",
+        "payload": "6",
+        "payloadType": "num",
+        "x": 210,
+        "y": 400,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "b407e5dfb72c8414",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "NOMBRE_DE_RECETA_ACTUAL_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_DE_RECETA_ACTUAL_DEB",
+        "payload": "RECETA TEST",
+        "payloadType": "str",
+        "x": 260,
+        "y": 460,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "d0070a462afa5190",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "PESO_CEMENTO_SIWAREX_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PESO_CEMENTO_SIWAREX_DEB",
+        "payload": "0000",
+        "payloadType": "num",
+        "x": 240,
+        "y": 520,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "4a35e680eec9adbd",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "PESO_AGREGADO_1_SIWAREX_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PESO_AGREGADO_1_SIWAREX_DEB",
+        "payload": "0000",
+        "payloadType": "num",
+        "x": 260,
+        "y": 560,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "cff4514cf26c4841",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "PESO_AGREGADO_2_SIWAREX_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PESO_AGREGADO_2_SIWAREX_DEB",
+        "payload": "0000",
+        "payloadType": "num",
+        "x": 260,
+        "y": 600,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "e6c066db5dd7f24b",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "INPUT_METROS_CUBICOS_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_METROS_CUBICOS_DEB",
+        "payload": "9",
+        "payloadType": "num",
+        "x": 240,
+        "y": 660,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "755ab1c527bc524d",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "INPUT_NUMERO_DE_RECETA_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_NUMERO_DE_RECETA_DEB",
+        "payload": "9",
+        "payloadType": "num",
+        "x": 250,
+        "y": 700,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "65e24d856a115f78",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "2_DB_PESO_META_DE_CICLO_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2_DB_PESO_META_DE_CICLO_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 250,
+        "y": 760,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "2f9adce93054809a",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "2_DB_PESO_INICIAL_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2_DB_PESO_INICIAL_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 220,
+        "y": 800,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "fbdcc9635140ef11",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "name": "OPC_SERVER_CONNECTED",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 210,
+        "y": 40,
+        "wires": [
+            [
+                "39b640bd2496f762"
+            ]
+        ]
+    },
+    {
+        "id": "39b640bd2496f762",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "name": "OPC_SERVER_CONNECTED",
+        "func": "global.set(\"OPC_SERVER_CONNECTED\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c103bcb1cd2f96f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "AUTOMATICO_DEB TRUE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "AUTOMATICO_DEB",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "fa11aa2b08dfb364",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "1_DB_PESO_INICIAL_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "1_DB_PESO_INICIAL_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 220,
+        "y": 880,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "6cb76851f3d9dca2",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "1_DB_PESO_META_DE_CICLO_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "1_DB_PESO_META_DE_CICLO_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 250,
+        "y": 840,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "2b25b6027e078976",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "CEMENTO_PESO_INICIAL_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CEMENTO_PESO_INICIAL_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 230,
+        "y": 960,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "a64ee26334c17fd0",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "CEMENTO_PESO_META_DE_CICLO_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CEMENTO_PESO_META_DE_CICLO_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 270,
+        "y": 920,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "5d035d43712a9e4e",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "DISPLAY_META_AGUA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DISPLAY_META_AGUA_1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1020,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "8c89c8971a77049f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "DISPLAY_META_AGUA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DISPLAY_META_AGUA_2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1060,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "1b5ed743ab37d624",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "DISPLAY_META_ADITIVO_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DISPLAY_META_ADITIVO_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1100,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "83b20268f2255f75",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "LITROS_AÑADIDOS_ACTUALES_LITROS_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "LITROS_AÑADIDOS_ACTUALES_LITROS_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 280,
+        "y": 1140,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "86afc4447b066783",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "AUTOMATICO_DEB FALSE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "AUTOMATICO_DEB",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 260,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "ae3197149dfbb959",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "ALARMA_DEB TRUE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ALARMA_DEB",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "679074c4728242f8",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "e08e206c4c480f22",
+        "name": "ALARMA_DEB FALSE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ALARMA_DEB",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 200,
+        "y": 160,
+        "wires": [
+            [
+                "12e5c1010a72a0fe"
+            ]
+        ]
+    },
+    {
+        "id": "d88f7e4f24634ee0",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_1_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 920,
+        "y": 120,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "4289041c705b89a9",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 160,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "bddf7e09ca01f499",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 200,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "32b58c4a5e891d83",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 950,
+        "y": 240,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "dc2537bf0bed10a5",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
         "y": 280,
-        "wires": []
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "3ebee3ebb4ead226",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 320,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "d4d23391dc3ddbe7",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_1_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_1_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 360,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "a52b676ea084660e",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "DEBUG OPERADOR",
+        "func": "switch (msg.topic){\n\n// RECETA #1\n    case \"NOMBRE_RECETA_1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1\",msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_1\",msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_1\",msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_1\",msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_1\",msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_1\",msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_1_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_1\",msg.payload);\n        break;\n\n// RECETA #2\n    case \"NOMBRE_RECETA_2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2\",msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_2\",msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_2\",msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_2\",msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_2\",msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_2\",msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_2_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_2\",msg.payload);\n        break;\n\n// RECETA #3\n    case \"NOMBRE_RECETA_3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3\",msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_3\",msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_3\",msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_3\",msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_3\",msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_3\",msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_3_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_3\",msg.payload);\n        break;\n\n// RECETA #4\n    case \"NOMBRE_RECETA_4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4\",msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_4\",msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_4\",msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_4\",msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_4\",msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_4\",msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_4_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_4\",msg.payload);\n        break;\n\n// RECETA #5\n    case \"NOMBRE_RECETA_5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5\", msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_5\", msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_5\", msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_5\", msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_5\", msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_5\", msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_5_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_5\", msg.payload);\n        break;\n\n// RECETA #6\n    case \"NOMBRE_RECETA_6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6\", msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_6\", msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_6\", msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_6\", msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_6\", msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_6\", msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_6_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_6\", msg.payload);\n        break;\n\n// RECETA #7\n    case \"NOMBRE_RECETA_7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7\", msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_7\", msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_7\", msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_7\", msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_7\", msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_7\", msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_7_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_7\", msg.payload);\n        break;\n\n// RECETA #8\n    case \"NOMBRE_RECETA_8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8\", msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_8\", msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_8\", msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_8\", msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_8\", msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_8\", msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_8_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_8\", msg.payload);\n        break;\n\n// RECETA #9\n    case \"NOMBRE_RECETA_9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9\", msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_9\", msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_9\", msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_9\", msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_9\", msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_9\", msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_9_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_9\", msg.payload);\n        break;\n\n// RECETA #10\n    case \"NOMBRE_RECETA_10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10\", msg.payload);\n        break;\n    case \"INPUT_AGR1_RECETA_10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_10\", msg.payload);\n        break;\n    case \"INPUT_AGR2_RECETA10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_10\", msg.payload);\n        break;\n    case \"INPUT_CEMENTO_RECETA_10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_10\", msg.payload);\n        break;\n    case \"INPUT_AGUA1_RECETA_10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_10\", msg.payload);\n        break;\n    case \"INPUT_AGUA2_RECETA_10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_10\", msg.payload);\n        break;\n    case \"INPUT_ADITIVO_RECETA_10_DEB\":\n        global.set(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_10\", msg.payload);\n        break;\n\n\n}\n\nmsg.payload = global.get(\"RECETAS_GLOBAL_VARIABLE\");\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cd4055207d1bd20",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_2_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 920,
+        "y": 420,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "3b178d753bcb59c4",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 460,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "57eec2bdf62f30ce",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 500,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "47ada4bdaab9c659",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 950,
+        "y": 540,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "61fa7b7519db73e5",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 580,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "c09741c194b85650",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 620,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "78ce3101df96a7a6",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_2_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_2_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 660,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "dcd50511694c2389",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_3_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 920,
+        "y": 720,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "7300a17423658687",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_3_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 760,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "3f26dabffa5ce951",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA3_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 800,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "191a68c4cc59e1ca",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_3_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 950,
+        "y": 840,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "367f20fbdca3e38c",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_3_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 880,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "b4f21750f90fd3eb",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_3_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 920,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "552d992ffa0eb6b8",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_3_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_3_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 960,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "e595acf4ce9eac9d",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_4_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 920,
+        "y": 1020,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "baf73fc5ea6a5ead",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_4_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 1060,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "4b5673130360cc1e",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA4_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 1100,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "990b3f7d662676da",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_4_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 950,
+        "y": 1140,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "89963820dd8df122",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_4_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 1180,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "4e98cf6821dab0bc",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_4_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 1220,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "1984355eba6a2714",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_4_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_4_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 1260,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "b8c1e556cc030635",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_5_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 920,
+        "y": 1320,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "ad0195f7fef06c9d",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_5_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 1360,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "8e3a5544790cc1ac",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA5_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 930,
+        "y": 1400,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "b2a097c156cb5ed5",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_5_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 950,
+        "y": 1440,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "e1eec5e5a2393786",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_5_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 1480,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "7ab765c04a49c190",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_5_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 1520,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "7479df29a68d51a6",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_5_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_5_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 940,
+        "y": 1560,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "23e9baea2808030f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_6_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 1280,
+        "y": 120,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "88e639410349b155",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_6_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 160,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "40d439807a82b6b4",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA6_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 200,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "6e7072778e2b4354",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_6_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 240,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "f7c9de099c527ad6",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_6_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 280,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "e7b25a422b47d9b1",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_6_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 320,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "0970ce192b1e68c5",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_6_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_6_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 360,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "033b968c487ba98f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_7_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 1280,
+        "y": 420,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "10d5838b919b77f3",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_7_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 460,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "fd01ea232ebec0e3",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA7_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 500,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "c1d49d18508367dd",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_7_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 540,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "c8b97be918870a5f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_7_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 580,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "c59d1e3aa226866c",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_7_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 620,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "c9c4b7dded98657f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_7_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_7_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 660,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "428be60a3f02b194",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_8_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 1280,
+        "y": 720,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "a55a2d31ae1dc4d5",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_8_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 760,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "886e9b349a8176ca",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA8_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 800,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "7df1d592e19fa70c",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_8_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 840,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "025fcccb28e0f22b",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_8_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 880,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "dbadb7525846a046",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_8_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 920,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "acb5753155bf9054",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_8_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_8_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 960,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "fef6613cdb7a1d31",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_9_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 1280,
+        "y": 1020,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "b40e607e9322e24a",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_9_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 1060,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "fd23bbf48269f460",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA9_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1290,
+        "y": 1100,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "3efdc20dd2c13680",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_9_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 1140,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "9e86deafc9cd25b6",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_9_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1180,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "8a7506029d9496fc",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_9_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1220,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "ac4b9c94d11ad4b3",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_9_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_9_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1260,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "d4d1bd62141c25a1",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "NOMBRE_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "NOMBRE_RECETA_10_DEB",
+        "payload": "NOMBRE TEST",
+        "payloadType": "str",
+        "x": 1280,
+        "y": 1320,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "c708e7a59bde5339",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR1_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR1_RECETA_10_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1360,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "6ff6d041bb5be2c5",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGR2_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGR2_RECETA10_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1400,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "3169915da7c8cff8",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_CEMENTO_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_CEMENTO_RECETA_10_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 1440,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "efd7f83c8bd3068b",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA1_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA1_RECETA_10_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1480,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "e10e79a4f9787785",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_AGUA2_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_AGUA2_RECETA_10_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1520,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
+    },
+    {
+        "id": "4e938f3b1e9092df",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "3f642ae08bfe652a",
+        "name": "INPUT_ADITIVO_RECETA_10_DEB",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INPUT_ADITIVO_RECETA_10_DEB",
+        "payload": "99",
+        "payloadType": "num",
+        "x": 1300,
+        "y": 1560,
+        "wires": [
+            [
+                "a52b676ea084660e"
+            ]
+        ]
     },
     {
         "id": "084f0b522e98640f",
@@ -29885,6 +32903,7 @@
         "id": "55f446257aa45587",
         "type": "OpcUa-Client",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "write",
         "deadbandtype": "a",
@@ -30003,7 +33022,7 @@
         "type": "debug",
         "z": "b8ec6796739a69a4",
         "name": "debug 7",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
