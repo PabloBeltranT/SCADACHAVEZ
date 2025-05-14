@@ -3976,7 +3976,7 @@
         "z": "e515f4b8125260c1",
         "g": "53590877c54f3db5",
         "name": "function 15",
-        "func": "\nif (msg.payload.VALVULA_AGUA == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view-head\";\n}\n\n\nmsg.payload = \"\";\nmsg.className = \"view-head\";\nreturn msg;",
+        "func": "\nif (msg.payload.VALVULA_AGUA == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view-head\";\n}\n\n\nmsg.payload = \"\";\n//msg.className = \"view-head\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
