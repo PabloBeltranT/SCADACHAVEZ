@@ -24188,7 +24188,6 @@
         "id": "a9bfcd88deb1c6dd",
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "subscribe",
         "deadbandtype": "a",
