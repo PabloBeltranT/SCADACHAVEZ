@@ -1288,12 +1288,175 @@
             "b47bbd1027c49813",
             "328d996cc8e9e93d",
             "0c82c148fbea35fa",
-            "907e7bc8e8dc3f23"
+            "907e7bc8e8dc3f23",
+            "b6887594b9f701ef",
+            "3b0bbe452991e6ab",
+            "a62213046ce52f0f",
+            "e1a442f4d05da198",
+            "2150007f56ba35e2",
+            "911ed82836472e49",
+            "d9e2f1817f0e2d0c",
+            "9c63cdb864ed1b17",
+            "f5a5341a06a212d3",
+            "99a0efae56e4f6c5"
         ],
         "x": 54,
         "y": 2739,
-        "w": 552,
-        "h": 482
+        "w": 1642,
+        "h": 602
+    },
+    {
+        "id": "3153dfb2b5a78073",
+        "type": "group",
+        "z": "e84e53e8ddf338f7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d2872bb6d0e0cf77",
+            "a7cd28de6252d3fd",
+            "56e557f8cf5ab5bc",
+            "7008d3a85719682a",
+            "d901832ca7236e1f"
+        ],
+        "x": 554,
+        "y": 69,
+        "w": 542,
+        "h": 82
+    },
+    {
+        "id": "6e48978b96e8596b",
+        "type": "group",
+        "z": "e84e53e8ddf338f7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "01548c2c80509842",
+            "0a9dfadfe9bfc973",
+            "e273d7c0fc36f95a",
+            "51ecae5677e4a403",
+            "a434b70a7bcc5487",
+            "a35ee4119a409347",
+            "618af3e769a607dd",
+            "e331e26172e97dc4"
+        ],
+        "x": 554,
+        "y": 159,
+        "w": 832,
+        "h": 132
+    },
+    {
+        "id": "75ce4d177ad273e1",
+        "type": "group",
+        "z": "e84e53e8ddf338f7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b1ee27e4ad12d937",
+            "adc926c11e773624",
+            "3f4535a1fec2fdb0",
+            "e9fcc21e1f10c89c",
+            "84c1b65997b0887a",
+            "e2747ebc5984e78f",
+            "683a24b11bcc108e",
+            "d9aa94548c9a2e9c",
+            "617914a7c1f388fc",
+            "914d097ce93ea80e",
+            "3e97bf919416af48",
+            "af45c46337285bee"
+        ],
+        "x": 554,
+        "y": 299,
+        "w": 662,
+        "h": 122
+    },
+    {
+        "id": "a1c77968753f17a2",
+        "type": "group",
+        "z": "e84e53e8ddf338f7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e4b2fce47c326f83",
+            "3c631aae960b4f66",
+            "a363d848c5ff8ca3",
+            "e1b5790fbfa6463c",
+            "3aa850241b5fe676",
+            "cfb789dc2501963f",
+            "496678b01615809f",
+            "099443035029a44b",
+            "2a8ab5e6de681a21",
+            "58f21a643ada6cbc",
+            "14192ddb4d490cc8",
+            "c9b485eab736e42c",
+            "74320d88b140e970",
+            "20cb26edd81cc653",
+            "933954c199552110",
+            "d2d6e225e988d070",
+            "8903f84cea3d8063",
+            "b5697eb753506695"
+        ],
+        "x": 554,
+        "y": 429,
+        "w": 822,
+        "h": 122
+    },
+    {
+        "id": "cdc236170080c826",
+        "type": "group",
+        "z": "e84e53e8ddf338f7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4b1b7f363ea1d6c5",
+            "5e0f9fdb4d1acedc",
+            "1a3ca0e604873d1d",
+            "bd3446f0259b9d01",
+            "2dbbfd8aaf2492f5",
+            "421ca2da93141e9e",
+            "973f094259a0c64a",
+            "7134ab1a6322b0bf",
+            "69f5c52287c12492",
+            "d72e0b5be33eb5e8"
+        ],
+        "x": 1384,
+        "y": 429,
+        "w": 452,
+        "h": 122
     },
     {
         "id": "0785e116879ba187",
@@ -1345,7 +1508,6 @@
     {
         "id": "c74343a98692add8",
         "type": "ui_tab",
-        "d": true,
         "name": "MANUAL",
         "icon": "dashboard",
         "order": 5,
@@ -1842,7 +2004,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 11,
+        "order": 12,
         "width": 1,
         "height": 1
     },
@@ -1852,8 +2014,8 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 12,
-        "width": "17",
+        "order": 13,
+        "width": "7",
         "height": "1"
     },
     {
@@ -1862,7 +2024,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 15,
+        "order": 18,
         "width": 1,
         "height": 1
     },
@@ -1872,7 +2034,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 20,
+        "order": 23,
         "width": "5",
         "height": "1"
     },
@@ -1882,7 +2044,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 16,
+        "order": 19,
         "width": "24",
         "height": "1"
     },
@@ -1892,7 +2054,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 22,
+        "order": 25,
         "width": "5",
         "height": "1"
     },
@@ -1902,7 +2064,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 26,
+        "order": 29,
         "width": "5",
         "height": "1"
     },
@@ -1912,7 +2074,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 28,
+        "order": 31,
         "width": "5",
         "height": "1"
     },
@@ -1922,7 +2084,7 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 29,
+        "order": 32,
         "width": "24",
         "height": "1"
     },
@@ -2207,6 +2369,16 @@
         "order": 4,
         "width": "4",
         "height": "2"
+    },
+    {
+        "id": "cd2445d331461de9",
+        "type": "ui_spacer",
+        "z": "e84e53e8ddf338f7",
+        "name": "spacer",
+        "group": "7d20a1e0f66da183",
+        "order": 15,
+        "width": "7",
+        "height": "1"
     },
     {
         "id": "a1fefccddd7b8916",
@@ -16240,14 +16412,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 760,
-        "y": 90,
+        "x": 620,
+        "y": 40,
         "wires": []
     },
     {
         "id": "d2872bb6d0e0cf77",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "3153dfb2b5a78073",
         "name": "",
         "label": "ms",
         "tooltip": "ms",
@@ -16262,8 +16435,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 860,
-        "y": 170,
+        "x": 970,
+        "y": 110,
         "wires": [
             [
                 "d901832ca7236e1f"
@@ -16274,6 +16447,7 @@
         "id": "a7cd28de6252d3fd",
         "type": "ui_button",
         "z": "e84e53e8ddf338f7",
+        "g": "3153dfb2b5a78073",
         "name": "",
         "group": "7d20a1e0f66da183",
         "order": 2,
@@ -16290,8 +16464,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 570,
-        "y": 170,
+        "x": 680,
+        "y": 110,
         "wires": [
             []
         ]
@@ -16300,6 +16474,7 @@
         "id": "01548c2c80509842",
         "type": "ui_button",
         "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
         "name": "",
         "group": "7d20a1e0f66da183",
         "order": 7,
@@ -16316,8 +16491,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1100,
-        "y": 240,
+        "x": 1270,
+        "y": 200,
         "wires": [
             []
         ]
@@ -16326,6 +16501,7 @@
         "id": "0a9dfadfe9bfc973",
         "type": "ui_button",
         "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
         "name": "",
         "group": "7d20a1e0f66da183",
         "order": 5,
@@ -16338,20 +16514,23 @@
         "bgcolor": "#3a3a3a",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "true",
+        "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 560,
-        "y": 240,
+        "x": 670,
+        "y": 200,
         "wires": [
-            []
+            [
+                "e331e26172e97dc4"
+            ]
         ]
     },
     {
         "id": "e273d7c0fc36f95a",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
         "name": "",
         "label": "LITROS",
         "tooltip": "LITROS",
@@ -16359,15 +16538,15 @@
         "order": 6,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 850,
-        "y": 240,
+        "x": 1020,
+        "y": 200,
         "wires": [
             [
                 "a434b70a7bcc5487"
@@ -16378,6 +16557,7 @@
         "id": "b1ee27e4ad12d937",
         "type": "ui_button",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "group": "7d20a1e0f66da183",
         "order": 9,
@@ -16394,47 +16574,22 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 580,
-        "y": 320,
+        "x": 790,
+        "y": 340,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ede024f92bab74fe",
-        "type": "ui_text_input",
-        "z": "e84e53e8ddf338f7",
-        "name": "",
-        "label": "kg",
-        "tooltip": "kg",
-        "group": "7d20a1e0f66da183",
-        "order": 10,
-        "width": "3",
-        "height": "1",
-        "passthru": true,
-        "mode": "number",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "view",
-        "topicType": "msg",
-        "x": 880,
-        "y": 320,
-        "wires": [
-            [
-                "f68a2f1b8b3163f6"
-            ]
         ]
     },
     {
         "id": "adc926c11e773624",
         "type": "ui_switch",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "label": "OFF / ON",
         "tooltip": "",
         "group": "7d20a1e0f66da183",
-        "order": 13,
+        "order": 16,
         "width": "3",
         "height": "1",
         "passthru": true,
@@ -16452,8 +16607,8 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 530,
-        "y": 360,
+        "x": 740,
+        "y": 380,
         "wires": [
             [
                 "683a24b11bcc108e"
@@ -16464,11 +16619,12 @@
         "id": "3f4535a1fec2fdb0",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "label": "%",
         "tooltip": "%",
         "group": "7d20a1e0f66da183",
-        "order": 14,
+        "order": 17,
         "width": "3",
         "height": "1",
         "passthru": true,
@@ -16478,8 +16634,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 880,
-        "y": 360,
+        "x": 1090,
+        "y": 380,
         "wires": [
             [
                 "84c1b65997b0887a"
@@ -16490,9 +16646,10 @@
         "id": "e4b2fce47c326f83",
         "type": "ui_button",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "group": "7d20a1e0f66da183",
-        "order": 17,
+        "order": 20,
         "width": "3",
         "height": "1",
         "passthru": false,
@@ -16506,8 +16663,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 550,
-        "y": 450,
+        "x": 660,
+        "y": 470,
         "wires": [
             []
         ]
@@ -16516,22 +16673,23 @@
         "id": "3c631aae960b4f66",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "label": "META",
         "tooltip": "META",
         "group": "7d20a1e0f66da183",
-        "order": 18,
+        "order": 21,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 820,
-        "y": 450,
+        "x": 930,
+        "y": 470,
         "wires": [
             [
                 "14192ddb4d490cc8"
@@ -16542,22 +16700,23 @@
         "id": "a363d848c5ff8ca3",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "label": "ACTUAL",
         "tooltip": "ACTUAL",
         "group": "7d20a1e0f66da183",
-        "order": 19,
+        "order": 22,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1130,
-        "y": 450,
+        "x": 1240,
+        "y": 470,
         "wires": [
             [
                 "74320d88b140e970"
@@ -16568,11 +16727,12 @@
         "id": "4b1b7f363ea1d6c5",
         "type": "ui_switch",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "",
         "label": "BANDA COLECTORA",
         "tooltip": "",
         "group": "7d20a1e0f66da183",
-        "order": 21,
+        "order": 24,
         "width": "5",
         "height": "1",
         "passthru": true,
@@ -16590,8 +16750,8 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 1500,
-        "y": 450,
+        "x": 1660,
+        "y": 470,
         "wires": [
             [
                 "2dbbfd8aaf2492f5"
@@ -16602,9 +16762,10 @@
         "id": "e1b5790fbfa6463c",
         "type": "ui_button",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "group": "7d20a1e0f66da183",
-        "order": 23,
+        "order": 26,
         "width": "3",
         "height": "1",
         "passthru": false,
@@ -16618,8 +16779,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 550,
-        "y": 490,
+        "x": 660,
+        "y": 510,
         "wires": [
             []
         ]
@@ -16628,22 +16789,23 @@
         "id": "3aa850241b5fe676",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "label": "META",
         "tooltip": "META",
         "group": "7d20a1e0f66da183",
-        "order": 24,
+        "order": 27,
         "width": "3",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
-        "delay": 300,
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 820,
-        "y": 490,
+        "x": 930,
+        "y": 510,
         "wires": [
             [
                 "c9b485eab736e42c"
@@ -16654,22 +16816,23 @@
         "id": "cfb789dc2501963f",
         "type": "ui_text_input",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "label": "ACTUAL",
         "tooltip": "ACTUAL",
         "group": "7d20a1e0f66da183",
-        "order": 25,
+        "order": 28,
         "width": "3",
         "height": "1",
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1130,
-        "y": 490,
+        "x": 1240,
+        "y": 510,
         "wires": [
             [
                 "20cb26edd81cc653"
@@ -16680,11 +16843,12 @@
         "id": "5e0f9fdb4d1acedc",
         "type": "ui_switch",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "",
         "label": "BANDA ICLINADA",
         "tooltip": "",
         "group": "7d20a1e0f66da183",
-        "order": 27,
+        "order": 30,
         "width": "5",
         "height": "1",
         "passthru": true,
@@ -16702,8 +16866,8 @@
         "offcolor": "",
         "animate": false,
         "className": "view",
-        "x": 1490,
-        "y": 490,
+        "x": 1650,
+        "y": 510,
         "wires": [
             [
                 "421ca2da93141e9e"
@@ -16724,7 +16888,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "0.1",
+        "repeat": "3",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -16745,27 +16909,25 @@
         "type": "function",
         "z": "e84e53e8ddf338f7",
         "name": "FEED LABELS",
-        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n// VARIABLES PARA MANUAL\n    msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n    msg.payload.PESO_CEMENTO_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n    msg.payload.INPUT_VELOCIDAD_MANUAL = global.get(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\");\n    msg.payload.SEL_HMI_JOG_MANUAL_MOTOR = global.get(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\");\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n    msg.payload.PB_HMI_MANUAL_BANDA_COLECTORA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");\n    msg.payload.PB_HMI_MANUAL_BANDA_INCLINADA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");\n\n}else{\n    // VARIABLES PARA RECETA #1\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10 = \"ESPERANDO CONEXION\";\n}\n\n\n\nreturn msg;\n",
+        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n// VARIABLES PARA MANUAL\n    msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS = global.get(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\n    msg.payload.PESO_CEMENTO_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\");\n    msg.payload.INPUT_VELOCIDAD_MANUAL = global.get(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\");\n    msg.payload.SEL_HMI_JOG_MANUAL_MOTOR = global.get(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\");\n    msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_1_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\");\n    msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO = global.get(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\");\n    msg.payload.PESO_AGREGADO_2_SIWAREX = global.get(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\n    msg.payload.PB_HMI_MANUAL_BANDA_COLECTORA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");\n    msg.payload.PB_HMI_MANUAL_BANDA_INCLINADA = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");\n\n    return msg;\n}\n/*\nelse{\n    // VARIABLES PARA RECETA #1\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9 = \"ESPERANDO CONEXION\";\n    msg.payload.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10 = \"ESPERANDO CONEXION\";\n}\n*/\n\n\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 250,
-        "y": 80,
+        "x": 940,
+        "y": 660,
         "wires": [
             [
                 "a35ee4119a409347",
-                "d9aa94548c9a2e9c",
                 "617914a7c1f388fc",
-                "914d097ce93ea80e",
                 "933954c199552110",
                 "d2d6e225e988d070",
                 "8903f84cea3d8063",
                 "b5697eb753506695",
-                "973f094259a0c64a",
-                "7134ab1a6322b0bf"
+                "69f5c52287c12492",
+                "d72e0b5be33eb5e8"
             ]
         ]
     },
@@ -16774,6 +16936,7 @@
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
         "d": true,
+        "g": "3153dfb2b5a78073",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -16782,8 +16945,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 775,
-        "y": 170,
+        "x": 885,
+        "y": 110,
         "wires": [
             [
                 "d2872bb6d0e0cf77"
@@ -16796,6 +16959,7 @@
         "type": "function",
         "z": "e84e53e8ddf338f7",
         "d": true,
+        "g": "3153dfb2b5a78073",
         "name": "function 171",
         "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");;\nreturn msg;",
         "outputs": 1,
@@ -16804,8 +16968,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 725,
-        "y": 170,
+        "x": 835,
+        "y": 110,
         "wires": [
             [
                 "56e557f8cf5ab5bc"
@@ -16818,6 +16982,7 @@
         "type": "function",
         "z": "e84e53e8ddf338f7",
         "d": true,
+        "g": "3153dfb2b5a78073",
         "name": "function 172",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\";\nreturn msg;",
         "outputs": 1,
@@ -16826,8 +16991,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 945,
-        "y": 170,
+        "x": 1055,
+        "y": 110,
         "wires": [
             []
         ],
@@ -16837,6 +17002,7 @@
         "id": "51ecae5677e4a403",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -16845,8 +17011,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 240,
+        "x": 925,
+        "y": 200,
         "wires": [
             [
                 "e273d7c0fc36f95a"
@@ -16858,58 +17024,17 @@
         "id": "a434b70a7bcc5487",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
         "name": "function 174",
-        "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_CEMENTO_SIWAREX\";\nreturn msg;",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 955,
-        "y": 240,
-        "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "3e97bf919416af48",
-        "type": "rbe",
-        "z": "e84e53e8ddf338f7",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 795,
-        "y": 320,
-        "wires": [
-            [
-                "ede024f92bab74fe"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "f68a2f1b8b3163f6",
-        "type": "function",
-        "z": "e84e53e8ddf338f7",
-        "name": "function 176",
-        "func": "msg.payload = msg.payload;\nmsg.topic = \"\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 965,
-        "y": 320,
+        "x": 1125,
+        "y": 200,
         "wires": [
             [
                 "b9d73e5819a0debf"
@@ -16921,6 +17046,7 @@
         "id": "e9fcc21e1f10c89c",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -16929,8 +17055,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 795,
-        "y": 360,
+        "x": 1005,
+        "y": 380,
         "wires": [
             [
                 "3f4535a1fec2fdb0"
@@ -16942,6 +17068,7 @@
         "id": "84c1b65997b0887a",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "function 178",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"INPUT_VELOCIDAD_MANUAL\";\nreturn msg;",
         "outputs": 1,
@@ -16950,12 +17077,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 965,
-        "y": 360,
+        "x": 1175,
+        "y": 380,
         "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
+            []
         ],
         "l": false
     },
@@ -16963,6 +17088,7 @@
         "id": "496678b01615809f",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -16971,8 +17097,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 735,
-        "y": 450,
+        "x": 845,
+        "y": 470,
         "wires": [
             [
                 "3c631aae960b4f66"
@@ -16984,6 +17110,7 @@
         "id": "099443035029a44b",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -16992,8 +17119,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 735,
-        "y": 490,
+        "x": 845,
+        "y": 510,
         "wires": [
             [
                 "3aa850241b5fe676"
@@ -17005,6 +17132,7 @@
         "id": "2a8ab5e6de681a21",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -17013,8 +17141,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1035,
-        "y": 450,
+        "x": 1145,
+        "y": 470,
         "wires": [
             [
                 "a363d848c5ff8ca3"
@@ -17026,6 +17154,7 @@
         "id": "58f21a643ada6cbc",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -17034,8 +17163,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1035,
-        "y": 490,
+        "x": 1145,
+        "y": 510,
         "wires": [
             [
                 "cfb789dc2501963f"
@@ -17047,6 +17176,7 @@
         "id": "1a3ca0e604873d1d",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -17055,8 +17185,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1365,
-        "y": 450,
+        "x": 1525,
+        "y": 470,
         "wires": [
             [
                 "4b1b7f363ea1d6c5"
@@ -17068,6 +17198,7 @@
         "id": "bd3446f0259b9d01",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -17076,8 +17207,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1365,
-        "y": 490,
+        "x": 1525,
+        "y": 510,
         "wires": [
             [
                 "5e0f9fdb4d1acedc"
@@ -17089,6 +17220,7 @@
         "id": "14192ddb4d490cc8",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "function 185",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\";\nreturn msg;",
         "outputs": 1,
@@ -17097,12 +17229,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 905,
-        "y": 450,
+        "x": 1015,
+        "y": 470,
         "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
+            []
         ],
         "l": false
     },
@@ -17110,6 +17240,7 @@
         "id": "c9b485eab736e42c",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "function 186",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\";\nreturn msg;",
         "outputs": 1,
@@ -17118,12 +17249,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 905,
-        "y": 490,
+        "x": 1015,
+        "y": 510,
         "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
+            []
         ],
         "l": false
     },
@@ -17131,6 +17260,7 @@
         "id": "74320d88b140e970",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "function 187",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_AGREGADO_1_SIWAREX\";\nreturn msg;",
         "outputs": 1,
@@ -17139,12 +17269,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1225,
-        "y": 450,
+        "x": 1335,
+        "y": 470,
         "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
+            []
         ],
         "l": false
     },
@@ -17152,6 +17280,7 @@
         "id": "20cb26edd81cc653",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "function 188",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_AGREGADO_2_SIWAREX\";\nreturn msg;",
         "outputs": 1,
@@ -17160,12 +17289,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1225,
-        "y": 490,
+        "x": 1335,
+        "y": 510,
         "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
+            []
         ],
         "l": false
     },
@@ -17173,6 +17300,7 @@
         "id": "2dbbfd8aaf2492f5",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "function 189",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"PB_HMI_MANUAL_BANDA_COLECTORA\";\nreturn msg;",
         "outputs": 1,
@@ -17181,8 +17309,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1635,
-        "y": 450,
+        "x": 1795,
+        "y": 470,
         "wires": [
             [
                 "b9d73e5819a0debf"
@@ -17194,6 +17322,7 @@
         "id": "421ca2da93141e9e",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "function 190",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"PB_HMI_MANUAL_BANDA_INCLINADA\";\nreturn msg;",
         "outputs": 1,
@@ -17202,8 +17331,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1615,
-        "y": 490,
+        "x": 1775,
+        "y": 510,
         "wires": [
             [
                 "b9d73e5819a0debf"
@@ -17215,6 +17344,7 @@
         "id": "e2747ebc5984e78f",
         "type": "rbe",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -17223,8 +17353,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 435,
-        "y": 360,
+        "x": 645,
+        "y": 380,
         "wires": [
             [
                 "adc926c11e773624"
@@ -17236,6 +17366,7 @@
         "id": "683a24b11bcc108e",
         "type": "function",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "function 192",
         "func": "msg.payload = msg.payload;\nmsg.topic = \"SEL_HMI_JOG_MANUAL_MOTOR\";\nreturn msg;",
         "outputs": 1,
@@ -17244,12 +17375,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 360,
+        "x": 835,
+        "y": 380,
         "wires": [
-            [
-                "b9d73e5819a0debf"
-            ]
+            []
         ],
         "l": false
     },
@@ -17258,15 +17387,15 @@
         "type": "function",
         "z": "e84e53e8ddf338f7",
         "name": "WRITE RECETA NOMBRE",
-        "func": "switch (msg.topic){\n\n    // \n    case \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\", msg.payload);\n    break;\n    // \n    case \"PESO_CEMENTO_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // \n    case \"INPUT_VELOCIDAD_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\", msg.payload);\n        break;\n    // \n    case \"SEL_HMI_JOG_MANUAL_MOTOR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_1_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_2_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_COLECTORA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_INCLINADA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
+        "func": "switch (msg.topic){\n\n    // \n    case \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\", msg.payload);\n    break;\n    // \n    case \"INPUT_VELOCIDAD_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\", msg.payload);\n        break;\n    // \n    case \"SEL_HMI_JOG_MANUAL_MOTOR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_1_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n        // \n    case \"PESO_AGREGADO_2_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_COLECTORA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\", msg.payload);\n        break;\n        // \n    case \"PB_HMI_MANUAL_BANDA_INCLINADA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n        // \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.\", msg.payload);\n        break;\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1600,
-        "y": 280,
+        "x": 2140,
+        "y": 270,
         "wires": [
             []
         ]
@@ -17275,6 +17404,7 @@
         "id": "a35ee4119a409347",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
         "name": "",
         "rules": [
             {
@@ -17290,8 +17420,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 705,
-        "y": 240,
+        "x": 875,
+        "y": 200,
         "wires": [
             [
                 "51ecae5677e4a403"
@@ -17303,6 +17433,7 @@
         "id": "d9aa94548c9a2e9c",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "rules": [
             {
@@ -17318,8 +17449,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 385,
-        "y": 360,
+        "x": 595,
+        "y": 380,
         "wires": [
             [
                 "e2747ebc5984e78f"
@@ -17331,6 +17462,7 @@
         "id": "617914a7c1f388fc",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "rules": [
             {
@@ -17338,7 +17470,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "payload.PESO_CEMENTO_SIWAREX",
-                "tot": "str"
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -17346,8 +17478,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 745,
-        "y": 320,
+        "x": 955,
+        "y": 340,
         "wires": [
             [
                 "3e97bf919416af48"
@@ -17359,6 +17491,7 @@
         "id": "914d097ce93ea80e",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
         "name": "",
         "rules": [
             {
@@ -17374,8 +17507,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 745,
-        "y": 360,
+        "x": 955,
+        "y": 380,
         "wires": [
             [
                 "e9fcc21e1f10c89c"
@@ -17387,6 +17520,7 @@
         "id": "933954c199552110",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "rules": [
             {
@@ -17402,8 +17536,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 685,
-        "y": 450,
+        "x": 795,
+        "y": 470,
         "wires": [
             [
                 "496678b01615809f"
@@ -17415,6 +17549,7 @@
         "id": "d2d6e225e988d070",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "rules": [
             {
@@ -17430,8 +17565,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 685,
-        "y": 490,
+        "x": 795,
+        "y": 510,
         "wires": [
             [
                 "099443035029a44b"
@@ -17443,6 +17578,7 @@
         "id": "8903f84cea3d8063",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "rules": [
             {
@@ -17458,8 +17594,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 985,
-        "y": 450,
+        "x": 1095,
+        "y": 470,
         "wires": [
             [
                 "2a8ab5e6de681a21"
@@ -17471,6 +17607,7 @@
         "id": "b5697eb753506695",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "a1c77968753f17a2",
         "name": "",
         "rules": [
             {
@@ -17486,8 +17623,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 985,
-        "y": 490,
+        "x": 1095,
+        "y": 510,
         "wires": [
             [
                 "58f21a643ada6cbc"
@@ -17499,6 +17636,7 @@
         "id": "973f094259a0c64a",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "",
         "rules": [
             {
@@ -17514,8 +17652,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1315,
-        "y": 450,
+        "x": 1475,
+        "y": 470,
         "wires": [
             [
                 "1a3ca0e604873d1d"
@@ -17527,6 +17665,7 @@
         "id": "7134ab1a6322b0bf",
         "type": "change",
         "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
         "name": "",
         "rules": [
             {
@@ -17542,11 +17681,158 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1315,
-        "y": 490,
+        "x": 1475,
+        "y": 510,
         "wires": [
             [
                 "bd3446f0259b9d01"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "618af3e769a607dd",
+        "type": "ui_button",
+        "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
+        "name": "",
+        "group": "7d20a1e0f66da183",
+        "order": 14,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "APAGAR AGUA",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 660,
+        "y": 250,
+        "wires": [
+            [
+                "e331e26172e97dc4"
+            ]
+        ]
+    },
+    {
+        "id": "e331e26172e97dc4",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "g": "6e48978b96e8596b",
+        "name": "function 177",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"PESO_CEMENTO_SIWAREX\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 815,
+        "y": 250,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "3e97bf919416af48",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1005,
+        "y": 340,
+        "wires": [
+            [
+                "af45c46337285bee"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "af45c46337285bee",
+        "type": "ui_text",
+        "z": "e84e53e8ddf338f7",
+        "g": "75ce4d177ad273e1",
+        "group": "7d20a1e0f66da183",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "KG ACTUAL: ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "view",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "69f5c52287c12492",
+        "type": "delay",
+        "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1425,
+        "y": 470,
+        "wires": [
+            [
+                "973f094259a0c64a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d72e0b5be33eb5e8",
+        "type": "delay",
+        "z": "e84e53e8ddf338f7",
+        "g": "cdc236170080c826",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1425,
+        "y": 510,
+        "wires": [
+            [
+                "7134ab1a6322b0bf"
             ]
         ],
         "l": false
@@ -23974,7 +24260,9 @@
         "x": 340,
         "y": 2820,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24002,7 +24290,9 @@
         "x": 220,
         "y": 2860,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24027,8 +24317,8 @@
         "topic": "INPUT_VELOCIDAD_MANUAL",
         "payload": "99",
         "payloadType": "num",
-        "x": 230,
-        "y": 2900,
+        "x": 240,
+        "y": 3300,
         "wires": [
             []
         ]
@@ -24055,8 +24345,8 @@
         "topic": "SEL_HMI_JOG_MANUAL_MOTOR",
         "payload": "99",
         "payloadType": "num",
-        "x": 240,
-        "y": 2940,
+        "x": 250,
+        "y": 3260,
         "wires": [
             []
         ]
@@ -24084,9 +24374,11 @@
         "payload": "99",
         "payloadType": "num",
         "x": 310,
-        "y": 2980,
+        "y": 2900,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24112,9 +24404,11 @@
         "payload": "99",
         "payloadType": "num",
         "x": 240,
-        "y": 3020,
+        "y": 2980,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24140,9 +24434,11 @@
         "payload": "99",
         "payloadType": "num",
         "x": 310,
-        "y": 3060,
+        "y": 2940,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24168,9 +24464,11 @@
         "payload": "99",
         "payloadType": "num",
         "x": 240,
-        "y": 3100,
+        "y": 3020,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24178,7 +24476,7 @@
         "type": "inject",
         "z": "75e16cd3dda9abfe",
         "g": "08a3bfc4065ca33c",
-        "name": "PB_HMI_MANUAL_BANDA_COLECTORA",
+        "name": "PB_HMI_MANUAL_BANDA_COLECTORA (ON)",
         "props": [
             {
                 "p": "payload"
@@ -24195,10 +24493,12 @@
         "topic": "PB_HMI_MANUAL_BANDA_COLECTORA",
         "payload": "true",
         "payloadType": "bool",
-        "x": 260,
-        "y": 3140,
+        "x": 280,
+        "y": 3070,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24206,7 +24506,7 @@
         "type": "inject",
         "z": "75e16cd3dda9abfe",
         "g": "08a3bfc4065ca33c",
-        "name": "PB_HMI_MANUAL_BANDA_INCLINADA",
+        "name": "PB_HMI_MANUAL_BANDA_INCLINADA (ON)",
         "props": [
             {
                 "p": "payload"
@@ -24223,10 +24523,12 @@
         "topic": "PB_HMI_MANUAL_BANDA_INCLINADA",
         "payload": "true",
         "payloadType": "bool",
-        "x": 260,
-        "y": 3180,
+        "x": 280,
+        "y": 3160,
         "wires": [
-            []
+            [
+                "b6887594b9f701ef"
+            ]
         ]
     },
     {
@@ -24241,9 +24543,235 @@
         "wires": []
     },
     {
+        "id": "b6887594b9f701ef",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "DEBUG MANUAL",
+        "func": "\nswitch (msg.topic){\n\n    case \"ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\":\n    global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\",msg.payload);\n    break;\n\n    case \"PESO_CEMENTO_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n    break;\n\n    case \"SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n    break;\n\n    case \"SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n    break;\n\n    case \"PESO_AGREGADO_1_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n    break;\n\n    case \"PESO_AGREGADO_2_SIWAREX\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n    break;\n\n    case \"PB_HMI_MANUAL_BANDA_COLECTORA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\",msg.payload);\n    break;\n    \n    case \"PB_HMI_MANUAL_BANDA_INCLINADA\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\",msg.payload);\n    break;\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 2820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b0bbe452991e6ab",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS",
+        "func": "msg.payload = global.get(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 2820,
+        "wires": [
+            [
+                "e1a442f4d05da198"
+            ]
+        ]
+    },
+    {
+        "id": "a62213046ce52f0f",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "100 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 940,
+        "y": 2820,
+        "wires": [
+            [
+                "3b0bbe452991e6ab",
+                "d9e2f1817f0e2d0c",
+                "f5a5341a06a212d3"
+            ]
+        ]
+    },
+    {
+        "id": "e1a442f4d05da198",
+        "type": "debug",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "2150007f56ba35e2",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "PB_HMI_MANUAL_BANDA_COLECTORA (OFF)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PB_HMI_MANUAL_BANDA_COLECTORA",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 280,
+        "y": 3110,
+        "wires": [
+            [
+                "b6887594b9f701ef"
+            ]
+        ]
+    },
+    {
+        "id": "911ed82836472e49",
+        "type": "inject",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "PB_HMI_MANUAL_BANDA_INCLINADA (OFF)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PB_HMI_MANUAL_BANDA_INCLINADA",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 280,
+        "y": 3200,
+        "wires": [
+            [
+                "b6887594b9f701ef"
+            ]
+        ]
+    },
+    {
+        "id": "d9e2f1817f0e2d0c",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "PB_HMI_MANUAL_BANDA_COLECTORA",
+        "func": "msg.payload = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 2870,
+        "wires": [
+            [
+                "9c63cdb864ed1b17"
+            ]
+        ]
+    },
+    {
+        "id": "9c63cdb864ed1b17",
+        "type": "debug",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 2870,
+        "wires": []
+    },
+    {
+        "id": "f5a5341a06a212d3",
+        "type": "function",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "PB_HMI_MANUAL_BANDA_COLECTORA",
+        "func": "msg.payload = global.get(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 2920,
+        "wires": [
+            [
+                "99a0efae56e4f6c5"
+            ]
+        ]
+    },
+    {
+        "id": "99a0efae56e4f6c5",
+        "type": "debug",
+        "z": "75e16cd3dda9abfe",
+        "g": "08a3bfc4065ca33c",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 2920,
+        "wires": []
+    },
+    {
         "id": "a9bfcd88deb1c6dd",
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "subscribe",
         "deadbandtype": "a",
@@ -26646,7 +27174,7 @@
         "z": "0d06e67bad6a6fdf",
         "d": true,
         "name": "UPDATE MANUAL GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\",msg.payload);\n        break;\n\n//\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break; \n\n//\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\",msg.payload);\n        break; \n\n}\nreturn msg;\n",
+        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\",msg.payload);\n        break;\n\n//\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break; \n\n//\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA\",msg.payload);\n        break; \n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA\",msg.payload);\n        break; \n\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35811,6 +36339,7 @@
         "id": "55f446257aa45587",
         "type": "OpcUa-Client",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "write",
         "deadbandtype": "a",
