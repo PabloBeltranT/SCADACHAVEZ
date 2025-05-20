@@ -449,7 +449,8 @@
             "df0e88c0dc0a861d",
             "907bc35a2445b277",
             "01cd4c3517e4f2c9",
-            "6b66787c04ec5110"
+            "6b66787c04ec5110",
+            "d0cdba52b460e177"
         ],
         "x": 284,
         "y": 1479,
@@ -522,11 +523,12 @@
             "08ed9f482d25ca54",
             "a720cc24de74477c",
             "e3942a96f1b24647",
-            "8c570c4e16f076fb"
+            "8c570c4e16f076fb",
+            "875c307bf787b8bd"
         ],
         "x": 284,
         "y": 2639,
-        "w": 372,
+        "w": 432,
         "h": 142
     },
     {
@@ -1625,7 +1627,6 @@
     {
         "id": "4682469d00c6dc2b",
         "type": "ui_tab",
-        "d": true,
         "name": "TIEMPOS",
         "icon": "dashboard",
         "order": 4,
@@ -7382,8 +7383,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2230,
-        "y": 20,
+        "x": 260,
+        "y": 70,
         "wires": [
             [
                 "e390981ab52bb581",
@@ -13489,8 +13490,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 170,
-        "y": 120,
+        "x": 630,
+        "y": 200,
         "wires": []
     },
     {
@@ -13510,8 +13511,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 540,
-        "y": 80,
+        "x": 1000,
+        "y": 160,
         "wires": []
     },
     {
@@ -13531,8 +13532,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 80,
+        "x": 1310,
+        "y": 160,
         "wires": []
     },
     {
@@ -13553,8 +13554,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 120,
+        "x": 1000,
+        "y": 200,
         "wires": [
             [
                 "4c6d4fbcb4b262de"
@@ -13579,8 +13580,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 120,
+        "x": 1300,
+        "y": 200,
         "wires": [
             [
                 "64c4c713b691c8cf"
@@ -13604,8 +13605,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 160,
+        "x": 660,
+        "y": 240,
         "wires": []
     },
     {
@@ -13626,8 +13627,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 160,
+        "x": 1000,
+        "y": 240,
         "wires": [
             [
                 "3ba2f19bcf399304"
@@ -13652,8 +13653,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 160,
+        "x": 1300,
+        "y": 240,
         "wires": [
             [
                 "3786697a8db627e1"
@@ -13677,8 +13678,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 220,
+        "x": 660,
+        "y": 300,
         "wires": []
     },
     {
@@ -13699,8 +13700,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 220,
+        "x": 1000,
+        "y": 300,
         "wires": [
             [
                 "98ade3e1f91b0d33"
@@ -13725,8 +13726,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 220,
+        "x": 1300,
+        "y": 300,
         "wires": [
             [
                 "b8dd8f3ac44c9f94"
@@ -13750,8 +13751,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 260,
+        "x": 660,
+        "y": 340,
         "wires": []
     },
     {
@@ -13772,8 +13773,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 260,
+        "x": 1000,
+        "y": 340,
         "wires": [
             [
                 "b6ccea7dc02294bc"
@@ -13798,8 +13799,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 260,
+        "x": 1300,
+        "y": 340,
         "wires": [
             [
                 "b1c812140c6b7ac2"
@@ -13823,8 +13824,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 300,
+        "x": 660,
+        "y": 380,
         "wires": []
     },
     {
@@ -13845,8 +13846,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 300,
+        "x": 1000,
+        "y": 380,
         "wires": [
             [
                 "38c89ab1b37eef07"
@@ -13871,8 +13872,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 300,
+        "x": 1300,
+        "y": 380,
         "wires": [
             [
                 "43deefaf35cea2b9"
@@ -13896,8 +13897,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 340,
+        "x": 660,
+        "y": 420,
         "wires": []
     },
     {
@@ -13918,8 +13919,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 340,
+        "x": 1000,
+        "y": 420,
         "wires": [
             [
                 "13b9b49bdb115bf2"
@@ -13944,8 +13945,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 340,
+        "x": 1300,
+        "y": 420,
         "wires": [
             [
                 "75d6f38fb4f9ebc1"
@@ -13969,8 +13970,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 440,
+        "x": 660,
+        "y": 520,
         "wires": []
     },
     {
@@ -13991,8 +13992,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 440,
+        "x": 1000,
+        "y": 520,
         "wires": [
             [
                 "7ee9f8829043cb4b"
@@ -14017,8 +14018,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 440,
+        "x": 1300,
+        "y": 520,
         "wires": [
             [
                 "3fcc938ccc9598e3"
@@ -14042,8 +14043,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 480,
+        "x": 660,
+        "y": 560,
         "wires": []
     },
     {
@@ -14064,8 +14065,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 480,
+        "x": 1000,
+        "y": 560,
         "wires": [
             [
                 "981fc440316dc8e9"
@@ -14090,8 +14091,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 480,
+        "x": 1300,
+        "y": 560,
         "wires": [
             [
                 "66d6ed4a8be02584"
@@ -14115,8 +14116,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 520,
+        "x": 660,
+        "y": 600,
         "wires": []
     },
     {
@@ -14137,8 +14138,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 520,
+        "x": 1000,
+        "y": 600,
         "wires": [
             [
                 "15619f90fc66bf63"
@@ -14163,8 +14164,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 520,
+        "x": 1300,
+        "y": 600,
         "wires": [
             [
                 "bc9f61d9320d7db3"
@@ -14188,8 +14189,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 200,
-        "y": 560,
+        "x": 660,
+        "y": 640,
         "wires": []
     },
     {
@@ -14210,8 +14211,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 540,
-        "y": 560,
+        "x": 1000,
+        "y": 640,
         "wires": [
             [
                 "0be2a8cb0cf9c2f9"
@@ -14236,8 +14237,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 840,
-        "y": 560,
+        "x": 1300,
+        "y": 640,
         "wires": [
             [
                 "a2704e81c9ce8b68"
@@ -14261,8 +14262,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
-        "y": 120,
+        "x": 1600,
+        "y": 200,
         "wires": []
     },
     {
@@ -14283,8 +14284,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1470,
-        "y": 120,
+        "x": 1930,
+        "y": 200,
         "wires": [
             [
                 "987348cb73d2bcc5"
@@ -14308,8 +14309,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
-        "y": 160,
+        "x": 1600,
+        "y": 240,
         "wires": []
     },
     {
@@ -14330,8 +14331,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1470,
-        "y": 160,
+        "x": 1930,
+        "y": 240,
         "wires": [
             [
                 "e97b989d523e8b42"
@@ -14355,8 +14356,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
-        "y": 200,
+        "x": 1600,
+        "y": 280,
         "wires": []
     },
     {
@@ -14376,8 +14377,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1140,
-        "y": 240,
+        "x": 1600,
+        "y": 320,
         "wires": []
     },
     {
@@ -14398,8 +14399,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1470,
-        "y": 200,
+        "x": 1930,
+        "y": 280,
         "wires": [
             [
                 "d745b47ffd659604"
@@ -14424,8 +14425,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 1470,
-        "y": 240,
+        "x": 1930,
+        "y": 320,
         "wires": [
             [
                 "6e524419890cac9b"
@@ -14449,8 +14450,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1780,
-        "y": 120,
+        "x": 2240,
+        "y": 200,
         "wires": []
     },
     {
@@ -14471,8 +14472,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 2120,
-        "y": 120,
+        "x": 2580,
+        "y": 200,
         "wires": [
             [
                 "30cfb7efeb6cf454"
@@ -14496,8 +14497,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1780,
-        "y": 160,
+        "x": 2240,
+        "y": 240,
         "wires": []
     },
     {
@@ -14518,8 +14519,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 2120,
-        "y": 160,
+        "x": 2580,
+        "y": 240,
         "wires": [
             [
                 "d873a3c2181ce79f"
@@ -14543,8 +14544,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2410,
-        "y": 40,
+        "x": 2870,
+        "y": 120,
         "wires": []
     },
     {
@@ -14564,8 +14565,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2730,
-        "y": 80,
+        "x": 3190,
+        "y": 160,
         "wires": []
     },
     {
@@ -14585,8 +14586,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 3020,
-        "y": 80,
+        "x": 3480,
+        "y": 160,
         "wires": []
     },
     {
@@ -14606,8 +14607,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2400,
-        "y": 120,
+        "x": 2860,
+        "y": 200,
         "wires": []
     },
     {
@@ -14628,8 +14629,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 2730,
-        "y": 120,
+        "x": 3190,
+        "y": 200,
         "wires": [
             [
                 "fa067149b8445d28"
@@ -14654,8 +14655,8 @@
         "sendOnBlur": true,
         "className": "view",
         "topicType": "msg",
-        "x": 3010,
-        "y": 120,
+        "x": 3470,
+        "y": 200,
         "wires": [
             [
                 "233a10987f37ae85"
@@ -14674,8 +14675,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 120,
+        "x": 915,
+        "y": 200,
         "wires": [
             [
                 "b6dea98fe46bb6f8"
@@ -14695,8 +14696,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 160,
+        "x": 915,
+        "y": 240,
         "wires": [
             [
                 "c91b56ceb45aefe5"
@@ -14716,8 +14717,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 220,
+        "x": 915,
+        "y": 300,
         "wires": [
             [
                 "115b8dd56c5fc894"
@@ -14737,8 +14738,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 260,
+        "x": 915,
+        "y": 340,
         "wires": [
             [
                 "c861aa70e5f1bb1e"
@@ -14758,8 +14759,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 300,
+        "x": 915,
+        "y": 380,
         "wires": [
             [
                 "40ba65761191ce63"
@@ -14779,8 +14780,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 340,
+        "x": 915,
+        "y": 420,
         "wires": [
             [
                 "9f512c452a57d0bb"
@@ -14800,8 +14801,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 440,
+        "x": 915,
+        "y": 520,
         "wires": [
             [
                 "36aa7b8244c025c6"
@@ -14821,8 +14822,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 480,
+        "x": 915,
+        "y": 560,
         "wires": [
             [
                 "d7db623adc7ea9b8"
@@ -14842,8 +14843,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 520,
+        "x": 915,
+        "y": 600,
         "wires": [
             [
                 "e0009758eb31261b"
@@ -14863,8 +14864,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 455,
-        "y": 560,
+        "x": 915,
+        "y": 640,
         "wires": [
             [
                 "3c88a5f8ace8b6a5"
@@ -14893,39 +14894,10 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
-        "y": 630,
+        "x": 1350,
+        "y": 730,
         "wires": [
-            [
-                "43c01f72a57803da",
-                "bbb8c16baf97ca95",
-                "f35fbcd4feb4bb31",
-                "af02e1a7ca7935dc",
-                "efea76b692609dc9",
-                "ac73038b07037349",
-                "8a581ac637e19c13",
-                "269446f0919db57e",
-                "bab7025450b0f1d6",
-                "6d153aad2146a5b4",
-                "dc17097b22eaaaeb",
-                "4ed3eaf8b799738f",
-                "01e53ce718b468d3",
-                "6144029230e33e91",
-                "abfb24b83dfe3ef7",
-                "85c34ed01ab5e09d",
-                "07d1d6f121655d38",
-                "5ffc903c7cf7bbd3",
-                "3baf664fee227f64",
-                "d516fdfc8a37233e",
-                "2d71b2dec02a667c",
-                "351272a5bce983e7",
-                "2fbc7a7b10d4133a",
-                "34585584929599c7",
-                "ccb4567a2222855f",
-                "26044e6c75253da2",
-                "4e875774293d3bfe",
-                "7364fbb7380d5bbf"
-            ]
+            []
         ],
         "icon": "node-red/serial.svg"
     },
@@ -14941,8 +14913,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 120,
+        "x": 1215,
+        "y": 200,
         "wires": [
             [
                 "6b2b594b27bbe70a"
@@ -14962,8 +14934,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 160,
+        "x": 1215,
+        "y": 240,
         "wires": [
             [
                 "a836d6e9b94593be"
@@ -14983,8 +14955,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 220,
+        "x": 1215,
+        "y": 300,
         "wires": [
             [
                 "c2005ca860af989e"
@@ -15004,8 +14976,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 260,
+        "x": 1215,
+        "y": 340,
         "wires": [
             [
                 "33272433d606c046"
@@ -15025,8 +14997,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 300,
+        "x": 1215,
+        "y": 380,
         "wires": [
             [
                 "40495bf75374af9a"
@@ -15046,8 +15018,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 340,
+        "x": 1215,
+        "y": 420,
         "wires": [
             [
                 "30473aa785986637"
@@ -15067,8 +15039,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 440,
+        "x": 1215,
+        "y": 520,
         "wires": [
             [
                 "f3d2203c38962525"
@@ -15088,8 +15060,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 480,
+        "x": 1215,
+        "y": 560,
         "wires": [
             [
                 "357755878d8ccaea"
@@ -15109,8 +15081,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 520,
+        "x": 1215,
+        "y": 600,
         "wires": [
             [
                 "236276847a9b954a"
@@ -15130,8 +15102,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 755,
-        "y": 560,
+        "x": 1215,
+        "y": 640,
         "wires": [
             [
                 "9c762a05c3a87608"
@@ -15151,8 +15123,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1385,
-        "y": 120,
+        "x": 1845,
+        "y": 200,
         "wires": [
             [
                 "40b4a102b4a16336"
@@ -15172,8 +15144,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1385,
-        "y": 160,
+        "x": 1845,
+        "y": 240,
         "wires": [
             []
         ],
@@ -15191,8 +15163,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1385,
-        "y": 200,
+        "x": 1845,
+        "y": 280,
         "wires": [
             []
         ],
@@ -15210,8 +15182,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1385,
-        "y": 240,
+        "x": 1845,
+        "y": 320,
         "wires": [
             []
         ],
@@ -15229,8 +15201,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 2035,
-        "y": 120,
+        "x": 2495,
+        "y": 200,
         "wires": [
             [
                 "db2e2d7ea1143479"
@@ -15250,8 +15222,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 2035,
-        "y": 160,
+        "x": 2495,
+        "y": 240,
         "wires": [
             [
                 "d1e4330195fe77a7"
@@ -15271,8 +15243,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 2645,
-        "y": 120,
+        "x": 3105,
+        "y": 200,
         "wires": [
             [
                 "ac568797a970d2ed"
@@ -15292,87 +15264,14 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 2925,
-        "y": 120,
+        "x": 3385,
+        "y": 200,
         "wires": [
             [
                 "fa0d75c5a3d93cf0"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "4f0fff9265acac24",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "WRITE TIEMPOS",
-        "func": "switch (msg.topic){\n\n    // \n    case \"INPUT_TIEMPO_META_VACIADO_DE_BANDAS\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\",msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\", msg.payload);\n    break;\n    case \"INPUT_TIEMPO_META_ADITIVO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_ADITIVO1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\", msg.payload);\n    break;\n\n    // \n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\", msg.payload);\n    break;\n\n    // \n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\", msg.payload);\n    break;\n\n    // \n    case \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\", msg.payload);\n    break;\n\n    // \n    case \"INPUT_FLUJO_DE_PESO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\", msg.payload);\n    break;\n    case \"INPUT_FLUJO_DE_PESO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\", msg.payload);\n    break;\n\n    // \n    case \"INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\", msg.payload);\n    break;\n\n}\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 3180,
-        "y": 330,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a8b5bf274166a4ca",
-        "type": "debug",
-        "z": "e26a0d022ba5021a",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 670,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "43c01f72a57803da",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 87",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 120,
-        "wires": [
-            [
-                "3b067aab6ef53282"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "f068a30b5051cf3b",
-        "type": "debug",
-        "z": "e26a0d022ba5021a",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 650,
-        "wires": []
     },
     {
         "id": "4c6d4fbcb4b262de",
@@ -15386,411 +15285,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 120,
+        "x": 1085,
+        "y": 200,
         "wires": [
             [
-                "4f0fff9265acac24",
-                "f068a30b5051cf3b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "bbb8c16baf97ca95",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 89",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 160,
-        "wires": [
-            [
-                "7788e69b9766ded5"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "f35fbcd4feb4bb31",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 90",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 220,
-        "wires": [
-            [
-                "299fb89518a8c6ec"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "af02e1a7ca7935dc",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 91",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 260,
-        "wires": [
-            [
-                "d1b44309cb9eb11d"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "efea76b692609dc9",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 92",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 300,
-        "wires": [
-            [
-                "10e25784054e57a2"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "ac73038b07037349",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 93",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 340,
-        "wires": [
-            [
-                "2b4c7157d0106d53"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "8a581ac637e19c13",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 94",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 440,
-        "wires": [
-            [
-                "2c1862b4ad7c60be"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "269446f0919db57e",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 95",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 480,
-        "wires": [
-            [
-                "0b501e47a9844014"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "bab7025450b0f1d6",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 96",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 520,
-        "wires": [
-            [
-                "33ad01b0dcf9cf53"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "6d153aad2146a5b4",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 97",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 405,
-        "y": 560,
-        "wires": [
-            [
-                "bf29794b253a07f4"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "dc17097b22eaaaeb",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 98",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 120,
-        "wires": [
-            [
-                "6544c6ef700777f2"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "4ed3eaf8b799738f",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 99",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 160,
-        "wires": [
-            [
-                "0ab47668d392515b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "01e53ce718b468d3",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 100",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 220,
-        "wires": [
-            [
-                "6a682f48e51b2f5f"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "6144029230e33e91",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 101",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 260,
-        "wires": [
-            [
-                "936395ba8d1cce33"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "abfb24b83dfe3ef7",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 102",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 300,
-        "wires": [
-            [
-                "3c1ba0fc5dadb86c"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "85c34ed01ab5e09d",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 103",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 340,
-        "wires": [
-            [
-                "ddf136876253555c"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "07d1d6f121655d38",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 104",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 440,
-        "wires": [
-            [
-                "e4d7888452701338"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "5ffc903c7cf7bbd3",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 105",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 480,
-        "wires": [
-            [
-                "ad96b0d63513b86e"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "3baf664fee227f64",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 106",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 520,
-        "wires": [
-            [
-                "845fe5b71d57b8f0"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "d516fdfc8a37233e",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 107",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705,
-        "y": 560,
-        "wires": [
-            [
-                "07935e20a00afd2a"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15807,11 +15306,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 160,
+        "x": 1085,
+        "y": 240,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15828,11 +15327,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 220,
+        "x": 1085,
+        "y": 300,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15849,11 +15348,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 260,
+        "x": 1085,
+        "y": 340,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15870,11 +15369,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 300,
+        "x": 1085,
+        "y": 380,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15891,11 +15390,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 340,
+        "x": 1085,
+        "y": 420,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15912,11 +15411,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 440,
+        "x": 1085,
+        "y": 520,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15933,11 +15432,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 480,
+        "x": 1085,
+        "y": 560,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15954,11 +15453,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 520,
+        "x": 1085,
+        "y": 600,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15975,11 +15474,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 625,
-        "y": 560,
+        "x": 1085,
+        "y": 640,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -15996,11 +15495,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 120,
+        "x": 1385,
+        "y": 200,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16017,11 +15516,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 160,
+        "x": 1385,
+        "y": 240,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16038,11 +15537,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 220,
+        "x": 1385,
+        "y": 300,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16059,11 +15558,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 260,
+        "x": 1385,
+        "y": 340,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16080,11 +15579,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 300,
+        "x": 1385,
+        "y": 380,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16101,11 +15600,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 340,
+        "x": 1385,
+        "y": 420,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16122,11 +15621,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 440,
+        "x": 1385,
+        "y": 520,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16143,11 +15642,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 480,
+        "x": 1385,
+        "y": 560,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16164,11 +15663,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 520,
+        "x": 1385,
+        "y": 600,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16185,95 +15684,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 925,
-        "y": 560,
+        "x": 1385,
+        "y": 640,
         "wires": [
             [
-                "4f0fff9265acac24"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "2d71b2dec02a667c",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 127",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1335,
-        "y": 120,
-        "wires": [
-            [
-                "425aef9409c12506"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "351272a5bce983e7",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 128",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1335,
-        "y": 160,
-        "wires": [
-            [
-                "929f2aed8bf2a539"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "2fbc7a7b10d4133a",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 129",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1335,
-        "y": 200,
-        "wires": [
-            [
-                "67d9a34874a2d5f3"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "34585584929599c7",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 130",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1335,
-        "y": 240,
-        "wires": [
-            [
-                "31b6f7b3ea77379f"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16290,11 +15705,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1555,
-        "y": 120,
+        "x": 2015,
+        "y": 200,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16311,11 +15726,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1555,
-        "y": 160,
+        "x": 2015,
+        "y": 240,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16332,11 +15747,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1555,
-        "y": 200,
+        "x": 2015,
+        "y": 280,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16353,53 +15768,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1555,
-        "y": 240,
+        "x": 2015,
+        "y": 320,
         "wires": [
             [
-                "4f0fff9265acac24"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "ccb4567a2222855f",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 135",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1985,
-        "y": 120,
-        "wires": [
-            [
-                "0303dfdafc8ac10b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "26044e6c75253da2",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 136",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1985,
-        "y": 160,
-        "wires": [
-            [
-                "10d109d98f2ec878"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16416,11 +15789,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2205,
-        "y": 120,
+        "x": 2665,
+        "y": 200,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16437,53 +15810,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2205,
-        "y": 160,
+        "x": 2665,
+        "y": 240,
         "wires": [
             [
-                "4f0fff9265acac24"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "4e875774293d3bfe",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 139",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2595,
-        "y": 120,
-        "wires": [
-            [
-                "d672774488e347e5"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "7364fbb7380d5bbf",
-        "type": "function",
-        "z": "e26a0d022ba5021a",
-        "name": "function 140",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2875,
-        "y": 120,
-        "wires": [
-            [
-                "87be470e9d3b5890"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16500,11 +15831,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2815,
-        "y": 120,
+        "x": 3275,
+        "y": 200,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
@@ -16521,14 +15852,893 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3095,
-        "y": 120,
+        "x": 3555,
+        "y": 200,
         "wires": [
             [
-                "4f0fff9265acac24"
+                "717ba1c49454ba60"
             ]
         ],
         "l": false
+    },
+    {
+        "id": "a0d64215169c49c8",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_TIEMPO_META_VACIADO_DE_BANDAS",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 200,
+        "wires": [
+            [
+                "3b067aab6ef53282"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1cf1f442a4ba9f83",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_TIEMPO_META_ADITIVO",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 240,
+        "wires": [
+            [
+                "7788e69b9766ded5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1ee73d3bdeece253",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 300,
+        "wires": [
+            [
+                "299fb89518a8c6ec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "147c687c99d14d4c",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 340,
+        "wires": [
+            [
+                "d1b44309cb9eb11d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f5cc03b2eccd5ad6",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 380,
+        "wires": [
+            [
+                "10e25784054e57a2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3d17b77a3c8acf16",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 420,
+        "wires": [
+            [
+                "2b4c7157d0106d53"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3ba274311bb186ea",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 520,
+        "wires": [
+            [
+                "2c1862b4ad7c60be"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8d0d0f6f6bc12258",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 560,
+        "wires": [
+            [
+                "0b501e47a9844014"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "67da0f05ee0468fc",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 600,
+        "wires": [
+            [
+                "33ad01b0dcf9cf53"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "946b1e0e9f13eb35",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 865,
+        "y": 640,
+        "wires": [
+            [
+                "bf29794b253a07f4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ad0e531867e5faef",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 200,
+        "wires": [
+            [
+                "6544c6ef700777f2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b2010e15263270bb",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DISPLAY_TIEMPO_ACTUAL_ADITIVO1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 240,
+        "wires": [
+            [
+                "0ab47668d392515b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6fe4a12d9a2da230",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 300,
+        "wires": [
+            [
+                "6a682f48e51b2f5f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "100faab535e86c81",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 340,
+        "wires": [
+            [
+                "936395ba8d1cce33"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0a825fb4d53bab80",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 380,
+        "wires": [
+            [
+                "3c1ba0fc5dadb86c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fd46a657913bd8ce",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 420,
+        "wires": [
+            [
+                "ddf136876253555c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "56310eebc6bc6475",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 520,
+        "wires": [
+            [
+                "e4d7888452701338"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "47846bad1d7aa359",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 560,
+        "wires": [
+            [
+                "ad96b0d63513b86e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e81ea38497a7e7f7",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 600,
+        "wires": [
+            [
+                "845fe5b71d57b8f0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "511dfbfbbfe0f415",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1165,
+        "y": 640,
+        "wires": [
+            [
+                "07935e20a00afd2a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d967383dbdbc9934",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1795,
+        "y": 200,
+        "wires": [
+            [
+                "425aef9409c12506"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "378e8185f695319b",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1795,
+        "y": 240,
+        "wires": [
+            [
+                "929f2aed8bf2a539"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4196b27a4df69182",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1795,
+        "y": 280,
+        "wires": [
+            [
+                "67d9a34874a2d5f3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b466005852d4c11e",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1795,
+        "y": 320,
+        "wires": [
+            [
+                "31b6f7b3ea77379f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e897421d89cc31a7",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_FLUJO_DE_PESO_AGR1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2445,
+        "y": 200,
+        "wires": [
+            [
+                "0303dfdafc8ac10b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c35b4e67e220b8c3",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_FLUJO_DE_PESO_AGR2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2445,
+        "y": 240,
+        "wires": [
+            [
+                "10d109d98f2ec878"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5fdcbf020ce5e524",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3055,
+        "y": 200,
+        "wires": [
+            [
+                "d672774488e347e5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b195b2b981ceb68c",
+        "type": "change",
+        "z": "e26a0d022ba5021a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3335,
+        "y": 200,
+        "wires": [
+            [
+                "87be470e9d3b5890"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "34148e9a3c3a7f76",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "FEED LABELS",
+        "func": "\nmsg.payload = {};\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n    msg.payload.INPUT_TIEMPO_META_VACIADO_DE_BANDAS = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\");\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\");\n    msg.payload.INPUT_TIEMPO_META_ADITIVO = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\");\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_ADITIVO1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\");\n\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\n    msg.payload.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\");\n\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\n    msg.payload.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\");\n\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\");\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\");\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\");\n    msg.payload.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\");\n\n    msg.payload.INPUT_FLUJO_DE_PESO_AGR1 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\");\n    msg.payload.INPUT_FLUJO_DE_PESO_AGR2 = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\");\n\n    msg.payload.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\");\n    msg.payload.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\");\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 100,
+        "wires": [
+            [
+                "b195b2b981ceb68c",
+                "5fdcbf020ce5e524",
+                "e897421d89cc31a7",
+                "c35b4e67e220b8c3",
+                "d967383dbdbc9934",
+                "378e8185f695319b",
+                "4196b27a4df69182",
+                "b466005852d4c11e",
+                "ad0e531867e5faef",
+                "b2010e15263270bb",
+                "511dfbfbbfe0f415",
+                "e81ea38497a7e7f7",
+                "47846bad1d7aa359",
+                "56310eebc6bc6475",
+                "fd46a657913bd8ce",
+                "0a825fb4d53bab80",
+                "100faab535e86c81",
+                "6fe4a12d9a2da230",
+                "a0d64215169c49c8",
+                "1cf1f442a4ba9f83",
+                "1ee73d3bdeece253",
+                "147c687c99d14d4c",
+                "f5cc03b2eccd5ad6",
+                "3d17b77a3c8acf16",
+                "3ba274311bb186ea",
+                "8d0d0f6f6bc12258",
+                "67da0f05ee0468fc",
+                "946b1e0e9f13eb35"
+            ]
+        ]
+    },
+    {
+        "id": "91e6c00645959c10",
+        "type": "inject",
+        "z": "e26a0d022ba5021a",
+        "name": "100 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "34148e9a3c3a7f76"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "717ba1c49454ba60",
+        "type": "function",
+        "z": "e26a0d022ba5021a",
+        "name": "WRITE RECETA NOMBRE",
+        "func": "switch (msg.topic){\n\n    case \"INPUT_TIEMPO_META_VACIADO_DE_BANDAS\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS_ISOLATED\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS_ISOLATED\", msg.payload);\n    break;\n    case \"INPUT_TIEMPO_META_ADITIVO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO_ISOLATED\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_ADITIVO1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1_ISOLATED\", msg.payload);\n    break;\n\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET_ISOLATED\", msg.payload);\n    break;\n\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF_ISOLATED\", msg.payload);\n    break;\n    case \"SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET_ISOLATED\", msg.payload);\n    break;\n\n    case \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1_ISOLATED\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1_ISOLATED\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2_ISOLATED\", msg.payload);\n    break;\n    case \"INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2_ISOLATED\", msg.payload);\n    break;\n\n    case \"INPUT_FLUJO_DE_PESO_AGR1\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1_ISOLATED\", msg.payload);\n    break;\n    case \"INPUT_FLUJO_DE_PESO_AGR2\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2_ISOLATED\", msg.payload);\n    break;\n\n    case \"INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO_ISOLATED\", msg.payload);\n    break;\n    case \"DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\":\n        global.set(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO_ISOLATED\", msg.payload);\n    break;\n\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3730,
+        "y": 540,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "e16a0c24d68bd1ae",
@@ -27041,6 +27251,7 @@
         "id": "a9bfcd88deb1c6dd",
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "subscribe",
         "deadbandtype": "a",
@@ -27338,7 +27549,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 2050,
+        "x": 2040,
         "y": 420,
         "wires": [
             []
@@ -29459,7 +29670,7 @@
         "finalize": "",
         "libs": [],
         "x": 2030,
-        "y": 560,
+        "y": 540,
         "wires": [
             []
         ]
@@ -29478,7 +29689,7 @@
         "finalize": "",
         "libs": [],
         "x": 2010,
-        "y": 600,
+        "y": 580,
         "wires": [
             []
         ]
@@ -30153,25 +30364,6 @@
         ]
     },
     {
-        "id": "d003b86a6f4b6893",
-        "type": "function",
-        "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "name": "UPDATE PRODUCCION VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA IO\n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.\",msg.payload);\n        break; \n\n}\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
-        "finalize": "",
-        "libs": [],
-        "x": 2020,
-        "y": 650,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "cf3d0dcd38e6336e",
         "type": "function",
         "z": "0d06e67bad6a6fdf",
@@ -30184,7 +30376,7 @@
         "finalize": "",
         "libs": [],
         "x": 2000,
-        "y": 730,
+        "y": 660,
         "wires": [
             []
         ]
@@ -30425,7 +30617,6 @@
         "id": "61ceb51d65df3ae8",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "g": "4f06f02a17499594",
         "item": "ns=5;i=240",
         "datatype": "Boolean",
@@ -30538,7 +30729,6 @@
         "id": "04bd30c1e0404198",
         "type": "function",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "name": "UPDATE PRODUCCION VRIABLES",
         "func": "switch (msg.topic){\n\n// \n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_TOTAL_CONSUMIDO\",msg.payload);\n        break; \n\n// \n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_TOTAL_CONSUMIDO\",msg.payload);\n        break; \n\n// \n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.DISPLAY_CONTEOS_DE_CICLOS_MEZCLADO\",msg.payload);\n        break; \n\n// \n    case \"\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.DISPLAY_CUENTA_DE_CEMENTO_CONSUMIDO\",msg.payload);\n        break; \n\n}\nreturn msg;",
         "outputs": 1,
@@ -30547,8 +30737,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 1790,
-        "y": 5500,
+        "x": 2020,
+        "y": 620,
         "wires": [
             []
         ]
@@ -35065,7 +35255,9 @@
         "x": 600,
         "y": 1560,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35081,7 +35273,9 @@
         "x": 620,
         "y": 1600,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35097,7 +35291,9 @@
         "x": 550,
         "y": 1640,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35113,7 +35309,9 @@
         "x": 570,
         "y": 1680,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35140,7 +35338,9 @@
         "x": 1220,
         "y": 1560,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35156,7 +35356,9 @@
         "x": 1200,
         "y": 1600,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35172,7 +35374,9 @@
         "x": 1220,
         "y": 1640,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35188,7 +35392,9 @@
         "x": 1200,
         "y": 1680,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35204,7 +35410,9 @@
         "x": 1220,
         "y": 1720,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35220,7 +35428,9 @@
         "x": 1200,
         "y": 1760,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35236,7 +35446,9 @@
         "x": 1220,
         "y": 1800,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35252,7 +35464,9 @@
         "x": 1200,
         "y": 1840,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35268,7 +35482,9 @@
         "x": 1860,
         "y": 1560,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35284,7 +35500,9 @@
         "x": 1840,
         "y": 1600,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35300,7 +35518,9 @@
         "x": 1860,
         "y": 1640,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35316,7 +35536,9 @@
         "x": 1840,
         "y": 1680,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35332,7 +35554,9 @@
         "x": 1860,
         "y": 1720,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35348,7 +35572,9 @@
         "x": 1840,
         "y": 1760,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35364,7 +35590,9 @@
         "x": 1860,
         "y": 1800,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35380,7 +35608,9 @@
         "x": 1840,
         "y": 1840,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35396,7 +35626,9 @@
         "x": 590,
         "y": 1760,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35412,7 +35644,9 @@
         "x": 590,
         "y": 1800,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35428,7 +35662,9 @@
         "x": 590,
         "y": 1840,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35444,7 +35680,9 @@
         "x": 590,
         "y": 1880,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35460,7 +35698,9 @@
         "x": 550,
         "y": 1940,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35476,7 +35716,9 @@
         "x": 550,
         "y": 1980,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35492,7 +35734,9 @@
         "x": 620,
         "y": 2040,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35508,7 +35752,9 @@
         "x": 630,
         "y": 2080,
         "wires": [
-            []
+            [
+                "d0cdba52b460e177"
+            ]
         ]
     },
     {
@@ -35518,7 +35764,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 143",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_VACIADO_DE_BANDAS_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35565,7 +35811,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 144",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_VACIADO_DE_BANDAS_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35612,7 +35858,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 145",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ADITIVO_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35659,7 +35905,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 146",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ADITIVO1_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35706,7 +35952,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 147",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_ON_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35753,7 +35999,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 148",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_1_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35800,7 +36046,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 149",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_BAJO_OFF_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35847,7 +36093,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 150",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_2_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35894,7 +36140,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 151",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_ON_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35941,7 +36187,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 152",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -35988,7 +36234,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 153",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIEMPO_DE_APERTURA_FINO_OFF_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36035,7 +36281,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 154",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_TIMER_DE_APERTURA_4_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36082,7 +36328,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 155",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_ON_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36129,7 +36375,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 156",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_1_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36176,7 +36422,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 157",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_BAJO_OFF_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36223,7 +36469,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 158",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_2_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36270,7 +36516,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 159",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_ON_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36317,7 +36563,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 160",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_3_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36364,7 +36610,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 161",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIEMPO_DE_APERTURA_FINO_OFF_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36411,7 +36657,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 162",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_TIMER_DE_APERTURA_4_ET_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36458,7 +36704,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 163",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR1_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36505,7 +36751,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 164",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR1_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36552,7 +36798,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 165",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_ALTO_AGR2_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36599,7 +36845,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 166",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_PORCENTAJE_TIRAJE_BAJO_AGR2_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36646,7 +36892,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 167",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR1_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36693,7 +36939,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 168",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_FLUJO_DE_PESO_AGR2_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36740,7 +36986,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 169",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.INPUT_TIEMPO_META_ASISTENCIA_EN_CEMENTO_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -36787,7 +37033,7 @@
         "d": true,
         "g": "2ef3012e50d3010d",
         "name": "function 170",
-        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"TIEMPOS_GLOBAL_VARIABLE.DISPLAY_TIEMPO_ACTUAL_ASISTENCIA_EN_CEMENTO_ISOLATED\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -37220,7 +37466,7 @@
         "y": 2740,
         "wires": [
             [
-                "55f446257aa45587"
+                "875c307bf787b8bd"
             ]
         ]
     },
@@ -37994,6 +38240,7 @@
         "id": "55f446257aa45587",
         "type": "OpcUa-Client",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "write",
         "deadbandtype": "a",
@@ -38013,8 +38260,8 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 1310,
-        "y": 2620,
+        "x": 2340,
+        "y": 100,
         "wires": [
             [
                 "ac74e0807e5cd0e1"
@@ -38037,8 +38284,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2110,
-        "y": 90,
+        "x": 2520,
+        "y": 100,
         "wires": []
     },
     {
@@ -38370,6 +38617,50 @@
         "libs": [],
         "x": 735,
         "y": 2870,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d0cdba52b460e177",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "2ef3012e50d3010d",
+        "name": "function 87",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2015,
+        "y": 1990,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "875c307bf787b8bd",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "75560beef8a768ec",
+        "name": "function 89",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 675,
+        "y": 2740,
         "wires": [
             [
                 "55f446257aa45587"
