@@ -3588,7 +3588,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 70,
+        "x": 110,
         "y": 60,
         "wires": [
             [
@@ -17113,8 +17113,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 90,
-        "y": 80,
+        "x": 150,
+        "y": 50,
         "wires": [
             [
                 "7975b1cf0be96d53"
@@ -17134,8 +17134,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 900,
+        "x": 320,
+        "y": 50,
         "wires": [
             [
                 "69f5c52287c12492",
@@ -20561,7 +20561,7 @@
         "id": "c3b4b987d87a09c6",
         "type": "inject",
         "z": "ae2f98a0fe00b008",
-        "name": "500 ms",
+        "name": "100 ms",
         "props": [
             {
                 "p": "payload"
@@ -21594,7 +21594,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "2",
+        "repeat": "0.1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -27251,7 +27251,6 @@
         "id": "a9bfcd88deb1c6dd",
         "type": "OpcUa-Client",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "subscribe",
         "deadbandtype": "a",
@@ -27271,8 +27270,8 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 1250,
-        "y": 5590,
+        "x": 1680,
+        "y": 430,
         "wires": [
             [
                 "3371056ff5905a11",
@@ -38240,7 +38239,6 @@
         "id": "55f446257aa45587",
         "type": "OpcUa-Client",
         "z": "b8ec6796739a69a4",
-        "d": true,
         "endpoint": "415de91fb493cf02",
         "action": "write",
         "deadbandtype": "a",
