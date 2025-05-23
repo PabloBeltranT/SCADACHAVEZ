@@ -1369,7 +1369,7 @@
         ],
         "x": 464,
         "y": 299,
-        "w": 852,
+        "w": 862,
         "h": 172
     },
     {
@@ -3582,7 +3582,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "0.05",
+        "repeat": "0.1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -16952,7 +16952,7 @@
         "height": "1",
         "passthru": false,
         "mode": "number",
-        "delay": "0",
+        "delay": "300",
         "topic": "topic",
         "sendOnBlur": true,
         "className": "view",
@@ -17148,8 +17148,7 @@
                 "388ac85f4ec8e3b5",
                 "20322fd6c0e26a35",
                 "771ff610fca784c3",
-                "81997f667e40e293",
-                "5065531318cd84cf"
+                "81997f667e40e293"
             ]
         ]
     },
@@ -17277,7 +17276,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1275,
+        "x": 1285,
         "y": 420,
         "wires": [
             [
@@ -17883,7 +17882,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "75ce4d177ad273e1",
         "name": "function 182",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.SENAL_VFD_ORUGA\") == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view\";\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17905,7 +17904,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "6e48978b96e8596b",
         "name": "function 183",
-        "func": "msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_AGUA\") == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view\";\n}\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -18315,22 +18314,6 @@
         "l": false
     },
     {
-        "id": "5065531318cd84cf",
-        "type": "debug",
-        "z": "e84e53e8ddf338f7",
-        "name": "debug 10",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1290,
-        "y": 500,
-        "wires": []
-    },
-    {
         "id": "76ce51ae2516b3e9",
         "type": "function",
         "z": "e84e53e8ddf338f7",
@@ -18347,6 +18330,25 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "7d6709d997a6f93a",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 90",
+        "func": "\nif (msg.payload.SENAL_VFD_ORUGA == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view-head\";\n}\n\n\nmsg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1445,
+        "y": 270,
+        "wires": [
+            []
+        ],
+        "l": false
     },
     {
         "id": "6fbc7df4a638fead",
@@ -20607,7 +20609,8 @@
                 "65b51304b4ee0a5f",
                 "8a3d541511c1e23e",
                 "cb680c30089c9fb3",
-                "f1e8479ecca6fd20"
+                "f1e8479ecca6fd20",
+                "336f7c31f63486bc"
             ]
         ]
     },
@@ -20878,6 +20881,22 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "336f7c31f63486bc",
+        "type": "debug",
+        "z": "ae2f98a0fe00b008",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 50,
+        "wires": []
     },
     {
         "id": "a3ccdb79c9842d76",
@@ -27284,7 +27303,8 @@
                 "04bd30c1e0404198"
             ],
             [
-                "46fcf6ccf45b0443"
+                "46fcf6ccf45b0443",
+                "62ba1799c8b8e7ec"
             ],
             []
         ]
@@ -29407,7 +29427,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "function 1",
-        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n    msg.payload = \"connect\";\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n}\n\n//if (suscrito == \"active subscribed\" || suscrito == \"session active\"){\n//    msg.payload = \"connect\";\n//    global.set(\"OPC_SERVER_CONNECTED\", true);\n//}\nelse{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\nreturn msg;",
+        "func": "\nvar suscrito = \"\";\n\nsuscrito = msg.status;\n\nif (suscrito == \"active subscribed\" || suscrito == \"session active\" || \"active subscribing\"){\n    msg.payload = true;\n    global.set(\"OPC_SERVER_CONNECTED\", true);\n    return msg;\n}\n\n//if (suscrito == \"active subscribed\" || suscrito == \"session active\"){\n//    msg.payload = \"connect\";\n//    global.set(\"OPC_SERVER_CONNECTED\", true);\n//}\nelse{\n    msg.payload = false;\n    global.set(\"OPC_SERVER_CONNECTED\", false);\n}\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -29418,7 +29438,7 @@
         "y": 150,
         "wires": [
             [
-                "edbc14e0edbad03c"
+                "cb4493c46ce6c4f6"
             ]
         ]
     },
@@ -29431,16 +29451,14 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
-                "v": "connect",
-                "vt": "str"
+                "t": "true"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 205,
-        "y": 150,
+        "x": 195,
+        "y": 370,
         "wires": [
             [
                 "ec6f58e518e628a0",
@@ -29662,7 +29680,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE MANUAL GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"ns=4;i=160\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"ns=5;i=239\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break;\n    case \"\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR\",msg.payload);\n        break;\n\n//\n    case \"ns=4;i=463\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=237\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"ns=4;i=610\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=238\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break; \n\n//\n    case \"ns=5;i=104\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break; \n \n\n}\nreturn msg;\n",
+        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"ns=4;i=160\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"ns=5;i=239\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n\n//\n    case \"ns=4;i=463\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=237\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"ns=4;i=610\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=238\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break; \n\n//\n    case \"ns=5;i=104\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break; \n \n\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -30646,7 +30664,7 @@
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
         "g": "dd35acc36621d314",
-        "item": "ns=4;i=413",
+        "item": "ns=4;i=410",
         "datatype": "Int32",
         "value": "",
         "name": "SiloAgregadosColgante_1_DB_PESO_TOTAL_CONSUMIDO",
@@ -30725,7 +30743,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE PRODUCCION VRIABLES",
-        "func": "switch (msg.topic){\n\n// \n    case \"ns=4;i=413\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_TOTAL_CONSUMIDO\",msg.payload);\n        break; \n\n// \n    case \"ns=4;i=557\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_TOTAL_CONSUMIDO\",msg.payload);\n        break; \n\n// \n    case \"ns=5;i=5\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.DISPLAY_CONTEOS_DE_CICLOS_MEZCLADO\",msg.payload);\n        break; \n\n// \n    case \"ns=5;i=3\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.DISPLAY_CUENTA_DE_CEMENTO_CONSUMIDO\",msg.payload);\n        break; \n\n}\nreturn msg;",
+        "func": "switch (msg.topic){\n\n// \n    case \"ns=4;i=410\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_TOTAL_CONSUMIDO\",msg.payload);\n        break; \n\n// \n    case \"ns=4;i=557\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_TOTAL_CONSUMIDO\",msg.payload);\n        break; \n\n// \n    case \"ns=5;i=5\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.DISPLAY_CONTEOS_DE_CICLOS_MEZCLADO\",msg.payload);\n        break; \n\n// \n    case \"ns=5;i=3\":\n        global.set(\"PRODUCCION_GLOBAL_VARIABLE.DISPLAY_CUENTA_DE_CEMENTO_CONSUMIDO\",msg.payload);\n        break; \n\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -30737,6 +30755,90 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "62ba1799c8b8e7ec",
+        "type": "debug",
+        "z": "0d06e67bad6a6fdf",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1880,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "c5c34e399ced66d6",
+        "type": "inject",
+        "z": "0d06e67bad6a6fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "connect",
+        "payloadType": "str",
+        "x": 80,
+        "y": 510,
+        "wires": [
+            [
+                "edbc14e0edbad03c"
+            ]
+        ]
+    },
+    {
+        "id": "3047047bbddf484d",
+        "type": "debug",
+        "z": "0d06e67bad6a6fdf",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 130,
+        "wires": []
+    },
+    {
+        "id": "cb4493c46ce6c4f6",
+        "type": "rbe",
+        "z": "0d06e67bad6a6fdf",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 265,
+        "y": 140,
+        "wires": [
+            [
+                "3047047bbddf484d",
+                "edbc14e0edbad03c"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "084f0b522e98640f",
@@ -37171,7 +37273,8 @@
         "y": 2590,
         "wires": [
             [
-                "244b639958b2a718"
+                "244b639958b2a718",
+                "2519671d4e33e45d"
             ]
         ],
         "l": false
@@ -37180,6 +37283,7 @@
         "id": "244b639958b2a718",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "g": "c2e01a710ca12077",
         "item": "ns=5;i=242",
         "datatype": "Int32",
@@ -37394,6 +37498,7 @@
         "id": "08ed9f482d25ca54",
         "type": "comment",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "g": "75560beef8a768ec",
         "name": "PRODUCCION",
         "info": "",
@@ -37405,6 +37510,7 @@
         "id": "a720cc24de74477c",
         "type": "function",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "g": "75560beef8a768ec",
         "name": "function 209",
         "func": "msg.payload = global.get(\"PRODUCCION_GLOBAL_VARIABLE.BORRAR_CANTIDADES\");\nreturn msg;",
@@ -37428,6 +37534,7 @@
         "id": "e3942a96f1b24647",
         "type": "rbe",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "g": "75560beef8a768ec",
         "name": "",
         "func": "rbe",
@@ -37450,6 +37557,7 @@
         "id": "8c570c4e16f076fb",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "g": "75560beef8a768ec",
         "item": "ns=5;i=234",
         "datatype": "Boolean",
@@ -38330,7 +38438,7 @@
         "z": "b8ec6796739a69a4",
         "g": "c2e01a710ca12077",
         "name": "function 184",
-        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -38643,6 +38751,7 @@
         "id": "875c307bf787b8bd",
         "type": "function",
         "z": "b8ec6796739a69a4",
+        "d": true,
         "g": "75560beef8a768ec",
         "name": "function 89",
         "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
@@ -38660,5 +38769,21 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "2519671d4e33e45d",
+        "type": "debug",
+        "z": "b8ec6796739a69a4",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 2650,
+        "wires": []
     }
 ]
