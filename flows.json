@@ -499,12 +499,15 @@
             "b1c11a0e468aaaf2",
             "57a3544608d0da14",
             "a439f830282d119d",
-            "6daf3d79606a55ce"
+            "6daf3d79606a55ce",
+            "2688ea4c97da774e",
+            "2a8201297f0baf84",
+            "047179706c22f28a"
         ],
-        "x": 284,
+        "x": 274,
         "y": 2139,
-        "w": 652,
-        "h": 492
+        "w": 662,
+        "h": 542
     },
     {
         "id": "75560beef8a768ec",
@@ -526,8 +529,8 @@
             "8c570c4e16f076fb",
             "875c307bf787b8bd"
         ],
-        "x": 284,
-        "y": 2639,
+        "x": 274,
+        "y": 2699,
         "w": 432,
         "h": 142
     },
@@ -551,8 +554,8 @@
             "43f5c4e142fa4b72",
             "5bd66ed28065a1ef"
         ],
-        "x": 284,
-        "y": 2789,
+        "x": 274,
+        "y": 2859,
         "w": 492,
         "h": 122
     },
@@ -650,12 +653,13 @@
             "6fdedbade033855b",
             "2f2a9dd74e6c1971",
             "18f7e21286f926bf",
-            "756fda869ae3bbbe"
+            "756fda869ae3bbbe",
+            "af3067fff0a841bd"
         ],
         "x": 514,
         "y": 69,
         "w": 672,
-        "h": 1192
+        "h": 1232
     },
     {
         "id": "d655ade3b10d0471",
@@ -870,12 +874,13 @@
             "88442ca2180afbb1",
             "d333979c6ce582fa",
             "69f0b2a31ece7d38",
-            "22bc0b4be91ec51f"
+            "22bc0b4be91ec51f",
+            "8131bd4d7e5a4f3a"
         ],
-        "x": 524,
+        "x": 514,
         "y": 3899,
-        "w": 532,
-        "h": 522
+        "w": 542,
+        "h": 562
     },
     {
         "id": "a4d595a840de58a4",
@@ -1322,7 +1327,6 @@
         "nodes": [
             "01548c2c80509842",
             "0a9dfadfe9bfc973",
-            "51ecae5677e4a403",
             "618af3e769a607dd",
             "e331e26172e97dc4",
             "388ac85f4ec8e3b5",
@@ -2201,8 +2205,8 @@
         "name": "spacer",
         "group": "7d20a1e0f66da183",
         "order": 34,
-        "width": "5",
-        "height": "1"
+        "width": "0",
+        "height": "0"
     },
     {
         "id": "e79e6f66fb49e6f8",
@@ -2210,9 +2214,9 @@
         "z": "e84e53e8ddf338f7",
         "name": "spacer",
         "group": "7d20a1e0f66da183",
-        "order": 35,
-        "width": "24",
-        "height": "1"
+        "order": 36,
+        "width": "0",
+        "height": "0"
     },
     {
         "id": "866705c9118ef2d6",
@@ -4700,7 +4704,7 @@
         "z": "e515f4b8125260c1",
         "g": "53590877c54f3db5",
         "name": "function 228",
-        "func": "msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nreturn msg;",
+        "func": "//msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\n//msg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\");\nmsg.payload = parseFloat(global.get(\"OPERADOR_GLOBAL_VARIABLE.LITROS_ANADIDOS_ACTUALES_PULSOS\")).toFixed(3);\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17175,7 +17179,8 @@
                 "388ac85f4ec8e3b5",
                 "20322fd6c0e26a35",
                 "771ff610fca784c3",
-                "81997f667e40e293"
+                "81997f667e40e293",
+                "743ec0a41ccb8e20"
             ]
         ]
     },
@@ -17243,28 +17248,6 @@
         "y": 110,
         "wires": [
             []
-        ],
-        "l": false
-    },
-    {
-        "id": "51ecae5677e4a403",
-        "type": "rbe",
-        "z": "e84e53e8ddf338f7",
-        "g": "6e48978b96e8596b",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 925,
-        "y": 200,
-        "wires": [
-            [
-                "d01fe85070183561"
-            ]
         ],
         "l": false
     },
@@ -17537,7 +17520,7 @@
         "type": "function",
         "z": "e84e53e8ddf338f7",
         "name": "WRITE MANUAL",
-        "func": "switch (msg.topic){\n\n    // \n    case \"PB_HMI_AGREGAR_AGUA_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_AGREGAR_AGUA_MANUAL\", msg.payload);\n    break;\n\n    // \n    case \"PB_HMI_RESET_TIEMPO_DE_AGUA_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_RESET_TIEMPO_DE_AGUA_MANUAL\", msg.payload);\n        break;\n\n    // \n    case \"PB_HMI_JOG_MANUAL_MOTOR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_JOG_MANUAL_MOTOR\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_COMPUERTA_AGR1_ABRIR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_COMPUERTA_AGR1_ABRIR\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_COMPUERTA_AGR2_ABRIR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_COMPUERTA_AGR2_ABRIR\", msg.payload);\n        break;\n    \n}\nreturn msg;",
+        "func": "switch (msg.topic){\n\n    // \n    case \"PB_HMI_AGREGAR_AGUA_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_AGREGAR_AGUA_MANUAL\", msg.payload);\n    break;\n\n    // \n    case \"PB_HMI_RESET_TIEMPO_DE_AGUA_MANUAL\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_RESET_TIEMPO_DE_AGUA_MANUAL\", msg.payload);\n        break;\n\n    // \n    case \"PB_HMI_JOG_MANUAL_MOTOR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_JOG_MANUAL_MOTOR\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_COMPUERTA_AGR1_ABRIR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_COMPUERTA_AGR1_ABRIR\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_COMPUERTA_AGR2_ABRIR\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_COMPUERTA_AGR2_ABRIR\", msg.payload);\n        break;\n    \n    // \n    case \"AIRE_EN_TOLVA_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.AIRE_EN_TOLVA_ISOLATED\", msg.payload);\n        break;\n    \n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17821,7 +17804,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "a1c77968753f17a2",
         "name": "function 176",
-        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO).toFixed(3);\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_1\") == true) {\n    msg.className = \"view-head-true\";\n} else {\n    msg.className = \"view\";\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17843,7 +17826,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "a1c77968753f17a2",
         "name": "function 179",
-        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO).toFixed(3);\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_2\") == true) {\n    msg.className = \"view-head-true\";\n} else {\n    msg.className = \"view\";\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17865,7 +17848,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "a1c77968753f17a2",
         "name": "function 180",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_1_SIWAREX).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_1\") == true) {\n    msg.className = \"view-head-true\";\n} else {\n    msg.className = \"view\";\n}\n\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17887,7 +17870,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "a1c77968753f17a2",
         "name": "function 181",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_AGREGADO_2_SIWAREX).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_2\") == true) {\n    msg.className = \"view-head-true\";\n} else {\n    msg.className = \"view\";\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17909,7 +17892,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "75ce4d177ad273e1",
         "name": "function 182",
-        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.SENAL_VFD_ORUGA\") == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view\";\n}\n\nreturn msg;",
+        "func": "msg.payload = parseFloat(msg.payload.PESO_CEMENTO_SIWAREX).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.SENAL_VFD_ORUGA\") == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view\";\n}\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17931,7 +17914,7 @@
         "z": "e84e53e8ddf338f7",
         "g": "6e48978b96e8596b",
         "name": "function 183",
-        "func": "msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_AGUA\") == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view\";\n}\n\nreturn msg;\n",
+        "func": "//msg.payload = parseFloat(msg.payload.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS).toFixed(3);\nmsg.payload = parseFloat(global.get(\"OPERADOR_GLOBAL_VARIABLE.LITROS_ANADIDOS_ACTUALES_PULSOS\")).toFixed(3);\n\nif (global.get(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_AGUA\") == true){\n    msg.className = \"view-head-true\";\n}else{\n    msg.className = \"view\";\n}\n\nreturn msg;\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17942,7 +17925,7 @@
         "y": 200,
         "wires": [
             [
-                "51ecae5677e4a403"
+                "d01fe85070183561"
             ]
         ],
         "l": false
@@ -18345,7 +18328,7 @@
         "type": "function",
         "z": "e84e53e8ddf338f7",
         "name": "WRITE MANUAL ISOLATED",
-        "func": "switch (msg.topic){\n\n    // \n    case \"SEL_HMI_JOG_MANUAL_MOTOR_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR_ISOLATED\", msg.payload);\n        break;\n\n    // \n    case \"INPUT_VELOCIDAD_MANUAL_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL_ISOLATED\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_BANDA_COLECTORA_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA_ISOLATED\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_BANDA_INCLINADA_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_INCLINADA_ISOLATED\", msg.payload);\n        break;\n    \n}\nreturn msg;",
+        "func": "switch (msg.topic){\n\n    // \n    case \"SEL_HMI_JOG_MANUAL_MOTOR_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SEL_HMI_JOG_MANUAL_MOTOR_ISOLATED\", msg.payload);\n        break;\n\n    // \n    case \"INPUT_VELOCIDAD_MANUAL_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL_ISOLATED\", msg.payload);\n        break;\n    \n    // \n    case \"PB_HMI_MANUAL_BANDA_COLECTORA_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PB_HMI_MANUAL_BANDA_COLECTORA_ISOLATED\", msg.payload);\n        break;\n    \n    // \n    case \"AIRE_EN_TOLVA_ISOLATED\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.AIRE_EN_TOLVA_ISOLATED\", msg.payload);\n        break;\n    \n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -18374,6 +18357,146 @@
         "y": 270,
         "wires": [
             []
+        ],
+        "l": false
+    },
+    {
+        "id": "06d2a7e4e56e531f",
+        "type": "ui_button",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "group": "7d20a1e0f66da183",
+        "order": 35,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "ACTIVAR VIBRADOR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 720,
+        "y": 900,
+        "wires": [
+            [
+                "504574632abd5c86"
+            ]
+        ]
+    },
+    {
+        "id": "273e9879cd86c065",
+        "type": "ui_button",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "group": "7d20a1e0f66da183",
+        "order": 35,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "DESACTIVAR VIBRADOR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 740,
+        "y": 940,
+        "wires": [
+            [
+                "504574632abd5c86"
+            ]
+        ]
+    },
+    {
+        "id": "504574632abd5c86",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 92",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"AIRE_EN_TOLVA_ISOLATED\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 955,
+        "y": 920,
+        "wires": [
+            [
+                "b9d73e5819a0debf"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "453c8d2ab4732192",
+        "type": "ui_text",
+        "z": "e84e53e8ddf338f7",
+        "group": "7d20a1e0f66da183",
+        "order": 37,
+        "width": "4",
+        "height": "1",
+        "name": "",
+        "label": "VIBRADOR Y SOPLADOR",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1280,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "00683c3723aac7df",
+        "type": "rbe",
+        "z": "e84e53e8ddf338f7",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1115,
+        "y": 920,
+        "wires": [
+            [
+                "453c8d2ab4732192"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "743ec0a41ccb8e20",
+        "type": "function",
+        "z": "e84e53e8ddf338f7",
+        "name": "function 93",
+        "func": "\nif (global.get(\"MANUAL_GLOBAL_VARIABLE.AIRE_EN_TOLVA\") == true) {\n    msg.className = \"view-head-true\";\n} else {\n    msg.className = \"view\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1065,
+        "y": 920,
+        "wires": [
+            [
+                "00683c3723aac7df"
+            ]
         ],
         "l": false
     },
@@ -27589,17 +27712,19 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE OPERADOR GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n    \n    // ALARMA\n    case \"ns=5;i=136\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ALARMA\",msg.payload);\n        break;\n    // MODO AUTOMATICO\n    case \"ns=5;i=218\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    // SEQ CEMENTO\n    case \"ns=5;i=106\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    // SEQ AGREGADOS\n    case \"ns=5;i=105\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    // SEQ MEZCLADO\n    case \"ns=5;i=107\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    // PESO CEMENTO SIWAREX\n    case \"ns=5;i=239\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // PESO AGREGADO 1 SIWAREX\n    case \"ns=5;i=237\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    // PESO AGREGADO 2 SIWAREX\n    case \"ns=5;i=238\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    // INPUT METROS CUBICOS\n    case \"ns=5;i=87\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    // INPUT NUMERO DE RECETA\n    case \"ns=5;i=88\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    // Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL\n    case \"ns=4;i=367\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\", msg.payload)\n        break;\n    // SiloAgregadosColgante_1_DB_PESO META DE CICLO\n    case \"ns=4;i=463\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_1_DB_PESO INICIAL\n    case \"ns=4;i=462\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO META DE CICLO\n    case \"ns=4;i=610\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO INICIAL\n    case \"ns=4;i=609\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO META DE CICLO\n    case \"ns=4;i=991\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO INICIAL\n    case \"ns=4;i=1018\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    //DISPLAY_META_AGUA_1\n    case \"ns=5;i=10\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    // DISPLAY_META_AGUA_2\n    case \"ns=5;i=11\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    // DISPLAY_META_ADITIVO\n    case \"ns=5;i=12\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    // ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS\n    case \"ns=4;i=160\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n\n    // VALVULA_ABRIR_AGREGADO_1\n    case \"ns=5;i=130\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_1\", msg.payload);\n        break;\n    // VALVULA_ABRIR_AGREGADO_2\n    case \"ns=5;i=131\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_2\", msg.payload);\n        break;\n    // SEÑAL_VFD_ORUGA\n    case \"ns=5;i=129\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SENAL_VFD_ORUGA\", msg.payload);\n        break;\n    // VALVULA_AGUA\n    case \"ns=5;i=133\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_AGUA\", msg.payload);\n        break;\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
+        "func": "switch (msg.topic){\n    \n    // ALARMA\n    case \"ns=5;i=136\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ALARMA\",msg.payload);\n        break;\n    // MODO AUTOMATICO\n    case \"ns=5;i=218\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.MODO_AUTOMAN\",msg.payload);\n        break;\n    // SEQ CEMENTO\n    case \"ns=5;i=106\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_CEMENTO\",msg.payload);\n        break; \n    // SEQ AGREGADOS\n    case \"ns=5;i=105\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_AGREGADOS\", msg.payload);\n        break;\n    // SEQ MEZCLADO\n    case \"ns=5;i=107\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SEQ_MEZCLADO\",msg.payload);\n        break; \n    // PESO CEMENTO SIWAREX\n    case \"ns=5;i=239\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\", msg.payload);\n        break;\n    // PESO AGREGADO 1 SIWAREX\n    case \"ns=5;i=237\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    // PESO AGREGADO 2 SIWAREX\n    case \"ns=5;i=238\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\", msg.payload);\n        break;\n    // INPUT METROS CUBICOS\n    case \"ns=5;i=87\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_METROS_CUBICOS\",msg.payload);\n        break; \n    // INPUT NUMERO DE RECETA\n    case \"ns=5;i=88\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.INPUT_NUMERO_DE_RECETA\", msg.payload);\n        break;\n    // Recetario2Agregados1Cemento_ X10_Concretera_DB_NOMBRE DE RECETA ACTUAL\n    case \"ns=4;i=367\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_DE_RECETA_ACTUAL\", msg.payload)\n        break;\n    // SiloAgregadosColgante_1_DB_PESO META DE CICLO\n    case \"ns=4;i=463\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_1_DB_PESO INICIAL\n    case \"ns=4;i=462\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO META DE CICLO\n    case \"ns=4;i=610\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloAgregadosColgante_2_DB_PESO INICIAL\n    case \"ns=4;i=609\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_INICIAL\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO META DE CICLO\n    case \"ns=4;i=991\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_META_DE_CICLO\", msg.payload);\n        break;\n    // SiloCementoColgante_DB_PESO INICIAL\n    case \"ns=4;i=1018\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SiloCementoColgante_DB_PESO_INICIAL\", msg.payload);\n        break;\n    //DISPLAY_META_AGUA_1\n    case \"ns=5;i=10\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_1\", msg.payload);\n        break;\n    // DISPLAY_META_AGUA_2\n    case \"ns=5;i=11\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_AGUA_2\", msg.payload);\n        break;\n    // DISPLAY_META_ADITIVO\n    case \"ns=5;i=12\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.DISPLAY_META_ADITIVO\", msg.payload);\n        break;\n    // ControldeMezcla_DB_LITROS AÑADIDOS ACTUALES_LITROS\n    case \"ns=4;i=160\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_AÑADIDOS_ACTUALES_LITROS\", msg.payload);\n        break;\n\n    // VALVULA_ABRIR_AGREGADO_1\n    case \"ns=5;i=130\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_1\", msg.payload);\n        break;\n    // VALVULA_ABRIR_AGREGADO_2\n    case \"ns=5;i=131\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_ABRIR_AGREGADO_2\", msg.payload);\n        break;\n    // SEÑAL_VFD_ORUGA\n    case \"ns=5;i=129\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.SENAL_VFD_ORUGA\", msg.payload);\n        break;\n    // VALVULA_AGUA\n    case \"ns=5;i=133\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.VALVULA_AGUA\", msg.payload);\n        break;\n    // LITROS_ANADIDOS_ACTUALES_PULSOS\n    case \"ns=4;i=159\":\n        global.set(\"OPERADOR_GLOBAL_VARIABLE.LITROS_ANADIDOS_ACTUALES_PULSOS\", msg.payload * 10);\n        break;\n}\n\nmsg.payload = global.get(\"OPERADOR_GLOBAL_VARIABLE\");\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"OPERADOR_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 2040,
+        "x": 2050,
         "y": 420,
         "wires": [
-            []
+            [
+                "6c4e4db16f6537f4"
+            ]
         ]
     },
     {
@@ -29649,7 +29774,9 @@
                 "ed7a9e85678f46a2",
                 "35ee4713a30823dc",
                 "16c669ac161b138c",
-                "d4b05cd0c6234fd4"
+                "d4b05cd0c6234fd4",
+                "af3067fff0a841bd",
+                "8131bd4d7e5a4f3a"
             ]
         ],
         "l": false
@@ -29694,7 +29821,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE MANUAL GLOBAL VRIABLES",
-        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"ns=4;i=160\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"ns=5;i=239\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n\n//\n    case \"ns=4;i=463\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=237\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"ns=4;i=610\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=238\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break; \n\n//\n    case \"ns=5;i=104\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break; \n \n\n}\nreturn msg;\n",
+        "func": "switch (msg.topic){\n// VARIABLES PARA MANUAL\n    case \"ns=4;i=160\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.ControldeMezcla_DB_LITROS_ANADIDOS_ACTUALES_LITROS\",msg.payload);\n        break;\n    case \"ns=5;i=239\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_CEMENTO_SIWAREX\",msg.payload);\n        break;\n\n//\n    case \"ns=4;i=463\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_1_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=237\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_1_SIWAREX\",msg.payload);\n        break; \n    case \"ns=4;i=610\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.SiloAgregadosColgante_2_DB_PESO_META_DE_CICLO\",msg.payload);\n        break; \n    case \"ns=5;i=238\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.PESO_AGREGADO_2_SIWAREX\",msg.payload);\n        break;\n    case \"ns=4;i=855\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.AIRE_EN_TOLVA\", msg.payload);\n        break; \n\n//\n    case \"ns=5;i=104\":\n        global.set(\"MANUAL_GLOBAL_VARIABLE.INPUT_VELOCIDAD_MANUAL\",msg.payload);\n        break; \n \n\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -30775,7 +30902,7 @@
         "type": "debug",
         "z": "0d06e67bad6a6fdf",
         "name": "debug 4",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -30853,6 +30980,57 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "6c4e4db16f6537f4",
+        "type": "debug",
+        "z": "0d06e67bad6a6fdf",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2400,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "af3067fff0a841bd",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "c2d158134dcf5829",
+        "item": "ns=4;i=159",
+        "datatype": "Int32",
+        "value": "",
+        "name": "LITROS_ANADIDOS_ACTUALES_PULSOS",
+        "x": 710,
+        "y": 1260,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "8131bd4d7e5a4f3a",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "cfae9b60ed141fa6",
+        "item": "ns=4;i=855",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "AIRE_EN_TOLVA",
+        "x": 630,
+        "y": 4420,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
     },
     {
         "id": "084f0b522e98640f",
@@ -35349,7 +35527,8 @@
                 "7674ab8cf14972a9",
                 "57a3544608d0da14",
                 "e97f7b6496fc7cdc",
-                "999a7462aac24f83"
+                "999a7462aac24f83",
+                "2a8201297f0baf84"
             ]
         ]
     },
@@ -37486,8 +37665,8 @@
         "g": "75560beef8a768ec",
         "name": "PRODUCCION",
         "info": "",
-        "x": 390,
-        "y": 2680,
+        "x": 380,
+        "y": 2740,
         "wires": []
     },
     {
@@ -37504,8 +37683,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 325,
-        "y": 2740,
+        "x": 315,
+        "y": 2800,
         "wires": [
             [
                 "e3942a96f1b24647"
@@ -37528,8 +37707,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 375,
-        "y": 2740,
+        "x": 365,
+        "y": 2800,
         "wires": [
             [
                 "8c570c4e16f076fb"
@@ -37547,8 +37726,8 @@
         "datatype": "Boolean",
         "value": "",
         "name": "BORRAR_CANTIDADES",
-        "x": 520,
-        "y": 2740,
+        "x": 510,
+        "y": 2800,
         "wires": [
             [
                 "875c307bf787b8bd"
@@ -37562,8 +37741,8 @@
         "g": "779c67422e819054",
         "name": "ALARMAS",
         "info": "",
-        "x": 370,
-        "y": 2830,
+        "x": 360,
+        "y": 2900,
         "wires": []
     },
     {
@@ -37579,8 +37758,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 325,
-        "y": 2870,
+        "x": 315,
+        "y": 2940,
         "wires": [
             [
                 "cfc24992a6a6f9c0"
@@ -37602,8 +37781,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 375,
-        "y": 2870,
+        "x": 365,
+        "y": 2940,
         "wires": [
             [
                 "43f5c4e142fa4b72"
@@ -37620,8 +37799,8 @@
         "datatype": "Boolean",
         "value": "",
         "name": "ALARMAS_GLOBAL_VARIABLE",
-        "x": 550,
-        "y": 2870,
+        "x": 540,
+        "y": 2940,
         "wires": [
             [
                 "5bd66ed28065a1ef"
@@ -38699,8 +38878,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 735,
-        "y": 2870,
+        "x": 725,
+        "y": 2940,
         "wires": [
             [
                 "55f446257aa45587"
@@ -38744,8 +38923,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 675,
-        "y": 2740,
+        "x": 665,
+        "y": 2800,
         "wires": [
             [
                 "55f446257aa45587"
@@ -38768,5 +38947,67 @@
         "x": 1010,
         "y": 2650,
         "wires": []
+    },
+    {
+        "id": "2a8201297f0baf84",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "c2e01a710ca12077",
+        "name": "function 91",
+        "func": "msg.payload = global.get(\"MANUAL_GLOBAL_VARIABLE.AIRE_EN_TOLVA_ISOLATED\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 2640,
+        "wires": [
+            [
+                "047179706c22f28a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "047179706c22f28a",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "c2e01a710ca12077",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 2640,
+        "wires": [
+            [
+                "2688ea4c97da774e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2688ea4c97da774e",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "g": "c2e01a710ca12077",
+        "item": "ns=4;i=855",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "AIRE_EN_TOLVA_ISOLATED",
+        "x": 530,
+        "y": 2640,
+        "wires": [
+            [
+                "c2bcc291a86cdd65"
+            ]
+        ]
     }
 ]
