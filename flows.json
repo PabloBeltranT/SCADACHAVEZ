@@ -1716,10 +1716,35 @@
             "db4c30f9b1e8bdfe",
             "cc5da3f3d61589bd"
         ],
-        "x": 514,
+        "x": 534,
         "y": 3279,
         "w": 392,
         "h": 242
+    },
+    {
+        "id": "7ff097d6bfdd6e0c",
+        "type": "group",
+        "z": "b8ec6796739a69a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e2bc16de575f7e10",
+            "783e3cb86d2163e4",
+            "cc6e0cfd68d90161",
+            "8f7ffc4b5b31fd55",
+            "05680b7714702e18"
+        ],
+        "x": 274,
+        "y": 3499,
+        "w": 522,
+        "h": 122
     },
     {
         "id": "0785e116879ba187",
@@ -2699,6 +2724,40 @@
         "width": "24",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "306de6140adfa516",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "CEMENTO",
+        "name": ""
+    },
+    {
+        "id": "23144031a647c69a",
+        "type": "mongodb4-client",
+        "name": "",
+        "protocol": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "dbName": "CEMENTO",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
     },
     {
         "id": "a1fefccddd7b8916",
@@ -24334,8 +24393,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1030,
-        "y": 270,
+        "x": 1100,
+        "y": 320,
         "wires": []
     },
     {
@@ -24484,86 +24543,6 @@
                 "a681f33780c3a31f"
             ]
         ]
-    },
-    {
-        "id": "3245acb5bc6052a8",
-        "type": "mongodb out",
-        "z": "50796c7782f3d929",
-        "mongodb": "f1e57fad63399a15",
-        "name": "",
-        "collection": "REGISTROS",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 860,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "54446f8346346e74",
-        "type": "ui_button",
-        "z": "50796c7782f3d929",
-        "name": "",
-        "group": "993f85fa1cc285fd",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "GUARDAR REGISTRO",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 130,
-        "y": 540,
-        "wires": [
-            [
-                "27c70cbd6f8005ea"
-            ]
-        ]
-    },
-    {
-        "id": "27c70cbd6f8005ea",
-        "type": "function",
-        "z": "50796c7782f3d929",
-        "name": "function 237",
-        "func": "if (msg.payload == true){\n\n\n    \n    msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_NO_SERIALIZADO\"); \n    return msg;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 540,
-        "wires": [
-            [
-                "4367b6e424e505f5"
-            ]
-        ]
-    },
-    {
-        "id": "4367b6e424e505f5",
-        "type": "debug",
-        "z": "50796c7782f3d929",
-        "name": "debug 28",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 540,
-        "wires": []
     },
     {
         "id": "12e5c1010a72a0fe",
@@ -33787,7 +33766,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE REPORTES GLOBAL VRIABLES",
-        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n    break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENTE\", msg.payload);\n    break;\n\n    case \"ns=5;i=272\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n    break;\n\n    case \"ns=5;i=275\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_NO_SERIALIZADO\", msg.payload);\n    break;\n};\n\nreturn msg;",
+        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n    break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENTE\", msg.payload);\n    break;\n\n    case \"ns=5;i=272\":\n            msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n    break;\n\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -33887,7 +33866,7 @@
         "datatype": "Extension Object",
         "value": "",
         "name": "REPORTE PENDIENTE NO SERIALIZADO",
-        "x": 710,
+        "x": 730,
         "y": 3480,
         "wires": [
             [
@@ -42882,19 +42861,112 @@
         "l": false
     },
     {
+        "id": "e2bc16de575f7e10",
+        "type": "comment",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "REPORTES",
+        "info": "",
+        "x": 370,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "783e3cb86d2163e4",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 238",
+        "func": "msg.payload = global.get(\"ALARMAS_GLOBAL_VARIABLE.RESET_ALARMAS\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3580,
+        "wires": [
+            [
+                "cc6e0cfd68d90161"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "cc6e0cfd68d90161",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3580,
+        "wires": [
+            [
+                "8f7ffc4b5b31fd55"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8f7ffc4b5b31fd55",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "item": "ns=5;i=270",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO CEMENTO ALMACENADO",
+        "x": 560,
+        "y": 3580,
+        "wires": [
+            [
+                "05680b7714702e18"
+            ]
+        ]
+    },
+    {
+        "id": "05680b7714702e18",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 239",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 755,
+        "y": 3580,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
         "id": "cd2485a1515e12c3",
         "type": "ui_table",
         "z": "d44a49af0ed5916e",
         "group": "993f85fa1cc285fd",
         "name": "TABLA CEMENTO",
         "order": 0,
-        "width": 0,
-        "height": 0,
+        "width": "24",
+        "height": "10",
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 870,
-        "y": 500,
+        "x": 1870,
+        "y": 360,
         "wires": []
     },
     {
@@ -42918,8 +42990,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 320,
-        "y": 500,
+        "x": 460,
+        "y": 240,
         "wires": [
             [
                 "6783ee5f838733f7"
@@ -42931,20 +43003,267 @@
         "id": "6783ee5f838733f7",
         "type": "function",
         "z": "d44a49af0ed5916e",
-        "name": "FEED LABELS",
-        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n    if (global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENT\") ==  ''){\n        msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n    };\n    \n\n}else{\n    msg.payload = [];\n}\n\n\n\nreturn msg;",
+        "name": "GUARDAR REGISTROS CEMENTO",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\") != null){\n\n    \n\n    msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n\n    msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n    msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n    msg.payload.P_INI = Number(msg.payload.P_INI);\n    msg.payload.P_FIN = Number(msg.payload.P_FIN);\n    msg.payload.P_CONS = Number(msg.payload.P_CONS);\n    msg.payload.R = msg.payload.R.replaceAll('+', '');\n    msg.payload.CANT_R = Number(msg.payload.CANT_R);\n    msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n    if (msg.payload.AUT == true){\n        msg.payload.AUT = \"ACTIVADO\";\n    }\n    if(msg.payload.AUT == false){\n        msg.payload.AUT = \"DESACTIVADO\";\n    }\n\n    msg.payload = {\n        \"FECHA INICIO\":msg.payload.FE_INI,\n        \"FECHA TERMINADO\":msg.payload.FE_FIN,\n        \"PESO INICIO\":msg.payload.P_INI,\n        \"PESO FINAL\":msg.payload.P_FIN,\n        \"PESO CONSUMIDO\":msg.payload.P_CONS,\n        \"RECETA\":msg.payload.R,\n        \"PESO EN RECETA\":msg.payload.CANT_R,\n        \"METROS CUBICOS\":msg.payload.M_CUB,\n        \"AUTOMATICO\":msg.payload.AUT\n    };\n    \n    msg.payload = [msg.payload];\n    return msg;\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set('bit_confirmado');",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 240,
+        "wires": [
+            [
+                "56ab524fbc7d064d"
+            ]
+        ]
+    },
+    {
+        "id": "4a0a85e0386527d5",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "56ab524fbc7d064d",
+        "type": "rbe",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 905,
+        "y": 240,
+        "wires": [
+            [
+                "cd1afe363fe3cea9",
+                "bf26c015edac0b90"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cd1afe363fe3cea9",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "AGREGAR FECHA EN REGISTRO",
+        "func": "msg.payload[0]['FECHA_REGISTRO_EN_DB'] = new Date()\nglobal.set('bit_confirmado', false);\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 500,
+        "x": 1080,
+        "y": 240,
+        "wires": [
+            [
+                "fcefbbf8cc77f81f"
+            ]
+        ]
+    },
+    {
+        "id": "fcefbbf8cc77f81f",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1320,
+        "y": 240,
+        "wires": [
+            [
+                "2d4115bd1966ec56"
+            ]
+        ]
+    },
+    {
+        "id": "2d4115bd1966ec56",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "CONFIRMACION BIT CEMENTO GUARDADO",
+        "func": "if(msg.payload.acknowledged == true){\n    msg.payload = 'se realizo registro';\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", true);\n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 240,
+        "wires": [
+            [
+                "4a0a85e0386527d5"
+            ]
+        ]
+    },
+    {
+        "id": "f7794ea79aa31038",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1390,
+        "y": 360,
+        "wires": [
+            [
+                "0c7f56a01cf310f2",
+                "8e2119157cae2f2c"
+            ]
+        ]
+    },
+    {
+        "id": "0c7f56a01cf310f2",
+        "type": "rbe",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1485,
+        "y": 360,
+        "wires": [
+            [
+                "b850a5da87eaf356"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bf26c015edac0b90",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "ACTUALIZAR TABLA DE REGISTROS CEMENTO",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 300,
+        "wires": [
+            [
+                "f7794ea79aa31038"
+            ]
+        ]
+    },
+    {
+        "id": "bc0a41d016e74c5f",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "bf26c015edac0b90"
+            ]
+        ]
+    },
+    {
+        "id": "8e2119157cae2f2c",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1840,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "b850a5da87eaf356",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "FORMATEAR FECHA UTC 7",
+        "func": "// Validar que msg.payload sea una lista/arreglo de objetos\nif (Array.isArray(msg.payload)) {\n\n    msg.payload = msg.payload.map(doc => {\n        // Verificar que el documento tenga el campo de fecha\n        if (doc.FECHA_REGISTRO_EN_DB) {\n\n            // Convertir la fecha UTC a hora local de San Luis Río Colorado (UTC-7)\n            doc.FECHA_REGISTRO_EN_DB = new Date(doc.FECHA_REGISTRO_EN_DB).toLocaleString('es-MX', {\n                timeZone: 'America/Hermosillo', // Zona horaria fija UTC-7 (Sonora)\n                year: 'numeric',\n                month: '2-digit',\n                day: '2-digit',\n                hour: '2-digit',\n                minute: '2-digit',\n                second: '2-digit',\n                hour12: true // Cambia a 'false' si prefieres formato de 24 horas (ej: 16:10:05)\n            });\n\n        }\n        return doc; // Retorna el objeto modificado\n    });\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 360,
         "wires": [
             [
                 "cd2485a1515e12c3"
             ]
         ]
+    },
+    {
+        "id": "efba3b865a6263ac",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "group": "993f85fa1cc285fd",
+        "order": 1,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "REGISTROS DE CEMENTO EN ULTIMO MES",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "view-head",
+        "style": true,
+        "font": "",
+        "fontSize": "24",
+        "color": "#0000a0",
+        "x": 1960,
+        "y": 320,
+        "wires": []
     }
 ]
