@@ -1713,12 +1713,13 @@
             "9194d0c9245559b3",
             "8bdfcd8ef35b7b9d",
             "64e91c0f360bc6fd",
-            "db4c30f9b1e8bdfe"
+            "db4c30f9b1e8bdfe",
+            "cc5da3f3d61589bd"
         ],
-        "x": 534,
+        "x": 514,
         "y": 3279,
-        "w": 372,
-        "h": 202
+        "w": 392,
+        "h": 242
     },
     {
         "id": "0785e116879ba187",
@@ -2518,7 +2519,7 @@
         "topology": "direct",
         "connectOptions": "",
         "port": 27017,
-        "db": "SCADACCHAVEZ",
+        "db": "AGREGADOS",
         "name": ""
     },
     {
@@ -24392,7 +24393,7 @@
         "name": "",
         "collection": "BATCH",
         "operation": "find",
-        "x": 580,
+        "x": 570,
         "y": 220,
         "wires": [
             [
@@ -24483,6 +24484,86 @@
                 "a681f33780c3a31f"
             ]
         ]
+    },
+    {
+        "id": "3245acb5bc6052a8",
+        "type": "mongodb out",
+        "z": "50796c7782f3d929",
+        "mongodb": "f1e57fad63399a15",
+        "name": "",
+        "collection": "REGISTROS",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "54446f8346346e74",
+        "type": "ui_button",
+        "z": "50796c7782f3d929",
+        "name": "",
+        "group": "993f85fa1cc285fd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "GUARDAR REGISTRO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "27c70cbd6f8005ea"
+            ]
+        ]
+    },
+    {
+        "id": "27c70cbd6f8005ea",
+        "type": "function",
+        "z": "50796c7782f3d929",
+        "name": "function 237",
+        "func": "if (msg.payload == true){\n\n\n    \n    msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_NO_SERIALIZADO\"); \n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 540,
+        "wires": [
+            [
+                "4367b6e424e505f5"
+            ]
+        ]
+    },
+    {
+        "id": "4367b6e424e505f5",
+        "type": "debug",
+        "z": "50796c7782f3d929",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 540,
+        "wires": []
     },
     {
         "id": "12e5c1010a72a0fe",
@@ -29701,8 +29782,8 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 2360,
-        "y": 1380,
+        "x": 1360,
+        "y": 3360,
         "wires": [
             [
                 "3371056ff5905a11",
@@ -32059,7 +32140,8 @@
                 "d495b3b9f6ac74aa",
                 "9194d0c9245559b3",
                 "8bdfcd8ef35b7b9d",
-                "64e91c0f360bc6fd"
+                "64e91c0f360bc6fd",
+                "cc5da3f3d61589bd"
             ]
         ],
         "l": false
@@ -33705,15 +33787,15 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE REPORTES GLOBAL VRIABLES",
-        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=269\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.CEMENTO_JSON\", msg.payload);\n\n        let jsonString = msg.payload;\n        if (typeof jsonString === \"string\") {\n            try {\n                jsonString = jsonString.trim();\n\n                if (jsonString.startsWith('\"') && jsonString.endsWith('\"')) {\n                    jsonString = jsonString.slice(1, -1);\n                }\n\n                jsonString = jsonString.replace(/\\\\\"/g, '\"');\n\n                // CORRECCIÓN CLAVE: Eliminamos los signos '+' ilegales de JSON generados por Siemens\n                // Esto transforma cosas como \":+0.00\" en \":0.00\" y \"+1970\" en \"1970\"\n                jsonString = jsonString.replace(/([:\\[,])\\+/g, '$1');\n\n                // Parseamos a objeto real de JavaScript\n                let parsedObj = JSON.parse(jsonString);\n                global.set(\"PRUEBAS.CEMENTO_JSON\", parsedObj);\n\n            } catch (e) {\n                global.set(\"PRUEBAS.ERROR\", e.message);\n                global.set(\"PRUEBAS.CEMENTO_JSON\", \"ERROR_EN_PARSE\");\n            }\n        }\n        break;\n};\n\nreturn msg;",
+        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n    break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENTE\", msg.payload);\n    break;\n\n    case \"ns=5;i=272\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n    break;\n\n    case \"ns=5;i=275\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_NO_SERIALIZADO\", msg.payload);\n    break;\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"REPORTES_GLOBAL_VARIABLE\",{});\nglobal.set(\"PRUEBAS\", {});",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"REPORTES_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 1950,
-        "y": 900,
+        "x": 2030,
+        "y": 700,
         "wires": [
             []
         ]
@@ -33738,9 +33820,8 @@
         "id": "9194d0c9245559b3",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "g": "6b7ee1b1947cce68",
-        "item": "",
+        "item": "ns=5;i=271",
         "datatype": "Boolean",
         "value": "",
         "name": "REGISTRO PENDIENTE",
@@ -33756,9 +33837,8 @@
         "id": "8bdfcd8ef35b7b9d",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "g": "6b7ee1b1947cce68",
-        "item": "",
+        "item": "ns=5;i=270",
         "datatype": "Boolean",
         "value": "",
         "name": "REGISTRO ALMACENADO",
@@ -33774,9 +33854,8 @@
         "id": "64e91c0f360bc6fd",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "g": "6b7ee1b1947cce68",
-        "item": "",
+        "item": "ns=5;i=272",
         "datatype": "String",
         "value": "",
         "name": "REPORTE PENDIENTE SERIALIZADO",
@@ -33792,13 +33871,29 @@
         "id": "db4c30f9b1e8bdfe",
         "type": "comment",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
         "g": "6b7ee1b1947cce68",
         "name": "REPORTES",
         "info": "",
         "x": 630,
         "y": 3320,
         "wires": []
+    },
+    {
+        "id": "cc5da3f3d61589bd",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "6b7ee1b1947cce68",
+        "item": "ns=5;i=275",
+        "datatype": "Extension Object",
+        "value": "",
+        "name": "REPORTE PENDIENTE NO SERIALIZADO",
+        "x": 710,
+        "y": 3480,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
     },
     {
         "id": "084f0b522e98640f",
@@ -42798,32 +42893,54 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 450,
-        "y": 260,
+        "x": 870,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "21c0f60a8d9e2002",
-        "type": "ui_button",
+        "id": "c0694a3320a770e1",
+        "type": "inject",
         "z": "d44a49af0ed5916e",
-        "name": "",
-        "group": "993f85fa1cc285fd",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "button",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "[     {         \"Name\": \"Kazuhito Yokoi\",         \"Age\": \"35\",         \"Favourite Color\": \"red\",         \"Date Of Birth\": \"12/09/1983\",         \"Rating\": 5     },     {         \"Name\": \"Oli Bob\",         \"Age\": \"12\",         \"Favourite Color\": \"red\",         \"Date Of Birth\": \"12/08/2017\",         \"Rating\": 2     } ]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 150,
-        "y": 300,
+        "name": "100 ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 320,
+        "y": 500,
+        "wires": [
+            [
+                "6783ee5f838733f7"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "6783ee5f838733f7",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "FEED LABELS",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n    if (global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENT\") ==  ''){\n        msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n    };\n    \n\n}else{\n    msg.payload = [];\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 500,
         "wires": [
             [
                 "cd2485a1515e12c3"
