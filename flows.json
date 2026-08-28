@@ -33766,7 +33766,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE REPORTES GLOBAL VRIABLES",
-        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n    break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENTE\", msg.payload);\n    break;\n\n    case \"ns=5;i=272\":\n            msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n    break;\n\n};\n\nreturn msg;",
+        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENTE\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -33861,6 +33861,7 @@
         "id": "cc5da3f3d61589bd",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
+        "d": true,
         "g": "6b7ee1b1947cce68",
         "item": "ns=5;i=275",
         "datatype": "Extension Object",
@@ -38246,8 +38247,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 120,
-        "y": 2340,
+        "x": 140,
+        "y": 2920,
         "wires": [
             [
                 "084f0b522e98640f",
@@ -38386,7 +38387,8 @@
                 "29342991ef057c1f",
                 "81ed16baa286e4e5",
                 "3ed2d3f34c82e305",
-                "5797679198a96285"
+                "5797679198a96285",
+                "783e3cb86d2163e4"
             ]
         ]
     },
@@ -41381,8 +41383,8 @@
         "setstatusandtime": false,
         "keepsessionalive": false,
         "name": "",
-        "x": 2340,
-        "y": 100,
+        "x": 1420,
+        "y": 3280,
         "wires": [
             [
                 "ac74e0807e5cd0e1"
@@ -41405,8 +41407,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2520,
-        "y": 100,
+        "x": 1600,
+        "y": 3280,
         "wires": []
     },
     {
@@ -42877,7 +42879,7 @@
         "z": "b8ec6796739a69a4",
         "g": "7ff097d6bfdd6e0c",
         "name": "function 238",
-        "func": "msg.payload = global.get(\"ALARMAS_GLOBAL_VARIABLE.RESET_ALARMAS\");\nreturn msg;",
+        "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\");\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -42949,7 +42951,9 @@
         "x": 755,
         "y": 3580,
         "wires": [
-            []
+            [
+                "55f446257aa45587"
+            ]
         ],
         "l": false
     },
@@ -43263,7 +43267,7 @@
         "fontSize": "24",
         "color": "#0000a0",
         "x": 1960,
-        "y": 320,
+        "y": 300,
         "wires": []
     }
 ]
