@@ -43070,7 +43070,7 @@
         "type": "debug",
         "z": "d44a49af0ed5916e",
         "name": "debug 29",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -43264,8 +43264,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1540,
-        "y": 540,
+        "x": 1580,
+        "y": 400,
         "wires": []
     },
     {
@@ -43305,8 +43305,8 @@
         "font": "",
         "fontSize": "24",
         "color": "#0000a0",
-        "x": 1960,
-        "y": 300,
+        "x": 580,
+        "y": 320,
         "wires": []
     },
     {
@@ -43400,10 +43400,293 @@
         "id": "0be1904a05abf0f3",
         "type": "comment",
         "z": "d44a49af0ed5916e",
-        "name": "",
+        "name": "CREDENCIALES",
         "info": "26079e41910bcde04be636fbeecc9045379882b5ad3fe7f70b762436c6d98055",
-        "x": 600,
-        "y": 700,
+        "x": 480,
+        "y": 100,
         "wires": []
+    },
+    {
+        "id": "0cccd2699df23a6e",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "insertar objeto hace una semana",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "f5fd065fb5df8427"
+            ]
+        ]
+    },
+    {
+        "id": "4236483767d70e90",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 950,
+        "y": 640,
+        "wires": [
+            [
+                "ecb170494b386b5a"
+            ]
+        ]
+    },
+    {
+        "id": "b39d76de5ca5a67c",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "OBTENER REGISTROS DIARIOS",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet registros_hoy = new Date();\nregistros_hoy.setDate(registros_hoy.getDate()-1);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": registros_hoy }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 700,
+        "wires": [
+            [
+                "ee4b2921e03c779f"
+            ]
+        ]
+    },
+    {
+        "id": "42096fae5bd8c91d",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "OBTENER REGISTROS SEMANALES",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet hace_una_semana = new Date();\nhace_una_semana.setDate(hace_una_semana.getDate()-7);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": hace_una_semana }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 640,
+        "wires": [
+            [
+                "4236483767d70e90"
+            ]
+        ]
+    },
+    {
+        "id": "085249a5aea325eb",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "EVERY DAY 16:00",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 16 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 400,
+        "y": 700,
+        "wires": [
+            [
+                "b39d76de5ca5a67c"
+            ]
+        ]
+    },
+    {
+        "id": "a787adb0ac0d4c93",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "SATURDAY--16:00",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 16 * * 6",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 400,
+        "y": 640,
+        "wires": [
+            [
+                "42096fae5bd8c91d"
+            ]
+        ]
+    },
+    {
+        "id": "f5fd065fb5df8427",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 160,
+        "wires": [
+            [
+                "fcefbbf8cc77f81f"
+            ]
+        ]
+    },
+    {
+        "id": "a182314692710dab",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "insertar objeto de hoy",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 520,
+        "y": 200,
+        "wires": [
+            [
+                "f5fd065fb5df8427"
+            ]
+        ]
+    },
+    {
+        "id": "ecb170494b386b5a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "PLANTILLA REPORTE SEMANAL",
+        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos semanal de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Semanal de Consumo de Cemento\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 640,
+        "wires": [
+            [
+                "831edc9806a6e7b2"
+            ]
+        ]
+    },
+    {
+        "id": "831edc9806a6e7b2",
+        "type": "e-mail",
+        "z": "d44a49af0ed5916e",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "noreplyscadachavez@gmail.com",
+        "dname": "",
+        "x": 1560,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "cf3f9f7ce89ea2a1",
+        "type": "comment",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
+        "x": 1060,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ee4b2921e03c779f",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 950,
+        "y": 700,
+        "wires": [
+            [
+                "5bada5b404a71469"
+            ]
+        ]
+    },
+    {
+        "id": "5bada5b404a71469",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "PLANTILLA REPORTE DIARIO",
+        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos diario de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Diario de Consumo de Cemento\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 700,
+        "wires": [
+            [
+                "831edc9806a6e7b2"
+            ]
+        ]
     }
 ]
