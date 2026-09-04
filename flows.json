@@ -1737,14 +1737,16 @@
         "nodes": [
             "e2bc16de575f7e10",
             "783e3cb86d2163e4",
-            "cc6e0cfd68d90161",
             "8f7ffc4b5b31fd55",
-            "05680b7714702e18"
+            "05680b7714702e18",
+            "cc6e0cfd68d90161",
+            "9704e5cbeb6b898b",
+            "0dbfda3cd3f45053"
         ],
         "x": 274,
         "y": 3499,
-        "w": 522,
-        "h": 122
+        "w": 602,
+        "h": 282
     },
     {
         "id": "0785e116879ba187",
@@ -33766,7 +33768,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE REPORTES GLOBAL VRIABLES",
-        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_PENDIENTE\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n\n};\n\nreturn msg;",
+        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -42897,28 +42899,6 @@
         "l": false
     },
     {
-        "id": "cc6e0cfd68d90161",
-        "type": "rbe",
-        "z": "b8ec6796739a69a4",
-        "g": "7ff097d6bfdd6e0c",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 365,
-        "y": 3580,
-        "wires": [
-            [
-                "8f7ffc4b5b31fd55"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "8f7ffc4b5b31fd55",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
@@ -42927,7 +42907,7 @@
         "datatype": "Boolean",
         "value": "",
         "name": "REGISTRO CEMENTO ALMACENADO",
-        "x": 560,
+        "x": 640,
         "y": 3580,
         "wires": [
             [
@@ -42948,7 +42928,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 755,
+        "x": 835,
         "y": 3580,
         "wires": [
             [
@@ -42956,6 +42936,69 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "cc6e0cfd68d90161",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3580,
+        "wires": [
+            [
+                "9704e5cbeb6b898b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9704e5cbeb6b898b",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 237",
+        "func": "\nif (msg.payload == true){\n    return msg.payload;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 425,
+        "y": 3580,
+        "wires": [
+            [
+                "8f7ffc4b5b31fd55",
+                "0dbfda3cd3f45053"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "0dbfda3cd3f45053",
+        "type": "debug",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 3740,
+        "wires": []
     },
     {
         "id": "cd2485a1515e12c3",
@@ -42994,11 +43037,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 460,
+        "x": 480,
         "y": 240,
         "wires": [
             [
-                "6783ee5f838733f7"
+                "620b1148d35f9dc3"
             ]
         ],
         "icon": "node-red/serial.svg"
@@ -43008,18 +43051,18 @@
         "type": "function",
         "z": "d44a49af0ed5916e",
         "name": "GUARDAR REGISTROS CEMENTO",
-        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\") != null){\n\n    \n\n    msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n\n    msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n    msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n    msg.payload.P_INI = Number(msg.payload.P_INI);\n    msg.payload.P_FIN = Number(msg.payload.P_FIN);\n    msg.payload.P_CONS = Number(msg.payload.P_CONS);\n    msg.payload.R = msg.payload.R.replaceAll('+', '');\n    msg.payload.CANT_R = Number(msg.payload.CANT_R);\n    msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n    if (msg.payload.AUT == true){\n        msg.payload.AUT = \"ACTIVADO\";\n    }\n    if(msg.payload.AUT == false){\n        msg.payload.AUT = \"DESACTIVADO\";\n    }\n\n    msg.payload = {\n        \"FECHA INICIO\":msg.payload.FE_INI,\n        \"FECHA TERMINADO\":msg.payload.FE_FIN,\n        \"PESO INICIO\":msg.payload.P_INI,\n        \"PESO FINAL\":msg.payload.P_FIN,\n        \"PESO CONSUMIDO\":msg.payload.P_CONS,\n        \"RECETA\":msg.payload.R,\n        \"PESO EN RECETA\":msg.payload.CANT_R,\n        \"METROS CUBICOS\":msg.payload.M_CUB,\n        \"AUTOMATICO\":msg.payload.AUT\n    };\n    \n    msg.payload = [msg.payload];\n    return msg;\n\n}",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (msg.payload == true && global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\") != null){\n\n    \n\n    msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n\n    msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n    msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n    msg.payload.P_INI = Number(msg.payload.P_INI);\n    msg.payload.P_FIN = Number(msg.payload.P_FIN);\n    msg.payload.P_CONS = Number(msg.payload.P_CONS);\n    msg.payload.R = msg.payload.R.replaceAll('+', '');\n    msg.payload.CANT_R = Number(msg.payload.CANT_R);\n    msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n    if (msg.payload.AUT == true){\n        msg.payload.AUT = \"ACTIVADO\";\n    }\n    if(msg.payload.AUT == false){\n        msg.payload.AUT = \"DESACTIVADO\";\n    }\n\n    msg.payload = {\n        \"FECHA INICIO\":msg.payload.FE_INI,\n        \"FECHA TERMINADO\":msg.payload.FE_FIN,\n        \"PESO INICIO\":msg.payload.P_INI,\n        \"PESO FINAL\":msg.payload.P_FIN,\n        \"PESO CONSUMIDO\":msg.payload.P_CONS,\n        \"RECETA\":msg.payload.R,\n        \"PESO EN RECETA\":msg.payload.CANT_R,\n        \"METROS CUBICOS\":msg.payload.M_CUB,\n        \"AUTOMATICO\":msg.payload.AUT,\n        \"FECHA_REGISTRO_EN_DB\": new Date(),\n    };\n    \n    msg.payload = [msg.payload];\n    return msg;\n\n}",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set('bit_confirmado');",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 1070,
         "y": 240,
         "wires": [
             [
-                "56ab524fbc7d064d"
+                "fcefbbf8cc77f81f"
             ]
         ]
     },
@@ -43036,7 +43079,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1840,
+        "x": 2440,
         "y": 240,
         "wires": []
     },
@@ -43053,11 +43096,10 @@
         "property": "payload",
         "topi": "topic",
         "x": 905,
-        "y": 240,
+        "y": 400,
         "wires": [
             [
-                "cd1afe363fe3cea9",
-                "bf26c015edac0b90"
+                "cd1afe363fe3cea9"
             ]
         ],
         "l": false
@@ -43075,11 +43117,9 @@
         "finalize": "",
         "libs": [],
         "x": 1080,
-        "y": 240,
+        "y": 400,
         "wires": [
-            [
-                "fcefbbf8cc77f81f"
-            ]
+            []
         ]
     },
     {
@@ -43107,7 +43147,7 @@
         "type": "function",
         "z": "d44a49af0ed5916e",
         "name": "CONFIRMACION BIT CEMENTO GUARDADO",
-        "func": "if(msg.payload.acknowledged == true){\n    msg.payload = 'se realizo registro';\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", true);\n    return msg;\n}\n\n\n",
+        "func": "if(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", false);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -43118,7 +43158,7 @@
         "y": 240,
         "wires": [
             [
-                "4a0a85e0386527d5"
+                "ec0b2b45409d76f5"
             ]
         ]
     },
@@ -43176,8 +43216,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 300,
+        "x": 1130,
+        "y": 360,
         "wires": [
             [
                 "f7794ea79aa31038"
@@ -43198,15 +43238,15 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "2",
         "crontab": "",
         "once": true,
         "onceDelay": "5",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 470,
-        "y": 300,
+        "x": 490,
+        "y": 360,
         "wires": [
             [
                 "bf26c015edac0b90"
@@ -43218,15 +43258,15 @@
         "type": "debug",
         "z": "d44a49af0ed5916e",
         "name": "debug 28",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1840,
-        "y": 400,
+        "x": 1540,
+        "y": 540,
         "wires": []
     },
     {
@@ -43269,5 +43309,92 @@
         "x": 1960,
         "y": 300,
         "wires": []
+    },
+    {
+        "id": "620b1148d35f9dc3",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "NUEVO REGISTRO SERIALIZADO",
+        "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 240,
+        "wires": [
+            [
+                "e85739f737be6558"
+            ]
+        ]
+    },
+    {
+        "id": "e85739f737be6558",
+        "type": "rbe",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 875,
+        "y": 240,
+        "wires": [
+            [
+                "6783ee5f838733f7",
+                "bf26c015edac0b90"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ec0b2b45409d76f5",
+        "type": "delay",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1840,
+        "y": 240,
+        "wires": [
+            [
+                "065eb13ffc9d5b51"
+            ]
+        ]
+    },
+    {
+        "id": "065eb13ffc9d5b51",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "CONFIRMACION BIT CEMENTO GUARDADO",
+        "func": "if(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", true);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2120,
+        "y": 240,
+        "wires": [
+            [
+                "4a0a85e0386527d5"
+            ]
+        ]
     }
 ]
