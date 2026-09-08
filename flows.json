@@ -1740,13 +1740,63 @@
             "8f7ffc4b5b31fd55",
             "05680b7714702e18",
             "cc6e0cfd68d90161",
-            "9704e5cbeb6b898b",
-            "0dbfda3cd3f45053"
+            "0dbfda3cd3f45053",
+            "7d7fc66dfbae29a8"
         ],
         "x": 274,
         "y": 3499,
         "w": 602,
         "h": 282
+    },
+    {
+        "id": "60077c2175f99f27",
+        "type": "group",
+        "z": "d44a49af0ed5916e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cd2485a1515e12c3",
+            "c0694a3320a770e1",
+            "4a0a85e0386527d5",
+            "fcefbbf8cc77f81f",
+            "f7794ea79aa31038",
+            "0c7f56a01cf310f2",
+            "bf26c015edac0b90",
+            "bc0a41d016e74c5f",
+            "b850a5da87eaf356",
+            "efba3b865a6263ac",
+            "065eb13ffc9d5b51",
+            "0be1904a05abf0f3",
+            "0cccd2699df23a6e",
+            "4236483767d70e90",
+            "b39d76de5ca5a67c",
+            "42096fae5bd8c91d",
+            "085249a5aea325eb",
+            "a787adb0ac0d4c93",
+            "f5fd065fb5df8427",
+            "a182314692710dab",
+            "ecb170494b386b5a",
+            "831edc9806a6e7b2",
+            "cf3f9f7ce89ea2a1",
+            "ee4b2921e03c779f",
+            "5bada5b404a71469",
+            "1f410e1adb049b78",
+            "e9b9695b30dedd10",
+            "c0a03d0c71ab81c7",
+            "9918a5c4b28b6b1a",
+            "9aa2dfe6cf374ee4"
+        ],
+        "x": 354,
+        "y": 79,
+        "w": 1512,
+        "h": 542
     },
     {
         "id": "0785e116879ba187",
@@ -33768,7 +33818,7 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE REPORTES GLOBAL VRIABLES",
-        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n\n};\n\nreturn msg;",
+        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON\", msg.payload);\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -38389,7 +38439,8 @@
                 "29342991ef057c1f",
                 "81ed16baa286e4e5",
                 "3ed2d3f34c82e305",
-                "5797679198a96285"
+                "5797679198a96285",
+                "783e3cb86d2163e4"
             ]
         ]
     },
@@ -42953,33 +43004,9 @@
         "y": 3580,
         "wires": [
             [
-                "9704e5cbeb6b898b"
+                "7d7fc66dfbae29a8"
             ]
         ],
-        "l": false
-    },
-    {
-        "id": "9704e5cbeb6b898b",
-        "type": "function",
-        "z": "b8ec6796739a69a4",
-        "g": "7ff097d6bfdd6e0c",
-        "name": "function 237",
-        "func": "\nif (msg.payload == true){\n    return msg;\n}\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 425,
-        "y": 3580,
-        "wires": [
-            [
-                "8f7ffc4b5b31fd55",
-                "0dbfda3cd3f45053"
-            ]
-        ],
-        "icon": "node-red/link-return.svg",
         "l": false
     },
     {
@@ -43000,9 +43027,33 @@
         "wires": []
     },
     {
+        "id": "7d7fc66dfbae29a8",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 241",
+        "func": "if(msg.payload == true){\n    msg.payload = true;\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 435,
+        "y": 3580,
+        "wires": [
+            [
+                "8f7ffc4b5b31fd55"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
         "id": "cd2485a1515e12c3",
         "type": "ui_table",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "group": "993f85fa1cc285fd",
         "name": "TABLA CEMENTO",
         "order": 0,
@@ -43011,15 +43062,16 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 1870,
-        "y": 360,
+        "x": 1570,
+        "y": 420,
         "wires": []
     },
     {
         "id": "c0694a3320a770e1",
         "type": "inject",
         "z": "d44a49af0ed5916e",
-        "name": "100 ms",
+        "g": "60077c2175f99f27",
+        "name": "4 SEG",
         "props": [
             {
                 "p": "payload"
@@ -43029,7 +43081,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "0.1",
+        "repeat": "4",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -43040,37 +43092,18 @@
         "y": 240,
         "wires": [
             [
-                "620b1148d35f9dc3"
+                "e9b9695b30dedd10"
             ]
         ],
         "icon": "node-red/serial.svg"
     },
     {
-        "id": "6783ee5f838733f7",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "name": "GUARDAR REGISTROS CEMENTO",
-        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (msg.payload == true && global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\") != null){\n\n    \n\n    msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n\n    msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n    msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n    msg.payload.P_INI = Number(msg.payload.P_INI);\n    msg.payload.P_FIN = Number(msg.payload.P_FIN);\n    msg.payload.P_CONS = Number(msg.payload.P_CONS);\n    msg.payload.R = msg.payload.R.replaceAll('+', '');\n    msg.payload.CANT_R = Number(msg.payload.CANT_R);\n    msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n    if (msg.payload.AUT == true){\n        msg.payload.AUT = \"ACTIVADO\";\n    }\n    if(msg.payload.AUT == false){\n        msg.payload.AUT = \"DESACTIVADO\";\n    }\n\n    msg.payload = {\n        \"FECHA INICIO\":msg.payload.FE_INI,\n        \"FECHA TERMINADO\":msg.payload.FE_FIN,\n        \"PESO INICIO\":msg.payload.P_INI,\n        \"PESO FINAL\":msg.payload.P_FIN,\n        \"PESO CONSUMIDO\":msg.payload.P_CONS,\n        \"RECETA\":msg.payload.R,\n        \"PESO EN RECETA\":msg.payload.CANT_R,\n        \"METROS CUBICOS\":msg.payload.M_CUB,\n        \"AUTOMATICO\":msg.payload.AUT,\n        \"FECHA_REGISTRO_EN_DB\": new Date(),\n    };\n    \n    msg.payload = [msg.payload];\n    return msg;\n\n}",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set('bit_confirmado');",
-        "finalize": "",
-        "libs": [],
-        "x": 1070,
-        "y": 240,
-        "wires": [
-            [
-                "fcefbbf8cc77f81f"
-            ]
-        ]
-    },
-    {
         "id": "4a0a85e0386527d5",
         "type": "debug",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "debug 29",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -43078,53 +43111,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2440,
+        "x": 1620,
         "y": 240,
         "wires": []
-    },
-    {
-        "id": "56ab524fbc7d064d",
-        "type": "rbe",
-        "z": "d44a49af0ed5916e",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 905,
-        "y": 400,
-        "wires": [
-            [
-                "cd1afe363fe3cea9"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "cd1afe363fe3cea9",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "name": "AGREGAR FECHA EN REGISTRO",
-        "func": "msg.payload[0]['FECHA_REGISTRO_EN_DB'] = new Date()\nglobal.set('bit_confirmado', false);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1080,
-        "y": 400,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "fcefbbf8cc77f81f",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "clientNode": "23144031a647c69a",
         "mode": "collection",
         "collection": "REGISTRO_CEMENTO",
@@ -43133,31 +43128,11 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1320,
+        "x": 920,
         "y": 240,
         "wires": [
             [
-                "2d4115bd1966ec56"
-            ]
-        ]
-    },
-    {
-        "id": "2d4115bd1966ec56",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "name": "CONFIRMACION BIT CEMENTO GUARDADO",
-        "func": "if(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", false);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1580,
-        "y": 240,
-        "wires": [
-            [
-                "ec0b2b45409d76f5"
+                "c0a03d0c71ab81c7"
             ]
         ]
     },
@@ -43165,6 +43140,7 @@
         "id": "f7794ea79aa31038",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "clientNode": "23144031a647c69a",
         "mode": "collection",
         "collection": "REGISTRO_CEMENTO",
@@ -43173,12 +43149,11 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1390,
-        "y": 360,
+        "x": 1090,
+        "y": 420,
         "wires": [
             [
-                "0c7f56a01cf310f2",
-                "8e2119157cae2f2c"
+                "0c7f56a01cf310f2"
             ]
         ]
     },
@@ -43186,6 +43161,7 @@
         "id": "0c7f56a01cf310f2",
         "type": "rbe",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -43194,8 +43170,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1485,
-        "y": 360,
+        "x": 1185,
+        "y": 420,
         "wires": [
             [
                 "b850a5da87eaf356"
@@ -43207,6 +43183,7 @@
         "id": "bf26c015edac0b90",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "ACTUALIZAR TABLA DE REGISTROS CEMENTO",
         "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
         "outputs": 1,
@@ -43215,8 +43192,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 360,
+        "x": 830,
+        "y": 420,
         "wires": [
             [
                 "f7794ea79aa31038"
@@ -43227,6 +43204,7 @@
         "id": "bc0a41d016e74c5f",
         "type": "inject",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "",
         "props": [
             {
@@ -43244,8 +43222,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 490,
-        "y": 360,
+        "x": 510,
+        "y": 420,
         "wires": [
             [
                 "bf26c015edac0b90"
@@ -43253,25 +43231,10 @@
         ]
     },
     {
-        "id": "8e2119157cae2f2c",
-        "type": "debug",
-        "z": "d44a49af0ed5916e",
-        "name": "debug 28",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1580,
-        "y": 400,
-        "wires": []
-    },
-    {
         "id": "b850a5da87eaf356",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "FORMATEAR FECHA UTC 7",
         "func": "// Validar que msg.payload sea una lista/arreglo de objetos\nif (Array.isArray(msg.payload)) {\n\n    msg.payload = msg.payload.map(doc => {\n        // Verificar que el documento tenga el campo de fecha\n        if (doc.FECHA_REGISTRO_EN_DB) {\n\n            // Convertir la fecha UTC a hora local de San Luis Río Colorado (UTC-7)\n            doc.FECHA_REGISTRO_EN_DB = new Date(doc.FECHA_REGISTRO_EN_DB).toLocaleString('es-MX', {\n                timeZone: 'America/Hermosillo', // Zona horaria fija UTC-7 (Sonora)\n                year: 'numeric',\n                month: '2-digit',\n                day: '2-digit',\n                hour: '2-digit',\n                minute: '2-digit',\n                second: '2-digit',\n                hour12: true // Cambia a 'false' si prefieres formato de 24 horas (ej: 16:10:05)\n            });\n\n        }\n        return doc; // Retorna el objeto modificado\n    });\n\n}\n\nreturn msg;",
         "outputs": 1,
@@ -43280,8 +43243,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1640,
-        "y": 360,
+        "x": 1340,
+        "y": 420,
         "wires": [
             [
                 "cd2485a1515e12c3"
@@ -43292,6 +43255,7 @@
         "id": "efba3b865a6263ac",
         "type": "ui_text",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "group": "993f85fa1cc285fd",
         "order": 1,
         "width": "24",
@@ -43305,90 +43269,24 @@
         "font": "",
         "fontSize": "24",
         "color": "#0000a0",
-        "x": 580,
-        "y": 320,
+        "x": 600,
+        "y": 380,
         "wires": []
-    },
-    {
-        "id": "620b1148d35f9dc3",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "name": "NUEVO REGISTRO SERIALIZADO",
-        "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 700,
-        "y": 240,
-        "wires": [
-            [
-                "e85739f737be6558"
-            ]
-        ]
-    },
-    {
-        "id": "e85739f737be6558",
-        "type": "rbe",
-        "z": "d44a49af0ed5916e",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 875,
-        "y": 240,
-        "wires": [
-            [
-                "6783ee5f838733f7",
-                "bf26c015edac0b90"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "ec0b2b45409d76f5",
-        "type": "delay",
-        "z": "d44a49af0ed5916e",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "200",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1850,
-        "y": 240,
-        "wires": [
-            [
-                "065eb13ffc9d5b51"
-            ]
-        ]
     },
     {
         "id": "065eb13ffc9d5b51",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "CONFIRMACION BIT CEMENTO GUARDADO",
-        "func": "if(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", true);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
+        "func": "global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", msg.payload);\nreturn msg;\n\n\nif(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", msg.payload);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2120,
+        "x": 1360,
         "y": 240,
         "wires": [
             [
@@ -43400,16 +43298,18 @@
         "id": "0be1904a05abf0f3",
         "type": "comment",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "CREDENCIALES",
         "info": "26079e41910bcde04be636fbeecc9045379882b5ad3fe7f70b762436c6d98055",
-        "x": 480,
-        "y": 100,
+        "x": 1760,
+        "y": 160,
         "wires": []
     },
     {
         "id": "0cccd2699df23a6e",
         "type": "inject",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "insertar objeto hace una semana",
         "props": [
             {
@@ -43439,6 +43339,7 @@
         "id": "4236483767d70e90",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "clientNode": "23144031a647c69a",
         "mode": "collection",
         "collection": "REGISTRO_CEMENTO",
@@ -43447,8 +43348,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 950,
-        "y": 640,
+        "x": 1070,
+        "y": 520,
         "wires": [
             [
                 "ecb170494b386b5a"
@@ -43459,6 +43360,7 @@
         "id": "b39d76de5ca5a67c",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "OBTENER REGISTROS DIARIOS",
         "func": "// Obtener la fecha exacta de hace 30 días\nlet registros_hoy = new Date();\nregistros_hoy.setDate(registros_hoy.getDate()-1);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": registros_hoy }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
         "outputs": 1,
@@ -43467,8 +43369,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 700,
+        "x": 800,
+        "y": 580,
         "wires": [
             [
                 "ee4b2921e03c779f"
@@ -43479,6 +43381,7 @@
         "id": "42096fae5bd8c91d",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "OBTENER REGISTROS SEMANALES",
         "func": "// Obtener la fecha exacta de hace 30 días\nlet hace_una_semana = new Date();\nhace_una_semana.setDate(hace_una_semana.getDate()-7);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": hace_una_semana }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
         "outputs": 1,
@@ -43487,8 +43390,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 640,
+        "x": 810,
+        "y": 520,
         "wires": [
             [
                 "4236483767d70e90"
@@ -43499,6 +43402,7 @@
         "id": "085249a5aea325eb",
         "type": "inject",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "EVERY DAY 16:00",
         "props": [
             {
@@ -43516,8 +43420,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 400,
-        "y": 700,
+        "x": 520,
+        "y": 580,
         "wires": [
             [
                 "b39d76de5ca5a67c"
@@ -43528,6 +43432,7 @@
         "id": "a787adb0ac0d4c93",
         "type": "inject",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "SATURDAY--16:00",
         "props": [
             {
@@ -43539,14 +43444,14 @@
             }
         ],
         "repeat": "",
-        "crontab": "00 16 * * 6",
+        "crontab": "00 17 * * 6",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 400,
-        "y": 640,
+        "x": 520,
+        "y": 520,
         "wires": [
             [
                 "42096fae5bd8c91d"
@@ -43557,6 +43462,7 @@
         "id": "f5fd065fb5df8427",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "OBJETO PRUEBA",
         "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
         "outputs": 1,
@@ -43577,6 +43483,7 @@
         "id": "a182314692710dab",
         "type": "inject",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "insertar objeto de hoy",
         "props": [
             {
@@ -43606,6 +43513,7 @@
         "id": "ecb170494b386b5a",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "PLANTILLA REPORTE SEMANAL",
         "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos semanal de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Semanal de Consumo de Cemento\";\n\n\nreturn msg;",
         "outputs": 1,
@@ -43614,8 +43522,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1200,
-        "y": 640,
+        "x": 1320,
+        "y": 520,
         "wires": [
             [
                 "831edc9806a6e7b2"
@@ -43626,6 +43534,7 @@
         "id": "831edc9806a6e7b2",
         "type": "e-mail",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "server": "smtp.gmail.com",
         "port": "465",
         "authtype": "BASIC",
@@ -43635,24 +43544,26 @@
         "tls": true,
         "name": "noreplyscadachavez@gmail.com",
         "dname": "",
-        "x": 1560,
-        "y": 640,
+        "x": 1680,
+        "y": 520,
         "wires": []
     },
     {
         "id": "cf3f9f7ce89ea2a1",
         "type": "comment",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "",
         "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
-        "x": 1060,
-        "y": 100,
+        "x": 1600,
+        "y": 480,
         "wires": []
     },
     {
         "id": "ee4b2921e03c779f",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "clientNode": "23144031a647c69a",
         "mode": "collection",
         "collection": "REGISTRO_CEMENTO",
@@ -43661,8 +43572,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 950,
-        "y": 700,
+        "x": 1070,
+        "y": 580,
         "wires": [
             [
                 "5bada5b404a71469"
@@ -43673,6 +43584,7 @@
         "id": "5bada5b404a71469",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
         "name": "PLANTILLA REPORTE DIARIO",
         "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos diario de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Diario de Consumo de Cemento\";\n\n\nreturn msg;",
         "outputs": 1,
@@ -43681,12 +43593,119 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
-        "y": 700,
+        "x": 1310,
+        "y": 580,
         "wires": [
             [
                 "831edc9806a6e7b2"
             ]
         ]
+    },
+    {
+        "id": "1f410e1adb049b78",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.acknowledged",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 930,
+        "y": 300,
+        "wires": [
+            [
+                "9918a5c4b28b6b1a"
+            ]
+        ]
+    },
+    {
+        "id": "e9b9695b30dedd10",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
+        "name": "GUARDAR REGISTROS",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\") != null){\n\n    if(global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\") == true){\n\n        if (global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\") == true){\n            \n            msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\");\n\n            msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n            msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n            msg.payload.P_INI = Number(msg.payload.P_INI);\n            msg.payload.P_FIN = Number(msg.payload.P_FIN);\n            msg.payload.P_CONS = Number(msg.payload.P_CONS);\n            msg.payload.R = msg.payload.R.replaceAll('+', '');\n            msg.payload.CANT_R = Number(msg.payload.CANT_R);\n            msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n            if (msg.payload.AUT == true){\n                msg.payload.AUT = \"ACTIVADO\";\n            }\n            if(msg.payload.AUT == false){\n                msg.payload.AUT = \"DESACTIVADO\";\n            }\n\n            msg.payload = {\n                \"FECHA INICIO\":msg.payload.FE_INI,\n                \"FECHA TERMINADO\":msg.payload.FE_FIN,\n                \"PESO INICIO\":msg.payload.P_INI,\n                \"PESO FINAL\":msg.payload.P_FIN,\n                \"PESO CONSUMIDO\":msg.payload.P_CONS,\n                \"RECETA\":msg.payload.R,\n                \"PESO EN RECETA\":msg.payload.CANT_R,\n                \"METROS CUBICOS\":msg.payload.M_CUB,\n                \"AUTOMATICO\":msg.payload.AUT,\n                \"FECHA_REGISTRO_EN_DB\": new Date(),\n            };\n\n            flow.set(\"ultimo_registro\", global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON\"));\n            global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", false);\n            msg.payload = [msg.payload];\n            return msg;\n        }\n    }\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 240,
+        "wires": [
+            [
+                "fcefbbf8cc77f81f"
+            ]
+        ]
+    },
+    {
+        "id": "c0a03d0c71ab81c7",
+        "type": "trigger",
+        "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
+        "name": "",
+        "op1": "false",
+        "op2": "true",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "200",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1080,
+        "y": 240,
+        "wires": [
+            [
+                "065eb13ffc9d5b51"
+            ]
+        ]
+    },
+    {
+        "id": "9918a5c4b28b6b1a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
+        "name": "function 240",
+        "func": "flow.set(\"ultimo_registro\", \"\");\nglobal.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\",true);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9aa2dfe6cf374ee4",
+        "type": "comment",
+        "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
+        "name": "REGISTROS CEMENTO",
+        "info": "",
+        "x": 510,
+        "y": 120,
+        "wires": []
     }
 ]
