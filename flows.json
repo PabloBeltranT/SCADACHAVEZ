@@ -1791,7 +1791,8 @@
             "e9b9695b30dedd10",
             "c0a03d0c71ab81c7",
             "9918a5c4b28b6b1a",
-            "9aa2dfe6cf374ee4"
+            "9aa2dfe6cf374ee4",
+            "f3f4f2347a0f026e"
         ],
         "x": 354,
         "y": 79,
@@ -43185,7 +43186,7 @@
         "z": "d44a49af0ed5916e",
         "g": "60077c2175f99f27",
         "name": "ACTUALIZAR TABLA DE REGISTROS CEMENTO",
-        "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 }, // Ordena del más reciente al más antiguo\n        \"projection\": { \n            \"_id\": 0,             // 0 desactiva la clave _id\n            \"CAMPO_A_ELIMINAR\": 0  // Reemplaza por el nombre exacto de la clave que no quieres\n        }\n    }\n];\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -43247,7 +43248,8 @@
         "y": 420,
         "wires": [
             [
-                "cd2485a1515e12c3"
+                "cd2485a1515e12c3",
+                "f3f4f2347a0f026e"
             ]
         ]
     },
@@ -43556,7 +43558,7 @@
         "name": "",
         "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
         "x": 1600,
-        "y": 480,
+        "y": 460,
         "wires": []
     },
     {
@@ -43706,6 +43708,23 @@
         "info": "",
         "x": 510,
         "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f3f4f2347a0f026e",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "60077c2175f99f27",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1540,
+        "y": 360,
         "wires": []
     }
 ]
