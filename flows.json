@@ -128,6 +128,14 @@
         "env": []
     },
     {
+        "id": "23adc323d53f1eaa",
+        "type": "tab",
+        "label": "REPORTES SETTINGS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "d0b8298aed9c95d0",
         "type": "group",
         "z": "b8ec6796739a69a4",
@@ -1794,8 +1802,8 @@
             "9aa2dfe6cf374ee4",
             "f3f4f2347a0f026e"
         ],
-        "x": 354,
-        "y": 79,
+        "x": 74,
+        "y": 1019,
         "w": 1512,
         "h": 542
     },
@@ -2811,6 +2819,90 @@
         "uri": "",
         "advanced": "{}",
         "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "60c24202bf4cb9dc",
+        "type": "mongodb4-client",
+        "name": "",
+        "protocol": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "dbName": "config",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "02861383d1e7bb94",
+        "type": "ui_tab",
+        "name": "CORREOS",
+        "icon": "dashboard",
+        "order": 13,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d979ae5123f5e54a",
+        "type": "ui_group",
+        "name": "INICIAR SESION",
+        "tab": "02861383d1e7bb94",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": "view-correos"
+    },
+    {
+        "id": "f816c3d765589baf",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 7,
+        "width": "12",
+        "height": "1"
+    },
+    {
+        "id": "81956bd8faef42ea",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b136bc5c84b52ee6",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ebb4f7761fae90fe",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 12,
+        "width": "14",
+        "height": "1"
     },
     {
         "id": "a1fefccddd7b8916",
@@ -24383,7 +24475,7 @@
         "order": 5,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .view-head-true{\n        color:#FFFFFF !important;\n        background: green !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n        //marging: 20px;\n    }\n    .pad-box-header{\n        color:RED !important;\n        background: white !important;\n        //padding: 10px;\n        margin: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n    .automan-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .automan-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n\n    .alarma-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .alarma-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n    .alarma-true{\n        color: white !important;\n        background-color:red !important;\n        border: 1px solid #000;\n    }\n    .alarma-false{\n        color: white !important;\n        background-color:green !important;\n        border: 1px solid #000;\n    }\n\n</style>",
+        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .view-head-true{\n        color:#FFFFFF !important;\n        background: green !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n        //marging: 20px;\n    }\n    .pad-box-header{\n        color:RED !important;\n        background: white !important;\n        //padding: 10px;\n        margin: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n    .automan-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .automan-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n\n    .alarma-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .alarma-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n    .alarma-true{\n        color: white !important;\n        background-color:red !important;\n        border: 1px solid #000;\n    }\n    .alarma-false{\n        color: white !important;\n        background-color:green !important;\n        border: 1px solid #000;\n    }\n    .view-correos{\n        color:#01010f !important;\n        background: #ffffff !important;\n        border: 1px solid #3a3a3a;\n    }\n    .bad-data{\n    color:#ff1100 !important;\n    }\n    .good-data{\n    color:#0b7507 !important;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -43063,8 +43155,8 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 1570,
-        "y": 420,
+        "x": 1290,
+        "y": 1360,
         "wires": []
     },
     {
@@ -43089,8 +43181,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 480,
-        "y": 240,
+        "x": 200,
+        "y": 1180,
         "wires": [
             [
                 "e9b9695b30dedd10"
@@ -43104,7 +43196,7 @@
         "z": "d44a49af0ed5916e",
         "g": "60077c2175f99f27",
         "name": "debug 29",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -43112,8 +43204,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1620,
-        "y": 240,
+        "x": 1340,
+        "y": 1180,
         "wires": []
     },
     {
@@ -43129,8 +43221,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 920,
-        "y": 240,
+        "x": 640,
+        "y": 1180,
         "wires": [
             [
                 "c0a03d0c71ab81c7"
@@ -43150,8 +43242,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1090,
-        "y": 420,
+        "x": 810,
+        "y": 1360,
         "wires": [
             [
                 "0c7f56a01cf310f2"
@@ -43171,8 +43263,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1185,
-        "y": 420,
+        "x": 905,
+        "y": 1360,
         "wires": [
             [
                 "b850a5da87eaf356"
@@ -43193,8 +43285,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 420,
+        "x": 550,
+        "y": 1360,
         "wires": [
             [
                 "f7794ea79aa31038"
@@ -43223,8 +43315,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 510,
-        "y": 420,
+        "x": 230,
+        "y": 1360,
         "wires": [
             [
                 "bf26c015edac0b90"
@@ -43244,8 +43336,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1340,
-        "y": 420,
+        "x": 1060,
+        "y": 1360,
         "wires": [
             [
                 "cd2485a1515e12c3",
@@ -43271,8 +43363,8 @@
         "font": "",
         "fontSize": "24",
         "color": "#0000a0",
-        "x": 600,
-        "y": 380,
+        "x": 320,
+        "y": 1320,
         "wires": []
     },
     {
@@ -43288,8 +43380,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
-        "y": 240,
+        "x": 1080,
+        "y": 1180,
         "wires": [
             [
                 "4a0a85e0386527d5"
@@ -43303,8 +43395,8 @@
         "g": "60077c2175f99f27",
         "name": "CREDENCIALES",
         "info": "26079e41910bcde04be636fbeecc9045379882b5ad3fe7f70b762436c6d98055",
-        "x": 1760,
-        "y": 160,
+        "x": 1480,
+        "y": 1100,
         "wires": []
     },
     {
@@ -43329,8 +43421,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 530,
-        "y": 160,
+        "x": 250,
+        "y": 1100,
         "wires": [
             [
                 "f5fd065fb5df8427"
@@ -43350,8 +43442,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1070,
-        "y": 520,
+        "x": 790,
+        "y": 1460,
         "wires": [
             [
                 "ecb170494b386b5a"
@@ -43371,8 +43463,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 580,
+        "x": 520,
+        "y": 1520,
         "wires": [
             [
                 "ee4b2921e03c779f"
@@ -43392,8 +43484,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 520,
+        "x": 530,
+        "y": 1460,
         "wires": [
             [
                 "4236483767d70e90"
@@ -43422,8 +43514,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 520,
-        "y": 580,
+        "x": 240,
+        "y": 1520,
         "wires": [
             [
                 "b39d76de5ca5a67c"
@@ -43452,8 +43544,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 520,
-        "y": 520,
+        "x": 240,
+        "y": 1460,
         "wires": [
             [
                 "42096fae5bd8c91d"
@@ -43473,8 +43565,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 160,
+        "x": 530,
+        "y": 1100,
         "wires": [
             [
                 "fcefbbf8cc77f81f"
@@ -43503,8 +43595,8 @@
         "topic": "",
         "payload": "false",
         "payloadType": "bool",
-        "x": 520,
-        "y": 200,
+        "x": 240,
+        "y": 1140,
         "wires": [
             [
                 "f5fd065fb5df8427"
@@ -43524,8 +43616,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
-        "y": 520,
+        "x": 1040,
+        "y": 1460,
         "wires": [
             [
                 "831edc9806a6e7b2"
@@ -43546,8 +43638,8 @@
         "tls": true,
         "name": "noreplyscadachavez@gmail.com",
         "dname": "",
-        "x": 1680,
-        "y": 520,
+        "x": 1400,
+        "y": 1460,
         "wires": []
     },
     {
@@ -43557,8 +43649,8 @@
         "g": "60077c2175f99f27",
         "name": "",
         "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
-        "x": 1600,
-        "y": 460,
+        "x": 1320,
+        "y": 1400,
         "wires": []
     },
     {
@@ -43574,8 +43666,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1070,
-        "y": 580,
+        "x": 790,
+        "y": 1520,
         "wires": [
             [
                 "5bada5b404a71469"
@@ -43595,8 +43687,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 580,
+        "x": 1030,
+        "y": 1520,
         "wires": [
             [
                 "831edc9806a6e7b2"
@@ -43625,8 +43717,8 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 930,
-        "y": 300,
+        "x": 650,
+        "y": 1240,
         "wires": [
             [
                 "9918a5c4b28b6b1a"
@@ -43646,8 +43738,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 240,
+        "x": 410,
+        "y": 1180,
         "wires": [
             [
                 "fcefbbf8cc77f81f"
@@ -43672,8 +43764,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1080,
-        "y": 240,
+        "x": 800,
+        "y": 1180,
         "wires": [
             [
                 "065eb13ffc9d5b51"
@@ -43693,8 +43785,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 300,
+        "x": 810,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -43706,8 +43798,8 @@
         "g": "60077c2175f99f27",
         "name": "REGISTROS CEMENTO",
         "info": "",
-        "x": 510,
-        "y": 120,
+        "x": 230,
+        "y": 1060,
         "wires": []
     },
     {
@@ -43716,6 +43808,701 @@
         "z": "d44a49af0ed5916e",
         "g": "60077c2175f99f27",
         "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "5f5241874522aa26",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "CERRAR SESION",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 360,
+        "wires": [
+            [
+                "9c088d57896486e3"
+            ]
+        ]
+    },
+    {
+        "id": "10d6027d52ec209d",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "INICIAR SESION",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "b487e906e54b463a"
+            ]
+        ]
+    },
+    {
+        "id": "a8358d403a79c55a",
+        "type": "ui_text_input",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "label": "USUARIO",
+        "tooltip": "USUARIO",
+        "group": "d979ae5123f5e54a",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 910,
+        "y": 420,
+        "wires": [
+            [
+                "2ddb20e584fa1b91"
+            ]
+        ]
+    },
+    {
+        "id": "ce6ed51a130fc818",
+        "type": "ui_text_input",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "label": "CONTRASEÑA",
+        "tooltip": "CONTRASEÑA",
+        "group": "d979ae5123f5e54a",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "password",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 920,
+        "y": 460,
+        "wires": [
+            [
+                "95cfe99593882b64"
+            ]
+        ]
+    },
+    {
+        "id": "95cfe99593882b64",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "SET CONTRASENA",
+        "func": "global.set(\"usuarios.password\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ddb20e584fa1b91",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "SET USUARIO",
+        "func": "global.set(\"usuarios.user\", msg.payload);\nmsg.payload = global.get(\"usuarios.user\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b487e906e54b463a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "BUSCAR USUARIO",
+        "func": "msg.payload = {\n    \"user\":global.get(\"usuarios.user\"),\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 280,
+        "wires": [
+            [
+                "267fc782dcc6fc52"
+            ]
+        ]
+    },
+    {
+        "id": "267fc782dcc6fc52",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "passwords",
+        "operation": "findOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 860,
+        "y": 280,
+        "wires": [
+            [
+                "94babf91468f6ad5"
+            ]
+        ]
+    },
+    {
+        "id": "56f030139778e22e",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "94babf91468f6ad5",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "INICIAR SESION",
+        "func": "\nif(msg.payload !== null && global.get(\"usuarios.password\") == msg.payload.password){\n    // registramos un nuevo inicio de sesion \n    global.set(\"sesion\",{\n        \"user\": msg.payload.user,\n        \"password\": msg.payload.password,\n        \"start_date\": new Date(),\n        \"activa\":true,\n    });\n\n    global.set(\"usuarios.user\",\"\");\n    global.set(\"usuarios.password\", \"\");\n    msg.habilitado = false;\n    msg.topic = \"true\";\n    return msg;\n}else{\n    msg.topic = \"false\";\n    return msg;\n};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 280,
+        "wires": [
+            [
+                "3e0be3897a645764"
+            ]
+        ]
+    },
+    {
+        "id": "9c088d57896486e3",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "CERRAR SESION",
+        "func": "global.set(\"sesion.activa\",false);\nglobal.set(\"sesion.stop_date\", new Date());\nmsg.enabled = true;\nmsg.payload = global.get(\"sesion\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 360,
+        "wires": [
+            [
+                "10d6027d52ec209d",
+                "9d2f1e2bfaefb407",
+                "73d9de804b564a47",
+                "276a91d0c67cbbdc",
+                "a3df906a4239f3c0"
+            ]
+        ]
+    },
+    {
+        "id": "2d5b509ecb02bb81",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "3e0be3897a645764",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "DESHABILITAR BOTON",
+        "func": "if (msg.habilitado == false){\n    msg.enabled = false;\n    return msg;\n};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "56f030139778e22e",
+                "10d6027d52ec209d",
+                "c00cfd0750280b35"
+            ]
+        ]
+    },
+    {
+        "id": "9d2f1e2bfaefb407",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "sesions",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 840,
+        "y": 360,
+        "wires": [
+            [
+                "2d5b509ecb02bb81"
+            ]
+        ]
+    },
+    {
+        "id": "276a91d0c67cbbdc",
+        "type": "change",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 805,
+        "y": 460,
+        "wires": [
+            [
+                "ce6ed51a130fc818"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "73d9de804b564a47",
+        "type": "change",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 805,
+        "y": 420,
+        "wires": [
+            [
+                "a8358d403a79c55a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "817fd6f084139c2f",
+        "type": "ui_text_input",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "label": "NUEVO DESTINATARIO",
+        "tooltip": "NUEVO DESTINATARIO",
+        "group": "d979ae5123f5e54a",
+        "order": 8,
+        "width": "10",
+        "height": "1",
+        "passthru": true,
+        "mode": "email",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 330,
+        "y": 520,
+        "wires": [
+            [
+                "ea0c45194bc74238"
+            ]
+        ]
+    },
+    {
+        "id": "1858456c89e8af8e",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 9,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "AGREGAR",
+        "tooltip": "AGREGAR",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 770,
+        "y": 520,
+        "wires": [
+            [
+                "8594e3f9f1e99c01"
+            ]
+        ]
+    },
+    {
+        "id": "1684042b1f304246",
+        "type": "ui_dropdown",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "label": "DESTINATARIOS",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "d979ae5123f5e54a",
+        "order": 10,
+        "width": "10",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 970,
+        "y": 780,
+        "wires": [
+            [
+                "1e58f9acf4a4dab0",
+                "1ba7965a08bf49bf"
+            ]
+        ]
+    },
+    {
+        "id": "4416d11cc2fc8f64",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 11,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "ELIMINAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1170,
+        "y": 840,
+        "wires": [
+            [
+                "fdbf25c9e6881baa"
+            ]
+        ]
+    },
+    {
+        "id": "674507d50f1597e2",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 160,
+        "wires": [
+            [
+                "a3df906a4239f3c0"
+            ]
+        ]
+    },
+    {
+        "id": "a3df906a4239f3c0",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "DESHABILITAR AL INICIAR",
+        "func": "msg.enabled = false;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "1858456c89e8af8e",
+                "4416d11cc2fc8f64",
+                "8bd4fc226a4de7ab"
+            ]
+        ]
+    },
+    {
+        "id": "8bd4fc226a4de7ab",
+        "type": "change",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 185,
+        "y": 520,
+        "wires": [
+            [
+                "817fd6f084139c2f",
+                "1684042b1f304246"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c00cfd0750280b35",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "HABILITAR",
+        "func": "if(msg.enabled == false){\n    msg.enabled = true;\n    msg.payload = \"\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 780,
+        "wires": [
+            [
+                "817fd6f084139c2f",
+                "1684042b1f304246",
+                "1858456c89e8af8e",
+                "4416d11cc2fc8f64",
+                "5a5fd2eec067fa9c"
+            ]
+        ]
+    },
+    {
+        "id": "8594e3f9f1e99c01",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "INSERTAR NUEVO DESTINATARIO",
+        "func": "msg.payload = {\n    \"fecha_creado\":new Date(),\n    \"destinatario\": global.get(\"nuevo_destinatario\"),\n    \"autor\":global.get(\"sesion.user\")\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 520,
+        "wires": [
+            [
+                "20667ee7b67c9a1f"
+            ]
+        ]
+    },
+    {
+        "id": "20667ee7b67c9a1f",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "destinatarios",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1260,
+        "y": 520,
+        "wires": [
+            [
+                "8bd4fc226a4de7ab",
+                "5a5fd2eec067fa9c",
+                "6e8cc6208eb997cc"
+            ]
+        ]
+    },
+    {
+        "id": "ea0c45194bc74238",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "SET DESTINATARIO",
+        "func": "global.set(\"nuevo_destinatario\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a5fd2eec067fa9c",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "SOLICITAR DESTINATARIOS",
+        "func": "msg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 900,
+        "wires": [
+            [
+                "c680c2ca28d608c2"
+            ]
+        ]
+    },
+    {
+        "id": "c680c2ca28d608c2",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "destinatarios",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 730,
+        "y": 900,
+        "wires": [
+            [
+                "56dc5373a521f43a"
+            ]
+        ]
+    },
+    {
+        "id": "1ba7965a08bf49bf",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "name": "debug 34",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -43723,8 +44510,231 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1540,
-        "y": 360,
+        "x": 1200,
+        "y": 900,
         "wires": []
+    },
+    {
+        "id": "56dc5373a521f43a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "LISTA DE DESTINATARIOS",
+        "func": "let lista_de_destinatarios = [];\n\nif(msg.payload !== null){\n\n    \n\n    msg.payload.forEach(function(destinatario) {\n        \n        //lista_de_destinatarios.push({ \"label\": destinatario.destinatario, \"value\": destinatario.destinatario });\n        lista_de_destinatarios.push(destinatario.destinatario);\n    });\n}\nmsg.payload = lista_de_destinatarios;\nmsg.options = lista_de_destinatarios;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 900,
+        "wires": [
+            [
+                "1ba7965a08bf49bf",
+                "1684042b1f304246"
+            ]
+        ]
+    },
+    {
+        "id": "1e58f9acf4a4dab0",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "CORREO A ELIMINAR",
+        "func": "global.set(\"correo_a_eliminar\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fdbf25c9e6881baa",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "ELIMINAR CORREO",
+        "func": "if(global.get(\"correo_a_eliminar\") !== null){\n    msg.payload = {\"destinatario\":global.get(\"correo_a_eliminar\")};\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 840,
+        "wires": [
+            [
+                "a5fc697b3d15ea8b",
+                "e749bfa24045decf"
+            ]
+        ]
+    },
+    {
+        "id": "a5fc697b3d15ea8b",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "destinatarios",
+        "operation": "deleteOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1570,
+        "y": 840,
+        "wires": [
+            [
+                "5a5fd2eec067fa9c"
+            ]
+        ]
+    },
+    {
+        "id": "b2b66a5f3a54ccd7",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "cambios",
+        "operation": "insertOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1900,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e749bfa24045decf",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "GUARDAR CAMBIO ELIMINACION",
+        "func": "msg.payload = {\n    \"user\": global.get(\"sesion.user\"),\n    \"start_date\": new Date(),\n    \"accion\":\"eliminar\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 720,
+        "wires": [
+            [
+                "b2b66a5f3a54ccd7"
+            ]
+        ]
+    },
+    {
+        "id": "6e8cc6208eb997cc",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "GUARDAR CAMBIO AGREGADO",
+        "func": "msg.payload = {\n    \"user\": global.get(\"sesion.user\"),\n    \"start_date\": new Date(),\n    \"accion\":\"agregar\"\n};\nreturn msg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1660,
+        "y": 680,
+        "wires": [
+            [
+                "b2b66a5f3a54ccd7"
+            ]
+        ]
+    },
+    {
+        "id": "ec226429b3a7fb51",
+        "type": "inject",
+        "z": "23adc323d53f1eaa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "c1327ad0de2a83b6"
+            ]
+        ]
+    },
+    {
+        "id": "c1327ad0de2a83b6",
+        "type": "function",
+        "z": "23adc323d53f1eaa",
+        "name": "function 237",
+        "func": "msg.payload = {\n    \"user\":\"admin\",\n    \"password\":\"password0025\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 240,
+        "wires": [
+            [
+                "5a06adc137b3a7df"
+            ]
+        ]
+    },
+    {
+        "id": "0e88f2f668ad8fd3",
+        "type": "debug",
+        "z": "23adc323d53f1eaa",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5a06adc137b3a7df",
+        "type": "mongodb4",
+        "z": "23adc323d53f1eaa",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "passwords",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 660,
+        "y": 240,
+        "wires": [
+            [
+                "0e88f2f668ad8fd3"
+            ]
+        ]
     }
 ]
