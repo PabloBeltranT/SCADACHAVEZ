@@ -1783,18 +1783,8 @@
             "065eb13ffc9d5b51",
             "0be1904a05abf0f3",
             "0cccd2699df23a6e",
-            "4236483767d70e90",
-            "b39d76de5ca5a67c",
-            "42096fae5bd8c91d",
-            "085249a5aea325eb",
-            "a787adb0ac0d4c93",
             "f5fd065fb5df8427",
             "a182314692710dab",
-            "ecb170494b386b5a",
-            "831edc9806a6e7b2",
-            "cf3f9f7ce89ea2a1",
-            "ee4b2921e03c779f",
-            "5bada5b404a71469",
             "1f410e1adb049b78",
             "e9b9695b30dedd10",
             "c0a03d0c71ab81c7",
@@ -1802,10 +1792,82 @@
             "9aa2dfe6cf374ee4",
             "f3f4f2347a0f026e"
         ],
-        "x": 74,
-        "y": 1019,
+        "x": 54,
+        "y": 1139,
         "w": 1512,
-        "h": 542
+        "h": 382
+    },
+    {
+        "id": "bee26f6d655b0efb",
+        "type": "group",
+        "z": "d44a49af0ed5916e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5f5241874522aa26",
+            "10d6027d52ec209d",
+            "a8358d403a79c55a",
+            "ce6ed51a130fc818",
+            "95cfe99593882b64",
+            "2ddb20e584fa1b91",
+            "b487e906e54b463a",
+            "267fc782dcc6fc52",
+            "56f030139778e22e",
+            "94babf91468f6ad5",
+            "9c088d57896486e3",
+            "2d5b509ecb02bb81",
+            "3e0be3897a645764",
+            "9d2f1e2bfaefb407",
+            "276a91d0c67cbbdc",
+            "73d9de804b564a47",
+            "817fd6f084139c2f",
+            "1858456c89e8af8e",
+            "1684042b1f304246",
+            "4416d11cc2fc8f64",
+            "674507d50f1597e2",
+            "a3df906a4239f3c0",
+            "8bd4fc226a4de7ab",
+            "c00cfd0750280b35",
+            "8594e3f9f1e99c01",
+            "20667ee7b67c9a1f",
+            "ea0c45194bc74238",
+            "5a5fd2eec067fa9c",
+            "c680c2ca28d608c2",
+            "1ba7965a08bf49bf",
+            "56dc5373a521f43a",
+            "1e58f9acf4a4dab0",
+            "fdbf25c9e6881baa",
+            "a5fc697b3d15ea8b",
+            "b2b66a5f3a54ccd7",
+            "e749bfa24045decf",
+            "6e8cc6208eb997cc",
+            "cf8187ec369beb6c",
+            "91843f697bfad30a",
+            "4d33ee10d346f9a9",
+            "3cb4fa21a817f2ab",
+            "d57349fa66559271",
+            "96839af7dc991430",
+            "ec78f4d12f4e6690",
+            "bff9447e94dd1c9e",
+            "dd0eb97b131de940",
+            "0cd55ca59808eebb",
+            "7a7bd8e688e01149",
+            "f42127e5327b55a2",
+            "7f9e89445925094c",
+            "e6aa277c530b37d9",
+            "61b7cbb6fe64bfbf"
+        ],
+        "x": 54,
+        "y": 79,
+        "w": 1852,
+        "h": 722
     },
     {
         "id": "0785e116879ba187",
@@ -2847,7 +2909,7 @@
     {
         "id": "02861383d1e7bb94",
         "type": "ui_tab",
-        "name": "CORREOS",
+        "name": "CONFIGURACION",
         "icon": "dashboard",
         "order": 13,
         "disabled": false,
@@ -2860,7 +2922,7 @@
         "tab": "02861383d1e7bb94",
         "order": 1,
         "disp": true,
-        "width": "14",
+        "width": "16",
         "collapse": false,
         "className": "view-correos"
     },
@@ -2870,12 +2932,192 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 7,
-        "width": "12",
+        "order": 10,
+        "width": "16",
         "height": "1"
     },
     {
         "id": "81956bd8faef42ea",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 4,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "b136bc5c84b52ee6",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 9,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "ebb4f7761fae90fe",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 22,
+        "width": "16",
+        "height": "1"
+    },
+    {
+        "id": "c8a6f4c0d5cac662",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "31b602a69e3d9cf8",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b65c1b6fb4a9b184",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 39,
+        "width": "16",
+        "height": "1"
+    },
+    {
+        "id": "d040678a38e4f0bc",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dc83dc87f1de534c",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "044f8de2bf15536b",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f648d7f218ae76db",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "32619c779d3743e7",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8cb9424bf60e8aac",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6584ad2b8b029d9d",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1e79de87f34f5280",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 32,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6d6fbe3c08d725b7",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 33,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "50b0296052fc5fae",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "353354555f3ef808",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "98be72fa85e1a42d",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 35,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d901badbbe9b8d5",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4b649427ae1da9e9",
         "type": "ui_spacer",
         "z": "d44a49af0ed5916e",
         "name": "spacer",
@@ -2885,24 +3127,44 @@
         "height": 1
     },
     {
-        "id": "b136bc5c84b52ee6",
+        "id": "cef93f6adfe1f31e",
         "type": "ui_spacer",
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 6,
+        "order": 14,
         "width": 1,
         "height": 1
     },
     {
-        "id": "ebb4f7761fae90fe",
+        "id": "b5b2e3d2e6364735",
         "type": "ui_spacer",
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 12,
-        "width": "14",
-        "height": "1"
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "531e45c53915e130",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a2692690b718ba7a",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 26,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "a1fefccddd7b8916",
@@ -24475,7 +24737,7 @@
         "order": 5,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .view-head-true{\n        color:#FFFFFF !important;\n        background: green !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n        //marging: 20px;\n    }\n    .pad-box-header{\n        color:RED !important;\n        background: white !important;\n        //padding: 10px;\n        margin: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n    .automan-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .automan-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n\n    .alarma-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .alarma-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n    .alarma-true{\n        color: white !important;\n        background-color:red !important;\n        border: 1px solid #000;\n    }\n    .alarma-false{\n        color: white !important;\n        background-color:green !important;\n        border: 1px solid #000;\n    }\n    .view-correos{\n        color:#01010f !important;\n        background: #ffffff !important;\n        border: 1px solid #3a3a3a;\n    }\n    .bad-data{\n    color:#ff1100 !important;\n    }\n    .good-data{\n    color:#0b7507 !important;\n    }\n\n</style>",
+        "format": "<style>\n    .view {\n        border: 1px solid #000;\n    }\n    .view-head{\n        color:#3a3a3a !important;\n        background: #d3d3d3 !important;\n        border: 1px solid #3a3a3a;\n    }\n    .view-head-true{\n        color:#FFFFFF !important;\n        background: green !important;\n        border: 1px solid #3a3a3a;\n    }\n    .pad-box{\n        color:RED !important;\n        padding: 5px;\n        \n    }\n    .pad-box-operador-control{\n        color:RED !important;\n        padding: 5px 5px 15px 5px;\n    }\n    .pad-box-maquina{\n        padding: 10px;\n        //marging: 20px;\n    }\n    .pad-box-header{\n        color:RED !important;\n        background: white !important;\n        //padding: 10px;\n        margin: 10px;\n    }\n    .view-warning{\n        color:white !important;\n        background: orange !important;\n        border: 1px solid orange;\n    }\n    .test1{\n        background-color:green !important;\n    }\n    .maquina-lista{\n        color:white !important;\n        background-color:green !important;\n    }\n    .maquina-no-lista{\n        color:white !important;\n        background-color:red !important;\n    }\n    .automan-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .automan-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n\n    .alarma-enable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:green !important;\n    }\n    .alarma-disable {\n        color: white !important;\n        border: 1px solid #000;\n        background-color:red !important;\n    }\n    .alarma-true{\n        color: white !important;\n        background-color:red !important;\n        border: 1px solid #000;\n    }\n    .alarma-false{\n        color: white !important;\n        background-color:green !important;\n        border: 1px solid #000;\n    }\n    .view-correos{\n        color:#3a3a3a !important;\n        background: #ffffff !important;\n        border: 1px solid #3a3a3a;\n    }\n    .bad-data{\n    color:#ff1100 !important;\n    }\n    .good-data{\n    color:#0b7507 !important;\n    }\n    .config-title{\n    color:#ffffff !important;\n    background: #0037ff !important;\n    border: 0px solid #3a3a3a;\n    }\n    .config-title-error{\n    color:#ffffff !important;\n    background: #ff4d00 !important;\n    border: 0px solid #3a3a3a;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -43155,8 +43417,8 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 1290,
-        "y": 1360,
+        "x": 1270,
+        "y": 1480,
         "wires": []
     },
     {
@@ -43181,8 +43443,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 200,
-        "y": 1180,
+        "x": 180,
+        "y": 1300,
         "wires": [
             [
                 "e9b9695b30dedd10"
@@ -43204,8 +43466,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1340,
-        "y": 1180,
+        "x": 1320,
+        "y": 1300,
         "wires": []
     },
     {
@@ -43221,8 +43483,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 640,
-        "y": 1180,
+        "x": 620,
+        "y": 1300,
         "wires": [
             [
                 "c0a03d0c71ab81c7"
@@ -43242,8 +43504,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 810,
-        "y": 1360,
+        "x": 790,
+        "y": 1480,
         "wires": [
             [
                 "0c7f56a01cf310f2"
@@ -43263,8 +43525,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 905,
-        "y": 1360,
+        "x": 885,
+        "y": 1480,
         "wires": [
             [
                 "b850a5da87eaf356"
@@ -43285,8 +43547,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1360,
+        "x": 530,
+        "y": 1480,
         "wires": [
             [
                 "f7794ea79aa31038"
@@ -43315,8 +43577,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 1360,
+        "x": 210,
+        "y": 1480,
         "wires": [
             [
                 "bf26c015edac0b90"
@@ -43336,8 +43598,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1060,
-        "y": 1360,
+        "x": 1040,
+        "y": 1480,
         "wires": [
             [
                 "cd2485a1515e12c3",
@@ -43363,8 +43625,8 @@
         "font": "",
         "fontSize": "24",
         "color": "#0000a0",
-        "x": 320,
-        "y": 1320,
+        "x": 300,
+        "y": 1440,
         "wires": []
     },
     {
@@ -43380,8 +43642,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
-        "y": 1180,
+        "x": 1060,
+        "y": 1300,
         "wires": [
             [
                 "4a0a85e0386527d5"
@@ -43395,8 +43657,8 @@
         "g": "60077c2175f99f27",
         "name": "CREDENCIALES",
         "info": "26079e41910bcde04be636fbeecc9045379882b5ad3fe7f70b762436c6d98055",
-        "x": 1480,
-        "y": 1100,
+        "x": 1460,
+        "y": 1220,
         "wires": []
     },
     {
@@ -43421,134 +43683,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 250,
-        "y": 1100,
+        "x": 230,
+        "y": 1220,
         "wires": [
             [
                 "f5fd065fb5df8427"
-            ]
-        ]
-    },
-    {
-        "id": "4236483767d70e90",
-        "type": "mongodb4",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "clientNode": "23144031a647c69a",
-        "mode": "collection",
-        "collection": "REGISTRO_CEMENTO",
-        "operation": "find",
-        "output": "toArray",
-        "maxTimeMS": "0",
-        "handleDocId": false,
-        "name": "",
-        "x": 790,
-        "y": 1460,
-        "wires": [
-            [
-                "ecb170494b386b5a"
-            ]
-        ]
-    },
-    {
-        "id": "b39d76de5ca5a67c",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "OBTENER REGISTROS DIARIOS",
-        "func": "// Obtener la fecha exacta de hace 30 días\nlet registros_hoy = new Date();\nregistros_hoy.setDate(registros_hoy.getDate()-1);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": registros_hoy }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 1520,
-        "wires": [
-            [
-                "ee4b2921e03c779f"
-            ]
-        ]
-    },
-    {
-        "id": "42096fae5bd8c91d",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "OBTENER REGISTROS SEMANALES",
-        "func": "// Obtener la fecha exacta de hace 30 días\nlet hace_una_semana = new Date();\nhace_una_semana.setDate(hace_una_semana.getDate()-7);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": hace_una_semana }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 530,
-        "y": 1460,
-        "wires": [
-            [
-                "4236483767d70e90"
-            ]
-        ]
-    },
-    {
-        "id": "085249a5aea325eb",
-        "type": "inject",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "EVERY DAY 16:00",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "00 16 * * *",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 240,
-        "y": 1520,
-        "wires": [
-            [
-                "b39d76de5ca5a67c"
-            ]
-        ]
-    },
-    {
-        "id": "a787adb0ac0d4c93",
-        "type": "inject",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "SATURDAY--16:00",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "00 17 * * 6",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 240,
-        "y": 1460,
-        "wires": [
-            [
-                "42096fae5bd8c91d"
             ]
         ]
     },
@@ -43565,8 +43704,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
-        "y": 1100,
+        "x": 510,
+        "y": 1220,
         "wires": [
             [
                 "fcefbbf8cc77f81f"
@@ -43595,103 +43734,11 @@
         "topic": "",
         "payload": "false",
         "payloadType": "bool",
-        "x": 240,
-        "y": 1140,
+        "x": 220,
+        "y": 1260,
         "wires": [
             [
                 "f5fd065fb5df8427"
-            ]
-        ]
-    },
-    {
-        "id": "ecb170494b386b5a",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "PLANTILLA REPORTE SEMANAL",
-        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos semanal de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Semanal de Consumo de Cemento\";\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1040,
-        "y": 1460,
-        "wires": [
-            [
-                "831edc9806a6e7b2"
-            ]
-        ]
-    },
-    {
-        "id": "831edc9806a6e7b2",
-        "type": "e-mail",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": true,
-        "token": "oauth2Response.access_token",
-        "secure": true,
-        "tls": true,
-        "name": "noreplyscadachavez@gmail.com",
-        "dname": "",
-        "x": 1400,
-        "y": 1460,
-        "wires": []
-    },
-    {
-        "id": "cf3f9f7ce89ea2a1",
-        "type": "comment",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "",
-        "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
-        "x": 1320,
-        "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "ee4b2921e03c779f",
-        "type": "mongodb4",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "clientNode": "23144031a647c69a",
-        "mode": "collection",
-        "collection": "REGISTRO_CEMENTO",
-        "operation": "find",
-        "output": "toArray",
-        "maxTimeMS": "0",
-        "handleDocId": false,
-        "name": "",
-        "x": 790,
-        "y": 1520,
-        "wires": [
-            [
-                "5bada5b404a71469"
-            ]
-        ]
-    },
-    {
-        "id": "5bada5b404a71469",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "60077c2175f99f27",
-        "name": "PLANTILLA REPORTE DIARIO",
-        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos diario de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Diario de Consumo de Cemento\";\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1030,
-        "y": 1520,
-        "wires": [
-            [
-                "831edc9806a6e7b2"
             ]
         ]
     },
@@ -43717,8 +43764,8 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 650,
-        "y": 1240,
+        "x": 630,
+        "y": 1360,
         "wires": [
             [
                 "9918a5c4b28b6b1a"
@@ -43738,8 +43785,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 1180,
+        "x": 390,
+        "y": 1300,
         "wires": [
             [
                 "fcefbbf8cc77f81f"
@@ -43764,8 +43811,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 800,
-        "y": 1180,
+        "x": 780,
+        "y": 1300,
         "wires": [
             [
                 "065eb13ffc9d5b51"
@@ -43785,8 +43832,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 1240,
+        "x": 790,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -43798,8 +43845,8 @@
         "g": "60077c2175f99f27",
         "name": "REGISTROS CEMENTO",
         "info": "",
-        "x": 230,
-        "y": 1060,
+        "x": 210,
+        "y": 1180,
         "wires": []
     },
     {
@@ -43815,17 +43862,18 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1260,
-        "y": 1300,
+        "x": 1240,
+        "y": 1420,
         "wires": []
     },
     {
         "id": "5f5241874522aa26",
         "type": "ui_button",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 5,
+        "order": 8,
         "width": "3",
         "height": "1",
         "passthru": false,
@@ -43839,8 +43887,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 450,
-        "y": 360,
+        "x": 370,
+        "y": 240,
         "wires": [
             [
                 "9c088d57896486e3"
@@ -43851,9 +43899,10 @@
         "id": "10d6027d52ec209d",
         "type": "ui_button",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 4,
+        "order": 7,
         "width": "3",
         "height": "1",
         "passthru": false,
@@ -43868,7 +43917,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 450,
-        "y": 280,
+        "y": 160,
         "wires": [
             [
                 "b487e906e54b463a"
@@ -43879,11 +43928,12 @@
         "id": "a8358d403a79c55a",
         "type": "ui_text_input",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "label": "USUARIO",
         "tooltip": "USUARIO",
         "group": "d979ae5123f5e54a",
-        "order": 2,
+        "order": 5,
         "width": "3",
         "height": "1",
         "passthru": true,
@@ -43893,8 +43943,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 910,
-        "y": 420,
+        "x": 830,
+        "y": 300,
         "wires": [
             [
                 "2ddb20e584fa1b91"
@@ -43905,11 +43955,12 @@
         "id": "ce6ed51a130fc818",
         "type": "ui_text_input",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "label": "CONTRASEÑA",
         "tooltip": "CONTRASEÑA",
         "group": "d979ae5123f5e54a",
-        "order": 3,
+        "order": 6,
         "width": "3",
         "height": "1",
         "passthru": true,
@@ -43919,8 +43970,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 920,
-        "y": 460,
+        "x": 840,
+        "y": 340,
         "wires": [
             [
                 "95cfe99593882b64"
@@ -43931,6 +43982,7 @@
         "id": "95cfe99593882b64",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "SET CONTRASENA",
         "func": "global.set(\"usuarios.password\", msg.payload);\nreturn msg;",
         "outputs": 1,
@@ -43939,8 +43991,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 460,
+        "x": 1040,
+        "y": 340,
         "wires": [
             []
         ]
@@ -43949,6 +44001,7 @@
         "id": "2ddb20e584fa1b91",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "SET USUARIO",
         "func": "global.set(\"usuarios.user\", msg.payload);\nmsg.payload = global.get(\"usuarios.user\");\nreturn msg;",
         "outputs": 1,
@@ -43957,8 +44010,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 420,
+        "x": 1020,
+        "y": 300,
         "wires": [
             []
         ]
@@ -43967,6 +44020,7 @@
         "id": "b487e906e54b463a",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "BUSCAR USUARIO",
         "func": "msg.payload = {\n    \"user\":global.get(\"usuarios.user\"),\n};\n\nreturn msg;",
         "outputs": 1,
@@ -43976,7 +44030,7 @@
         "finalize": "",
         "libs": [],
         "x": 660,
-        "y": 280,
+        "y": 160,
         "wires": [
             [
                 "267fc782dcc6fc52"
@@ -43987,6 +44041,7 @@
         "id": "267fc782dcc6fc52",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "clientNode": "60c24202bf4cb9dc",
         "mode": "collection",
         "collection": "passwords",
@@ -43996,7 +44051,7 @@
         "handleDocId": false,
         "name": "",
         "x": 860,
-        "y": 280,
+        "y": 160,
         "wires": [
             [
                 "94babf91468f6ad5"
@@ -44007,6 +44062,7 @@
         "id": "56f030139778e22e",
         "type": "debug",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "debug 32",
         "active": false,
         "tosidebar": true,
@@ -44016,14 +44072,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 840,
-        "y": 240,
+        "x": 860,
+        "y": 120,
         "wires": []
     },
     {
         "id": "94babf91468f6ad5",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "INICIAR SESION",
         "func": "\nif(msg.payload !== null && global.get(\"usuarios.password\") == msg.payload.password){\n    // registramos un nuevo inicio de sesion \n    global.set(\"sesion\",{\n        \"user\": msg.payload.user,\n        \"password\": msg.payload.password,\n        \"start_date\": new Date(),\n        \"activa\":true,\n    });\n\n    global.set(\"usuarios.user\",\"\");\n    global.set(\"usuarios.password\", \"\");\n    msg.habilitado = false;\n    msg.topic = \"true\";\n    return msg;\n}else{\n    msg.topic = \"false\";\n    return msg;\n};\n",
         "outputs": 1,
@@ -44033,10 +44090,12 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 280,
+        "y": 160,
         "wires": [
             [
-                "3e0be3897a645764"
+                "3e0be3897a645764",
+                "7f9e89445925094c",
+                "e6aa277c530b37d9"
             ]
         ]
     },
@@ -44044,6 +44103,7 @@
         "id": "9c088d57896486e3",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "CERRAR SESION",
         "func": "global.set(\"sesion.activa\",false);\nglobal.set(\"sesion.stop_date\", new Date());\nmsg.enabled = true;\nmsg.payload = global.get(\"sesion\");\nreturn msg;",
         "outputs": 1,
@@ -44052,15 +44112,16 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 360,
+        "x": 570,
+        "y": 240,
         "wires": [
             [
                 "10d6027d52ec209d",
                 "9d2f1e2bfaefb407",
                 "73d9de804b564a47",
                 "276a91d0c67cbbdc",
-                "a3df906a4239f3c0"
+                "a3df906a4239f3c0",
+                "61b7cbb6fe64bfbf"
             ]
         ]
     },
@@ -44068,6 +44129,7 @@
         "id": "2d5b509ecb02bb81",
         "type": "debug",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "debug 33",
         "active": false,
         "tosidebar": true,
@@ -44076,14 +44138,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1220,
-        "y": 360,
+        "x": 900,
+        "y": 240,
         "wires": []
     },
     {
         "id": "3e0be3897a645764",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "DESHABILITAR BOTON",
         "func": "if (msg.habilitado == false){\n    msg.enabled = false;\n    return msg;\n};\n",
         "outputs": 1,
@@ -44093,7 +44156,7 @@
         "finalize": "",
         "libs": [],
         "x": 210,
-        "y": 280,
+        "y": 160,
         "wires": [
             [
                 "56f030139778e22e",
@@ -44106,6 +44169,7 @@
         "id": "9d2f1e2bfaefb407",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "clientNode": "60c24202bf4cb9dc",
         "mode": "collection",
         "collection": "sesions",
@@ -44114,8 +44178,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 840,
-        "y": 360,
+        "x": 760,
+        "y": 240,
         "wires": [
             [
                 "2d5b509ecb02bb81"
@@ -44126,6 +44190,7 @@
         "id": "276a91d0c67cbbdc",
         "type": "change",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "rules": [
             {
@@ -44141,8 +44206,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 805,
-        "y": 460,
+        "x": 725,
+        "y": 340,
         "wires": [
             [
                 "ce6ed51a130fc818"
@@ -44154,6 +44219,7 @@
         "id": "73d9de804b564a47",
         "type": "change",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "rules": [
             {
@@ -44169,8 +44235,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 805,
-        "y": 420,
+        "x": 725,
+        "y": 300,
         "wires": [
             [
                 "a8358d403a79c55a"
@@ -44182,11 +44248,12 @@
         "id": "817fd6f084139c2f",
         "type": "ui_text_input",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "label": "NUEVO DESTINATARIO",
         "tooltip": "NUEVO DESTINATARIO",
         "group": "d979ae5123f5e54a",
-        "order": 8,
+        "order": 15,
         "width": "10",
         "height": "1",
         "passthru": true,
@@ -44196,8 +44263,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 330,
-        "y": 520,
+        "x": 250,
+        "y": 400,
         "wires": [
             [
                 "ea0c45194bc74238"
@@ -44208,9 +44275,10 @@
         "id": "1858456c89e8af8e",
         "type": "ui_button",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 9,
+        "order": 16,
         "width": "4",
         "height": "1",
         "passthru": false,
@@ -44224,8 +44292,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 770,
-        "y": 520,
+        "x": 690,
+        "y": 400,
         "wires": [
             [
                 "8594e3f9f1e99c01"
@@ -44236,12 +44304,13 @@
         "id": "1684042b1f304246",
         "type": "ui_dropdown",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "label": "DESTINATARIOS",
         "tooltip": "",
         "place": "Select option",
         "group": "d979ae5123f5e54a",
-        "order": 10,
+        "order": 19,
         "width": "10",
         "height": "1",
         "passthru": true,
@@ -44257,8 +44326,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 970,
-        "y": 780,
+        "x": 1110,
+        "y": 580,
         "wires": [
             [
                 "1e58f9acf4a4dab0",
@@ -44270,9 +44339,10 @@
         "id": "4416d11cc2fc8f64",
         "type": "ui_button",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 11,
+        "order": 20,
         "width": "4",
         "height": "1",
         "passthru": false,
@@ -44286,8 +44356,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1170,
-        "y": 840,
+        "x": 1110,
+        "y": 480,
         "wires": [
             [
                 "fdbf25c9e6881baa"
@@ -44298,6 +44368,7 @@
         "id": "674507d50f1597e2",
         "type": "inject",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "props": [
             {
@@ -44315,8 +44386,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 310,
-        "y": 160,
+        "x": 170,
+        "y": 320,
         "wires": [
             [
                 "a3df906a4239f3c0"
@@ -44327,6 +44398,7 @@
         "id": "a3df906a4239f3c0",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "DESHABILITAR AL INICIAR",
         "func": "msg.enabled = false;\nreturn msg;",
         "outputs": 1,
@@ -44335,13 +44407,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
-        "y": 160,
+        "x": 400,
+        "y": 320,
         "wires": [
             [
                 "1858456c89e8af8e",
                 "4416d11cc2fc8f64",
-                "8bd4fc226a4de7ab"
+                "8bd4fc226a4de7ab",
+                "4d33ee10d346f9a9",
+                "cf8187ec369beb6c",
+                "91843f697bfad30a",
+                "d57349fa66559271",
+                "ec78f4d12f4e6690"
             ]
         ]
     },
@@ -44349,6 +44426,7 @@
         "id": "8bd4fc226a4de7ab",
         "type": "change",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "rules": [
             {
@@ -44364,8 +44442,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 185,
-        "y": 520,
+        "x": 105,
+        "y": 400,
         "wires": [
             [
                 "817fd6f084139c2f",
@@ -44378,6 +44456,7 @@
         "id": "c00cfd0750280b35",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "HABILITAR",
         "func": "if(msg.enabled == false){\n    msg.enabled = true;\n    msg.payload = \"\";\n    return msg;\n}\n",
         "outputs": 1,
@@ -44386,15 +44465,19 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 290,
-        "y": 780,
+        "x": 150,
+        "y": 580,
         "wires": [
             [
                 "817fd6f084139c2f",
                 "1684042b1f304246",
                 "1858456c89e8af8e",
                 "4416d11cc2fc8f64",
-                "5a5fd2eec067fa9c"
+                "5a5fd2eec067fa9c",
+                "4d33ee10d346f9a9",
+                "cf8187ec369beb6c",
+                "91843f697bfad30a",
+                "d57349fa66559271"
             ]
         ]
     },
@@ -44402,6 +44485,7 @@
         "id": "8594e3f9f1e99c01",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "INSERTAR NUEVO DESTINATARIO",
         "func": "msg.payload = {\n    \"fecha_creado\":new Date(),\n    \"destinatario\": global.get(\"nuevo_destinatario\"),\n    \"autor\":global.get(\"sesion.user\")\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -44410,8 +44494,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 520,
+        "x": 930,
+        "y": 400,
         "wires": [
             [
                 "20667ee7b67c9a1f"
@@ -44422,6 +44506,7 @@
         "id": "20667ee7b67c9a1f",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "clientNode": "60c24202bf4cb9dc",
         "mode": "collection",
         "collection": "destinatarios",
@@ -44430,8 +44515,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1260,
-        "y": 520,
+        "x": 1180,
+        "y": 400,
         "wires": [
             [
                 "8bd4fc226a4de7ab",
@@ -44444,6 +44529,7 @@
         "id": "ea0c45194bc74238",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "SET DESTINATARIO",
         "func": "global.set(\"nuevo_destinatario\", msg.payload);\nreturn msg;",
         "outputs": 1,
@@ -44452,8 +44538,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 520,
+        "x": 480,
+        "y": 400,
         "wires": [
             []
         ]
@@ -44462,6 +44548,7 @@
         "id": "5a5fd2eec067fa9c",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "SOLICITAR DESTINATARIOS",
         "func": "msg.payload = {};\nreturn msg;",
         "outputs": 1,
@@ -44470,8 +44557,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 900,
+        "x": 430,
+        "y": 580,
         "wires": [
             [
                 "c680c2ca28d608c2"
@@ -44482,6 +44569,7 @@
         "id": "c680c2ca28d608c2",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "clientNode": "60c24202bf4cb9dc",
         "mode": "collection",
         "collection": "destinatarios",
@@ -44490,8 +44578,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 730,
-        "y": 900,
+        "x": 650,
+        "y": 580,
         "wires": [
             [
                 "56dc5373a521f43a"
@@ -44502,22 +44590,24 @@
         "id": "1ba7965a08bf49bf",
         "type": "debug",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "debug 34",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1200,
-        "y": 900,
+        "x": 1300,
+        "y": 620,
         "wires": []
     },
     {
         "id": "56dc5373a521f43a",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "LISTA DE DESTINATARIOS",
         "func": "let lista_de_destinatarios = [];\n\nif(msg.payload !== null){\n\n    \n\n    msg.payload.forEach(function(destinatario) {\n        \n        //lista_de_destinatarios.push({ \"label\": destinatario.destinatario, \"value\": destinatario.destinatario });\n        lista_de_destinatarios.push(destinatario.destinatario);\n    });\n}\nmsg.payload = lista_de_destinatarios;\nmsg.options = lista_de_destinatarios;\nreturn msg;",
         "outputs": 1,
@@ -44526,12 +44616,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 940,
-        "y": 900,
+        "x": 860,
+        "y": 580,
         "wires": [
             [
                 "1ba7965a08bf49bf",
-                "1684042b1f304246"
+                "1684042b1f304246",
+                "cf8187ec369beb6c"
             ]
         ]
     },
@@ -44539,6 +44630,7 @@
         "id": "1e58f9acf4a4dab0",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "CORREO A ELIMINAR",
         "func": "global.set(\"correo_a_eliminar\", msg.payload);\nreturn msg;",
         "outputs": 1,
@@ -44547,8 +44639,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1210,
-        "y": 780,
+        "x": 1350,
+        "y": 580,
         "wires": [
             []
         ]
@@ -44557,6 +44649,7 @@
         "id": "fdbf25c9e6881baa",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "ELIMINAR CORREO",
         "func": "if(global.get(\"correo_a_eliminar\") !== null){\n    msg.payload = {\"destinatario\":global.get(\"correo_a_eliminar\")};\n}\nreturn msg;",
         "outputs": 1,
@@ -44565,8 +44658,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
-        "y": 840,
+        "x": 1300,
+        "y": 480,
         "wires": [
             [
                 "a5fc697b3d15ea8b",
@@ -44578,6 +44671,7 @@
         "id": "a5fc697b3d15ea8b",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "clientNode": "60c24202bf4cb9dc",
         "mode": "collection",
         "collection": "destinatarios",
@@ -44586,8 +44680,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1570,
-        "y": 840,
+        "x": 1510,
+        "y": 520,
         "wires": [
             [
                 "5a5fd2eec067fa9c"
@@ -44598,6 +44692,7 @@
         "id": "b2b66a5f3a54ccd7",
         "type": "mongodb4",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "clientNode": "60c24202bf4cb9dc",
         "mode": "collection",
         "collection": "cambios",
@@ -44606,8 +44701,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1900,
-        "y": 720,
+        "x": 1820,
+        "y": 480,
         "wires": [
             []
         ]
@@ -44616,16 +44711,17 @@
         "id": "e749bfa24045decf",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "GUARDAR CAMBIO ELIMINACION",
-        "func": "msg.payload = {\n    \"user\": global.get(\"sesion.user\"),\n    \"start_date\": new Date(),\n    \"accion\":\"eliminar\"\n};\nreturn msg;",
+        "func": "msg.payload = {\n    \"user\": global.get(\"sesion.user\"),\n    \"start_date\": new Date(),\n    \"correo\":global.get(\"correo_a_eliminar\"),\n    \"accion\":\"eliminar\"\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1670,
-        "y": 720,
+        "x": 1590,
+        "y": 480,
         "wires": [
             [
                 "b2b66a5f3a54ccd7"
@@ -44636,6 +44732,7 @@
         "id": "6e8cc6208eb997cc",
         "type": "function",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "GUARDAR CAMBIO AGREGADO",
         "func": "msg.payload = {\n    \"user\": global.get(\"sesion.user\"),\n    \"start_date\": new Date(),\n    \"accion\":\"agregar\"\n};\nreturn msg;\nreturn msg;",
         "outputs": 1,
@@ -44644,13 +44741,577 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1660,
-        "y": 680,
+        "x": 1580,
+        "y": 440,
         "wires": [
             [
                 "b2b66a5f3a54ccd7"
             ]
         ]
+    },
+    {
+        "id": "4236483767d70e90",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 790,
+        "y": 980,
+        "wires": [
+            [
+                "ecb170494b386b5a"
+            ]
+        ]
+    },
+    {
+        "id": "b39d76de5ca5a67c",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "OBTENER REGISTROS DIARIOS",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet registros_hoy = new Date();\nregistros_hoy.setDate(registros_hoy.getDate()-1);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": registros_hoy }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1040,
+        "wires": [
+            [
+                "ee4b2921e03c779f"
+            ]
+        ]
+    },
+    {
+        "id": "42096fae5bd8c91d",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "OBTENER REGISTROS SEMANALES",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet hace_una_semana = new Date();\nhace_una_semana.setDate(hace_una_semana.getDate()-7);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": hace_una_semana }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 } // Ordena del más reciente al más antiguo\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 980,
+        "wires": [
+            [
+                "4236483767d70e90"
+            ]
+        ]
+    },
+    {
+        "id": "085249a5aea325eb",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "EVERY DAY 16:00",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 16 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 1040,
+        "wires": [
+            [
+                "b39d76de5ca5a67c"
+            ]
+        ]
+    },
+    {
+        "id": "a787adb0ac0d4c93",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "SATURDAY--16:00",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 17 * * 6",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 980,
+        "wires": [
+            [
+                "42096fae5bd8c91d"
+            ]
+        ]
+    },
+    {
+        "id": "ecb170494b386b5a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "PLANTILLA REPORTE SEMANAL",
+        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos semanal de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Semanal de Consumo de Cemento\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 980,
+        "wires": [
+            [
+                "831edc9806a6e7b2"
+            ]
+        ]
+    },
+    {
+        "id": "831edc9806a6e7b2",
+        "type": "e-mail",
+        "z": "d44a49af0ed5916e",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "noreplyscadachavez@gmail.com",
+        "dname": "",
+        "x": 1320,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "ee4b2921e03c779f",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 790,
+        "y": 1040,
+        "wires": [
+            [
+                "5bada5b404a71469"
+            ]
+        ]
+    },
+    {
+        "id": "5bada5b404a71469",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "PLANTILLA REPORTE DIARIO",
+        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos diario de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Diario de Consumo de Cemento\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 1040,
+        "wires": [
+            [
+                "831edc9806a6e7b2"
+            ]
+        ]
+    },
+    {
+        "id": "cf3f9f7ce89ea2a1",
+        "type": "comment",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
+        "x": 1240,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "91843f697bfad30a",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 31,
+        "width": "14",
+        "height": "1",
+        "passthru": false,
+        "label": "ENVIAR REPORTE MOVIMIENTOS CORREOS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1380,
+        "y": 680,
+        "wires": [
+            [
+                "3cb4fa21a817f2ab"
+            ]
+        ]
+    },
+    {
+        "id": "4d33ee10d346f9a9",
+        "type": "ui_date_picker",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "",
+        "label": "",
+        "group": "d979ae5123f5e54a",
+        "order": 27,
+        "width": "7",
+        "height": "1",
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 630,
+        "y": 680,
+        "wires": [
+            [
+                "dd0eb97b131de940"
+            ]
+        ]
+    },
+    {
+        "id": "cf8187ec369beb6c",
+        "type": "ui_dropdown",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "",
+        "label": "ENVIAR A:",
+        "tooltip": "ENVIAR A:",
+        "place": "Select option",
+        "group": "d979ae5123f5e54a",
+        "order": 28,
+        "width": "7",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1090,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3cb4fa21a817f2ab",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "function 242",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d57349fa66559271",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 34,
+        "width": "14",
+        "height": "1",
+        "passthru": false,
+        "label": "ENVIAR REPORTE MOVIMIENTOS SESIONES",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1380,
+        "y": 720,
+        "wires": [
+            [
+                "96839af7dc991430"
+            ]
+        ]
+    },
+    {
+        "id": "96839af7dc991430",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "function 243",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec78f4d12f4e6690",
+        "type": "ui_button",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "",
+        "group": "d979ae5123f5e54a",
+        "order": 37,
+        "width": "14",
+        "height": "1",
+        "passthru": false,
+        "label": "ENVIAR REPORTE MOVIMIENTOS RECETAS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#3a3a3a",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1380,
+        "y": 760,
+        "wires": [
+            [
+                "bff9447e94dd1c9e"
+            ]
+        ]
+    },
+    {
+        "id": "bff9447e94dd1c9e",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "function 244",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd0eb97b131de940",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "FECHA DE REGISTROS",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0cd55ca59808eebb",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "group": "d979ae5123f5e54a",
+        "order": 12,
+        "width": "14",
+        "height": "1",
+        "name": "",
+        "label": "AGREGAR / ELIMINAR DESTINATARIOS.",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "config-title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 270,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "7a7bd8e688e01149",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "group": "d979ae5123f5e54a",
+        "order": 24,
+        "width": "14",
+        "height": "1",
+        "name": "",
+        "label": "ENVIAR REPORTES DE MOVIMIENTOS.",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "config-title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 260,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "f42127e5327b55a2",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "group": "d979ae5123f5e54a",
+        "order": 2,
+        "width": "14",
+        "height": "1",
+        "name": "",
+        "label": "PARA HABILITAR CONFIGURACION INICIE SESION.",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "config-title",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1560,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7f9e89445925094c",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "debug 35",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e6aa277c530b37d9",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "ERROR MSG",
+        "func": "if(msg.topic == \"false\"){\n    msg.className = \"config-title-error\";\n    msg.topic = \"\";\n    msg.payload = \"SESION FALLIDA INTENTE DE NUEVO.\";\n    return msg;\n};\nif(msg.topic == \"true\"){\n    msg.className = \"config-title\";\n    msg.topic = \"\";\n    msg.payload = \"SESION INICIADA.\";\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 160,
+        "wires": [
+            [
+                "f42127e5327b55a2"
+            ]
+        ]
+    },
+    {
+        "id": "61b7cbb6fe64bfbf",
+        "type": "change",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1095,
+        "y": 220,
+        "wires": [
+            [
+                "f42127e5327b55a2"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "ec226429b3a7fb51",
