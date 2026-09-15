@@ -45467,7 +45467,7 @@
         "type": "function",
         "z": "23adc323d53f1eaa",
         "name": "function 237",
-        "func": "msg.payload = {\n    \"user\":\"admin\",\n    \"password\":\"password0025\"\n};\nreturn msg;",
+        "func": "msg.payload = {\n    \"user\":\"produccion\",\n    \"password\":\"produccion0025\"\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
