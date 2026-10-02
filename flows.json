@@ -1721,13 +1721,12 @@
             "9194d0c9245559b3",
             "8bdfcd8ef35b7b9d",
             "64e91c0f360bc6fd",
-            "db4c30f9b1e8bdfe",
-            "cc5da3f3d61589bd"
+            "db4c30f9b1e8bdfe"
         ],
-        "x": 534,
-        "y": 3279,
-        "w": 392,
-        "h": 242
+        "x": 2654,
+        "y": 3359,
+        "w": 372,
+        "h": 202
     },
     {
         "id": "7ff097d6bfdd6e0c",
@@ -1748,13 +1747,23 @@
             "8f7ffc4b5b31fd55",
             "05680b7714702e18",
             "cc6e0cfd68d90161",
-            "0dbfda3cd3f45053",
-            "7d7fc66dfbae29a8"
+            "7d7fc66dfbae29a8",
+            "33e6dcf5d119466a",
+            "b9d646db6d927a6e",
+            "b111232cf382c040",
+            "973f1ded7dda5d40",
+            "420d8d832b6e5f87",
+            "b39f8f539928dce9",
+            "6e15c344ba43c50e",
+            "f3481066996d2d68",
+            "54e3b0185b32a573",
+            "d3e73ceec5afc0fc",
+            "e865f18fc1f72e3e"
         ],
         "x": 274,
         "y": 3499,
         "w": 602,
-        "h": 282
+        "h": 262
     },
     {
         "id": "60077c2175f99f27",
@@ -1868,6 +1877,198 @@
         "y": 79,
         "w": 1852,
         "h": 722
+    },
+    {
+        "id": "c4e6a856983b1acc",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9e9f4dc61a078663",
+            "86b22a32576aaa1b",
+            "d92d846bda1aa1c7",
+            "5213f6f93ea50c30"
+        ],
+        "x": 2654,
+        "y": 3579,
+        "w": 412,
+        "h": 202
+    },
+    {
+        "id": "1247a9aea36a9e5d",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cf2a058e746e9e79",
+            "0819d6d8c0eeaf99",
+            "5394a4e1276e258c",
+            "f2e7c93f46abba95"
+        ],
+        "x": 2654,
+        "y": 3799,
+        "w": 412,
+        "h": 202
+    },
+    {
+        "id": "eeb60c25f548790b",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09fb0691191d7cba",
+            "ab287edc7d9df8f5",
+            "44deb0482bc04292",
+            "ead1ad1a44231ea0"
+        ],
+        "x": 2654,
+        "y": 4019,
+        "w": 412,
+        "h": 202
+    },
+    {
+        "id": "8cc83e6287eebee0",
+        "type": "group",
+        "z": "d44a49af0ed5916e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "be9eb1337595fa20",
+            "13d014719a337225",
+            "a9afb4c025c502df",
+            "bb4baba25635e42f",
+            "4838a5a3d32fe6ea",
+            "f4bdc82a01b3631a",
+            "8972fccd5a70b54f",
+            "736840aac875fada",
+            "ec2716b19df060d6",
+            "53de0b89b41f8b11",
+            "1f3ac99bb03023af",
+            "4c76066761ce14d5",
+            "aecd4c33a8728110",
+            "7bf5365016890ace",
+            "e42f3b1acf1a7591",
+            "192a15e3416a8745",
+            "af415cb2a9bd46f5",
+            "115a8f3b3330bcb5",
+            "c9686617d958672c",
+            "f180d99771b89359"
+        ],
+        "x": 54,
+        "y": 1539,
+        "w": 1372,
+        "h": 382
+    },
+    {
+        "id": "79af2d26e3a1b2c6",
+        "type": "group",
+        "z": "d44a49af0ed5916e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "92d2376a4b3c58bd",
+            "bf985bce42700bfa",
+            "7b5242383e2a3279",
+            "4a269805d8a4ab80",
+            "4b204568ec85604d",
+            "64a7da4eee149feb",
+            "92a3d3844ce97c6a",
+            "a194649d7c5b4206",
+            "d913c6dfd1115599",
+            "b572a1e63dd0bdff",
+            "89a84b891eaef4f5",
+            "1823b6715bf4d1df",
+            "39c646c7bcce2766",
+            "1f51d82dc657f12c",
+            "cfcbc31cc6041b4e",
+            "23d5a707242c4745",
+            "e310bbc0c7f7903c",
+            "53d60c1af157c77b",
+            "8f0c99b80ec62e34",
+            "3a21b6fb820ad166"
+        ],
+        "x": 54,
+        "y": 1939,
+        "w": 1372,
+        "h": 382
+    },
+    {
+        "id": "55b5db5bc513fa7b",
+        "type": "group",
+        "z": "d44a49af0ed5916e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "02eec2de41505406",
+            "f4da69a18a192fcd",
+            "92b019b644f63a8a",
+            "f03f775151c96667",
+            "2a923ce6a7778758",
+            "10460b278fef33d8",
+            "4d2c29a84fe28340",
+            "15d83500ed873aa8",
+            "d529964342578841",
+            "af51db423eeeba04",
+            "46df9e7b909d38eb",
+            "956a0f9627c4076e",
+            "836c299e3ab88d78",
+            "0e542be968d2d9ed",
+            "c27c051aa6f23c67",
+            "149f753fc23c9146",
+            "150ac2a040ddef16",
+            "e2f30ff768ab06a1",
+            "9273557588f04f16",
+            "6bba6ffe0bd535e4"
+        ],
+        "x": 54,
+        "y": 2339,
+        "w": 1372,
+        "h": 382
     },
     {
         "id": "0785e116879ba187",
@@ -30188,8 +30389,8 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 1360,
-        "y": 3360,
+        "x": 2740,
+        "y": 3320,
         "wires": [
             [
                 "3371056ff5905a11",
@@ -32342,8 +32543,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 435,
-        "y": 3020,
+        "x": 215,
+        "y": 3120,
         "wires": [
             [
                 "ec6f58e518e628a0",
@@ -32547,7 +32748,15 @@
                 "9194d0c9245559b3",
                 "8bdfcd8ef35b7b9d",
                 "64e91c0f360bc6fd",
-                "cc5da3f3d61589bd"
+                "9e9f4dc61a078663",
+                "86b22a32576aaa1b",
+                "d92d846bda1aa1c7",
+                "cf2a058e746e9e79",
+                "0819d6d8c0eeaf99",
+                "5394a4e1276e258c",
+                "09fb0691191d7cba",
+                "ab287edc7d9df8f5",
+                "44deb0482bc04292"
             ]
         ],
         "l": false
@@ -34193,15 +34402,15 @@
         "type": "function",
         "z": "0d06e67bad6a6fdf",
         "name": "UPDATE REPORTES GLOBAL VRIABLES",
-        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON\", msg.payload);\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n\n};\n\nreturn msg;",
+        "func": "switch (msg.topic) {\n    // CEMENTO\n    case \"ns=5;i=270\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=271\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO\", msg.payload);\n        break;\n\n    case \"ns=5;i=272\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON\", msg.payload);\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO\", msg.payload);\n        break;\n    \n    //AGREGADO 1\n    case \"ns=5;i=317\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO_AGR1\", msg.payload);\n        break;\n    \n    case \"ns=5;i=318\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON_AGR1\", msg.payload);\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR1\", msg.payload);\n        break;\n\n    case \"ns=5;i=326\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO_AGR1\", msg.payload);\n        break;\n\n\n    //AGREGADO 2\n    case \"ns=5;i=320\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO_AGR2\", msg.payload);\n        break;\n    \n    case \"ns=5;i=321\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON_AGR2\", msg.payload);\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR2\", msg.payload);\n        break;\n\n    case \"ns=5;i=327\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO_AGR2\", msg.payload);\n        break;\n\n\n    //AGREGADO 3\n    case \"ns=5;i=323\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO_AGR3\", msg.payload);\n        break;\n    \n    case \"ns=5;i=324\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON_AGR3\", msg.payload);\n        msg.payload = JSON.parse(msg.payload);\n        global.set(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR3\", msg.payload);\n        break;\n\n    case \"ns=5;i=328\":\n        global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO_AGR3\", msg.payload);\n        break;\n    \n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"REPORTES_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 2030,
-        "y": 700,
+        "x": 3430,
+        "y": 3620,
         "wires": [
             []
         ]
@@ -34231,8 +34440,8 @@
         "datatype": "Boolean",
         "value": "",
         "name": "REGISTRO PENDIENTE",
-        "x": 670,
-        "y": 3360,
+        "x": 2790,
+        "y": 3480,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -34248,8 +34457,8 @@
         "datatype": "Boolean",
         "value": "",
         "name": "REGISTRO ALMACENADO",
-        "x": 680,
-        "y": 3400,
+        "x": 2800,
+        "y": 3440,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -34265,8 +34474,8 @@
         "datatype": "String",
         "value": "",
         "name": "REPORTE PENDIENTE SERIALIZADO",
-        "x": 720,
-        "y": 3440,
+        "x": 2840,
+        "y": 3520,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
@@ -34278,29 +34487,197 @@
         "type": "comment",
         "z": "0d06e67bad6a6fdf",
         "g": "6b7ee1b1947cce68",
-        "name": "REPORTES",
+        "name": "REPORTES CEMENTO",
         "info": "",
-        "x": 630,
-        "y": 3320,
+        "x": 2780,
+        "y": 3400,
         "wires": []
     },
     {
-        "id": "cc5da3f3d61589bd",
+        "id": "9e9f4dc61a078663",
         "type": "OpcUa-Item",
         "z": "0d06e67bad6a6fdf",
-        "d": true,
-        "g": "6b7ee1b1947cce68",
-        "item": "ns=5;i=275",
-        "datatype": "Extension Object",
+        "g": "c4e6a856983b1acc",
+        "item": "ns=5;i=318",
+        "datatype": "Boolean",
         "value": "",
-        "name": "REPORTE PENDIENTE NO SERIALIZADO",
-        "x": 730,
-        "y": 3480,
+        "name": "REGISTRO PENDIENTE AGR1",
+        "x": 2810,
+        "y": 3700,
         "wires": [
             [
                 "a9bfcd88deb1c6dd"
             ]
         ]
+    },
+    {
+        "id": "86b22a32576aaa1b",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "c4e6a856983b1acc",
+        "item": "ns=5;i=317",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO ALMACENADO AGR1",
+        "x": 2820,
+        "y": 3660,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "d92d846bda1aa1c7",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "c4e6a856983b1acc",
+        "item": "ns=5;i=326",
+        "datatype": "String",
+        "value": "",
+        "name": "REPORTE PENDIENTE SERIALIZADO AGR1",
+        "x": 2860,
+        "y": 3740,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "5213f6f93ea50c30",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "g": "c4e6a856983b1acc",
+        "name": "REPORTES AGR1",
+        "info": "",
+        "x": 2770,
+        "y": 3620,
+        "wires": []
+    },
+    {
+        "id": "cf2a058e746e9e79",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "1247a9aea36a9e5d",
+        "item": "ns=5;i=321",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO PENDIENTE AGR2",
+        "x": 2810,
+        "y": 3920,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "0819d6d8c0eeaf99",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "1247a9aea36a9e5d",
+        "item": "ns=5;i=320",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO ALMACENADO AGR2",
+        "x": 2820,
+        "y": 3880,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "5394a4e1276e258c",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "1247a9aea36a9e5d",
+        "item": "ns=5;i=327",
+        "datatype": "String",
+        "value": "",
+        "name": "REPORTE PENDIENTE SERIALIZADO AGR2",
+        "x": 2860,
+        "y": 3960,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "f2e7c93f46abba95",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "g": "1247a9aea36a9e5d",
+        "name": "REPORTES AGR2",
+        "info": "",
+        "x": 2770,
+        "y": 3840,
+        "wires": []
+    },
+    {
+        "id": "09fb0691191d7cba",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "eeb60c25f548790b",
+        "item": "ns=5;i=324",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO PENDIENTE AGR3",
+        "x": 2810,
+        "y": 4140,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "ab287edc7d9df8f5",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "eeb60c25f548790b",
+        "item": "ns=5;i=323",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO ALMACENADO AGR3",
+        "x": 2820,
+        "y": 4100,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "44deb0482bc04292",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "g": "eeb60c25f548790b",
+        "item": "ns=5;i=328",
+        "datatype": "String",
+        "value": "",
+        "name": "REPORTE PENDIENTE SERIALIZADO AGR3",
+        "x": 2860,
+        "y": 4180,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "ead1ad1a44231ea0",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "g": "eeb60c25f548790b",
+        "name": "REPORTES AGR3",
+        "info": "",
+        "x": 2770,
+        "y": 4060,
+        "wires": []
     },
     {
         "id": "084f0b522e98640f",
@@ -38674,8 +39051,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
-        "y": 2920,
+        "x": 60,
+        "y": 3260,
         "wires": [
             [
                 "084f0b522e98640f",
@@ -38815,7 +39192,10 @@
                 "81ed16baa286e4e5",
                 "3ed2d3f34c82e305",
                 "5797679198a96285",
-                "783e3cb86d2163e4"
+                "783e3cb86d2163e4",
+                "0fd5d4c48f93287f",
+                "f3481066996d2d68",
+                "33e6dcf5d119466a"
             ]
         ]
     },
@@ -43385,23 +43765,6 @@
         "l": false
     },
     {
-        "id": "0dbfda3cd3f45053",
-        "type": "debug",
-        "z": "b8ec6796739a69a4",
-        "g": "7ff097d6bfdd6e0c",
-        "name": "debug 30",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 660,
-        "y": 3740,
-        "wires": []
-    },
-    {
         "id": "7d7fc66dfbae29a8",
         "type": "function",
         "z": "b8ec6796739a69a4",
@@ -43425,13 +43788,330 @@
         "l": false
     },
     {
+        "id": "0fd5d4c48f93287f",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "name": "function 245",
+        "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_AGR1_GUARDADO\");\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3640,
+        "wires": [
+            [
+                "dad3eade6251976f"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "e3b0a77513ce3b88",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "item": "ns=5;i=317",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO AGR1 ALMACENADO",
+        "x": 620,
+        "y": 3640,
+        "wires": [
+            [
+                "b39f8f539928dce9"
+            ]
+        ]
+    },
+    {
+        "id": "b39f8f539928dce9",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 246",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 835,
+        "y": 3640,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dad3eade6251976f",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3640,
+        "wires": [
+            [
+                "92e7e0b698679aff"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "92e7e0b698679aff",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "name": "function 247",
+        "func": "if(msg.payload == true){\n    msg.payload = true;\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 435,
+        "y": 3640,
+        "wires": [
+            [
+                "e3b0a77513ce3b88"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "33e6dcf5d119466a",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 248",
+        "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_AGR3_GUARDADO\");\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3720,
+        "wires": [
+            [
+                "973f1ded7dda5d40"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "b9d646db6d927a6e",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "item": "ns=5;i=323",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO AGR3 ALMACENADO",
+        "x": 620,
+        "y": 3720,
+        "wires": [
+            [
+                "b111232cf382c040"
+            ]
+        ]
+    },
+    {
+        "id": "b111232cf382c040",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 249",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 835,
+        "y": 3720,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "973f1ded7dda5d40",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3720,
+        "wires": [
+            [
+                "420d8d832b6e5f87"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "420d8d832b6e5f87",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 250",
+        "func": "if(msg.payload == true){\n    msg.payload = true;\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 435,
+        "y": 3720,
+        "wires": [
+            [
+                "b9d646db6d927a6e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "6e15c344ba43c50e",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "item": "ns=5;i=320",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "REGISTRO AGR2 ALMACENADO",
+        "x": 620,
+        "y": 3680,
+        "wires": [
+            [
+                "54e3b0185b32a573"
+            ]
+        ]
+    },
+    {
+        "id": "f3481066996d2d68",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 251",
+        "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_AGR2_GUARDADO\");\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3680,
+        "wires": [
+            [
+                "d3e73ceec5afc0fc"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "54e3b0185b32a573",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 252",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 835,
+        "y": 3680,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d3e73ceec5afc0fc",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3680,
+        "wires": [
+            [
+                "e865f18fc1f72e3e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e865f18fc1f72e3e",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
+        "name": "function 253",
+        "func": "if(msg.payload == true){\n    msg.payload = true;\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 435,
+        "y": 3680,
+        "wires": [
+            [
+                "6e15c344ba43c50e"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
         "id": "cd2485a1515e12c3",
         "type": "ui_table",
         "z": "d44a49af0ed5916e",
         "g": "60077c2175f99f27",
         "group": "993f85fa1cc285fd",
         "name": "TABLA CEMENTO",
-        "order": 0,
+        "order": 2,
         "width": "24",
         "height": "10",
         "columns": [],
@@ -45432,6 +46112,1359 @@
         "statusType": "auto",
         "x": 1060,
         "y": 680,
+        "wires": []
+    },
+    {
+        "id": "be9eb1337595fa20",
+        "type": "ui_table",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "group": "993f85fa1cc285fd",
+        "name": "TABLA AGR1",
+        "order": 4,
+        "width": "24",
+        "height": "10",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1260,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "13d014719a337225",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "4 SEG",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 1700,
+        "wires": [
+            [
+                "192a15e3416a8745"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "a9afb4c025c502df",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "bb4baba25635e42f",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_AGR1",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 620,
+        "y": 1700,
+        "wires": [
+            [
+                "af415cb2a9bd46f5"
+            ]
+        ]
+    },
+    {
+        "id": "4838a5a3d32fe6ea",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_AGR1",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 790,
+        "y": 1880,
+        "wires": [
+            [
+                "f4bdc82a01b3631a"
+            ]
+        ]
+    },
+    {
+        "id": "f4bdc82a01b3631a",
+        "type": "rbe",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 885,
+        "y": 1880,
+        "wires": [
+            [
+                "ec2716b19df060d6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8972fccd5a70b54f",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "ACTUALIZAR TABLA DE REGISTROS CEMENTO",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 }, // Ordena del más reciente al más antiguo\n        \"projection\": { \n            \"_id\": 0,             // 0 desactiva la clave _id\n            \"CAMPO_A_ELIMINAR\": 0  // Reemplaza por el nombre exacto de la clave que no quieres\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1880,
+        "wires": [
+            [
+                "4838a5a3d32fe6ea"
+            ]
+        ]
+    },
+    {
+        "id": "736840aac875fada",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 1880,
+        "wires": [
+            [
+                "8972fccd5a70b54f"
+            ]
+        ]
+    },
+    {
+        "id": "ec2716b19df060d6",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "FORMATEAR FECHA UTC 7",
+        "func": "// Validar que msg.payload sea una lista/arreglo de objetos\nif (Array.isArray(msg.payload)) {\n\n    msg.payload = msg.payload.map(doc => {\n        // Verificar que el documento tenga el campo de fecha\n        if (doc.FECHA_REGISTRO_EN_DB) {\n\n            // Convertir la fecha UTC a hora local de San Luis Río Colorado (UTC-7)\n            doc.FECHA_REGISTRO_EN_DB = new Date(doc.FECHA_REGISTRO_EN_DB).toLocaleString('es-MX', {\n                timeZone: 'America/Hermosillo', // Zona horaria fija UTC-7 (Sonora)\n                year: 'numeric',\n                month: '2-digit',\n                day: '2-digit',\n                hour: '2-digit',\n                minute: '2-digit',\n                second: '2-digit',\n                hour12: true // Cambia a 'false' si prefieres formato de 24 horas (ej: 16:10:05)\n            });\n\n        }\n        return doc; // Retorna el objeto modificado\n    });\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1880,
+        "wires": [
+            [
+                "be9eb1337595fa20",
+                "f180d99771b89359"
+            ]
+        ]
+    },
+    {
+        "id": "53de0b89b41f8b11",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "group": "993f85fa1cc285fd",
+        "order": 3,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "REGISTROS DE AGR1 EN ULTIMO MES",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "view-head",
+        "style": true,
+        "font": "",
+        "fontSize": "24",
+        "color": "#0000a0",
+        "x": 280,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "1f3ac99bb03023af",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "CONFIRMACION BIT CEMENTO GUARDADO",
+        "func": "global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR1\", msg.payload);\nreturn msg;\n\n\nif(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", msg.payload);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1700,
+        "wires": [
+            [
+                "a9afb4c025c502df"
+            ]
+        ]
+    },
+    {
+        "id": "4c76066761ce14d5",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "insertar objeto hace una semana",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 1620,
+        "wires": [
+            [
+                "aecd4c33a8728110"
+            ]
+        ]
+    },
+    {
+        "id": "aecd4c33a8728110",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1620,
+        "wires": [
+            [
+                "bb4baba25635e42f"
+            ]
+        ]
+    },
+    {
+        "id": "7bf5365016890ace",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "insertar objeto de hoy",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 1660,
+        "wires": [
+            [
+                "aecd4c33a8728110"
+            ]
+        ]
+    },
+    {
+        "id": "e42f3b1acf1a7591",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.acknowledged",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 630,
+        "y": 1760,
+        "wires": [
+            [
+                "115a8f3b3330bcb5"
+            ]
+        ]
+    },
+    {
+        "id": "192a15e3416a8745",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "GUARDAR REGISTROS",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR1\") != null){\n\n    if(global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO_AGR1\") == true){\n\n        if (global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR1\") == true){\n            \n            msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR1\");\n\n            msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n            msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n            msg.payload.P_INI = Number(msg.payload.P_INI);\n            msg.payload.P_FIN = Number(msg.payload.P_FIN);\n            msg.payload.P_CONS = Number(msg.payload.P_CONS);\n            msg.payload.R = msg.payload.R.replaceAll('+', '');\n            msg.payload.CANT_R = Number(msg.payload.CANT_R);\n            msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n            if (msg.payload.AUT == true){\n                msg.payload.AUT = \"ACTIVADO\";\n            }\n            if(msg.payload.AUT == false){\n                msg.payload.AUT = \"DESACTIVADO\";\n            }\n\n            msg.payload = {\n                \"FECHA INICIO\":msg.payload.FE_INI,\n                \"FECHA TERMINADO\":msg.payload.FE_FIN,\n                \"PESO INICIO\":msg.payload.P_INI,\n                \"PESO FINAL\":msg.payload.P_FIN,\n                \"PESO CONSUMIDO\":msg.payload.P_CONS,\n                \"RECETA\":msg.payload.R,\n                \"PESO EN RECETA\":msg.payload.CANT_R,\n                \"METROS CUBICOS\":msg.payload.M_CUB,\n                \"AUTOMATICO\":msg.payload.AUT,\n                \"FECHA_REGISTRO_EN_DB\": new Date(),\n            };\n\n            flow.set(\"ultimo_registro_agr1\", global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON_AGR1\"));\n            global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR1\", false);\n            msg.payload = [msg.payload];\n            return msg;\n        }\n    }\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1700,
+        "wires": [
+            [
+                "bb4baba25635e42f"
+            ]
+        ]
+    },
+    {
+        "id": "af415cb2a9bd46f5",
+        "type": "trigger",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "",
+        "op1": "false",
+        "op2": "true",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "200",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 780,
+        "y": 1700,
+        "wires": [
+            [
+                "1f3ac99bb03023af"
+            ]
+        ]
+    },
+    {
+        "id": "115a8f3b3330bcb5",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "function 254",
+        "func": "flow.set(\"ultimo_registro\", \"\");\nglobal.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\",true);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c9686617d958672c",
+        "type": "comment",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "REGISTROS AGR1",
+        "info": "",
+        "x": 190,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "f180d99771b89359",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "8cc83e6287eebee0",
+        "name": "debug 31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "92d2376a4b3c58bd",
+        "type": "ui_table",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "group": "993f85fa1cc285fd",
+        "name": "TABLA AGR2",
+        "order": 6,
+        "width": "24",
+        "height": "10",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1260,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "bf985bce42700bfa",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "4 SEG",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 2100,
+        "wires": [
+            [
+                "23d5a707242c4745"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "7b5242383e2a3279",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "4a269805d8a4ab80",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_AGR2",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 620,
+        "y": 2100,
+        "wires": [
+            [
+                "e310bbc0c7f7903c"
+            ]
+        ]
+    },
+    {
+        "id": "4b204568ec85604d",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_AGR2",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 790,
+        "y": 2280,
+        "wires": [
+            [
+                "64a7da4eee149feb"
+            ]
+        ]
+    },
+    {
+        "id": "64a7da4eee149feb",
+        "type": "rbe",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 885,
+        "y": 2280,
+        "wires": [
+            [
+                "d913c6dfd1115599"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "92a3d3844ce97c6a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "ACTUALIZAR TABLA DE REGISTROS CEMENTO",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 }, // Ordena del más reciente al más antiguo\n        \"projection\": { \n            \"_id\": 0,             // 0 desactiva la clave _id\n            \"CAMPO_A_ELIMINAR\": 0  // Reemplaza por el nombre exacto de la clave que no quieres\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2280,
+        "wires": [
+            [
+                "4b204568ec85604d"
+            ]
+        ]
+    },
+    {
+        "id": "a194649d7c5b4206",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 2280,
+        "wires": [
+            [
+                "92a3d3844ce97c6a"
+            ]
+        ]
+    },
+    {
+        "id": "d913c6dfd1115599",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "FORMATEAR FECHA UTC 7",
+        "func": "// Validar que msg.payload sea una lista/arreglo de objetos\nif (Array.isArray(msg.payload)) {\n\n    msg.payload = msg.payload.map(doc => {\n        // Verificar que el documento tenga el campo de fecha\n        if (doc.FECHA_REGISTRO_EN_DB) {\n\n            // Convertir la fecha UTC a hora local de San Luis Río Colorado (UTC-7)\n            doc.FECHA_REGISTRO_EN_DB = new Date(doc.FECHA_REGISTRO_EN_DB).toLocaleString('es-MX', {\n                timeZone: 'America/Hermosillo', // Zona horaria fija UTC-7 (Sonora)\n                year: 'numeric',\n                month: '2-digit',\n                day: '2-digit',\n                hour: '2-digit',\n                minute: '2-digit',\n                second: '2-digit',\n                hour12: true // Cambia a 'false' si prefieres formato de 24 horas (ej: 16:10:05)\n            });\n\n        }\n        return doc; // Retorna el objeto modificado\n    });\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2280,
+        "wires": [
+            [
+                "92d2376a4b3c58bd",
+                "3a21b6fb820ad166"
+            ]
+        ]
+    },
+    {
+        "id": "b572a1e63dd0bdff",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "group": "993f85fa1cc285fd",
+        "order": 5,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "REGISTROS DE AGR2 EN ULTIMO MES",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "view-head",
+        "style": true,
+        "font": "",
+        "fontSize": "24",
+        "color": "#0000a0",
+        "x": 280,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "89a84b891eaef4f5",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "CONFIRMACION BIT CEMENTO GUARDADO",
+        "func": "global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR2\", msg.payload);\nreturn msg;\n\n\nif(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", msg.payload);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 2100,
+        "wires": [
+            [
+                "7b5242383e2a3279"
+            ]
+        ]
+    },
+    {
+        "id": "1823b6715bf4d1df",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "insertar objeto hace una semana",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 2020,
+        "wires": [
+            [
+                "39c646c7bcce2766"
+            ]
+        ]
+    },
+    {
+        "id": "39c646c7bcce2766",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 2020,
+        "wires": [
+            [
+                "4a269805d8a4ab80"
+            ]
+        ]
+    },
+    {
+        "id": "1f51d82dc657f12c",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "insertar objeto de hoy",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 2060,
+        "wires": [
+            [
+                "39c646c7bcce2766"
+            ]
+        ]
+    },
+    {
+        "id": "cfcbc31cc6041b4e",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.acknowledged",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 630,
+        "y": 2160,
+        "wires": [
+            [
+                "53d60c1af157c77b"
+            ]
+        ]
+    },
+    {
+        "id": "23d5a707242c4745",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "GUARDAR REGISTROS",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR2\") != null){\n\n    if(global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO_AGR3\") == true){\n\n        if (global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR3\") == true){\n            \n            msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR3\");\n\n            msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n            msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n            msg.payload.P_INI = Number(msg.payload.P_INI);\n            msg.payload.P_FIN = Number(msg.payload.P_FIN);\n            msg.payload.P_CONS = Number(msg.payload.P_CONS);\n            msg.payload.R = msg.payload.R.replaceAll('+', '');\n            msg.payload.CANT_R = Number(msg.payload.CANT_R);\n            msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n            if (msg.payload.AUT == true){\n                msg.payload.AUT = \"ACTIVADO\";\n            }\n            if(msg.payload.AUT == false){\n                msg.payload.AUT = \"DESACTIVADO\";\n            }\n\n            msg.payload = {\n                \"FECHA INICIO\":msg.payload.FE_INI,\n                \"FECHA TERMINADO\":msg.payload.FE_FIN,\n                \"PESO INICIO\":msg.payload.P_INI,\n                \"PESO FINAL\":msg.payload.P_FIN,\n                \"PESO CONSUMIDO\":msg.payload.P_CONS,\n                \"RECETA\":msg.payload.R,\n                \"PESO EN RECETA\":msg.payload.CANT_R,\n                \"METROS CUBICOS\":msg.payload.M_CUB,\n                \"AUTOMATICO\":msg.payload.AUT,\n                \"FECHA_REGISTRO_EN_DB\": new Date(),\n            };\n\n            flow.set(\"ultimo_registro_agr3\", global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON_AGR3\"));\n            global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR3\", false);\n            msg.payload = [msg.payload];\n            return msg;\n        }\n    }\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 2100,
+        "wires": [
+            [
+                "4a269805d8a4ab80"
+            ]
+        ]
+    },
+    {
+        "id": "e310bbc0c7f7903c",
+        "type": "trigger",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "",
+        "op1": "false",
+        "op2": "true",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "200",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 780,
+        "y": 2100,
+        "wires": [
+            [
+                "89a84b891eaef4f5"
+            ]
+        ]
+    },
+    {
+        "id": "53d60c1af157c77b",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "function 255",
+        "func": "flow.set(\"ultimo_registro\", \"\");\nglobal.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\",true);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8f0c99b80ec62e34",
+        "type": "comment",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "REGISTROS AGR2",
+        "info": "",
+        "x": 190,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "3a21b6fb820ad166",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "79af2d26e3a1b2c6",
+        "name": "debug 38",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "02eec2de41505406",
+        "type": "ui_table",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "group": "993f85fa1cc285fd",
+        "name": "TABLA AGR3",
+        "order": 8,
+        "width": "24",
+        "height": "10",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1260,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "f4da69a18a192fcd",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "4 SEG",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 2500,
+        "wires": [
+            [
+                "149f753fc23c9146"
+            ]
+        ],
+        "icon": "node-red/serial.svg"
+    },
+    {
+        "id": "92b019b644f63a8a",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "debug 39",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "f03f775151c96667",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_AGR3",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 620,
+        "y": 2500,
+        "wires": [
+            [
+                "150ac2a040ddef16"
+            ]
+        ]
+    },
+    {
+        "id": "2a923ce6a7778758",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_AGR3",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 790,
+        "y": 2680,
+        "wires": [
+            [
+                "10460b278fef33d8"
+            ]
+        ]
+    },
+    {
+        "id": "10460b278fef33d8",
+        "type": "rbe",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 885,
+        "y": 2680,
+        "wires": [
+            [
+                "d529964342578841"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4d2c29a84fe28340",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "ACTUALIZAR TABLA DE REGISTROS CEMENTO",
+        "func": "// Obtener la fecha exacta de hace 30 días\nlet haceUnMes = new Date();\nhaceUnMes.setDate(haceUnMes.getDate() - 30);\n\n// Estructura de consulta para mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": { \"$gte\": haceUnMes }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": -1 }, // Ordena del más reciente al más antiguo\n        \"projection\": { \n            \"_id\": 0,             // 0 desactiva la clave _id\n            \"CAMPO_A_ELIMINAR\": 0  // Reemplaza por el nombre exacto de la clave que no quieres\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2680,
+        "wires": [
+            [
+                "2a923ce6a7778758"
+            ]
+        ]
+    },
+    {
+        "id": "15d83500ed873aa8",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 2680,
+        "wires": [
+            [
+                "4d2c29a84fe28340"
+            ]
+        ]
+    },
+    {
+        "id": "d529964342578841",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "FORMATEAR FECHA UTC 7",
+        "func": "// Validar que msg.payload sea una lista/arreglo de objetos\nif (Array.isArray(msg.payload)) {\n\n    msg.payload = msg.payload.map(doc => {\n        // Verificar que el documento tenga el campo de fecha\n        if (doc.FECHA_REGISTRO_EN_DB) {\n\n            // Convertir la fecha UTC a hora local de San Luis Río Colorado (UTC-7)\n            doc.FECHA_REGISTRO_EN_DB = new Date(doc.FECHA_REGISTRO_EN_DB).toLocaleString('es-MX', {\n                timeZone: 'America/Hermosillo', // Zona horaria fija UTC-7 (Sonora)\n                year: 'numeric',\n                month: '2-digit',\n                day: '2-digit',\n                hour: '2-digit',\n                minute: '2-digit',\n                second: '2-digit',\n                hour12: true // Cambia a 'false' si prefieres formato de 24 horas (ej: 16:10:05)\n            });\n\n        }\n        return doc; // Retorna el objeto modificado\n    });\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2680,
+        "wires": [
+            [
+                "02eec2de41505406",
+                "6bba6ffe0bd535e4"
+            ]
+        ]
+    },
+    {
+        "id": "af51db423eeeba04",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "group": "993f85fa1cc285fd",
+        "order": 7,
+        "width": "24",
+        "height": "1",
+        "name": "",
+        "label": "REGISTROS DE AGR3 EN ULTIMO MES",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "view-head",
+        "style": true,
+        "font": "",
+        "fontSize": "24",
+        "color": "#0000a0",
+        "x": 280,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "46df9e7b909d38eb",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "CONFIRMACION BIT CEMENTO GUARDADO",
+        "func": "global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR2\", msg.payload);\nreturn msg;\n\n\nif(msg.payload.acknowledged == true){\n    global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\", msg.payload);\n    //msg.payload = 'se realizo registro';\n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 2500,
+        "wires": [
+            [
+                "92b019b644f63a8a"
+            ]
+        ]
+    },
+    {
+        "id": "956a0f9627c4076e",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "insertar objeto hace una semana",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 2420,
+        "wires": [
+            [
+                "836c299e3ab88d78"
+            ]
+        ]
+    },
+    {
+        "id": "836c299e3ab88d78",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 2420,
+        "wires": [
+            [
+                "f03f775151c96667"
+            ]
+        ]
+    },
+    {
+        "id": "0e542be968d2d9ed",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "insertar objeto de hoy",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 2460,
+        "wires": [
+            [
+                "836c299e3ab88d78"
+            ]
+        ]
+    },
+    {
+        "id": "c27c051aa6f23c67",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.acknowledged",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 630,
+        "y": 2560,
+        "wires": [
+            [
+                "e2f30ff768ab06a1"
+            ]
+        ]
+    },
+    {
+        "id": "149f753fc23c9146",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "GUARDAR REGISTROS",
+        "func": "//global.get(\"REPORTES_GLOBAL_VARIABLE.REGISTRO_ALMACENADO\");\n\n\n\n\n\nif (global.get(\"OPC_SERVER_CONNECTED\") == true && global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR3\") != null){\n\n    if(global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_REGISTRO_SERIALIZADO_AGR2\") == true){\n\n        if (global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR2\") == true){\n            \n            msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_AGR2\");\n\n            msg.payload.FE_INI = msg.payload.FE_INI.replaceAll('+', '');\n            msg.payload.FE_FIN = msg.payload.FE_FIN.replaceAll('+', '');\n            msg.payload.P_INI = Number(msg.payload.P_INI);\n            msg.payload.P_FIN = Number(msg.payload.P_FIN);\n            msg.payload.P_CONS = Number(msg.payload.P_CONS);\n            msg.payload.R = msg.payload.R.replaceAll('+', '');\n            msg.payload.CANT_R = Number(msg.payload.CANT_R);\n            msg.payload.M_CUB = Number(msg.payload.M_CUB);\n\n            if (msg.payload.AUT == true){\n                msg.payload.AUT = \"ACTIVADO\";\n            }\n            if(msg.payload.AUT == false){\n                msg.payload.AUT = \"DESACTIVADO\";\n            }\n\n            msg.payload = {\n                \"FECHA INICIO\":msg.payload.FE_INI,\n                \"FECHA TERMINADO\":msg.payload.FE_FIN,\n                \"PESO INICIO\":msg.payload.P_INI,\n                \"PESO FINAL\":msg.payload.P_FIN,\n                \"PESO CONSUMIDO\":msg.payload.P_CONS,\n                \"RECETA\":msg.payload.R,\n                \"PESO EN RECETA\":msg.payload.CANT_R,\n                \"METROS CUBICOS\":msg.payload.M_CUB,\n                \"AUTOMATICO\":msg.payload.AUT,\n                \"FECHA_REGISTRO_EN_DB\": new Date(),\n            };\n\n            flow.set(\"ultimo_registro_agr2\", global.get(\"REPORTES_GLOBAL_VARIABLE.REPORTE_PENDIENTE_SERIALIZADO_NO_JSON_AGR2\"));\n            global.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO_AGR2\", false);\n            msg.payload = [msg.payload];\n            return msg;\n        }\n    }\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 2500,
+        "wires": [
+            [
+                "f03f775151c96667"
+            ]
+        ]
+    },
+    {
+        "id": "150ac2a040ddef16",
+        "type": "trigger",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "",
+        "op1": "false",
+        "op2": "true",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "200",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 780,
+        "y": 2500,
+        "wires": [
+            [
+                "46df9e7b909d38eb"
+            ]
+        ]
+    },
+    {
+        "id": "e2f30ff768ab06a1",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "function 256",
+        "func": "flow.set(\"ultimo_registro\", \"\");\nglobal.set(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_CEMENTO_GUARDADO\",true);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 2560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9273557588f04f16",
+        "type": "comment",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "REGISTROS AGR3",
+        "info": "",
+        "x": 190,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "6bba6ffe0bd535e4",
+        "type": "debug",
+        "z": "d44a49af0ed5916e",
+        "g": "55b5db5bc513fa7b",
+        "name": "debug 40",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 2620,
         "wires": []
     },
     {
