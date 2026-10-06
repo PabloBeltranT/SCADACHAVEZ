@@ -8598,8 +8598,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 590,
-        "y": 800,
+        "x": 270,
+        "y": 660,
         "wires": []
     },
     {
@@ -8619,8 +8619,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 610,
-        "y": 840,
+        "x": 290,
+        "y": 700,
         "wires": []
     },
     {
@@ -8769,7 +8769,7 @@
         "wires": [
             [
                 "158379ef12850e98",
-                "f00e6da5cc6a1e2d"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -8791,7 +8791,7 @@
         "wires": [
             [
                 "3456ea8233ee9125",
-                "f00e6da5cc6a1e2d"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -8813,7 +8813,7 @@
         "wires": [
             [
                 "abe761fc1ed60914",
-                "f00e6da5cc6a1e2d"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -8835,7 +8835,7 @@
         "wires": [
             [
                 "fe27679d9f916266",
-                "f00e6da5cc6a1e2d"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -8857,7 +8857,7 @@
         "wires": [
             [
                 "e9c99bafa6a67773",
-                "f00e6da5cc6a1e2d"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -8879,7 +8879,7 @@
         "wires": [
             [
                 "521f9308024f83e3",
-                "f00e6da5cc6a1e2d"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -8901,7 +8901,7 @@
         "wires": [
             [
                 "cbba8cf538780b92",
-                "f00e6da5cc6a1e2d"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -8923,7 +8923,7 @@
         "wires": [
             [
                 "e5508851b863d985",
-                "f00e6da5cc6a1e2d"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -8945,7 +8945,7 @@
         "wires": [
             [
                 "05fcd2123995d14b",
-                "f00e6da5cc6a1e2d"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -8967,7 +8967,7 @@
         "wires": [
             [
                 "72dae8f69584b33a",
-                "f00e6da5cc6a1e2d"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -8989,7 +8989,7 @@
         "wires": [
             [
                 "df4d6196353b7c28",
-                "41be48170542dd4d"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -9011,7 +9011,7 @@
         "wires": [
             [
                 "6f36f6d26eb4becb",
-                "41be48170542dd4d"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -9033,7 +9033,7 @@
         "wires": [
             [
                 "4a0b31127d62ba7e",
-                "41be48170542dd4d"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -9055,7 +9055,7 @@
         "wires": [
             [
                 "1a721a7830f61621",
-                "41be48170542dd4d"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -9077,7 +9077,7 @@
         "wires": [
             [
                 "1b957c00a27bf15c",
-                "41be48170542dd4d"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -9099,7 +9099,7 @@
         "wires": [
             [
                 "24963f63e0169ce4",
-                "41be48170542dd4d"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -9121,7 +9121,7 @@
         "wires": [
             [
                 "cfb15b92c158058a",
-                "41be48170542dd4d"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -9143,7 +9143,7 @@
         "wires": [
             [
                 "d2db3cd8c4e19cd8",
-                "41be48170542dd4d"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -9165,7 +9165,7 @@
         "wires": [
             [
                 "ee0d79daafe9c892",
-                "41be48170542dd4d"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -9187,7 +9187,7 @@
         "wires": [
             [
                 "ebda7db3e6696ea0",
-                "41be48170542dd4d"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -9209,7 +9209,7 @@
         "wires": [
             [
                 "bfade7b9aeea7001",
-                "297112ab2abff426"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -9231,7 +9231,7 @@
         "wires": [
             [
                 "b7ab36266fe63020",
-                "297112ab2abff426"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -9253,7 +9253,7 @@
         "wires": [
             [
                 "5008106193754279",
-                "297112ab2abff426"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -9275,7 +9275,7 @@
         "wires": [
             [
                 "1e76a385cb70e097",
-                "297112ab2abff426"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -9297,7 +9297,7 @@
         "wires": [
             [
                 "1dcccf381bd5788f",
-                "297112ab2abff426"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -9319,7 +9319,7 @@
         "wires": [
             [
                 "2560273d447f638c",
-                "297112ab2abff426"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -9341,7 +9341,7 @@
         "wires": [
             [
                 "c9c7d497bec9a762",
-                "297112ab2abff426"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -9363,7 +9363,7 @@
         "wires": [
             [
                 "dc72e1fc2d1c2140",
-                "297112ab2abff426"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -9385,7 +9385,7 @@
         "wires": [
             [
                 "5becf0a39a1a1fa4",
-                "297112ab2abff426"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -9407,7 +9407,7 @@
         "wires": [
             [
                 "16b20c4d427958a5",
-                "297112ab2abff426"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -9429,7 +9429,7 @@
         "wires": [
             [
                 "923c98bb506b9695",
-                "b51a510c06e73ad9"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -9451,7 +9451,7 @@
         "wires": [
             [
                 "55b3b33231b138d7",
-                "b51a510c06e73ad9"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -9473,7 +9473,7 @@
         "wires": [
             [
                 "df4f6576a75c929c",
-                "b51a510c06e73ad9"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -9495,7 +9495,7 @@
         "wires": [
             [
                 "980dd55463ab9062",
-                "b51a510c06e73ad9"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -9517,7 +9517,7 @@
         "wires": [
             [
                 "6c97170c51826c7c",
-                "b51a510c06e73ad9"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -9539,7 +9539,7 @@
         "wires": [
             [
                 "6ac9f8c9ecaeb322",
-                "b51a510c06e73ad9"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -9561,7 +9561,7 @@
         "wires": [
             [
                 "702afee2ce8d6f3e",
-                "b51a510c06e73ad9"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -9583,7 +9583,7 @@
         "wires": [
             [
                 "3c7f8b44dc640827",
-                "b51a510c06e73ad9"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -9605,7 +9605,7 @@
         "wires": [
             [
                 "184eae73e449fc96",
-                "b51a510c06e73ad9"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -9627,7 +9627,7 @@
         "wires": [
             [
                 "b50a566755fe5d1f",
-                "b51a510c06e73ad9"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -9649,7 +9649,7 @@
         "wires": [
             [
                 "b1c9a36aacc34977",
-                "9466bbbaa265dfae"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -9671,7 +9671,7 @@
         "wires": [
             [
                 "3845ab0ee02a421d",
-                "9466bbbaa265dfae"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -9693,7 +9693,7 @@
         "wires": [
             [
                 "edb04bb9fee8b9ad",
-                "9466bbbaa265dfae"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -9715,7 +9715,7 @@
         "wires": [
             [
                 "ff6f85891bf1d309",
-                "9466bbbaa265dfae"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -9737,7 +9737,7 @@
         "wires": [
             [
                 "57f6652dedc21319",
-                "9466bbbaa265dfae"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -9759,7 +9759,7 @@
         "wires": [
             [
                 "cb3d45d754e1ff2b",
-                "9466bbbaa265dfae"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -9781,7 +9781,7 @@
         "wires": [
             [
                 "3e01499535b39a76",
-                "9466bbbaa265dfae"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -9803,7 +9803,7 @@
         "wires": [
             [
                 "ad046278d0682c3f",
-                "9466bbbaa265dfae"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -9825,7 +9825,7 @@
         "wires": [
             [
                 "92264324e1a4185f",
-                "9466bbbaa265dfae"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -9847,7 +9847,7 @@
         "wires": [
             [
                 "702be61efec48fa1",
-                "9466bbbaa265dfae"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -9869,7 +9869,7 @@
         "wires": [
             [
                 "1ea832abe7659b84",
-                "ad743f0c8dece32c"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -9891,7 +9891,7 @@
         "wires": [
             [
                 "f76d5166d37d300f",
-                "ad743f0c8dece32c"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -9913,7 +9913,7 @@
         "wires": [
             [
                 "9652f11952d9dc73",
-                "ad743f0c8dece32c"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -9935,7 +9935,7 @@
         "wires": [
             [
                 "4052e4466a4e09ac",
-                "ad743f0c8dece32c"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -9957,7 +9957,7 @@
         "wires": [
             [
                 "c859548ec790d338",
-                "ad743f0c8dece32c"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -9979,7 +9979,7 @@
         "wires": [
             [
                 "d24c6da55fbb190c",
-                "ad743f0c8dece32c"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -10001,7 +10001,7 @@
         "wires": [
             [
                 "02cdcffdbcd9848f",
-                "ad743f0c8dece32c"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -10023,7 +10023,7 @@
         "wires": [
             [
                 "ce77be1cf6218193",
-                "ad743f0c8dece32c"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -10045,7 +10045,7 @@
         "wires": [
             [
                 "4ddf930829adc431",
-                "ad743f0c8dece32c"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -10067,7 +10067,7 @@
         "wires": [
             [
                 "9eb7f53c09d9875f",
-                "ad743f0c8dece32c"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -10089,7 +10089,7 @@
         "wires": [
             [
                 "86bc801c47fe5fa1",
-                "6f7477a741bf3691"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -10111,7 +10111,7 @@
         "wires": [
             [
                 "0ac5a69c0bfc65a5",
-                "6f7477a741bf3691"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -10133,7 +10133,7 @@
         "wires": [
             [
                 "65f36a9c2f8ef392",
-                "6f7477a741bf3691"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -10155,7 +10155,7 @@
         "wires": [
             [
                 "b23791d771871297",
-                "6f7477a741bf3691"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -10177,7 +10177,7 @@
         "wires": [
             [
                 "4fa7f659b85a83be",
-                "6f7477a741bf3691"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -10199,7 +10199,7 @@
         "wires": [
             [
                 "b93cbb80a4fb261d",
-                "6f7477a741bf3691"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -10221,7 +10221,7 @@
         "wires": [
             [
                 "29e3f0adc443f5a4",
-                "6f7477a741bf3691"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -10243,7 +10243,7 @@
         "wires": [
             [
                 "33bd1b2a8d0c75aa",
-                "6f7477a741bf3691"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -10265,7 +10265,7 @@
         "wires": [
             [
                 "4493724aeba13e68",
-                "6f7477a741bf3691"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -10287,7 +10287,7 @@
         "wires": [
             [
                 "565e950341d97d1d",
-                "6f7477a741bf3691"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -10309,7 +10309,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "NOMBRE_RECETA_10",
+                "to": "NOMBRE_RECETA_1",
                 "tot": "str"
             },
             {
@@ -12726,8 +12726,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 950,
-        "y": 510,
+        "x": 940,
+        "y": 520,
         "wires": [
             []
         ]
@@ -12744,8 +12744,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
-        "y": 510,
+        "x": 1220,
+        "y": 520,
         "wires": [
             []
         ]
@@ -15133,7 +15133,7 @@
         "wires": [
             [
                 "1b527a3760c7e338",
-                "7cf420b93b51b06c"
+                "0ab728e552c9e293"
             ]
         ],
         "l": false
@@ -15155,7 +15155,7 @@
         "wires": [
             [
                 "26d7c58db9a32a6a",
-                "7cf420b93b51b06c"
+                "f97b2196cd71bbb2"
             ]
         ],
         "l": false
@@ -15177,7 +15177,7 @@
         "wires": [
             [
                 "3b027298cbd14e3b",
-                "7cf420b93b51b06c"
+                "7cc6f6217de3d08c"
             ]
         ],
         "l": false
@@ -15199,7 +15199,7 @@
         "wires": [
             [
                 "78c003d0e15aebe0",
-                "7cf420b93b51b06c"
+                "7bf1ad823ef29e6b"
             ]
         ],
         "l": false
@@ -15221,7 +15221,7 @@
         "wires": [
             [
                 "097c0b7ade5149ca",
-                "7cf420b93b51b06c"
+                "81644ac9955cc462"
             ]
         ],
         "l": false
@@ -15243,7 +15243,7 @@
         "wires": [
             [
                 "d610b41282d5ec77",
-                "7cf420b93b51b06c"
+                "f5402b62598ea19f"
             ]
         ],
         "l": false
@@ -15265,7 +15265,7 @@
         "wires": [
             [
                 "c84ad130f39a6b85",
-                "7cf420b93b51b06c"
+                "f9e3df70cc78d9f8"
             ]
         ],
         "l": false
@@ -15287,7 +15287,7 @@
         "wires": [
             [
                 "9545ec30a6649c57",
-                "7cf420b93b51b06c"
+                "e1fe85c2e630be50"
             ]
         ],
         "l": false
@@ -15309,7 +15309,7 @@
         "wires": [
             [
                 "b7df44cbb4f7bfb6",
-                "7cf420b93b51b06c"
+                "aa3389615d2ab2e1"
             ]
         ],
         "l": false
@@ -15331,7 +15331,7 @@
         "wires": [
             [
                 "861da7de6f3f61c6",
-                "7cf420b93b51b06c"
+                "742603331eba7e61"
             ]
         ],
         "l": false
@@ -15985,307 +15985,963 @@
         ]
     },
     {
-        "id": "f00e6da5cc6a1e2d",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO NOMBRE",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 580,
-        "wires": [
-            [
-                "39f214844036baed"
-            ]
-        ]
-    },
-    {
-        "id": "41be48170542dd4d",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO AGR1",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 960,
-        "y": 580,
-        "wires": [
-            [
-                "a9098ad7df5f9c5d"
-            ]
-        ]
-    },
-    {
-        "id": "297112ab2abff426",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO AGR2",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1260,
-        "y": 580,
-        "wires": [
-            [
-                "1b49b94e51baf4c3"
-            ]
-        ]
-    },
-    {
-        "id": "7cf420b93b51b06c",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO AGR3",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1620,
-        "y": 580,
-        "wires": [
-            [
-                "ddb98d072ce2ba3c"
-            ]
-        ]
-    },
-    {
-        "id": "b51a510c06e73ad9",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO CEMENTO",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1960,
-        "y": 580,
-        "wires": [
-            [
-                "bd8b2110dfb3ac97"
-            ]
-        ]
-    },
-    {
-        "id": "9466bbbaa265dfae",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO AGUA1",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2290,
-        "y": 580,
-        "wires": [
-            [
-                "c871f7ed1d4a98f9"
-            ]
-        ]
-    },
-    {
-        "id": "ad743f0c8dece32c",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO AGUA2",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2590,
-        "y": 580,
-        "wires": [
-            [
-                "823018e2d20aa702"
-            ]
-        ]
-    },
-    {
-        "id": "6f7477a741bf3691",
-        "type": "function",
-        "z": "40722463514f64b4",
-        "name": "REGISTRAR CAMBIO ADITIVO",
-        "func": "msg.payload = {\n    \"VALOR_ASIGNADO\":msg.payload,\n    \"FECHA\":new Date(),\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2890,
-        "y": 580,
-        "wires": [
-            [
-                "7966ab3b06a648c8"
-            ]
-        ]
-    },
-    {
         "id": "39f214844036baed",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "NOMBRES",
+        "collection": "RECETA_1",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 900,
+        "x": 1400,
         "y": 620,
         "wires": [
             []
         ]
     },
     {
-        "id": "a9098ad7df5f9c5d",
+        "id": "0ab728e552c9e293",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 1",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 580,
+        "wires": [
+            [
+                "6fc0bbb4dbbe75a7"
+            ]
+        ]
+    },
+    {
+        "id": "6fc0bbb4dbbe75a7",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "AGR1",
+        "collection": "RECETA_1",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 580,
+        "wires": [
+            [
+                "4e78ddc76a5788b1"
+            ]
+        ]
+    },
+    {
+        "id": "f901e3d6bb0efce8",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 44",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4e78ddc76a5788b1",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_1\":\n            if (msg.payload[\"NOMBRE_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 1\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_1\":\n            if (msg.payload[\"AGR1_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN AGR 1\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_1\":\n            if (msg.payload[\"AGR2_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN AGR 2\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_1\":\n            if (msg.payload[\"AGR3_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN AGR 3\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_1\":\n            if (msg.payload[\"CEMENTO_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN CEMENTO\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_1\":\n            if (msg.payload[\"AGUA1_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN AGUA1\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_1\":\n            if (msg.payload[\"AGUA2_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN AGUA2\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_1\":\n            if (msg.payload[\"ADITIVO_RECETA_1\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_1\")) {\n                msg.topic = \"CAMBIO EN ADITIVO\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n};/*else{\n    msg.payload = {\n        \"NOMBRE_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2\"),\n        \"AGR1_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_2\"),\n        \"AGR2_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_2\"),\n        \"AGR3_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_2\"),\n        \"CEMENTO_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_2\"),\n        \"AGUA1_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_2\"),\n        \"AGUA2_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_2\"),\n        \"ADITIVO_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_2\"),\n        \"FECHA\": new Date(),\n    };\n};*/\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_1\"),\n        \"AGR1_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_1\"),\n        \"AGR2_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_1\"),\n        \"AGR3_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_1\"),\n        \"CEMENTO_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_1\"),\n        \"AGUA1_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_1\"),\n        \"AGUA2_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_1\"),\n        \"ADITIVO_RECETA_1\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_1\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 580,
+        "wires": [
+            [
+                "f901e3d6bb0efce8",
+                "39f214844036baed"
+            ]
+        ]
+    },
+    {
+        "id": "be770fabdaf658cf",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_2",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1200,
-        "y": 620,
+        "x": 1400,
+        "y": 720,
         "wires": [
             []
         ]
     },
     {
-        "id": "1b49b94e51baf4c3",
+        "id": "f97b2196cd71bbb2",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 2",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 680,
+        "wires": [
+            [
+                "e22314edc8b9cdd2"
+            ]
+        ]
+    },
+    {
+        "id": "e22314edc8b9cdd2",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "AGR2",
+        "collection": "RECETA_2",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 680,
+        "wires": [
+            [
+                "4973ab45c8dd2033"
+            ]
+        ]
+    },
+    {
+        "id": "4a54e328cbd12ce9",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 43",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "4973ab45c8dd2033",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_2\":\n            if (msg.payload[\"NOMBRE_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 2\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_2\":\n            if (msg.payload[\"AGR1_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 2\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_2\":\n            if (msg.payload[\"AGR2_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 2\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_2\":\n            if (msg.payload[\"AGR3_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 2\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_2\":\n            if (msg.payload[\"CEMENTO_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 2\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_2\":\n            if (msg.payload[\"AGUA1_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 2\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_2\":\n            if (msg.payload[\"AGUA2_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 2\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_2\":\n            if (msg.payload[\"ADITIVO_RECETA_2\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_2\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 2\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n};/*else{\n    msg.payload = {\n        \"NOMBRE_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2\"),\n        \"AGR1_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_2\"),\n        \"AGR2_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_2\"),\n        \"AGR3_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_2\"),\n        \"CEMENTO_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_2\"),\n        \"AGUA1_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_2\"),\n        \"AGUA2_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_2\"),\n        \"ADITIVO_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_2\"),\n        \"FECHA\": new Date(),\n    };\n};*/\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_2\"),\n        \"AGR1_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_2\"),\n        \"AGR2_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_2\"),\n        \"AGR3_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_2\"),\n        \"CEMENTO_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_2\"),\n        \"AGUA1_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_2\"),\n        \"AGUA2_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_2\"),\n        \"ADITIVO_RECETA_2\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_2\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 680,
+        "wires": [
+            [
+                "4a54e328cbd12ce9",
+                "be770fabdaf658cf"
+            ]
+        ]
+    },
+    {
+        "id": "0386bb72a423c8aa",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_3",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1560,
-        "y": 620,
+        "x": 1400,
+        "y": 820,
         "wires": [
             []
         ]
     },
     {
-        "id": "ddb98d072ce2ba3c",
+        "id": "7cc6f6217de3d08c",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 3",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 780,
+        "wires": [
+            [
+                "d7bec870caa09dfb"
+            ]
+        ]
+    },
+    {
+        "id": "d7bec870caa09dfb",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "AGR3",
+        "collection": "RECETA_3",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 780,
+        "wires": [
+            [
+                "c661e8829f8dbc00"
+            ]
+        ]
+    },
+    {
+        "id": "ab9913acbb278395",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 45",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "c661e8829f8dbc00",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_3\":\n            if (msg.payload[\"NOMBRE_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 3\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_3\":\n            if (msg.payload[\"AGR1_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 3\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_3\":\n            if (msg.payload[\"AGR2_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 3\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_3\":\n            if (msg.payload[\"AGR3_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 3\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_3\":\n            if (msg.payload[\"CEMENTO_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 3\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_3\":\n            if (msg.payload[\"AGUA1_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 3\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_3\":\n            if (msg.payload[\"AGUA2_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 3\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_3\":\n            if (msg.payload[\"ADITIVO_RECETA_3\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_3\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 3\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3\"),\n        \"AGR1_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_3\"),\n        \"AGR2_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_3\"),\n        \"AGR3_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_3\"),\n        \"CEMENTO_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_3\"),\n        \"AGUA1_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_3\"),\n        \"AGUA2_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_3\"),\n        \"ADITIVO_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_3\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3\"),\n        \"AGR1_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_3\"),\n        \"AGR2_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_3\"),\n        \"AGR3_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_3\"),\n        \"CEMENTO_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_3\"),\n        \"AGUA1_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_3\"),\n        \"AGUA2_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_3\"),\n        \"ADITIVO_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_3\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 780,
+        "wires": [
+            [
+                "ab9913acbb278395",
+                "0386bb72a423c8aa"
+            ]
+        ]
+    },
+    {
+        "id": "4f89d8a5a9e3fae6",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_4",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1880,
-        "y": 620,
+        "x": 1400,
+        "y": 920,
         "wires": [
             []
         ]
     },
     {
-        "id": "bd8b2110dfb3ac97",
+        "id": "7bf1ad823ef29e6b",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 4",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 880,
+        "wires": [
+            [
+                "677717759cc835f0"
+            ]
+        ]
+    },
+    {
+        "id": "677717759cc835f0",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "CEMENTO",
+        "collection": "RECETA_4",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 880,
+        "wires": [
+            [
+                "46cbb17ff2c0b604"
+            ]
+        ]
+    },
+    {
+        "id": "c2e6d4f24bb650eb",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 46",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "46cbb17ff2c0b604",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_4\":\n            if (msg.payload[\"NOMBRE_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 4\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_4\":\n            if (msg.payload[\"AGR1_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 4\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_4\":\n            if (msg.payload[\"AGR2_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 4\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_4\":\n            if (msg.payload[\"AGR3_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 4\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_4\":\n            if (msg.payload[\"CEMENTO_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 4\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_4\":\n            if (msg.payload[\"AGUA1_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 4\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_4\":\n            if (msg.payload[\"AGUA2_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 4\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_4\":\n            if (msg.payload[\"ADITIVO_RECETA_4\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_4\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 4\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4\"),\n        \"AGR1_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_4\"),\n        \"AGR2_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_4\"),\n        \"AGR3_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_4\"),\n        \"CEMENTO_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_4\"),\n        \"AGUA1_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_4\"),\n        \"AGUA2_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_4\"),\n        \"ADITIVO_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_4\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_4\"),\n        \"AGR1_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_4\"),\n        \"AGR2_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_4\"),\n        \"AGR3_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_4\"),\n        \"CEMENTO_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_4\"),\n        \"AGUA1_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_4\"),\n        \"AGUA2_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_4\"),\n        \"ADITIVO_RECETA_4\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_4\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 880,
+        "wires": [
+            [
+                "c2e6d4f24bb650eb",
+                "4f89d8a5a9e3fae6"
+            ]
+        ]
+    },
+    {
+        "id": "bb4a957c84e67016",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_5",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 2220,
-        "y": 620,
+        "x": 1400,
+        "y": 1020,
         "wires": [
             []
         ]
     },
     {
-        "id": "c871f7ed1d4a98f9",
+        "id": "81644ac9955cc462",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 5",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 980,
+        "wires": [
+            [
+                "1704a2d9d165dcc5"
+            ]
+        ]
+    },
+    {
+        "id": "1704a2d9d165dcc5",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "AGUA1",
+        "collection": "RECETA_5",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 980,
+        "wires": [
+            [
+                "f8cd556c18c926b8"
+            ]
+        ]
+    },
+    {
+        "id": "04deb0f5c82dc3f6",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 47",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "f8cd556c18c926b8",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_5\":\n            if (msg.payload[\"NOMBRE_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 5\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_5\":\n            if (msg.payload[\"AGR1_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 5\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_5\":\n            if (msg.payload[\"AGR2_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 5\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_5\":\n            if (msg.payload[\"AGR3_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 5\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_5\":\n            if (msg.payload[\"CEMENTO_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 5\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_5\":\n            if (msg.payload[\"AGUA1_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 5\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_5\":\n            if (msg.payload[\"AGUA2_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 5\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_5\":\n            if (msg.payload[\"ADITIVO_RECETA_5\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_5\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 5\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5\"),\n        \"AGR1_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_5\"),\n        \"AGR2_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_5\"),\n        \"AGR3_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_5\"),\n        \"CEMENTO_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_5\"),\n        \"AGUA1_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_5\"),\n        \"AGUA2_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_5\"),\n        \"ADITIVO_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_5\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_5\"),\n        \"AGR1_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_5\"),\n        \"AGR2_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_5\"),\n        \"AGR3_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_5\"),\n        \"CEMENTO_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_5\"),\n        \"AGUA1_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_5\"),\n        \"AGUA2_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_5\"),\n        \"ADITIVO_RECETA_5\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_5\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 980,
+        "wires": [
+            [
+                "04deb0f5c82dc3f6",
+                "bb4a957c84e67016"
+            ]
+        ]
+    },
+    {
+        "id": "cf3ba2cc0c0630c5",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_6",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 2520,
-        "y": 620,
+        "x": 1400,
+        "y": 1120,
         "wires": [
             []
         ]
     },
     {
-        "id": "823018e2d20aa702",
+        "id": "f5402b62598ea19f",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 6",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1080,
+        "wires": [
+            [
+                "13f772d2919358f0"
+            ]
+        ]
+    },
+    {
+        "id": "13f772d2919358f0",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "AGUA2",
+        "collection": "RECETA_6",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 1080,
+        "wires": [
+            [
+                "e642acd96ea89026"
+            ]
+        ]
+    },
+    {
+        "id": "9aa64d6da701385e",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 48",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "e642acd96ea89026",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_6\":\n            if (msg.payload[\"NOMBRE_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 6\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_6\":\n            if (msg.payload[\"AGR1_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 6\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_6\":\n            if (msg.payload[\"AGR2_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 6\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_6\":\n            if (msg.payload[\"AGR3_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 6\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_6\":\n            if (msg.payload[\"CEMENTO_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 6\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_6\":\n            if (msg.payload[\"AGUA1_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 6\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_6\":\n            if (msg.payload[\"AGUA2_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 6\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_6\":\n            if (msg.payload[\"ADITIVO_RECETA_6\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_6\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 6\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6\"),\n        \"AGR1_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_6\"),\n        \"AGR2_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_6\"),\n        \"AGR3_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_6\"),\n        \"CEMENTO_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_6\"),\n        \"AGUA1_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_6\"),\n        \"AGUA2_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_6\"),\n        \"ADITIVO_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_6\"),\n        \"FECHA\": new Date(),\n    };\n};\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_6\"),\n        \"AGR1_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_6\"),\n        \"AGR2_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_6\"),\n        \"AGR3_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_6\"),\n        \"CEMENTO_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_6\"),\n        \"AGUA1_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_6\"),\n        \"AGUA2_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_6\"),\n        \"ADITIVO_RECETA_6\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_6\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1080,
+        "wires": [
+            [
+                "9aa64d6da701385e",
+                "cf3ba2cc0c0630c5"
+            ]
+        ]
+    },
+    {
+        "id": "59b1d78a22c1767a",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_7",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 2820,
-        "y": 620,
+        "x": 1400,
+        "y": 1220,
         "wires": [
             []
         ]
     },
     {
-        "id": "7966ab3b06a648c8",
+        "id": "f9e3df70cc78d9f8",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 7",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1180,
+        "wires": [
+            [
+                "0e501f8efd7f1701"
+            ]
+        ]
+    },
+    {
+        "id": "0e501f8efd7f1701",
         "type": "mongodb4",
         "z": "40722463514f64b4",
         "clientNode": "ede19cdb76d04ebf",
         "mode": "collection",
-        "collection": "ADITIVO",
+        "collection": "RECETA_7",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 1180,
+        "wires": [
+            [
+                "0ad3cec819ee2a89"
+            ]
+        ]
+    },
+    {
+        "id": "88fdac82d54b04bf",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 49",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "0ad3cec819ee2a89",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_7\":\n            if (msg.payload[\"NOMBRE_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 7\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_7\":\n            if (msg.payload[\"AGR1_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 7\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_7\":\n            if (msg.payload[\"AGR2_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 7\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_7\":\n            if (msg.payload[\"AGR3_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 7\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_7\":\n            if (msg.payload[\"CEMENTO_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 7\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_7\":\n            if (msg.payload[\"AGUA1_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 7\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_7\":\n            if (msg.payload[\"AGUA2_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 7\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_7\":\n            if (msg.payload[\"ADITIVO_RECETA_7\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_7\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 7\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7\"),\n        \"AGR1_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_7\"),\n        \"AGR2_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_7\"),\n        \"AGR3_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_7\"),\n        \"CEMENTO_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_7\"),\n        \"AGUA1_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_7\"),\n        \"AGUA2_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_7\"),\n        \"ADITIVO_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_7\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_7\"),\n        \"AGR1_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_7\"),\n        \"AGR2_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_7\"),\n        \"AGR3_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_7\"),\n        \"CEMENTO_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_7\"),\n        \"AGUA1_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_7\"),\n        \"AGUA2_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_7\"),\n        \"ADITIVO_RECETA_7\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_7\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1180,
+        "wires": [
+            [
+                "88fdac82d54b04bf",
+                "59b1d78a22c1767a"
+            ]
+        ]
+    },
+    {
+        "id": "41ee71fcf9eb6ecb",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_8",
         "operation": "insertOne",
         "output": "forEach",
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 3230,
-        "y": 570,
+        "x": 1400,
+        "y": 1320,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "e1fe85c2e630be50",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 8",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1280,
+        "wires": [
+            [
+                "c2c4670312108cfc"
+            ]
+        ]
+    },
+    {
+        "id": "c2c4670312108cfc",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_8",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 1280,
+        "wires": [
+            [
+                "3f0fc22f7cb453b0"
+            ]
+        ]
+    },
+    {
+        "id": "7e9e31768cee0022",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 50",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "3f0fc22f7cb453b0",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_8\":\n            if (msg.payload[\"NOMBRE_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 8\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_8\":\n            if (msg.payload[\"AGR1_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 8\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_8\":\n            if (msg.payload[\"AGR2_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 8\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_8\":\n            if (msg.payload[\"AGR3_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 8\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_8\":\n            if (msg.payload[\"CEMENTO_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 8\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_8\":\n            if (msg.payload[\"AGUA1_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 8\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_8\":\n            if (msg.payload[\"AGUA2_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 8\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_8\":\n            if (msg.payload[\"ADITIVO_RECETA_8\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_8\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 8\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_8\"),\n        \"AGR1_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_8\"),\n        \"AGR2_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_8\"),\n        \"AGR3_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_8\"),\n        \"CEMENTO_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_8\"),\n        \"AGUA1_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_8\"),\n        \"AGUA2_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_8\"),\n        \"ADITIVO_RECETA_8\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_8\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_3\"),\n        \"AGR1_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_3\"),\n        \"AGR2_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_3\"),\n        \"AGR3_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_3\"),\n        \"CEMENTO_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_3\"),\n        \"AGUA1_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_3\"),\n        \"AGUA2_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_3\"),\n        \"ADITIVO_RECETA_3\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_3\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1280,
+        "wires": [
+            [
+                "7e9e31768cee0022",
+                "41ee71fcf9eb6ecb"
+            ]
+        ]
+    },
+    {
+        "id": "0246ef05e9b5dc2e",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_9",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1400,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa3389615d2ab2e1",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 9",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1380,
+        "wires": [
+            [
+                "5b54f92c73a4be40"
+            ]
+        ]
+    },
+    {
+        "id": "5b54f92c73a4be40",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_9",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 1380,
+        "wires": [
+            [
+                "4616829316248b22"
+            ]
+        ]
+    },
+    {
+        "id": "580585610debd992",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 51",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "4616829316248b22",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_9\":\n            if (msg.payload[\"NOMBRE_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 9\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_9\":\n            if (msg.payload[\"AGR1_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 9\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_9\":\n            if (msg.payload[\"AGR2_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 9\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_9\":\n            if (msg.payload[\"AGR3_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 9\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_9\":\n            if (msg.payload[\"CEMENTO_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 9\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_9\":\n            if (msg.payload[\"AGUA1_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 9\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_9\":\n            if (msg.payload[\"AGUA2_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 9\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_9\":\n            if (msg.payload[\"ADITIVO_RECETA_9\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_9\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 9\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9\"),\n        \"AGR1_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_9\"),\n        \"AGR2_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_9\"),\n        \"AGR3_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_9\"),\n        \"CEMENTO_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_9\"),\n        \"AGUA1_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_9\"),\n        \"AGUA2_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_9\"),\n        \"ADITIVO_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_9\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_9\"),\n        \"AGR1_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_9\"),\n        \"AGR2_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_9\"),\n        \"AGR3_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_9\"),\n        \"CEMENTO_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_9\"),\n        \"AGUA1_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_9\"),\n        \"AGUA2_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_9\"),\n        \"ADITIVO_RECETA_9\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_9\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1380,
+        "wires": [
+            [
+                "580585610debd992",
+                "0246ef05e9b5dc2e"
+            ]
+        ]
+    },
+    {
+        "id": "2b237c5c9ff99e1d",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_10",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1400,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "742603331eba7e61",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "BUSCAR CAMBIOS RECETA 10",
+        "func": "// Estructura para node-red-contrib-mongodb4 [query, options]\nmsg.payload = [\n    {}, // Filtro vacío: busca en todos los documentos de la colección\n    {\n        \"sort\": { \"_id\": -1 }, // Ordena por el _id de forma descendente (el más reciente primero)\n        \"limit\": 1,             // Trae únicamente el último documento\n        \"projection\": { \n            \"_id\": 0            // Opcional: oculta el campo _id si no lo necesitas\n        }\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1480,
+        "wires": [
+            [
+                "692b8b77ec54ab91"
+            ]
+        ]
+    },
+    {
+        "id": "692b8b77ec54ab91",
+        "type": "mongodb4",
+        "z": "40722463514f64b4",
+        "clientNode": "ede19cdb76d04ebf",
+        "mode": "collection",
+        "collection": "RECETA_10",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 930,
+        "y": 1480,
+        "wires": [
+            [
+                "6c5d1a1cdd9a1731"
+            ]
+        ]
+    },
+    {
+        "id": "d36d0545bf4fd561",
+        "type": "debug",
+        "z": "40722463514f64b4",
+        "name": "debug 52",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "6c5d1a1cdd9a1731",
+        "type": "function",
+        "z": "40722463514f64b4",
+        "name": "REGISTRAR CAMBIOS",
+        "func": "let diferencia_detectada = \"false\";\n\nif (msg.payload.length > 0 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n    msg.payload = msg.payload[0];\n\n\n    switch (msg.topic){\n        // NOMBRE DE RECETA DIFERENTE\n        case \"NOMBRE_RECETA_10\":\n            if (msg.payload[\"NOMBRE_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10\")){\n                msg.topic = \"CAMBIO EN NOMBRE RECETA 10\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 1 DIFERENTE\n        case \"AGREGADO_1_RECETA_10\":\n            if (msg.payload[\"AGR1_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN AGR 1 RECETA 10\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 2 DIFERENTE\n        case \"AGREGADO_2_RECETA_10\":\n            if (msg.payload[\"AGR2_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN AGR 2 RECETA 10\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // AGREGADO 3 DIFERENTE\n        case \"AGREGADO_3_RECETA_10\":\n            if (msg.payload[\"AGR3_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN AGR 3 RECETA 10\";\n                diferencia_detectada = \"true\";\n            }else{\n                msg.payload = null;\n            };\n            break;\n        // CEMENTO DIFERENTE\n        case \"CEMENTO_RECETA_10\":\n            if (msg.payload[\"CEMENTO_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN CEMENTO RECETA 10\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 1 DIFERENTE\n        case \"AGUA_1_RECETA_10\":\n            if (msg.payload[\"AGUA1_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN AGUA1 RECETA 10\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // AGUA 2 DIFERENTE\n        case \"AGUA_2_RECETA_10\":\n            if (msg.payload[\"AGUA2_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN AGUA2 RECETA 10\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n        // ADITIVO DIFERENTE\n        case \"ADITIVO_RECETA_10\":\n            if (msg.payload[\"ADITIVO_RECETA_10\"] != global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_10\")) {\n                msg.topic = \"CAMBIO EN ADITIVO RECETA 10\";\n                diferencia_detectada = \"true\";\n            } else {\n                msg.payload = null;\n            };\n            break;\n    };\n\n}else{\n    msg.payload = {\n        \"NOMBRE_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10\"),\n        \"AGR1_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_10\"),\n        \"AGR2_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_10\"),\n        \"AGR3_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_10\"),\n        \"CEMENTO_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_10\"),\n        \"AGUA1_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_10\"),\n        \"AGUA2_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_10\"),\n        \"ADITIVO_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_10\"),\n        \"FECHA\": new Date(),\n    };\n};\n\n\n\n\nif (diferencia_detectada == \"true\"){\n\n    msg.payload = {\n        \"NOMBRE_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.Recetario2Agregados1Cemento_X10_Concretera_DB_NOMBRE_RECETA_10\"),\n        \"AGR1_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR1_RECETA_10\"),\n        \"AGR2_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR2_RECETA_10\"),\n        \"AGR3_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGR3_RECETA_10\"),\n        \"CEMENTO_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_CEMENTO_RECETA_10\"),\n        \"AGUA1_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA1_RECETA_10\"),\n        \"AGUA2_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_AGUA2_RECETA_10\"),\n        \"ADITIVO_RECETA_10\": global.get(\"RECETAS_GLOBAL_VARIABLE.INPUT_ADITIVO_RECETA_10\"),\n        \"FECHA\": new Date(),\n    };\n    diferencia_detectada = \"false\";\n};\n\nif(msg.payload != null){\n    return msg;\n};\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1480,
+        "wires": [
+            [
+                "d36d0545bf4fd561",
+                "2b237c5c9ff99e1d"
+            ]
         ]
     },
     {
