@@ -1866,9 +1866,7 @@
             "4d33ee10d346f9a9",
             "3cb4fa21a817f2ab",
             "d57349fa66559271",
-            "96839af7dc991430",
             "ec78f4d12f4e6690",
-            "bff9447e94dd1c9e",
             "dd0eb97b131de940",
             "0cd55ca59808eebb",
             "7a7bd8e688e01149",
@@ -1876,12 +1874,20 @@
             "7f9e89445925094c",
             "e6aa277c530b37d9",
             "61b7cbb6fe64bfbf",
-            "69ea3d4f64335f1e"
+            "69ea3d4f64335f1e",
+            "f2a0998e6b86e6ca",
+            "8f93c695910c5eef",
+            "5bcde6f12dc5d2bb",
+            "f4d189b422813552",
+            "96839af7dc991430",
+            "bff9447e94dd1c9e",
+            "c08c03a1a5a44d2b",
+            "0a14e8649b146ac8"
         ],
         "x": 54,
         "y": 79,
-        "w": 1852,
-        "h": 722
+        "w": 2012,
+        "h": 882
     },
     {
         "id": "c4e6a856983b1acc",
@@ -3256,7 +3262,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 45,
+        "order": 46,
         "width": "16",
         "height": "1"
     },
@@ -3276,7 +3282,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 42,
+        "order": 43,
         "width": 1,
         "height": 1
     },
@@ -3326,7 +3332,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 36,
+        "order": 37,
         "width": 1,
         "height": 1
     },
@@ -3336,7 +3342,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 38,
+        "order": 39,
         "width": 1,
         "height": 1
     },
@@ -3346,7 +3352,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 39,
+        "order": 40,
         "width": 1,
         "height": 1
     },
@@ -3356,7 +3362,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 35,
+        "order": 36,
         "width": 1,
         "height": 1
     },
@@ -3366,7 +3372,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 44,
+        "order": 45,
         "width": 1,
         "height": 1
     },
@@ -3376,7 +3382,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 41,
+        "order": 42,
         "width": 1,
         "height": 1
     },
@@ -3426,7 +3432,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 32,
+        "order": 33,
         "width": 1,
         "height": 1
     },
@@ -3446,7 +3452,7 @@
         "z": "d44a49af0ed5916e",
         "name": "spacer",
         "group": "d979ae5123f5e54a",
-        "order": 31,
+        "order": 29,
         "width": 1,
         "height": 1
     },
@@ -3527,6 +3533,26 @@
         "uri": "",
         "advanced": "{}",
         "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "6d521254694a227d",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "74f35ecc330cb91f",
+        "type": "ui_spacer",
+        "z": "d44a49af0ed5916e",
+        "name": "spacer",
+        "group": "d979ae5123f5e54a",
+        "order": 32,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "a1fefccddd7b8916",
@@ -12798,7 +12824,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3250,
+        "x": 3210,
         "y": 520,
         "wires": [
             []
@@ -16527,7 +16553,7 @@
         "type": "debug",
         "z": "40722463514f64b4",
         "name": "debug 48",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -16623,7 +16649,7 @@
         "type": "debug",
         "z": "40722463514f64b4",
         "name": "debug 49",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -16719,7 +16745,7 @@
         "type": "debug",
         "z": "40722463514f64b4",
         "name": "debug 50",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -16815,7 +16841,7 @@
         "type": "debug",
         "z": "40722463514f64b4",
         "name": "debug 51",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -16878,7 +16904,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 740,
         "y": 1480,
         "wires": [
             [
@@ -16898,7 +16924,7 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 930,
+        "x": 950,
         "y": 1480,
         "wires": [
             [
@@ -16911,7 +16937,7 @@
         "type": "debug",
         "z": "40722463514f64b4",
         "name": "debug 52",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -16935,7 +16961,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
+        "x": 1130,
         "y": 1480,
         "wires": [
             [
@@ -46821,8 +46847,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1070,
-        "y": 940,
+        "x": 950,
+        "y": 1040,
         "wires": [
             [
                 "ecb170494b386b5a"
@@ -46841,8 +46867,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 1040,
+        "x": 720,
+        "y": 1100,
         "wires": [
             [
                 "ee4b2921e03c779f"
@@ -46861,8 +46887,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 940,
+        "x": 730,
+        "y": 1040,
         "wires": [
             [
                 "4236483767d70e90"
@@ -46890,8 +46916,8 @@
         "topic": "automatico",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
-        "y": 1040,
+        "x": 180,
+        "y": 1100,
         "wires": [
             [
                 "b39d76de5ca5a67c"
@@ -46919,8 +46945,8 @@
         "topic": "automatico",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
-        "y": 940,
+        "x": 180,
+        "y": 1040,
         "wires": [
             [
                 "42096fae5bd8c91d"
@@ -46939,8 +46965,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1280,
-        "y": 940,
+        "x": 1160,
+        "y": 1040,
         "wires": [
             [
                 "831edc9806a6e7b2"
@@ -46960,8 +46986,8 @@
         "tls": true,
         "name": "",
         "dname": "",
-        "x": 1530,
-        "y": 1040,
+        "x": 1410,
+        "y": 1100,
         "wires": []
     },
     {
@@ -46976,8 +47002,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 1070,
-        "y": 1040,
+        "x": 950,
+        "y": 1100,
         "wires": [
             [
                 "5bada5b404a71469"
@@ -46989,15 +47015,15 @@
         "type": "function",
         "z": "d44a49af0ed5916e",
         "name": "PLANTILLA REPORTE DIARIO",
-        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos diario de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Semanal de Consumo de Cemento\";\n\nreturn msg;",
+        "func": "// Validar que exista el payload y sea una lista\nlet registros = Array.isArray(msg.payload) ? msg.payload : [];\n\n// Generar filas dinámicamente\nlet filasHtml = \"\";\n\nregistros.forEach((item, index) => {\n    // Alternar color de fondo para legibilidad\n    let bgRow = (index % 2 === 0) ? '#ffffff' : '#f8f9fa';\n\n    filasHtml += `\n    <tr style=\"background-color: ${bgRow}; text-align: center; border-bottom: 1px solid #e0e0e0;\">\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"FECHA TERMINADO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO INICIO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO FINAL\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; font-weight: bold; color: #1b5e20;\">${item[\"PESO CONSUMIDO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"PESO EN RECETA\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"METROS CUBICOS\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #333333;\">${item[\"AUTOMATICO\"] || '-'}</td>\n        <td style=\"padding: 10px; font-size: 13px; color: #666666;\">${item[\"FECHA_REGISTRO_EN_DB\"] || '-'}</td>\n    </tr>`;\n});\n\n// Plantilla HTML Completa con diseño Inline (Compatible con clientes de correo)\nlet htmlContent = `\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n</head>\n<body style=\"font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px;\">\n    <div style=\"max-width: 1100px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\">\n        \n        <!-- Encabezado del Reporte -->\n        <div style=\"background-color: #e2ea0a; color: #000000; padding: 15px; border-radius: 6px 6px 0 0; text-align: center;\">\n            <h2 style=\"margin: 0; font-size: 20px;\">Reporte de Consumos Chavez Concretos</h2>\n            <p style=\"margin: 5px 0 0 0; font-size: 13px; opacity: 0.8;\">Planta Concretera - Registro de Operación</p>\n        </div>\n\n        <!-- Contenedor de la Tabla para cemento -->\n        <div style=\"background-color: #1a365d; color: #ffffff; padding: 15px; border-radius: 6px 6px 0 0; text-align: center; margin-top: 20px;\">\n            <h3 style=\"margin: 0; font-size: 15px;\">Tabla de consumos diario de cemento</h3>\n        </div>\n        <div style=\"overflow-x: auto; margin-top: 0px;\">\n            <table style=\"width: 100%; border-collapse: collapse; min-width: 900px;\">\n                <thead>\n                    <tr style=\"background-color: #2b6cb0; color: #ffffff; text-align: center; font-size: 12px; text-transform: uppercase;\">\n                        <th style=\"padding: 12px 8px;\">Fecha Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Terminado</th>\n                        <th style=\"padding: 12px 8px;\">Peso Inicio</th>\n                        <th style=\"padding: 12px 8px;\">Peso Final</th>\n                        <th style=\"padding: 12px 8px;\">Peso Consumido</th>\n                        <th style=\"padding: 12px 8px;\">Receta</th>\n                        <th style=\"padding: 12px 8px;\">Peso en Receta</th>\n                        <th style=\"padding: 12px 8px;\">m³</th>\n                        <th style=\"padding: 12px 8px;\">Automático</th>\n                        <th style=\"padding: 12px 8px;\">Fecha Reg. DB</th>\n                    </tr>\n                </thead>\n                    ${filasHtml}\n                </tbody>\n            </table>\n        </div>\n\n        <!-- Pie de página -->\n        <div style=\"margin-top: 20px; font-size: 11px; color: #888888; text-align: center; border-top: 1px solid #eeeeee; padding-top: 10px;\">\n            Este es un correo automático generado por el sistema SCADA / CHAVEZ CONCRETOS.\n        </div>\n    </div>\n</body>\n</html>\n`;\n\n// Asignar el HTML al payload\nmsg.payload = htmlContent;\n\n// Definir el asunto del correo (opcional pero recomendado)\nmsg.topic = \"Reporte Diario de Consumo de Cemento\";\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
-        "y": 1040,
+        "x": 1150,
+        "y": 1100,
         "wires": [
             [
                 "831edc9806a6e7b2"
@@ -47010,8 +47036,8 @@
         "z": "d44a49af0ed5916e",
         "name": "",
         "info": "noreplyscadachavez@gmail.com\nscapassword\nnombre d ela aplicacion: scada-chavez-node-red\ncontrasena: dtghsdxsdvddfxhg",
-        "x": 1540,
-        "y": 1000,
+        "x": 1420,
+        "y": 1060,
         "wires": []
     },
     {
@@ -47021,11 +47047,11 @@
         "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 37,
+        "order": 38,
         "width": "14",
         "height": "1",
         "passthru": false,
-        "label": "ENVIAR REPORTE MOVIMIENTOS CORREOS",
+        "label": "ENVIAR REPORTE DIARIO DE MOVIMIENTOS CORREOS",
         "tooltip": "",
         "color": "",
         "bgcolor": "#3a3a3a",
@@ -47035,8 +47061,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1420,
-        "y": 680,
+        "x": 1520,
+        "y": 800,
         "wires": [
             [
                 "3cb4fa21a817f2ab"
@@ -47051,7 +47077,7 @@
         "name": "",
         "label": "FECHA",
         "group": "d979ae5123f5e54a",
-        "order": 30,
+        "order": 28,
         "width": "4",
         "height": "1",
         "passthru": false,
@@ -47072,17 +47098,19 @@
         "z": "d44a49af0ed5916e",
         "g": "bee26f6d655b0efb",
         "name": "function 242",
-        "func": "\nreturn msg;",
+        "func": "// 1. Obtener la fecha/hora actual de ejecución\nlet inicioHoy = new Date();\ninicioHoy.setHours(0, 0, 0, 0); // Ajusta al inicio del día actual (00:00:00)\n\nlet finHoy = new Date();\nfinHoy.setHours(23, 59, 59, 999); // Ajusta al final del día actual (23:59:59)\n\n// 2. Consulta dinámica para node-red-contrib-mongodb4: [query, options]\nmsg.payload = [\n    {\n        \"FECHA_REGISTRO_EN_DB\": {\n            \"$gte\": inicioHoy,\n            \"$lte\": finHoy\n        }\n    },\n    {\n        \"sort\": { \"FECHA_REGISTRO_EN_DB\": 1 } // Ordena del primer reporte al último del día\n    }\n];\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1690,
-        "y": 680,
+        "x": 1830,
+        "y": 800,
         "wires": [
-            []
+            [
+                "5bcde6f12dc5d2bb"
+            ]
         ]
     },
     {
@@ -47092,11 +47120,11 @@
         "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 40,
+        "order": 41,
         "width": "14",
         "height": "1",
         "passthru": false,
-        "label": "ENVIAR REPORTE MOVIMIENTOS SESIONES",
+        "label": "ENVIAR REPORTE DIARIO DE  MOVIMIENTOS SESIONES",
         "tooltip": "",
         "color": "",
         "bgcolor": "#3a3a3a",
@@ -47106,31 +47134,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1420,
-        "y": 720,
+        "x": 1520,
+        "y": 860,
         "wires": [
             [
                 "96839af7dc991430"
             ]
-        ]
-    },
-    {
-        "id": "96839af7dc991430",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "bee26f6d655b0efb",
-        "name": "function 243",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1690,
-        "y": 720,
-        "wires": [
-            []
         ]
     },
     {
@@ -47140,11 +47149,11 @@
         "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 43,
+        "order": 44,
         "width": "14",
         "height": "1",
         "passthru": false,
-        "label": "ENVIAR REPORTE MOVIMIENTOS RECETAS",
+        "label": "ENVIAR REPORTE DIARIO DE  MOVIMIENTOS RECETAS",
         "tooltip": "",
         "color": "",
         "bgcolor": "#3a3a3a",
@@ -47154,31 +47163,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1420,
-        "y": 760,
+        "x": 1520,
+        "y": 920,
         "wires": [
             [
                 "bff9447e94dd1c9e"
             ]
-        ]
-    },
-    {
-        "id": "bff9447e94dd1c9e",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "bee26f6d655b0efb",
-        "name": "function 244",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1690,
-        "y": 760,
-        "wires": [
-            []
         ]
     },
     {
@@ -47234,7 +47224,7 @@
         "width": "14",
         "height": "1",
         "name": "",
-        "label": "ENVIAR REPORTES DE MOVIMIENTOS.",
+        "label": "ENVIAR REPORTES DE MOVIMIENTOS MANUAL.",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "config-title",
@@ -47242,7 +47232,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 260,
+        "x": 300,
         "y": 760,
         "wires": []
     },
@@ -47347,9 +47337,10 @@
         "id": "f2a0998e6b86e6ca",
         "type": "ui_button",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 33,
+        "order": 34,
         "width": "7",
         "height": "1",
         "passthru": false,
@@ -47363,8 +47354,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 320,
-        "y": 1000,
+        "x": 1420,
+        "y": 720,
         "wires": [
             [
                 "b39d76de5ca5a67c"
@@ -47375,9 +47366,10 @@
         "id": "8f93c695910c5eef",
         "type": "ui_button",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "group": "d979ae5123f5e54a",
-        "order": 34,
+        "order": 35,
         "width": "7",
         "height": "1",
         "passthru": false,
@@ -47391,8 +47383,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 330,
-        "y": 900,
+        "x": 1430,
+        "y": 760,
         "wires": [
             [
                 "42096fae5bd8c91d"
@@ -49315,6 +49307,194 @@
         "x": 1240,
         "y": 3020,
         "wires": []
+    },
+    {
+        "id": "903341f34ff36e14",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "name": "INSETAR USUARIO",
+        "func": "msg.payload = {\n    \"user\":\"ADMIN\",\n    \"password\":\"ADMIN\",\n    \"fecha\":new Date(),\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 1100,
+        "wires": [
+            [
+                "c12f0cb7f4cb8fe1"
+            ]
+        ]
+    },
+    {
+        "id": "c12f0cb7f4cb8fe1",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "clientNode": "60c24202bf4cb9dc",
+        "mode": "collection",
+        "collection": "passwords",
+        "operation": "insertOne",
+        "output": "forEach",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1940,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e7d8fcb89e690feb",
+        "type": "inject",
+        "z": "d44a49af0ed5916e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1580,
+        "y": 1100,
+        "wires": [
+            [
+                "903341f34ff36e14"
+            ]
+        ]
+    },
+    {
+        "id": "5bcde6f12dc5d2bb",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1990,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4d189b422813552",
+        "type": "ui_text",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "group": "d979ae5123f5e54a",
+        "order": 31,
+        "width": "14",
+        "height": "1",
+        "name": "",
+        "label": "*Seleccione un correo a donde se enviara el reporte y una fecha de inicio (al enviar un reporte semanal se enviaran los reportes desde 7 dias antes de la fecha de inicio).",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "bad-data",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "96839af7dc991430",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "function 243",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1830,
+        "y": 860,
+        "wires": [
+            [
+                "c08c03a1a5a44d2b"
+            ]
+        ]
+    },
+    {
+        "id": "bff9447e94dd1c9e",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "name": "function 244",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1830,
+        "y": 920,
+        "wires": [
+            [
+                "0a14e8649b146ac8"
+            ]
+        ]
+    },
+    {
+        "id": "c08c03a1a5a44d2b",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1990,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a14e8649b146ac8",
+        "type": "mongodb4",
+        "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
+        "clientNode": "23144031a647c69a",
+        "mode": "collection",
+        "collection": "REGISTRO_CEMENTO",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1990,
+        "y": 920,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "ec226429b3a7fb51",
