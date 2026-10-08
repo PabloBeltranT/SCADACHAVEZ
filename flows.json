@@ -50043,7 +50043,7 @@
         "type": "inject",
         "z": "d44a49af0ed5916e",
         "g": "bee26f6d655b0efb",
-        "name": "EVERY DAY 16:00",
+        "name": "EVERY 5 MINUTES",
         "props": [
             {
                 "p": "payload"
