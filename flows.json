@@ -1921,7 +1921,8 @@
             "493f816aeb76a1a1",
             "d532429df6531549",
             "4ed18bf47938b4cf",
-            "94b6ecb47dce2726"
+            "94b6ecb47dce2726",
+            "f9303b2a9077d6c0"
         ],
         "x": 54,
         "y": 79,
@@ -2051,14 +2052,14 @@
             "2ab9409f03670838",
             "2ceb18f79b73a9a5",
             "51d65c33be9cf911",
-            "e2aca14938adf0b4",
             "7dcbd3845052afb2",
             "80f2e519073c3ac1",
             "161eb909e1d75314",
             "468c4a1ed4963370",
             "09917797491cd395",
             "43f916e4a4177778",
-            "1fa14aaacc8ed3f0"
+            "1fa14aaacc8ed3f0",
+            "ce5696ba5c2e031a"
         ],
         "x": 1634,
         "y": 1819,
@@ -2092,14 +2093,14 @@
             "d633b9a2323cd9a7",
             "ba718cbea649fb15",
             "9332d0aeeede2c3d",
-            "06161c6794e02d6f",
             "54221e3ef010b8d5",
             "4f3845a138484eb7",
             "f54a982a24b5fcba",
             "c31ffda9f7c5f15a",
             "150ecaef2f0fd665",
             "e7de71a84d247240",
-            "251fe29c472b3218"
+            "251fe29c472b3218",
+            "a223fdea7b5ce236"
         ],
         "x": 3174,
         "y": 1819,
@@ -2133,14 +2134,14 @@
             "80c19fb44e87ab50",
             "6d5a04f47b90bc55",
             "c5e7cbede3d1d78d",
-            "ecf2c820ef78802e",
             "2b78241e75a45299",
             "26c10d0a8effd0d7",
             "8a6a7b39e50538aa",
             "30d39804a755d31e",
             "f7206035cf20bec3",
             "bd75c8afb83f7183",
-            "d9c15c6a9a54c489"
+            "d9c15c6a9a54c489",
+            "736abc260376842c"
         ],
         "x": 94,
         "y": 2219,
@@ -2174,14 +2175,14 @@
             "c725837fa4d3412d",
             "23fd099e45ddd41a",
             "0ab9a448a45219b3",
-            "f43509fa792f1523",
             "2a4fe75aecee346e",
             "8979cea9f10749bb",
             "29a03e15b0baa04f",
             "61b68b465547caf6",
             "d20b7fcd488f6418",
             "513f8bceb0c70e49",
-            "411ecd843d7abab5"
+            "411ecd843d7abab5",
+            "cbafc89295b398fd"
         ],
         "x": 1634,
         "y": 2219,
@@ -45790,7 +45791,7 @@
         "z": "d44a49af0ed5916e",
         "g": "60077c2175f99f27",
         "name": "OBJETO PRUEBA",
-        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": 99.99,\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -46248,7 +46249,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 210,
+        "x": 190,
         "y": 160,
         "wires": [
             [
@@ -46419,7 +46420,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 1150,
+        "x": 1170,
         "y": 580,
         "wires": [
             [
@@ -46449,7 +46450,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1110,
+        "x": 1090,
         "y": 480,
         "wires": [
             [
@@ -46475,7 +46476,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "2",
         "topic": "",
         "payload": "",
         "payloadType": "date",
@@ -46483,8 +46484,7 @@
         "y": 320,
         "wires": [
             [
-                "a3df906a4239f3c0",
-                "5a5fd2eec067fa9c"
+                "a3df906a4239f3c0"
             ]
         ]
     },
@@ -46501,7 +46501,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 420,
         "y": 320,
         "wires": [
             [
@@ -46512,7 +46512,6 @@
                 "8f93c695910c5eef",
                 "f2a0998e6b86e6ca",
                 "f9303b2a9077d6c0",
-                "1684042b1f304246",
                 "4c0c58d4c6cc85fd"
             ]
         ]
@@ -46561,7 +46560,7 @@
         "finalize": "",
         "libs": [],
         "x": 150,
-        "y": 580,
+        "y": 640,
         "wires": [
             [
                 "817fd6f084139c2f",
@@ -46652,7 +46651,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
+        "x": 450,
         "y": 580,
         "wires": [
             [
@@ -47156,6 +47155,7 @@
         "id": "f9303b2a9077d6c0",
         "type": "ui_dropdown",
         "z": "d44a49af0ed5916e",
+        "g": "bee26f6d655b0efb",
         "name": "",
         "label": "SELECCIONE UN CORREO",
         "tooltip": "",
@@ -47177,8 +47177,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 1420,
-        "y": 660,
+        "x": 1200,
+        "y": 680,
         "wires": [
             [
                 "bf8ce4d5136af635"
@@ -47505,28 +47505,7 @@
         "y": 1900,
         "wires": [
             [
-                "e2aca14938adf0b4"
-            ]
-        ]
-    },
-    {
-        "id": "e2aca14938adf0b4",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "778042ae4be95f83",
-        "name": "OBJETO PRUEBA",
-        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2090,
-        "y": 1900,
-        "wires": [
-            [
-                "20923fc1498f4a78"
+                "ce5696ba5c2e031a"
             ]
         ]
     },
@@ -47556,7 +47535,7 @@
         "y": 1940,
         "wires": [
             [
-                "e2aca14938adf0b4"
+                "ce5696ba5c2e031a"
             ]
         ]
     },
@@ -47967,28 +47946,7 @@
         "y": 1900,
         "wires": [
             [
-                "06161c6794e02d6f"
-            ]
-        ]
-    },
-    {
-        "id": "06161c6794e02d6f",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "7eac79f1fc1859da",
-        "name": "OBJETO PRUEBA",
-        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 3630,
-        "y": 1900,
-        "wires": [
-            [
-                "4f562f6827ef56b4"
+                "a223fdea7b5ce236"
             ]
         ]
     },
@@ -48018,7 +47976,7 @@
         "y": 1940,
         "wires": [
             [
-                "06161c6794e02d6f"
+                "a223fdea7b5ce236"
             ]
         ]
     },
@@ -48429,28 +48387,7 @@
         "y": 2300,
         "wires": [
             [
-                "ecf2c820ef78802e"
-            ]
-        ]
-    },
-    {
-        "id": "ecf2c820ef78802e",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "5b040a6a1f41a33a",
-        "name": "OBJETO PRUEBA",
-        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 2300,
-        "wires": [
-            [
-                "1d9b487643f3b988"
+                "736abc260376842c"
             ]
         ]
     },
@@ -48480,7 +48417,7 @@
         "y": 2340,
         "wires": [
             [
-                "ecf2c820ef78802e"
+                "736abc260376842c"
             ]
         ]
     },
@@ -48891,28 +48828,7 @@
         "y": 2300,
         "wires": [
             [
-                "f43509fa792f1523"
-            ]
-        ]
-    },
-    {
-        "id": "f43509fa792f1523",
-        "type": "function",
-        "z": "d44a49af0ed5916e",
-        "g": "bae0b30bbf563e43",
-        "name": "OBJETO PRUEBA",
-        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": \"PESO FINAL PRUEBA\",\n        \"PESO CONSUMIDO\": \"PESO CONSUMIDO PRUEBA\",\n        \"RECETA\": \"RECETA PRUEBA\",\n        \"PESO EN RECETA\": \"PESO EN RECETA PRUEBA\",\n        \"METROS CUBICOS\": \"METROS CUBICOS PRUEBA\",\n        \"AUTOMATICO\": \"AUTOMATICO PRUEBA\",\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2090,
-        "y": 2300,
-        "wires": [
-            [
-                "0848f50899c12303"
+                "cbafc89295b398fd"
             ]
         ]
     },
@@ -48942,7 +48858,7 @@
         "y": 2340,
         "wires": [
             [
-                "f43509fa792f1523"
+                "cbafc89295b398fd"
             ]
         ]
     },
@@ -50090,6 +50006,90 @@
         "wires": [
             [
                 "4d33ee10d346f9a9"
+            ]
+        ]
+    },
+    {
+        "id": "ce5696ba5c2e031a",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "778042ae4be95f83",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": 99.99,\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 1900,
+        "wires": [
+            [
+                "20923fc1498f4a78"
+            ]
+        ]
+    },
+    {
+        "id": "a223fdea7b5ce236",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "7eac79f1fc1859da",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": 99.99,\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3610,
+        "y": 1900,
+        "wires": [
+            [
+                "4f562f6827ef56b4"
+            ]
+        ]
+    },
+    {
+        "id": "736abc260376842c",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "5b040a6a1f41a33a",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": 99.99,\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2300,
+        "wires": [
+            [
+                "1d9b487643f3b988"
+            ]
+        ]
+    },
+    {
+        "id": "cbafc89295b398fd",
+        "type": "function",
+        "z": "d44a49af0ed5916e",
+        "g": "bae0b30bbf563e43",
+        "name": "OBJETO PRUEBA",
+        "func": "\n\nif (msg.payload == true){\n    let fecha_hace_una_semana = new Date();\n    fecha_hace_una_semana.setDate(fecha_hace_una_semana.getDate() - 6);\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": \"PESO INICIO PRUEBA\",\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_hace_una_semana,\n    };\n    return msg;\n};\n\nif (msg.payload == false) {\n    let fecha_de_hoy = new Date();\n    msg.payload = {\n        \"FECHA INICIO\": \"FECHA INICIO PRUEBA\",\n        \"FECHA TERMINADO\": \"FECHA FINAL PRUEBA\",\n        \"PESO INICIO\": 99.99,\n        \"PESO FINAL\": 99.99,\n        \"PESO CONSUMIDO\": 99.99,\n        \"RECETA\": 9,\n        \"PESO EN RECETA\": 999.99,\n        \"METROS CUBICOS\": 9,\n        \"AUTOMATICO\": false,\n        \"FECHA_REGISTRO_EN_DB\": fecha_de_hoy,\n    };\n    return msg;\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 2300,
+        "wires": [
+            [
+                "0848f50899c12303"
             ]
         ]
     },
