@@ -50218,7 +50218,7 @@
         "z": "d44a49af0ed5916e",
         "g": "bee26f6d655b0efb",
         "name": "function 261",
-        "func": "// Obtiene la fecha actual en la zona horaria local en formato YYYY-MM-DD\nlet fechaActual = new Date().toISOString().split('T')[0];\n\nmsg.payload = fechaActual;\nreturn msg;",
+        "func": "// Creamos la fecha actual y le sumamos las horas necesarias para compensar el UTC, \n// o extraemos directamente los componentes usando el desfase de tu zona horaria.\nlet ahora = new Date();\n\n// Ajustamos explícitamente para la hora local de México / Sonora (aproximadamente UTC-7)\n// O mejor aún, forzamos el formato usando la fecha local desglosada:\nlet anio = ahora.getFullYear();\nlet mes = ahora.getMonth();\nlet dia = ahora.getDate();\n\n// Creamos un objeto de fecha local limpio\nlet hoyLocal = new Date(anio, mes, dia);\n\nmsg.payload = hoyLocal;\nreturn msg;\n\n\n/*\n// Obtiene la fecha actual en la zona horaria local en formato YYYY-MM-DD\nlet fechaActual = new Date().toISOString().split('T')[0];\n\nmsg.payload = fechaActual;\nreturn msg;*/",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
