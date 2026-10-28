@@ -47395,7 +47395,7 @@
             }
         ],
         "repeat": "",
-        "crontab": "00 16 * * 6",
+        "crontab": "00 15 * * 6",
         "once": false,
         "onceDelay": 0.1,
         "topic": "automatico",
@@ -50449,7 +50449,7 @@
             }
         ],
         "repeat": "",
-        "crontab": "00 16 * * 1,2,3,4,5,6",
+        "crontab": "00 15 * * 1,2,3,4,5,6",
         "once": false,
         "onceDelay": 0.1,
         "topic": "automatico",
