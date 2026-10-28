@@ -1763,10 +1763,14 @@
             "acd4c6aed00e73b8",
             "df085752ca1b2703",
             "4b562d306db65445",
-            "9f830b1d72816f9c"
+            "9f830b1d72816f9c",
+            "e3b0a77513ce3b88",
+            "0fd5d4c48f93287f",
+            "dad3eade6251976f",
+            "92e7e0b698679aff"
         ],
         "x": 274,
-        "y": 3499,
+        "y": 3759,
         "w": 602,
         "h": 302
     },
@@ -2292,6 +2296,59 @@
         "y": 4459,
         "w": 432,
         "h": 202
+    },
+    {
+        "id": "42f61946c3c031b8",
+        "type": "group",
+        "z": "b8ec6796739a69a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3c9829ad3060a62a",
+            "9ec05c30d5117929",
+            "23bf72b45e94cfc8",
+            "07a3a6365ea08da6",
+            "2ac09cbcca56568c",
+            "1f0ea2f0d605fe33",
+            "3c624a0d23b6b170",
+            "6128fb19c159217b",
+            "a4af6155cfcc9a1a",
+            "363d819e4b63675b",
+            "a47278fc78986d72"
+        ],
+        "x": 274,
+        "y": 3479,
+        "w": 492,
+        "h": 222
+    },
+    {
+        "id": "3a826ea645dfa113",
+        "type": "group",
+        "z": "0d06e67bad6a6fdf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "811178d2f6dd3026",
+            "01ebd0dcbade9c34"
+        ],
+        "x": 2654,
+        "y": 4679,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "0785e116879ba187",
@@ -31732,7 +31789,7 @@
         "setstatusandtime": false,
         "keepsessionalive": true,
         "name": "",
-        "x": 2800,
+        "x": 2820,
         "y": 3280,
         "wires": [
             [
@@ -31744,7 +31801,8 @@
                 "cf3d0dcd38e6336e",
                 "04bd30c1e0404198",
                 "62ba1799c8b8e7ec",
-                "e73558a597ac2a36"
+                "e73558a597ac2a36",
+                "23888404c94943f7"
             ],
             [
                 "46fcf6ccf45b0443"
@@ -33886,8 +33944,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 195,
-        "y": 3280,
+        "x": 345,
+        "y": 3380,
         "wires": [
             [
                 "ec6f58e518e628a0",
@@ -34105,7 +34163,8 @@
                 "83b5722bb0b4599d",
                 "95bf49358ccb5fec",
                 "d080e86a9d5187b2",
-                "f499d999fcb6b3ba"
+                "f499d999fcb6b3ba",
+                "811178d2f6dd3026"
             ]
         ],
         "l": false
@@ -35758,8 +35817,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"REPORTES_GLOBAL_VARIABLE\",{});",
         "finalize": "",
         "libs": [],
-        "x": 3150,
-        "y": 3300,
+        "x": 3230,
+        "y": 3240,
         "wires": [
             []
         ]
@@ -36155,6 +36214,54 @@
         "x": 2780,
         "y": 4500,
         "wires": []
+    },
+    {
+        "id": "811178d2f6dd3026",
+        "type": "OpcUa-Item",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "g": "3a826ea645dfa113",
+        "item": "ns=5;i=329",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "BIT SET RESET FECHA Y HORA",
+        "x": 2820,
+        "y": 4760,
+        "wires": [
+            [
+                "a9bfcd88deb1c6dd"
+            ]
+        ]
+    },
+    {
+        "id": "01ebd0dcbade9c34",
+        "type": "comment",
+        "z": "0d06e67bad6a6fdf",
+        "g": "3a826ea645dfa113",
+        "name": "FECHA Y HORA",
+        "info": "",
+        "x": 2760,
+        "y": 4720,
+        "wires": []
+    },
+    {
+        "id": "23888404c94943f7",
+        "type": "function",
+        "z": "0d06e67bad6a6fdf",
+        "d": true,
+        "name": "UPDATE FECHA Y HORA",
+        "func": "switch (msg.topic) {\n\n    // BIT SET RESET CAMBIAR FECHA Y HORA\n    case \"ns=5;i=270\":\n        global.set(\"BIT_SET_RESET_FECHA_HORA\", msg.payload);\n        break;\n    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nglobal.set(\"REPORTES_GLOBAL_VARIABLE\",{});",
+        "finalize": "",
+        "libs": [],
+        "x": 3180,
+        "y": 3280,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "084f0b522e98640f",
@@ -40673,7 +40780,10 @@
                 "0fd5d4c48f93287f",
                 "f3481066996d2d68",
                 "33e6dcf5d119466a",
-                "3e1d4fbd27237525"
+                "3e1d4fbd27237525",
+                "23bf72b45e94cfc8",
+                "07a3a6365ea08da6",
+                "6128fb19c159217b"
             ]
         ]
     },
@@ -45155,7 +45265,7 @@
         "name": "REPORTES",
         "info": "",
         "x": 370,
-        "y": 3540,
+        "y": 3800,
         "wires": []
     },
     {
@@ -45172,7 +45282,7 @@
         "finalize": "",
         "libs": [],
         "x": 315,
-        "y": 3580,
+        "y": 3840,
         "wires": [
             [
                 "cc6e0cfd68d90161"
@@ -45191,7 +45301,7 @@
         "value": "",
         "name": "REGISTRO CEMENTO ALMACENADO",
         "x": 640,
-        "y": 3580,
+        "y": 3840,
         "wires": [
             [
                 "05680b7714702e18"
@@ -45212,7 +45322,7 @@
         "finalize": "",
         "libs": [],
         "x": 835,
-        "y": 3580,
+        "y": 3840,
         "wires": [
             [
                 "55f446257aa45587"
@@ -45234,7 +45344,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 365,
-        "y": 3580,
+        "y": 3840,
         "wires": [
             [
                 "7d7fc66dfbae29a8"
@@ -45256,7 +45366,7 @@
         "finalize": "",
         "libs": [],
         "x": 435,
-        "y": 3580,
+        "y": 3840,
         "wires": [
             [
                 "8f7ffc4b5b31fd55"
@@ -45269,6 +45379,7 @@
         "id": "0fd5d4c48f93287f",
         "type": "function",
         "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
         "name": "function 245",
         "func": "msg.payload = global.get(\"REPORTES_GLOBAL_VARIABLE.BIT_CONFIRMACION_REGISTRO_AGR1_GUARDADO\");\nreturn msg;\n",
         "outputs": 1,
@@ -45278,7 +45389,7 @@
         "finalize": "",
         "libs": [],
         "x": 315,
-        "y": 3640,
+        "y": 3880,
         "wires": [
             [
                 "dad3eade6251976f"
@@ -45291,12 +45402,13 @@
         "id": "e3b0a77513ce3b88",
         "type": "OpcUa-Item",
         "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
         "item": "ns=5;i=317",
         "datatype": "Boolean",
         "value": "",
         "name": "REGISTRO AGR1 ALMACENADO",
         "x": 620,
-        "y": 3640,
+        "y": 3880,
         "wires": [
             [
                 "b39f8f539928dce9"
@@ -45317,7 +45429,7 @@
         "finalize": "",
         "libs": [],
         "x": 835,
-        "y": 3640,
+        "y": 3900,
         "wires": [
             [
                 "55f446257aa45587"
@@ -45329,6 +45441,7 @@
         "id": "dad3eade6251976f",
         "type": "rbe",
         "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -45338,7 +45451,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 365,
-        "y": 3640,
+        "y": 3880,
         "wires": [
             [
                 "92e7e0b698679aff"
@@ -45350,6 +45463,7 @@
         "id": "92e7e0b698679aff",
         "type": "function",
         "z": "b8ec6796739a69a4",
+        "g": "7ff097d6bfdd6e0c",
         "name": "function 247",
         "func": "if(msg.payload == true){\n    msg.payload = true;\n    return msg;\n};",
         "outputs": 1,
@@ -45359,7 +45473,7 @@
         "finalize": "",
         "libs": [],
         "x": 435,
-        "y": 3640,
+        "y": 3880,
         "wires": [
             [
                 "e3b0a77513ce3b88"
@@ -45382,7 +45496,7 @@
         "finalize": "",
         "libs": [],
         "x": 315,
-        "y": 3720,
+        "y": 3980,
         "wires": [
             [
                 "973f1ded7dda5d40"
@@ -45401,7 +45515,7 @@
         "value": "",
         "name": "REGISTRO AGR3 ALMACENADO",
         "x": 620,
-        "y": 3720,
+        "y": 3980,
         "wires": [
             [
                 "b111232cf382c040"
@@ -45422,7 +45536,7 @@
         "finalize": "",
         "libs": [],
         "x": 835,
-        "y": 3720,
+        "y": 3980,
         "wires": [
             [
                 "55f446257aa45587"
@@ -45444,7 +45558,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 365,
-        "y": 3720,
+        "y": 3980,
         "wires": [
             [
                 "420d8d832b6e5f87"
@@ -45466,7 +45580,7 @@
         "finalize": "",
         "libs": [],
         "x": 435,
-        "y": 3720,
+        "y": 3980,
         "wires": [
             [
                 "b9d646db6d927a6e"
@@ -45485,7 +45599,7 @@
         "value": "",
         "name": "REGISTRO AGR2 ALMACENADO",
         "x": 620,
-        "y": 3680,
+        "y": 3940,
         "wires": [
             [
                 "54e3b0185b32a573"
@@ -45506,7 +45620,7 @@
         "finalize": "",
         "libs": [],
         "x": 315,
-        "y": 3680,
+        "y": 3940,
         "wires": [
             [
                 "d3e73ceec5afc0fc"
@@ -45529,7 +45643,7 @@
         "finalize": "",
         "libs": [],
         "x": 835,
-        "y": 3680,
+        "y": 3940,
         "wires": [
             [
                 "55f446257aa45587"
@@ -45551,7 +45665,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 365,
-        "y": 3680,
+        "y": 3940,
         "wires": [
             [
                 "e865f18fc1f72e3e"
@@ -45573,7 +45687,7 @@
         "finalize": "",
         "libs": [],
         "x": 435,
-        "y": 3680,
+        "y": 3940,
         "wires": [
             [
                 "6e15c344ba43c50e"
@@ -45596,7 +45710,7 @@
         "finalize": "",
         "libs": [],
         "x": 315,
-        "y": 3760,
+        "y": 4020,
         "wires": [
             [
                 "4b562d306db65445"
@@ -45615,7 +45729,7 @@
         "value": "",
         "name": "REGISTRO AGUA ALMACENADO",
         "x": 620,
-        "y": 3760,
+        "y": 4020,
         "wires": [
             [
                 "df085752ca1b2703"
@@ -45636,7 +45750,7 @@
         "finalize": "",
         "libs": [],
         "x": 835,
-        "y": 3760,
+        "y": 4020,
         "wires": [
             [
                 "55f446257aa45587"
@@ -45658,7 +45772,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 365,
-        "y": 3760,
+        "y": 4020,
         "wires": [
             [
                 "9f830b1d72816f9c"
@@ -45680,13 +45794,240 @@
         "finalize": "",
         "libs": [],
         "x": 435,
-        "y": 3760,
+        "y": 4020,
         "wires": [
             [
                 "acd4c6aed00e73b8"
             ]
         ],
         "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "3c9829ad3060a62a",
+        "type": "comment",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "SETEAR FECHA Y HORA",
+        "info": "",
+        "x": 410,
+        "y": 3520,
+        "wires": []
+    },
+    {
+        "id": "9ec05c30d5117929",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "item": "ns=5;i=141",
+        "datatype": "DateTime",
+        "value": "",
+        "name": "FORMATEAR FECHA Y HORA",
+        "x": 530,
+        "y": 3560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23bf72b45e94cfc8",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "function 264",
+        "func": "if (global.get(\"setear_fecha_2_veces\") <= 2 && global.get(\"OPC_SERVER_CONNECTED\") == true){\n\n    let ahora = new Date();\n\n    // Estructura compatible con el formato DTL de Siemens en OPC UA\n    msg.payload = {\n        YEAR: ahora.getFullYear(),\n        MONTH: ahora.getMonth() + 1, // Recuerda que JS cuenta de 0 a 11\n        DAY: ahora.getDate(),\n        WEEKDAY: ahora.getDay() === 0 ? 7 : ahora.getDay(), // Lunes=1 ... Domingo=7 (opcional según firmware)\n        HOUR: ahora.getHours(),\n        MINUTE: ahora.getMinutes(),\n        SECOND: ahora.getSeconds(),\n        NANOSECOND: ahora.getMilliseconds() * 1000000 // Convertir milisegundos a nanosegundos\n    };\n\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"setear_fecha_2_veces\", 1);",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3560,
+        "wires": [
+            [
+                "9ec05c30d5117929"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "07a3a6365ea08da6",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "function 263",
+        "func": "if (global.get(\"setear_fecha_2_veces\") == 2 && global.get(\"bit_fechayhora_seteada\") == false){\n    global.set(\"bit_fechayhora_seteada\", true);\n    msg.payload = true;\n    return msg;\n};\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"bit_fechayhora_seteada\", false);",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3620,
+        "wires": [
+            [
+                "2ac09cbcca56568c"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "2ac09cbcca56568c",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3620,
+        "wires": [
+            [
+                "1f0ea2f0d605fe33"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1f0ea2f0d605fe33",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "item": "ns=5;i=141",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "SETEAR FECHA Y HORA",
+        "x": 520,
+        "y": 3620,
+        "wires": [
+            [
+                "3c624a0d23b6b170"
+            ]
+        ]
+    },
+    {
+        "id": "3c624a0d23b6b170",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "function 264",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725,
+        "y": 3620,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6128fb19c159217b",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "function 265",
+        "func": "if (global.get(\"BIT_SET_RESET_FECHA_HORA\") == true){\n    msg.payload = false;\n    return msg;\n};\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"bit_fechayhora_seteada\", false);",
+        "finalize": "",
+        "libs": [],
+        "x": 315,
+        "y": 3660,
+        "wires": [
+            [
+                "a4af6155cfcc9a1a"
+            ]
+        ],
+        "icon": "node-red/link-return.svg",
+        "l": false
+    },
+    {
+        "id": "a4af6155cfcc9a1a",
+        "type": "rbe",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 365,
+        "y": 3660,
+        "wires": [
+            [
+                "363d819e4b63675b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "363d819e4b63675b",
+        "type": "OpcUa-Item",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "item": "ns=5;i=141",
+        "datatype": "Boolean",
+        "value": "",
+        "name": "RESET FECHA Y HORA",
+        "x": 510,
+        "y": 3660,
+        "wires": [
+            [
+                "a47278fc78986d72"
+            ]
+        ]
+    },
+    {
+        "id": "a47278fc78986d72",
+        "type": "function",
+        "z": "b8ec6796739a69a4",
+        "d": true,
+        "g": "42f61946c3c031b8",
+        "name": "function 266",
+        "func": "if (global.get(\"OPC_SERVER_CONNECTED\") == true){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725,
+        "y": 3660,
+        "wires": [
+            [
+                "55f446257aa45587"
+            ]
+        ],
         "l": false
     },
     {
